@@ -182,12 +182,12 @@ No consumer repository should recreate or silently fork campus facts. Native cli
 - **Dataset manifest:** https://data.gapwise.ca/datasets/utm/latest/manifest.json
 - **API:** https://api.gapwise.ca/v1
 - **OpenAPI 3.1:** https://api.gapwise.ca/openapi.json
-- **JavaScript / TypeScript SDK:** `@gapwise/sdk@0.1.1` on npm and JSR
-- **Python SDK:** `gapwise==0.1.0` on PyPI
+- **JavaScript / TypeScript SDK:** `@gapwise/sdk@0.1.2` on npm and JSR
+- **Python SDK:** `gapwise==0.1.1` on PyPI
 
 ```bash
-npm install @gapwise/sdk@0.1.1
-python -m pip install gapwise==0.1.0
+npm install @gapwise/sdk@0.1.2
+python -m pip install gapwise==0.1.1
 ```
 
 Original repository code and documentation are [MIT licensed](LICENSE), but upstream datasets retain their own terms. OpenStreetMap-derived records require appropriate OpenStreetMap attribution and ODbL compliance; the MIT license does not override upstream data obligations. Review [`DATA_DISTRIBUTION.md`](DATA_DISTRIBUTION.md) and source metadata before reusing a dataset.

@@ -3,7 +3,7 @@
   "canonicalRepository": "GapwiseHQ/data",
   "canonicalPath": "data/utm",
   "bootstrappedFrom": {
-    "repository": "andrewmuratov/gapwise",
+    "repository": "GapwiseHQ/gapwise",
     "ref": "main",
     "commit": "ab32013f3b5840b652f189b1094baec149da9f60",
     "path": "src/data/utm"
