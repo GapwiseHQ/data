@@ -1,16 +1,16 @@
 # Gapwise ecosystem integration
 
-`data` is the **canonical public University of Toronto campus-data, provenance, and reuse surface** of the seven-repository Gapwise product ecosystem. It owns campus-scoped facts and geometry; it does not redefine deterministic product calculations or public API behavior.
+`data` is the **canonical multi-university campus-data, provenance, and reuse surface** of the Gapwise product ecosystem. It owns campus-scoped facts and geometry across all supported Canadian university campuses; it does not redefine deterministic product calculations or public API behavior.
 
-The repository contains source-backed building identity and map geometry for UTM, UTSG, and UTSC. Its reviewed entrance graph, pedestrian routing data, campus places, stable public API, and production raw-data distribution currently cover UTM. Those capabilities must remain separate claims.
+The repository contains source-backed building identity and map geometry for 11 universities and 13 campus models. Reviewed entrance graphs, pedestrian routing data, campus places, stable public API, and production raw-data distribution currently have full coverage for UTM with expanding coverage across other campuses.
 
 ## Connected surfaces
 
 | Surface | Canonical location | Relationship to Gapwise Data |
 | --- | --- | --- |
 | Student web/PWA + public API + SDK source | `GapwiseHQ/gapwise` | vendors a validated campus-data snapshot and owns deterministic routing/gap-planning behavior plus public API/SDK contracts |
-| Native Android | `GapwiseHQ/android` | consumes Gapwise product/API contracts; it must not maintain a parallel UTM dataset |
-| Native iOS | `GapwiseHQ/ios` | consumes Gapwise product/API contracts; it must not maintain a parallel UTM dataset |
+| Native Android | `GapwiseHQ/android` | consumes Gapwise product/API contracts; it must not maintain a parallel campus dataset |
+| Native iOS | `GapwiseHQ/ios` | consumes Gapwise product/API contracts; it must not maintain a parallel campus dataset |
 | AI/MCP | `GapwiseHQ/ai` | exposes deterministic Gapwise campus semantics through MCP and delegated context; it is not a data-authority replacement |
 | Developer docs | `GapwiseHQ/docs` | documents released API/SDK contracts and links raw data/provenance back here |
 | Status | `GapwiseHQ/status` | monitors public service health independently and does not depend on raw campus data for routing semantics |
@@ -35,7 +35,7 @@ TypeScript and Python are equal first-party SDK implementations. Applications sh
 
 ## Data-specific source-of-truth rules
 
-1. Canonical campus records originate in their campus-scoped directories in this repository; the reviewed UTM entrance/routing pipeline lives in `data/utm`.
+1. Canonical campus records originate in their university-scoped directories under `universities/` in this repository; the reviewed UTM entrance/routing pipeline lives in `data/utm`.
 2. `gapwise/src/data/utm` is a checked-in compatibility mirror, validated byte-for-byte in CI; it is not a second authority.
 3. Public API and SDK behavior follows OpenAPI and the core implementation; this repository owns facts/evidence, not API semantics.
 4. Unknown/inferred/approximate/unverified states remain explicit in data and downstream representations.
