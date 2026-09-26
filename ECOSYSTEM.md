@@ -20,10 +20,10 @@ The repository contains source-backed building identity and map geometry for UTM
 - API: `https://api.gapwise.ca/v1`
 - OpenAPI: `https://api.gapwise.ca/openapi.json`
 - TypeScript SDK: `@gapwise/sdk`
-  - npm `0.1.1` is published with provenance
-  - JSR `0.1.1` is published with provenance through GitHub Actions OIDC
+  - npm `0.1.2` is published with provenance
+  - JSR `0.1.2` is published with provenance through GitHub Actions OIDC
   - one portable TypeScript implementation targets Node, Bun, Deno, and browser consumers rather than separate runtime SDKs
-- Python SDK: `gapwise==0.1.0` is published on PyPI through Trusted Publishing
+- Python SDK: `gapwise==0.1.1` is published on PyPI through Trusted Publishing
 - Android source: `https://github.com/GapwiseHQ/android`
 - iOS source: `https://github.com/GapwiseHQ/ios`
 - Docs: `https://docs.gapwise.ca`
