@@ -1,11 +1,11 @@
 import type { AccessibilityStatus } from "@/features/routing/types";
-import { UTM_BUILDINGS } from "./building-registry";
+import { UTM_BUILDINGS } from "./building-registry.js";
 import entranceDataRaw from "./entrances.geojson?raw";
 import {
   OFFICIAL_BARRIER_FREE_ENTRANCE_CANDIDATES,
   type OfficialEntranceCandidate,
-} from "./official-entrance-candidates";
-import { factEvidence, type FactEvidence } from "./provenance";
+} from "./official-entrance-candidates.js";
+import { factEvidence, type FactEvidence } from "./provenance.js";
 
 export type EntranceGeometryConfidence =
   "field_verified" | "official" | "mapped" | "inferred" | "unknown";

@@ -1,5 +1,5 @@
-import { getRecognizedBuilding } from "./building-registry";
-import { CAMPUS_BUILDINGS } from "./routing-buildings";
+import { getRecognizedBuilding } from "./building-registry.js";
+import { CAMPUS_BUILDINGS } from "./routing-buildings.js";
 import { routingGraphIssues } from "@/features/routing/graph-integrity";
 import type {
   AccessibilityStatus,

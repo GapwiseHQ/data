@@ -1,4 +1,4 @@
-import { getRecognizedBuilding } from "./building-registry";
+import { getRecognizedBuilding } from "./building-registry.js";
 
 export type CampusModelSource = {
   name: string;

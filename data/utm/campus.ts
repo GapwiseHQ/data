@@ -10,7 +10,7 @@ import {
   assertCampusBuildingRoutingIntegrity,
   getCampusBuilding,
   getResidenceBuilding,
-} from "./routing-buildings";
+} from "./routing-buildings.js";
 
 export { CAMPUS_BUILDINGS, RESIDENCE_BUILDINGS, getCampusBuilding, getResidenceBuilding };
 

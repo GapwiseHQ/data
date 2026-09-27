@@ -1,5 +1,5 @@
-import { getRecognizedBuilding, UTM_BUILDINGS } from "./building-registry";
-import { CANONICAL_FOOTPRINT_FRAGMENT_RAW } from "./footprint-fragments";
+import { getRecognizedBuilding, UTM_BUILDINGS } from "./building-registry.js";
+import { CANONICAL_FOOTPRINT_FRAGMENT_RAW } from "./footprint-fragments.js";
 
 export type FootprintCoordinate = [longitude: number, latitude: number];
 export type FootprintPolygon = { type: "Polygon"; coordinates: FootprintCoordinate[][] };
