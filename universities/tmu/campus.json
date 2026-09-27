@@ -2718,7 +2718,7 @@
         43.6575687
       ],
       "pathNodeId": "osm-node-3028895592",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2871,7 +2871,7 @@
         43.6590701
       ],
       "pathNodeId": "osm-node-11265654677",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2888,7 +2888,7 @@
         43.6589791
       ],
       "pathNodeId": "osm-node-11244959779",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2905,7 +2905,7 @@
         43.6585588
       ],
       "pathNodeId": "osm-node-11265654682",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2922,7 +2922,7 @@
         43.6581616
       ],
       "pathNodeId": "osm-node-11265654684",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2939,7 +2939,7 @@
         43.6585417
       ],
       "pathNodeId": "osm-node-11244959797",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2956,7 +2956,7 @@
         43.6590077
       ],
       "pathNodeId": "osm-node-2041327565",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2973,7 +2973,7 @@
         43.6588829
       ],
       "pathNodeId": "osm-node-11265654689",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -2990,7 +2990,7 @@
         43.658465
       ],
       "pathNodeId": "osm-node-11265647553",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3007,7 +3007,7 @@
         43.6589071
       ],
       "pathNodeId": "osm-node-11265647563",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3058,7 +3058,7 @@
         43.6582336
       ],
       "pathNodeId": "osm-node-11265647567",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3126,7 +3126,7 @@
         43.6589357
       ],
       "pathNodeId": "osm-node-2041327560",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3160,7 +3160,7 @@
         43.6593306
       ],
       "pathNodeId": "osm-node-11270795315",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3177,7 +3177,7 @@
         43.6597857
       ],
       "pathNodeId": "osm-node-11270795300",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3194,7 +3194,7 @@
         43.6593374
       ],
       "pathNodeId": "osm-node-11270795297",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3211,7 +3211,7 @@
         43.6600357
       ],
       "pathNodeId": "osm-node-11270795296",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3245,7 +3245,7 @@
         43.6585262
       ],
       "pathNodeId": "osm-node-4305346325",
-      "access": "restricted",
+      "access": "unknown",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3262,7 +3262,7 @@
         43.6586111
       ],
       "pathNodeId": "osm-node-344476324",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3279,7 +3279,7 @@
         43.6583627
       ],
       "pathNodeId": "osm-node-11265647565",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
@@ -3347,7 +3347,7 @@
         43.6592268
       ],
       "pathNodeId": "osm-node-2000767551",
-      "access": "restricted",
+      "access": "public",
       "provenance": [
         {
           "sourceId": "osm-tmu-2026-09",
