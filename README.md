@@ -47,7 +47,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 
 ## What the data layer covers
 
-- campus-scoped UTM, UTSG, and UTSC building and facility identities;
+- campus-scoped building and facility identities across all 11 supported universities;
 - campus geometry and building footprints;
 - mapped, inferred, and evidence-only entrances;
 - outdoor routing nodes and edges;
@@ -60,7 +60,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 - attribution and reuse requirements;
 - versioned privacy-safe public data.
 
-The current public Gapwise campus snapshot contains **30 canonical UTM buildings/facilities** and is consumed through the same deterministic platform semantics used by Gapwise web, Android, iOS, API, SDK, and AI-facing surfaces.
+The canonical campus models cover 11 universities and 13 campuses, consumed through the same deterministic platform semantics used by Gapwise web, Android, iOS, API, SDK, and AI-facing surfaces.
 
 ---
 
