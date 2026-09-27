@@ -141,7 +141,8 @@
           "nativeId": "LH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "science-building",
@@ -302,7 +303,8 @@
           "nativeId": "SC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "peters-building",
@@ -503,7 +505,8 @@
           "nativeId": "P",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "schlegel-building",
@@ -570,7 +573,8 @@
           "nativeId": "S",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "alvin-woods-building",
@@ -655,7 +659,8 @@
           "nativeId": "DAWB",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "bricker-academic",
@@ -814,7 +819,8 @@
           "nativeId": "BA",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "laurier-library",
@@ -867,7 +873,8 @@
           "nativeId": "LIB",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "fred-nichols-centre",
@@ -1021,7 +1028,8 @@
           "nativeId": "FNCC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "john-aird-centre",
@@ -1171,7 +1179,8 @@
           "nativeId": "M",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "athletics-complex",
@@ -1354,7 +1363,8 @@
           "nativeId": "AC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "career-centre",
@@ -1421,7 +1431,8 @@
           "nativeId": "CT",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "arts-a-wing",
@@ -1478,7 +1489,8 @@
           "nativeId": "AA",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "arts-c-wing",
@@ -1587,7 +1599,8 @@
           "nativeId": "ACW",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "arts-e-wing",
@@ -1696,7 +1709,8 @@
           "nativeId": "AE",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "student-services",
@@ -1755,7 +1769,8 @@
           "nativeId": "SSB",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "science-research",
@@ -1814,7 +1829,8 @@
           "nativeId": "SRB",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "martin-luther-college",
@@ -1899,7 +1915,8 @@
           "nativeId": "MLUC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "theatre-auditorium",
@@ -1958,7 +1975,8 @@
           "nativeId": "TA",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "dining-hall",
@@ -2057,7 +2075,8 @@
           "nativeId": "DH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "king-street-residence",
@@ -2065,7 +2084,9 @@
       "nativeCodes": [
         "KSR"
       ],
-      "aliases": [],
+      "aliases": [
+        "King Street Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2188,7 +2209,8 @@
           "nativeId": "KSR",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "bricker-residence",
@@ -2196,7 +2218,9 @@
       "nativeCodes": [
         "BR"
       ],
-      "aliases": [],
+      "aliases": [
+        "Bricker Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2287,7 +2311,8 @@
           "nativeId": "BR",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "willison-residence",
@@ -2295,7 +2320,9 @@
       "nativeCodes": [
         "WR"
       ],
-      "aliases": [],
+      "aliases": [
+        "Willison Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2386,7 +2413,8 @@
           "nativeId": "WR",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "little-house",
@@ -2394,7 +2422,9 @@
       "nativeCodes": [
         "LHR"
       ],
-      "aliases": [],
+      "aliases": [
+        "Little House Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2485,7 +2515,8 @@
           "nativeId": "LHR",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "macdonald-house",
@@ -2493,7 +2524,9 @@
       "nativeCodes": [
         "MH"
       ],
-      "aliases": [],
+      "aliases": [
+        "MacDonald House Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2556,7 +2589,8 @@
           "nativeId": "MH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "claudette-millar-hall",
@@ -2564,7 +2598,9 @@
       "nativeCodes": [
         "CMH"
       ],
-      "aliases": [],
+      "aliases": [
+        "Claudette Millar Hall Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2741,6 +2777,194 @@
         {
           "sourceId": "laurier-official-map-2025",
           "nativeId": "CMH",
+          "verification": "source-backed"
+        }
+      ],
+      "category": "residence"
+    },
+    {
+      "id": "bouckaert-residence",
+      "name": "Bouckaert Residence",
+      "nativeCodes": [
+        "BOU"
+      ],
+      "aliases": [
+        "Bouckaert Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.5273415,
+              43.4730301
+            ],
+            [
+              -80.5271948,
+              43.4730859
+            ],
+            [
+              -80.5269864,
+              43.4727974
+            ],
+            [
+              -80.5269371,
+              43.4727292
+            ],
+            [
+              -80.5270838,
+              43.4726734
+            ],
+            [
+              -80.5273415,
+              43.4730301
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-laurier-2026-09",
+          "nativeId": "way/113045569",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "euler-residence",
+      "name": "Euler Residence",
+      "nativeCodes": [
+        "EUL"
+      ],
+      "aliases": [
+        "Euler Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.5281725,
+              43.4729563
+            ],
+            [
+              -80.5279027,
+              43.4730506
+            ],
+            [
+              -80.5278901,
+              43.4730316
+            ],
+            [
+              -80.5278807,
+              43.4730175
+            ],
+            [
+              -80.5278201,
+              43.4730386
+            ],
+            [
+              -80.5277418,
+              43.4729207
+            ],
+            [
+              -80.527725,
+              43.4728954
+            ],
+            [
+              -80.5279691,
+              43.4728101
+            ],
+            [
+              -80.5280069,
+              43.4728669
+            ],
+            [
+              -80.5280931,
+              43.4728368
+            ],
+            [
+              -80.5281725,
+              43.4729563
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-laurier-2026-09",
+          "nativeId": "way/113045575",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "leopold-residence",
+      "name": "Leopold Residence",
+      "nativeCodes": [
+        "LEO"
+      ],
+      "aliases": [
+        "Leopold Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.5282384,
+              43.4724491
+            ],
+            [
+              -80.5281087,
+              43.4724954
+            ],
+            [
+              -80.5281424,
+              43.4725453
+            ],
+            [
+              -80.5280648,
+              43.472573
+            ],
+            [
+              -80.5280894,
+              43.4726093
+            ],
+            [
+              -80.528036,
+              43.4726283
+            ],
+            [
+              -80.5281749,
+              43.4728335
+            ],
+            [
+              -80.5283496,
+              43.4727712
+            ],
+            [
+              -80.5283068,
+              43.472708
+            ],
+            [
+              -80.5283929,
+              43.4726773
+            ],
+            [
+              -80.5282384,
+              43.4724491
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-laurier-2026-09",
+          "nativeId": "way/113045571",
           "verification": "source-backed"
         }
       ]

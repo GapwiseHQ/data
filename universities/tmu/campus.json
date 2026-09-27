@@ -129,7 +129,8 @@
           "nativeId": "SLC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "lib",
@@ -226,7 +227,8 @@
           "nativeId": "LIB",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "trs",
@@ -316,7 +318,8 @@
           "nativeId": "TRS",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "eng",
@@ -486,7 +489,8 @@
           "nativeId": "ENG",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "dcc",
@@ -595,7 +599,8 @@
           "nativeId": "DCC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "khn",
@@ -700,7 +705,8 @@
           "nativeId": "KHN",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "khw",
@@ -845,7 +851,8 @@
           "nativeId": "KHW",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "khe",
@@ -974,7 +981,8 @@
           "nativeId": "KHE",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "khs",
@@ -1107,7 +1115,8 @@
           "nativeId": "KHS",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "pod",
@@ -1224,7 +1233,8 @@
           "nativeId": "POD",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "jor",
@@ -1299,7 +1309,8 @@
           "nativeId": "JOR",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "arc",
@@ -1384,7 +1395,8 @@
           "nativeId": "ARC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "eph",
@@ -1467,7 +1479,8 @@
           "nativeId": "EPH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "she",
@@ -1544,7 +1557,8 @@
           "nativeId": "SHE",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "mon",
@@ -1609,7 +1623,8 @@
           "nativeId": "MON",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "rcc",
@@ -1764,7 +1779,8 @@
           "nativeId": "RCC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "rac",
@@ -1821,7 +1837,8 @@
           "nativeId": "RAC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "vic",
@@ -1876,7 +1893,8 @@
           "nativeId": "VIC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "scc",
@@ -1961,7 +1979,8 @@
           "nativeId": "SCC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "oak",
@@ -2020,7 +2039,8 @@
           "nativeId": "OAK",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "pit",
@@ -2028,7 +2048,9 @@
       "nativeCodes": [
         "PIT"
       ],
-      "aliases": [],
+      "aliases": [
+        "Pitman Hall Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2135,7 +2157,8 @@
           "nativeId": "PIT",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "ilc",
@@ -2143,7 +2166,10 @@
       "nativeCodes": [
         "ILC"
       ],
-      "aliases": [],
+      "aliases": [
+        "ILLC",
+        "International Living-Learning Centre"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2226,7 +2252,8 @@
           "nativeId": "ILC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "hei",
@@ -2285,7 +2312,8 @@
           "nativeId": "HEI",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "sbb",
@@ -2332,7 +2360,8 @@
           "nativeId": "SBB",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "pro",
@@ -2379,7 +2408,8 @@
           "nativeId": "PRO",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "ced",
@@ -2440,7 +2470,8 @@
           "nativeId": "CED",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "ima",
@@ -2519,7 +2550,8 @@
           "nativeId": "IMA",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "cui",
@@ -2604,7 +2636,8 @@
           "nativeId": "CUI",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "tic",
@@ -2651,7 +2684,8 @@
           "nativeId": "TIC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "cop",
@@ -2706,7 +2740,8 @@
           "nativeId": "COP",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     }
   ],
   "entrances": [
