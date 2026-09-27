@@ -584,7 +584,14 @@ def build_university(cfg):
                         "provenance": [{"sourceId": osm_source_id, "nativeId": f"node/{nid}", "verification": "source-backed"}]
                     }
                 osm_acc = n_data["tags"].get("access")
-                acc = "public" if osm_acc in ("yes", "public") else "restricted" if osm_acc in ("private", "no") else "unknown"
+                osm_ent = n_data["tags"].get("entrance")
+                osm_emerg = n_data["tags"].get("emergency")
+                if osm_ent in ("emergency", "service") or osm_emerg == "yes" or osm_acc == "no":
+                    acc = "restricted"
+                elif osm_acc in ("yes", "public") or osm_ent == "main":
+                    acc = "public"
+                else:
+                    acc = "unknown"
                 ent_id = f"ent-{uid}-{nid}"
                 if ent_id not in entrance_ids:
                     entrance_ids.add(ent_id)
