@@ -107,7 +107,8 @@
           "nativeId": "DUN",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "goodes-hall",
@@ -344,7 +345,8 @@
           "nativeId": "GDH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "stauffer-library",
@@ -917,7 +919,8 @@
           "nativeId": "STF",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "douglas-library",
@@ -1060,7 +1063,8 @@
           "nativeId": "DGL",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "chernoff-hall",
@@ -1509,7 +1513,8 @@
           "nativeId": "CHE",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "stirling-hall",
@@ -1754,7 +1759,8 @@
           "nativeId": "STI",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "walter-light-hall",
@@ -1893,7 +1899,8 @@
           "nativeId": "WLH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "dupuis-hall",
@@ -2060,7 +2067,8 @@
           "nativeId": "DUP",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "goodwin-hall",
@@ -2171,7 +2179,8 @@
           "nativeId": "GDW",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "ellis-hall",
@@ -2298,7 +2307,8 @@
           "nativeId": "ELL",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "jeffery-hall",
@@ -2431,7 +2441,8 @@
           "nativeId": "JEF",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "kingston-hall",
@@ -2586,7 +2597,8 @@
           "nativeId": "KIN",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "ontario-hall",
@@ -2761,7 +2773,8 @@
           "nativeId": "ONT",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "grant-hall",
@@ -2864,7 +2877,8 @@
           "nativeId": "GRT",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "watson-hall",
@@ -3115,7 +3129,8 @@
           "nativeId": "WAT",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "nicol-hall",
@@ -3202,7 +3217,8 @@
           "nativeId": "NIC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "beamish-munro-hall",
@@ -3368,7 +3384,8 @@
           "nativeId": "BMH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "earl-hall",
@@ -3613,7 +3630,8 @@
           "nativeId": "BIO",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "robert-sutherland-hall",
@@ -3802,7 +3820,8 @@
           "nativeId": "RSH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "law-building",
@@ -3915,7 +3934,8 @@
           "nativeId": "LAW",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "richardson-hall",
@@ -4042,7 +4062,8 @@
           "nativeId": "RCH",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "miller-hall",
@@ -4143,7 +4164,8 @@
           "nativeId": "MIL",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "gordon-hall",
@@ -4286,7 +4308,8 @@
           "nativeId": "GOR",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "humphrey-hall",
@@ -4399,7 +4422,8 @@
           "nativeId": "HUM",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "jackson-hall",
@@ -4450,7 +4474,8 @@
           "nativeId": "JCK",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "mclaughlin-hall",
@@ -4543,7 +4568,8 @@
           "nativeId": "MCL",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "theological-hall",
@@ -4734,7 +4760,8 @@
           "nativeId": "THE",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "mitchell-hall",
@@ -4897,7 +4924,8 @@
           "nativeId": "MIT",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "mackintosh-corry-hall",
@@ -5378,7 +5406,8 @@
           "nativeId": "MAC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "arc-queens",
@@ -5455,7 +5484,8 @@
           "nativeId": "ARC",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "academic"
     },
     {
       "id": "chown-hall",
@@ -5463,7 +5493,9 @@
       "nativeCodes": [
         "CHO"
       ],
-      "aliases": [],
+      "aliases": [
+        "Chown Hall Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5610,7 +5642,8 @@
           "nativeId": "CHO",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "watts-hall",
@@ -5618,7 +5651,9 @@
       "nativeCodes": [
         "WTT"
       ],
-      "aliases": [],
+      "aliases": [
+        "Watts Hall Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5777,7 +5812,8 @@
           "nativeId": "WTT",
           "verification": "source-backed"
         }
-      ]
+      ],
+      "category": "residence"
     },
     {
       "id": "morris-hall",
@@ -5785,7 +5821,9 @@
       "nativeCodes": [
         "MOR"
       ],
-      "aliases": [],
+      "aliases": [
+        "Morris Hall Residence"
+      ],
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -5918,6 +5956,767 @@
         {
           "sourceId": "queens-official-map-2025",
           "nativeId": "MOR",
+          "verification": "source-backed"
+        }
+      ],
+      "category": "residence"
+    },
+    {
+      "id": "ban-righ-hall",
+      "name": "Ban Righ Hall",
+      "nativeCodes": [
+        "BAN"
+      ],
+      "aliases": [
+        "Ban Righ",
+        "Ban Righ Residence"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.495912,
+              44.224494
+            ],
+            [
+              -76.4959541,
+              44.2244834
+            ],
+            [
+              -76.4960143,
+              44.2244866
+            ],
+            [
+              -76.496047,
+              44.2244872
+            ],
+            [
+              -76.496048,
+              44.2244737
+            ],
+            [
+              -76.4962953,
+              44.2244754
+            ],
+            [
+              -76.4962963,
+              44.2244684
+            ],
+            [
+              -76.4962978,
+              44.2244578
+            ],
+            [
+              -76.4964623,
+              44.2244536
+            ],
+            [
+              -76.4964577,
+              44.2244767
+            ],
+            [
+              -76.4965337,
+              44.2244768
+            ],
+            [
+              -76.496606,
+              44.2244768
+            ],
+            [
+              -76.4966061,
+              44.2244861
+            ],
+            [
+              -76.496686,
+              44.2244835
+            ],
+            [
+              -76.4966854,
+              44.2245555
+            ],
+            [
+              -76.496634,
+              44.224558
+            ],
+            [
+              -76.496635,
+              44.224835
+            ],
+            [
+              -76.496432,
+              44.224835
+            ],
+            [
+              -76.496431,
+              44.224843
+            ],
+            [
+              -76.4964131,
+              44.224843
+            ],
+            [
+              -76.496379,
+              44.224843
+            ],
+            [
+              -76.496379,
+              44.224832
+            ],
+            [
+              -76.496007,
+              44.224832
+            ],
+            [
+              -76.496007,
+              44.224855
+            ],
+            [
+              -76.495955,
+              44.224855
+            ],
+            [
+              -76.495955,
+              44.224824
+            ],
+            [
+              -76.495831,
+              44.224824
+            ],
+            [
+              -76.495831,
+              44.224723
+            ],
+            [
+              -76.495817,
+              44.224723
+            ],
+            [
+              -76.495816,
+              44.224563
+            ],
+            [
+              -76.495913,
+              44.224563
+            ],
+            [
+              -76.495913,
+              44.224516
+            ],
+            [
+              -76.495912,
+              44.224494
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-queens-2026-09",
+          "nativeId": "way/158304865",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "david-c-smith-house",
+      "name": "David C. Smith House",
+      "nativeCodes": [
+        "SMIT"
+      ],
+      "aliases": [
+        "Smith House",
+        "Smith House Residence"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.498443,
+              44.22369
+            ],
+            [
+              -76.498433,
+              44.223623
+            ],
+            [
+              -76.498445,
+              44.223622
+            ],
+            [
+              -76.498423,
+              44.223484
+            ],
+            [
+              -76.498412,
+              44.223485
+            ],
+            [
+              -76.498407,
+              44.223458
+            ],
+            [
+              -76.498416,
+              44.223458
+            ],
+            [
+              -76.498407,
+              44.223404
+            ],
+            [
+              -76.498563,
+              44.223391
+            ],
+            [
+              -76.498589,
+              44.223558
+            ],
+            [
+              -76.498789,
+              44.223542
+            ],
+            [
+              -76.498782,
+              44.223498
+            ],
+            [
+              -76.498888,
+              44.223489
+            ],
+            [
+              -76.498892,
+              44.2235
+            ],
+            [
+              -76.499197,
+              44.223473
+            ],
+            [
+              -76.499176,
+              44.223231
+            ],
+            [
+              -76.499389,
+              44.223222
+            ],
+            [
+              -76.499393,
+              44.223278
+            ],
+            [
+              -76.499405,
+              44.223277
+            ],
+            [
+              -76.499407,
+              44.223303
+            ],
+            [
+              -76.499396,
+              44.223304
+            ],
+            [
+              -76.499415,
+              44.223533
+            ],
+            [
+              -76.499432,
+              44.223532
+            ],
+            [
+              -76.499438,
+              44.2236
+            ],
+            [
+              -76.4992408,
+              44.2236162
+            ],
+            [
+              -76.4989666,
+              44.2236387
+            ],
+            [
+              -76.49889,
+              44.223645
+            ],
+            [
+              -76.498889,
+              44.223639
+            ],
+            [
+              -76.498834,
+              44.223643
+            ],
+            [
+              -76.498834,
+              44.223649
+            ],
+            [
+              -76.498516,
+              44.223674
+            ],
+            [
+              -76.498517,
+              44.223684
+            ],
+            [
+              -76.498443,
+              44.22369
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-queens-2026-09",
+          "nativeId": "way/321302031",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "brant-house",
+      "name": "Brant House",
+      "nativeCodes": [
+        "BRNT"
+      ],
+      "aliases": [
+        "Brant House Residence"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.4997281,
+              44.2236424
+            ],
+            [
+              -76.4997217,
+              44.2235733
+            ],
+            [
+              -76.4997342,
+              44.2235727
+            ],
+            [
+              -76.4997274,
+              44.2234975
+            ],
+            [
+              -76.4997251,
+              44.2234724
+            ],
+            [
+              -76.5003382,
+              44.2234441
+            ],
+            [
+              -76.5003372,
+              44.2234331
+            ],
+            [
+              -76.5004458,
+              44.2234282
+            ],
+            [
+              -76.5004529,
+              44.2235051
+            ],
+            [
+              -76.5004369,
+              44.2235059
+            ],
+            [
+              -76.500446,
+              44.2235973
+            ],
+            [
+              -76.4998206,
+              44.2236283
+            ],
+            [
+              -76.4998215,
+              44.223638
+            ],
+            [
+              -76.4997281,
+              44.2236424
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-queens-2026-09",
+          "nativeId": "way/321302032",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "adelaide-hall",
+      "name": "Adelaide Hall",
+      "nativeCodes": [
+        "ADE"
+      ],
+      "aliases": [
+        "Adelaide Hall Residence"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.495912,
+              44.224494
+            ],
+            [
+              -76.49582,
+              44.224493
+            ],
+            [
+              -76.495819,
+              44.22438
+            ],
+            [
+              -76.495813,
+              44.22438
+            ],
+            [
+              -76.495812,
+              44.224351
+            ],
+            [
+              -76.495803,
+              44.224345
+            ],
+            [
+              -76.495829,
+              44.224319
+            ],
+            [
+              -76.49582,
+              44.224309
+            ],
+            [
+              -76.4958294,
+              44.2242981
+            ],
+            [
+              -76.495838,
+              44.224288
+            ],
+            [
+              -76.495852,
+              44.224289
+            ],
+            [
+              -76.495878,
+              44.224259
+            ],
+            [
+              -76.495885,
+              44.224265
+            ],
+            [
+              -76.495921,
+              44.22425
+            ],
+            [
+              -76.495926,
+              44.224255
+            ],
+            [
+              -76.496157,
+              44.224163
+            ],
+            [
+              -76.4962,
+              44.224144
+            ],
+            [
+              -76.496205,
+              44.224143
+            ],
+            [
+              -76.496209,
+              44.224128
+            ],
+            [
+              -76.49624,
+              44.224124
+            ],
+            [
+              -76.496251,
+              44.224134
+            ],
+            [
+              -76.496422,
+              44.224133
+            ],
+            [
+              -76.496421,
+              44.224245
+            ],
+            [
+              -76.496371,
+              44.224245
+            ],
+            [
+              -76.496371,
+              44.224229
+            ],
+            [
+              -76.496261,
+              44.224228
+            ],
+            [
+              -76.495986,
+              44.224337
+            ],
+            [
+              -76.495951,
+              44.224379
+            ],
+            [
+              -76.4959541,
+              44.2244834
+            ],
+            [
+              -76.495912,
+              44.224494
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-queens-2026-09",
+          "nativeId": "way/787675324",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harkness-hall",
+      "name": "Harkness Hall",
+      "nativeCodes": [
+        "HRK"
+      ],
+      "aliases": [
+        "Harkness",
+        "Harkness Hall Residence"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.497552,
+              44.230261
+            ],
+            [
+              -76.497552,
+              44.230252
+            ],
+            [
+              -76.497506,
+              44.230254
+            ],
+            [
+              -76.497497,
+              44.230122
+            ],
+            [
+              -76.4975,
+              44.230122
+            ],
+            [
+              -76.497499,
+              44.230102
+            ],
+            [
+              -76.497472,
+              44.230103
+            ],
+            [
+              -76.497464,
+              44.229983
+            ],
+            [
+              -76.497481,
+              44.229983
+            ],
+            [
+              -76.497479,
+              44.229958
+            ],
+            [
+              -76.497632,
+              44.229952
+            ],
+            [
+              -76.497662,
+              44.229952
+            ],
+            [
+              -76.497662,
+              44.229961
+            ],
+            [
+              -76.497691,
+              44.22996
+            ],
+            [
+              -76.49769,
+              44.229955
+            ],
+            [
+              -76.497859,
+              44.229949
+            ],
+            [
+              -76.49786,
+              44.229959
+            ],
+            [
+              -76.497894,
+              44.229958
+            ],
+            [
+              -76.497902,
+              44.23009
+            ],
+            [
+              -76.497852,
+              44.230093
+            ],
+            [
+              -76.497853,
+              44.230113
+            ],
+            [
+              -76.497795,
+              44.230116
+            ],
+            [
+              -76.497794,
+              44.230096
+            ],
+            [
+              -76.49778,
+              44.230096
+            ],
+            [
+              -76.497776,
+              44.230049
+            ],
+            [
+              -76.49776,
+              44.230049
+            ],
+            [
+              -76.49776,
+              44.230056
+            ],
+            [
+              -76.497702,
+              44.230059
+            ],
+            [
+              -76.497702,
+              44.230034
+            ],
+            [
+              -76.497672,
+              44.230035
+            ],
+            [
+              -76.497672,
+              44.230039
+            ],
+            [
+              -76.497603,
+              44.230041
+            ],
+            [
+              -76.497603,
+              44.230051
+            ],
+            [
+              -76.497613,
+              44.230051
+            ],
+            [
+              -76.497616,
+              44.230096
+            ],
+            [
+              -76.497608,
+              44.230096
+            ],
+            [
+              -76.497609,
+              44.230116
+            ],
+            [
+              -76.497637,
+              44.230115
+            ],
+            [
+              -76.49764,
+              44.230159
+            ],
+            [
+              -76.497632,
+              44.23016
+            ],
+            [
+              -76.497633,
+              44.23017
+            ],
+            [
+              -76.497701,
+              44.230168
+            ],
+            [
+              -76.497702,
+              44.230176
+            ],
+            [
+              -76.497732,
+              44.230175
+            ],
+            [
+              -76.497734,
+              44.230218
+            ],
+            [
+              -76.497703,
+              44.23022
+            ],
+            [
+              -76.497705,
+              44.230257
+            ],
+            [
+              -76.497552,
+              44.230261
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "osm-queens-2026-09",
+          "nativeId": "way/5145398",
           "verification": "source-backed"
         }
       ]
