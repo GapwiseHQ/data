@@ -3,7 +3,7 @@ import type {
   SourceMetadata,
   VerificationStatus,
 } from "@/features/routing/types";
-import { UTM_BUILDINGS } from "./building-registry";
+import { UTM_BUILDINGS } from "./building-registry.js";
 import entranceDataRaw from "./entrances.geojson?raw";
 
 export type EntranceKind = "entrance" | "approach";

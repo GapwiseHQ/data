@@ -1,4 +1,4 @@
-import { factEvidence, type FactEvidence } from "./provenance";
+import { factEvidence, type FactEvidence } from "./provenance.js";
 
 export type OfficialEntranceCandidate = {
   id: string;
