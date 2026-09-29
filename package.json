@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run data:preflight && vite build && npm run data:publish",
-    "data:validate": "node scripts/validate-campus-data.mjs && node scripts/validate-university-data.mjs && node scripts/verify-entrance-coherence.mjs",
+    "data:validate": "node scripts/validate-campus-data.mjs && node scripts/validate-uoft-routing-snapshots.mjs && node scripts/validate-university-data.mjs && node scripts/verify-entrance-coherence.mjs",
     "data:publish": "node scripts/publish-datasets.mjs",
     "distribution:check": "node scripts/check-public-distribution.mjs",
     "preview": "vite preview",
