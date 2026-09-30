@@ -23,7 +23,7 @@
 
 ## What Gapwise Data is
 
-`data` is the **canonical repository for campus facts and geometry used by Gapwise**. It contains campus-scoped building registries, verified entrances, and source-backed map geometry across **11 universities and 13 campus models**:
+`data` is the **canonical repository for campus facts and geometry used by Gapwise**. It contains campus-scoped building registries, verified entrances, and source-backed map geometry across **12 universities and 14 campus models**:
 
 1. **University of Toronto**: Mississauga, St. George, and Scarborough
 2. **Carleton University**: Main Campus
@@ -36,6 +36,7 @@
 9. **University of Guelph**: Guelph Campus
 10. **University of Ottawa**: Downtown Campus
 11. **Brock University**: St. Catharines Campus
+12. **University of British Columbia**: Vancouver Campus
 
 The validated snapshots under [`universities/`](universities/) and [`data/`](data/) include source registers, schemas, footprints, and validation tests. Each campus model represents pedestrian networks, building geometries, entrance coordinates, and routing topologies tailored to that campus, with explicit representation of route uncertainty and entrance verification state.
 
@@ -47,7 +48,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 
 ## What the data layer covers
 
-- campus-scoped building and facility identities across all 11 supported universities;
+- campus-scoped building and facility identities across all 12 supported universities;
 - campus geometry and building footprints;
 - mapped, inferred, and evidence-only entrances;
 - outdoor routing nodes and edges;
@@ -60,7 +61,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 - attribution and reuse requirements;
 - versioned privacy-safe public data.
 
-The canonical campus models cover 11 universities and 13 campuses, consumed through the same deterministic platform semantics used by Gapwise web, Android, iOS, API, SDK, and AI-facing surfaces.
+The canonical campus models cover 12 universities and 14 campuses, consumed through the same deterministic platform semantics used by Gapwise web, Android, iOS, API, SDK, and AI-facing surfaces.
 
 ---
 
@@ -158,15 +159,15 @@ It verifies, among other things:
 
 ## Gapwise ecosystem
 
-| Repository | Role | Primary surface |
-| --- | --- | --- |
-| **[`gapwise`](https://github.com/GapwiseHQ/gapwise)** | Core web/PWA, canonical timetable/gap/routing semantics, public API, OpenAPI, and SDK source | [gapwise.ca](https://gapwise.ca) / [api.gapwise.ca](https://api.gapwise.ca/v1) |
-| **[`android`](https://github.com/GapwiseHQ/android)** | Native Kotlin + Jetpack Compose Android client | Android app |
-| **[`ios`](https://github.com/GapwiseHQ/ios)** | Native Swift + SwiftUI iOS client | iOS app |
-| **[`ai`](https://github.com/GapwiseHQ/ai)** | OAuth/MCP layer for explicitly delegated student context and bounded actions | [ai.gapwise.ca](https://ai.gapwise.ca) |
-| **[`data`](https://github.com/GapwiseHQ/data)** | **Canonical public multi-university campus data, provenance, schemas, validation, and distribution across 7 Canadian universities** | [data.gapwise.ca](https://data.gapwise.ca) |
-| **[`docs`](https://github.com/GapwiseHQ/docs)** | Canonical public developer documentation | [docs.gapwise.ca](https://docs.gapwise.ca) |
-| **[`status`](https://github.com/GapwiseHQ/status)** | Independent service-health monitoring and incident communication | [status.gapwise.ca](https://status.gapwise.ca) |
+| Repository                                            | Role                                                                                                                                | Primary surface                                                                |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **[`gapwise`](https://github.com/GapwiseHQ/gapwise)** | Core web/PWA, canonical timetable/gap/routing semantics, public API, OpenAPI, and SDK source                                        | [gapwise.ca](https://gapwise.ca) / [api.gapwise.ca](https://api.gapwise.ca/v1) |
+| **[`android`](https://github.com/GapwiseHQ/android)** | Native Kotlin + Jetpack Compose Android client                                                                                      | Android app                                                                    |
+| **[`ios`](https://github.com/GapwiseHQ/ios)**         | Native Swift + SwiftUI iOS client                                                                                                   | iOS app                                                                        |
+| **[`ai`](https://github.com/GapwiseHQ/ai)**           | OAuth/MCP layer for explicitly delegated student context and bounded actions                                                        | [ai.gapwise.ca](https://ai.gapwise.ca)                                         |
+| **[`data`](https://github.com/GapwiseHQ/data)**       | **Canonical public multi-university campus data, provenance, schemas, validation, and distribution across 7 Canadian universities** | [data.gapwise.ca](https://data.gapwise.ca)                                     |
+| **[`docs`](https://github.com/GapwiseHQ/docs)**       | Canonical public developer documentation                                                                                            | [docs.gapwise.ca](https://docs.gapwise.ca)                                     |
+| **[`status`](https://github.com/GapwiseHQ/status)**   | Independent service-health monitoring and incident communication                                                                    | [status.gapwise.ca](https://status.gapwise.ca)                                 |
 
 No consumer repository should recreate or silently fork campus facts. Native clients and product surfaces may adapt presentation and platform integration, but source campus facts belong here and deterministic product calculations belong to `gapwise`.
 
