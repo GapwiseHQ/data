@@ -21,6 +21,7 @@ import guelphCampus from "../universities/guelph/campus.json";
 import uottawaCampus from "../universities/uottawa/campus.json";
 import brockCampus from "../universities/brock/campus.json";
 import ubcCampus from "../universities/ubc/campus.json";
+import waterlooCampus from "../universities/waterloo/campus.json";
 
 const utsgFootprints = JSON.parse(utsgFootprintsJson);
 const utscFootprints = JSON.parse(utscFootprintsJson);
@@ -232,6 +233,7 @@ const GUELPH_FOOTPRINTS = universityFootprints(guelphCampus);
 const UOTTAWA_FOOTPRINTS = universityFootprints(uottawaCampus);
 const BROCK_FOOTPRINTS = universityFootprints(brockCampus);
 const UBC_FOOTPRINTS = universityFootprints(ubcCampus);
+const WATERLOO_FOOTPRINTS = universityFootprints(waterlooCampus);
 
 function importedBuildingsForCampus(campusId) {
   const registry = TRI_CAMPUS_REGISTRIES[campusId];
@@ -370,6 +372,19 @@ export const UNIVERSITIES = [
       },
     ],
   },
+  {
+    id: "waterloo",
+    name: "University of Waterloo",
+    shortName: "Waterloo",
+    defaultCampus: "waterloo-main",
+    campuses: [
+      {
+        id: "waterloo-main",
+        name: "Main Campus",
+        shortName: "Waterloo",
+      },
+    ],
+  },
 ];
 
 export const CAMPUSES = {
@@ -490,6 +505,19 @@ export const CAMPUSES = {
     }),
     tileZoom: 15,
   },
+  "waterloo-main": {
+    id: "waterloo-main",
+    universityId: "waterloo",
+    shortName: "Waterloo",
+    name: "University of Waterloo Main Campus",
+    bounds: boundsFromFeatures(WATERLOO_FOOTPRINTS, {
+      minLon: waterlooCampus.campus.bounds[0][0],
+      maxLon: waterlooCampus.campus.bounds[1][0],
+      minLat: waterlooCampus.campus.bounds[0][1],
+      maxLat: waterlooCampus.campus.bounds[1][1],
+    }),
+    tileZoom: 16,
+  },
 };
 
 export const CAMPUS_IDS = Object.keys(CAMPUSES);
@@ -541,6 +569,8 @@ export function canonicalBuildingsForCampus(campusId) {
   if (campusId === "brock") return universityBuildings(brockCampus, "brock");
   if (campusId === "ubc-vancouver")
     return universityBuildings(ubcCampus, "ubc-vancouver");
+  if (campusId === "waterloo-main")
+    return universityBuildings(waterlooCampus, "waterloo-main");
   return [];
 }
 
@@ -559,6 +589,7 @@ export function canonicalFootprintsForCampus(campusId) {
   if (campusId === "uottawa") return UOTTAWA_FOOTPRINTS;
   if (campusId === "brock") return BROCK_FOOTPRINTS;
   if (campusId === "ubc-vancouver") return UBC_FOOTPRINTS;
+  if (campusId === "waterloo-main") return WATERLOO_FOOTPRINTS;
   return [];
 }
 
@@ -576,6 +607,7 @@ export function canonicalEntrancesForCampus(campusId) {
   if (campusId === "uottawa") return universityEntrances(uottawaCampus);
   if (campusId === "brock") return universityEntrances(brockCampus);
   if (campusId === "ubc-vancouver") return universityEntrances(ubcCampus);
+  if (campusId === "waterloo-main") return universityEntrances(waterlooCampus);
   return [];
 }
 
