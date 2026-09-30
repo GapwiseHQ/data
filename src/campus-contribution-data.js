@@ -5,21 +5,22 @@ import {
   geometryCoordinates,
   metersBetween,
   todayLocalDate,
-} from './entrance-map-data.js';
-import utsgRegistry from '../data/utsg/buildings.json';
-import utsgFootprintsJson from '../data/utsg/buildings.geojson?raw';
-import utscRegistry from '../data/utsc/buildings.json';
-import utscFootprintsJson from '../data/utsc/buildings.geojson?raw';
-import carletonCampus from '../universities/carleton/campus.json';
-import tmuCampus from '../universities/tmu/campus.json';
-import queensCampus from '../universities/queens/campus.json';
-import laurierCampus from '../universities/laurier/campus.json';
-import yorkCampus from '../universities/york/campus.json';
-import mcmasterCampus from '../universities/mcmaster/campus.json';
-import westernCampus from '../universities/western/campus.json';
-import guelphCampus from '../universities/guelph/campus.json';
-import uottawaCampus from '../universities/uottawa/campus.json';
-import brockCampus from '../universities/brock/campus.json';
+} from "./entrance-map-data.js";
+import utsgRegistry from "../data/utsg/buildings.json";
+import utsgFootprintsJson from "../data/utsg/buildings.geojson?raw";
+import utscRegistry from "../data/utsc/buildings.json";
+import utscFootprintsJson from "../data/utsc/buildings.geojson?raw";
+import carletonCampus from "../universities/carleton/campus.json";
+import tmuCampus from "../universities/tmu/campus.json";
+import queensCampus from "../universities/queens/campus.json";
+import laurierCampus from "../universities/laurier/campus.json";
+import yorkCampus from "../universities/york/campus.json";
+import mcmasterCampus from "../universities/mcmaster/campus.json";
+import westernCampus from "../universities/western/campus.json";
+import guelphCampus from "../universities/guelph/campus.json";
+import uottawaCampus from "../universities/uottawa/campus.json";
+import brockCampus from "../universities/brock/campus.json";
+import ubcCampus from "../universities/ubc/campus.json";
 
 const utsgFootprints = JSON.parse(utsgFootprintsJson);
 const utscFootprints = JSON.parse(utscFootprintsJson);
@@ -29,7 +30,9 @@ export const MAP_HEIGHT = 840;
 const MAP_PADDING = 26;
 
 function boundsFromFeatures(features, fallback) {
-  const coordinates = features.flatMap((feature) => geometryCoordinates(feature.geometry));
+  const coordinates = features.flatMap((feature) =>
+    geometryCoordinates(feature.geometry),
+  );
   if (!coordinates.length) return fallback;
   const lons = coordinates.map(([lon]) => lon);
   const lats = coordinates.map(([, lat]) => lat);
@@ -56,15 +59,15 @@ const UTM_FALLBACK = {
 
 const UTSG_FALLBACK = {
   minLon: -79.4215,
-  maxLon: -79.3650,
-  minLat: 43.6450,
+  maxLon: -79.365,
+  minLat: 43.645,
   maxLat: 43.6825,
 };
 
 const UTSC_FALLBACK = {
-  minLon: -79.2050,
-  maxLon: -79.1650,
-  minLat: 43.7720,
+  minLon: -79.205,
+  maxLon: -79.165,
+  minLat: 43.772,
   maxLat: 43.7995,
 };
 
@@ -105,7 +108,7 @@ const YORK_FALLBACK = {
 
 const MCMASTER_FALLBACK = {
   minLon: -79.932,
-  maxLon: -79.910,
+  maxLon: -79.91,
   minLat: 43.256,
   maxLat: 43.268,
 };
@@ -125,7 +128,7 @@ const GUELPH_FALLBACK = {
 };
 
 const UOTTAWA_FALLBACK = {
-  minLon: -75.690,
+  minLon: -75.69,
   maxLon: -75.674,
   minLat: 45.416,
   maxLat: 45.426,
@@ -133,7 +136,7 @@ const UOTTAWA_FALLBACK = {
 
 const BROCK_FALLBACK = {
   minLon: -79.256,
-  maxLon: -79.240,
+  maxLon: -79.24,
   minLat: 43.112,
   maxLat: 43.125,
 };
@@ -152,7 +155,7 @@ function universityFootprints(dataset) {
   return (dataset?.buildings || [])
     .filter((b) => b.geometry)
     .map((b) => ({
-      type: 'Feature',
+      type: "Feature",
       id: b.id,
       properties: {
         buildingId: b.id,
@@ -167,7 +170,7 @@ function universityBuildings(dataset, campusId) {
   return (dataset?.buildings || []).map((building) => {
     const feature = building.geometry
       ? {
-          type: 'Feature',
+          type: "Feature",
           id: building.id,
           properties: {
             buildingId: building.id,
@@ -179,28 +182,32 @@ function universityBuildings(dataset, campusId) {
       : null;
     const features = feature ? [feature] : [];
     const code = building.nativeCodes?.[0] || building.id.toUpperCase();
-    const entrances = (dataset.entrances || []).filter((e) => e.buildingId === building.id);
+    const entrances = (dataset.entrances || []).filter(
+      (e) => e.buildingId === building.id,
+    );
     return {
       code,
       name: building.name,
       aliases: building.aliases ?? [],
       timetableCodes: building.nativeCodes ?? [],
       campus: campusId,
-      source: 'canonical',
+      source: "canonical",
       canonicalId: building.id,
       features,
       entranceCount: entrances.length,
-      geometryStatus: feature ? 'mapped' : 'unresolved',
+      geometryStatus: feature ? "mapped" : "unresolved",
     };
   });
 }
 
 function universityEntrances(dataset) {
-  const buildingById = new Map((dataset?.buildings || []).map((b) => [b.id, b]));
+  const buildingById = new Map(
+    (dataset?.buildings || []).map((b) => [b.id, b]),
+  );
   return (dataset?.entrances || []).map((entrance) => {
     const building = buildingById.get(entrance.buildingId);
     return {
-      type: 'Feature',
+      type: "Feature",
       id: entrance.id,
       properties: {
         id: entrance.id,
@@ -209,7 +216,7 @@ function universityEntrances(dataset) {
         buildingName: building?.name || entrance.buildingId,
         access: entrance.access,
       },
-      geometry: { type: 'Point', coordinates: entrance.coordinate },
+      geometry: { type: "Point", coordinates: entrance.coordinate },
     };
   });
 }
@@ -224,6 +231,7 @@ const WESTERN_FOOTPRINTS = universityFootprints(westernCampus);
 const GUELPH_FOOTPRINTS = universityFootprints(guelphCampus);
 const UOTTAWA_FOOTPRINTS = universityFootprints(uottawaCampus);
 const BROCK_FOOTPRINTS = universityFootprints(brockCampus);
+const UBC_FOOTPRINTS = universityFootprints(ubcCampus);
 
 function importedBuildingsForCampus(campusId) {
   const registry = TRI_CAMPUS_REGISTRIES[campusId];
@@ -245,222 +253,242 @@ function importedBuildingsForCampus(campusId) {
     aliases: building.aliases ?? [],
     timetableCodes: building.timetableCodes ?? [],
     campus: campusId,
-    source: 'canonical',
+    source: "canonical",
     canonicalId: building.id,
     features: featuresByBuildingId.get(building.id) ?? [],
     entranceCount: 0,
-    geometryStatus: featuresByBuildingId.has(building.id) ? 'mapped' : 'unresolved',
+    geometryStatus: featuresByBuildingId.has(building.id)
+      ? "mapped"
+      : "unresolved",
   }));
 }
 
 export const UNIVERSITIES = [
   {
-    id: 'uoft',
-    name: 'University of Toronto',
-    shortName: 'U of T',
-    defaultCampus: 'utm',
+    id: "uoft",
+    name: "University of Toronto",
+    shortName: "U of T",
+    defaultCampus: "utm",
     campuses: [
-      { id: 'utm', name: 'Mississauga', shortName: 'UTM' },
-      { id: 'utsg', name: 'St. George', shortName: 'UTSG' },
-      { id: 'utsc', name: 'Scarborough', shortName: 'UTSC' },
+      { id: "utm", name: "Mississauga", shortName: "UTM" },
+      { id: "utsg", name: "St. George", shortName: "UTSG" },
+      { id: "utsc", name: "Scarborough", shortName: "UTSC" },
     ],
   },
   {
-    id: 'carleton',
-    name: 'Carleton University',
-    shortName: 'Carleton',
-    defaultCampus: 'carleton',
+    id: "carleton",
+    name: "Carleton University",
+    shortName: "Carleton",
+    defaultCampus: "carleton",
     campuses: [
-      { id: 'carleton', name: 'Carleton University', shortName: 'Carleton' },
+      { id: "carleton", name: "Carleton University", shortName: "Carleton" },
     ],
   },
   {
-    id: 'tmu',
-    name: 'Toronto Metropolitan University',
-    shortName: 'TMU',
-    defaultCampus: 'tmu',
+    id: "tmu",
+    name: "Toronto Metropolitan University",
+    shortName: "TMU",
+    defaultCampus: "tmu",
     campuses: [
-      { id: 'tmu', name: 'Toronto Metropolitan University', shortName: 'TMU' },
+      { id: "tmu", name: "Toronto Metropolitan University", shortName: "TMU" },
     ],
   },
   {
-    id: 'queens',
+    id: "queens",
     name: "Queen's University",
     shortName: "Queen's",
-    defaultCampus: 'queens',
+    defaultCampus: "queens",
     campuses: [
-      { id: 'queens', name: "Queen's University", shortName: "Queen's" },
+      { id: "queens", name: "Queen's University", shortName: "Queen's" },
     ],
   },
   {
-    id: 'laurier',
-    name: 'Wilfrid Laurier University',
-    shortName: 'Laurier',
-    defaultCampus: 'laurier',
+    id: "laurier",
+    name: "Wilfrid Laurier University",
+    shortName: "Laurier",
+    defaultCampus: "laurier",
     campuses: [
-      { id: 'laurier', name: 'Waterloo Campus', shortName: 'Laurier' },
+      { id: "laurier", name: "Waterloo Campus", shortName: "Laurier" },
     ],
   },
   {
-    id: 'york',
-    name: 'York University',
-    shortName: 'York',
-    defaultCampus: 'york',
+    id: "york",
+    name: "York University",
+    shortName: "York",
+    defaultCampus: "york",
+    campuses: [{ id: "york", name: "Keele Campus", shortName: "York" }],
+  },
+  {
+    id: "mcmaster",
+    name: "McMaster University",
+    shortName: "McMaster",
+    defaultCampus: "mcmaster",
+    campuses: [{ id: "mcmaster", name: "Main Campus", shortName: "McMaster" }],
+  },
+  {
+    id: "western",
+    name: "Western University",
+    shortName: "Western",
+    defaultCampus: "western",
+    campuses: [{ id: "western", name: "London Campus", shortName: "Western" }],
+  },
+  {
+    id: "guelph",
+    name: "University of Guelph",
+    shortName: "Guelph",
+    defaultCampus: "guelph",
+    campuses: [{ id: "guelph", name: "Guelph Campus", shortName: "Guelph" }],
+  },
+  {
+    id: "uottawa",
+    name: "University of Ottawa",
+    shortName: "uOttawa",
+    defaultCampus: "uottawa",
     campuses: [
-      { id: 'york', name: 'Keele Campus', shortName: 'York' },
+      { id: "uottawa", name: "Downtown Ottawa Campus", shortName: "uOttawa" },
     ],
   },
   {
-    id: 'mcmaster',
-    name: 'McMaster University',
-    shortName: 'McMaster',
-    defaultCampus: 'mcmaster',
+    id: "brock",
+    name: "Brock University",
+    shortName: "Brock",
+    defaultCampus: "brock",
     campuses: [
-      { id: 'mcmaster', name: 'Main Campus', shortName: 'McMaster' },
+      { id: "brock", name: "St. Catharines Campus", shortName: "Brock" },
     ],
   },
   {
-    id: 'western',
-    name: 'Western University',
-    shortName: 'Western',
-    defaultCampus: 'western',
+    id: "ubc",
+    name: "University of British Columbia",
+    shortName: "UBC",
+    defaultCampus: "ubc-vancouver",
     campuses: [
-      { id: 'western', name: 'London Campus', shortName: 'Western' },
-    ],
-  },
-  {
-    id: 'guelph',
-    name: 'University of Guelph',
-    shortName: 'Guelph',
-    defaultCampus: 'guelph',
-    campuses: [
-      { id: 'guelph', name: 'Guelph Campus', shortName: 'Guelph' },
-    ],
-  },
-  {
-    id: 'uottawa',
-    name: 'University of Ottawa',
-    shortName: 'uOttawa',
-    defaultCampus: 'uottawa',
-    campuses: [
-      { id: 'uottawa', name: 'Downtown Ottawa Campus', shortName: 'uOttawa' },
-    ],
-  },
-  {
-    id: 'brock',
-    name: 'Brock University',
-    shortName: 'Brock',
-    defaultCampus: 'brock',
-    campuses: [
-      { id: 'brock', name: 'St. Catharines Campus', shortName: 'Brock' },
+      {
+        id: "ubc-vancouver",
+        name: "Vancouver Campus",
+        shortName: "UBC Vancouver",
+      },
     ],
   },
 ];
 
 export const CAMPUSES = {
   utm: {
-    id: 'utm',
-    universityId: 'uoft',
-    shortName: 'UTM',
-    name: 'University of Toronto Mississauga',
+    id: "utm",
+    universityId: "uoft",
+    shortName: "UTM",
+    name: "University of Toronto Mississauga",
     bounds: boundsFromFeatures(utmFootprintFeatures, UTM_FALLBACK),
     tileZoom: 17,
   },
   utsg: {
-    id: 'utsg',
-    universityId: 'uoft',
-    shortName: 'UTSG',
-    name: 'University of Toronto St. George',
+    id: "utsg",
+    universityId: "uoft",
+    shortName: "UTSG",
+    name: "University of Toronto St. George",
     bounds: boundsFromFeatures(TRI_CAMPUS_FOOTPRINTS.utsg, UTSG_FALLBACK),
     tileZoom: 16,
   },
   utsc: {
-    id: 'utsc',
-    universityId: 'uoft',
-    shortName: 'UTSC',
-    name: 'University of Toronto Scarborough',
+    id: "utsc",
+    universityId: "uoft",
+    shortName: "UTSC",
+    name: "University of Toronto Scarborough",
     bounds: boundsFromFeatures(TRI_CAMPUS_FOOTPRINTS.utsc, UTSC_FALLBACK),
     tileZoom: 16,
   },
   carleton: {
-    id: 'carleton',
-    universityId: 'carleton',
-    shortName: 'Carleton',
-    name: 'Carleton University',
+    id: "carleton",
+    universityId: "carleton",
+    shortName: "Carleton",
+    name: "Carleton University",
     bounds: boundsFromFeatures(CARLETON_FOOTPRINTS, CARLETON_FALLBACK),
     tileZoom: 16,
   },
   tmu: {
-    id: 'tmu',
-    universityId: 'tmu',
-    shortName: 'TMU',
-    name: 'Toronto Metropolitan University',
+    id: "tmu",
+    universityId: "tmu",
+    shortName: "TMU",
+    name: "Toronto Metropolitan University",
     bounds: boundsFromFeatures(TMU_FOOTPRINTS, TMU_FALLBACK),
     tileZoom: 17,
   },
   queens: {
-    id: 'queens',
-    universityId: 'queens',
+    id: "queens",
+    universityId: "queens",
     shortName: "Queen's",
     name: "Queen's University",
     bounds: boundsFromFeatures(QUEENS_FOOTPRINTS, QUEENS_FALLBACK),
     tileZoom: 16,
   },
   laurier: {
-    id: 'laurier',
-    universityId: 'laurier',
-    shortName: 'Laurier',
-    name: 'Wilfrid Laurier University',
+    id: "laurier",
+    universityId: "laurier",
+    shortName: "Laurier",
+    name: "Wilfrid Laurier University",
     bounds: boundsFromFeatures(LAURIER_FOOTPRINTS, LAURIER_FALLBACK),
     tileZoom: 17,
   },
   york: {
-    id: 'york',
-    universityId: 'york',
-    shortName: 'York',
-    name: 'York University (Keele Campus)',
+    id: "york",
+    universityId: "york",
+    shortName: "York",
+    name: "York University (Keele Campus)",
     bounds: boundsFromFeatures(YORK_FOOTPRINTS, YORK_FALLBACK),
     tileZoom: 16,
   },
   mcmaster: {
-    id: 'mcmaster',
-    universityId: 'mcmaster',
-    shortName: 'McMaster',
-    name: 'McMaster University',
+    id: "mcmaster",
+    universityId: "mcmaster",
+    shortName: "McMaster",
+    name: "McMaster University",
     bounds: boundsFromFeatures(MCMASTER_FOOTPRINTS, MCMASTER_FALLBACK),
     tileZoom: 16,
   },
   western: {
-    id: 'western',
-    universityId: 'western',
-    shortName: 'Western',
-    name: 'Western University',
+    id: "western",
+    universityId: "western",
+    shortName: "Western",
+    name: "Western University",
     bounds: boundsFromFeatures(WESTERN_FOOTPRINTS, WESTERN_FALLBACK),
     tileZoom: 16,
   },
   guelph: {
-    id: 'guelph',
-    universityId: 'guelph',
-    shortName: 'Guelph',
-    name: 'University of Guelph',
+    id: "guelph",
+    universityId: "guelph",
+    shortName: "Guelph",
+    name: "University of Guelph",
     bounds: boundsFromFeatures(GUELPH_FOOTPRINTS, GUELPH_FALLBACK),
     tileZoom: 16,
   },
   uottawa: {
-    id: 'uottawa',
-    universityId: 'uottawa',
-    shortName: 'uOttawa',
-    name: 'University of Ottawa',
+    id: "uottawa",
+    universityId: "uottawa",
+    shortName: "uOttawa",
+    name: "University of Ottawa",
     bounds: boundsFromFeatures(UOTTAWA_FOOTPRINTS, UOTTAWA_FALLBACK),
     tileZoom: 16,
   },
   brock: {
-    id: 'brock',
-    universityId: 'brock',
-    shortName: 'Brock',
-    name: 'Brock University',
+    id: "brock",
+    universityId: "brock",
+    shortName: "Brock",
+    name: "Brock University",
     bounds: boundsFromFeatures(BROCK_FOOTPRINTS, BROCK_FALLBACK),
     tileZoom: 16,
+  },
+  "ubc-vancouver": {
+    id: "ubc-vancouver",
+    universityId: "ubc",
+    shortName: "UBC Vancouver",
+    name: "University of British Columbia Vancouver Campus",
+    bounds: boundsFromFeatures(UBC_FOOTPRINTS, {
+      minLon: ubcCampus.campus.bounds[0][0],
+      maxLon: ubcCampus.campus.bounds[1][0],
+      minLat: ubcCampus.campus.bounds[0][1],
+      maxLat: ubcCampus.campus.bounds[1][1],
+    }),
+    tileZoom: 15,
   },
 };
 
@@ -468,70 +496,86 @@ export const CAMPUS_IDS = Object.keys(CAMPUSES);
 
 export function campusFromQuery() {
   const params = new URLSearchParams(window.location.search);
-  const requestedCampus = params.get('campus')?.toLowerCase();
+  const requestedCampus = params.get("campus")?.toLowerCase();
   if (requestedCampus && CAMPUSES[requestedCampus]) {
     return requestedCampus;
   }
-  const requestedUni = params.get('university')?.toLowerCase();
+  const requestedUni = params.get("university")?.toLowerCase();
   if (requestedUni) {
     const uni = UNIVERSITIES.find((u) => u.id === requestedUni);
     if (uni) return uni.defaultCampus;
   }
-  return 'utm';
+  return "utm";
 }
 
 export function universityForCampus(campusId) {
-  return CAMPUSES[campusId]?.universityId || 'uoft';
+  return CAMPUSES[campusId]?.universityId || "uoft";
 }
 
 export function canonicalBuildingsForCampus(campusId) {
-  if (campusId === 'utm') {
-    return utmBuildings.map((building) => ({ ...building, source: 'canonical', campus: 'utm' }));
+  if (campusId === "utm") {
+    return utmBuildings.map((building) => ({
+      ...building,
+      source: "canonical",
+      campus: "utm",
+    }));
   }
-  if (campusId === 'utsg' || campusId === 'utsc') {
+  if (campusId === "utsg" || campusId === "utsc") {
     return importedBuildingsForCampus(campusId);
   }
-  if (campusId === 'carleton') return universityBuildings(carletonCampus, 'carleton');
-  if (campusId === 'tmu') return universityBuildings(tmuCampus, 'tmu');
-  if (campusId === 'queens') return universityBuildings(queensCampus, 'queens');
-  if (campusId === 'laurier') return universityBuildings(laurierCampus, 'laurier');
-  if (campusId === 'york' || campusId === 'keele') return universityBuildings(yorkCampus, 'york');
-  if (campusId === 'mcmaster') return universityBuildings(mcmasterCampus, 'mcmaster');
-  if (campusId === 'western') return universityBuildings(westernCampus, 'western');
-  if (campusId === 'guelph') return universityBuildings(guelphCampus, 'guelph');
-  if (campusId === 'uottawa') return universityBuildings(uottawaCampus, 'uottawa');
-  if (campusId === 'brock') return universityBuildings(brockCampus, 'brock');
+  if (campusId === "carleton")
+    return universityBuildings(carletonCampus, "carleton");
+  if (campusId === "tmu") return universityBuildings(tmuCampus, "tmu");
+  if (campusId === "queens") return universityBuildings(queensCampus, "queens");
+  if (campusId === "laurier")
+    return universityBuildings(laurierCampus, "laurier");
+  if (campusId === "york" || campusId === "keele")
+    return universityBuildings(yorkCampus, "york");
+  if (campusId === "mcmaster")
+    return universityBuildings(mcmasterCampus, "mcmaster");
+  if (campusId === "western")
+    return universityBuildings(westernCampus, "western");
+  if (campusId === "guelph") return universityBuildings(guelphCampus, "guelph");
+  if (campusId === "uottawa")
+    return universityBuildings(uottawaCampus, "uottawa");
+  if (campusId === "brock") return universityBuildings(brockCampus, "brock");
+  if (campusId === "ubc-vancouver")
+    return universityBuildings(ubcCampus, "ubc-vancouver");
   return [];
 }
 
 export function canonicalFootprintsForCampus(campusId) {
-  if (campusId === 'utm') return utmFootprintFeatures;
-  if (campusId === 'utsg' || campusId === 'utsc') return TRI_CAMPUS_FOOTPRINTS[campusId] ?? [];
-  if (campusId === 'carleton') return CARLETON_FOOTPRINTS;
-  if (campusId === 'tmu') return TMU_FOOTPRINTS;
-  if (campusId === 'queens') return QUEENS_FOOTPRINTS;
-  if (campusId === 'laurier') return LAURIER_FOOTPRINTS;
-  if (campusId === 'york' || campusId === 'keele') return YORK_FOOTPRINTS;
-  if (campusId === 'mcmaster') return MCMASTER_FOOTPRINTS;
-  if (campusId === 'western') return WESTERN_FOOTPRINTS;
-  if (campusId === 'guelph') return GUELPH_FOOTPRINTS;
-  if (campusId === 'uottawa') return UOTTAWA_FOOTPRINTS;
-  if (campusId === 'brock') return BROCK_FOOTPRINTS;
+  if (campusId === "utm") return utmFootprintFeatures;
+  if (campusId === "utsg" || campusId === "utsc")
+    return TRI_CAMPUS_FOOTPRINTS[campusId] ?? [];
+  if (campusId === "carleton") return CARLETON_FOOTPRINTS;
+  if (campusId === "tmu") return TMU_FOOTPRINTS;
+  if (campusId === "queens") return QUEENS_FOOTPRINTS;
+  if (campusId === "laurier") return LAURIER_FOOTPRINTS;
+  if (campusId === "york" || campusId === "keele") return YORK_FOOTPRINTS;
+  if (campusId === "mcmaster") return MCMASTER_FOOTPRINTS;
+  if (campusId === "western") return WESTERN_FOOTPRINTS;
+  if (campusId === "guelph") return GUELPH_FOOTPRINTS;
+  if (campusId === "uottawa") return UOTTAWA_FOOTPRINTS;
+  if (campusId === "brock") return BROCK_FOOTPRINTS;
+  if (campusId === "ubc-vancouver") return UBC_FOOTPRINTS;
   return [];
 }
 
 export function canonicalEntrancesForCampus(campusId) {
-  if (campusId === 'utm') return utmEntranceFeatures;
-  if (campusId === 'carleton') return universityEntrances(carletonCampus);
-  if (campusId === 'tmu') return universityEntrances(tmuCampus);
-  if (campusId === 'queens') return universityEntrances(queensCampus);
-  if (campusId === 'laurier') return universityEntrances(laurierCampus);
-  if (campusId === 'york' || campusId === 'keele') return universityEntrances(yorkCampus);
-  if (campusId === 'mcmaster') return universityEntrances(mcmasterCampus);
-  if (campusId === 'western') return universityEntrances(westernCampus);
-  if (campusId === 'guelph') return universityEntrances(guelphCampus);
-  if (campusId === 'uottawa') return universityEntrances(uottawaCampus);
-  if (campusId === 'brock') return universityEntrances(brockCampus);
+  if (campusId === "utm") return utmEntranceFeatures;
+  if (campusId === "carleton") return universityEntrances(carletonCampus);
+  if (campusId === "tmu") return universityEntrances(tmuCampus);
+  if (campusId === "queens") return universityEntrances(queensCampus);
+  if (campusId === "laurier") return universityEntrances(laurierCampus);
+  if (campusId === "york" || campusId === "keele")
+    return universityEntrances(yorkCampus);
+  if (campusId === "mcmaster") return universityEntrances(mcmasterCampus);
+  if (campusId === "western") return universityEntrances(westernCampus);
+  if (campusId === "guelph") return universityEntrances(guelphCampus);
+  if (campusId === "uottawa") return universityEntrances(uottawaCampus);
+  if (campusId === "brock") return universityEntrances(brockCampus);
+  if (campusId === "ubc-vancouver") return universityEntrances(ubcCampus);
   return [];
 }
 
@@ -546,13 +590,16 @@ export function createCampusProjection(campusId) {
   const canvasHeight = MAP_HEIGHT - MAP_PADDING * 2;
   const campusAspect = projectedWidth / projectedHeight;
   const canvasAspect = canvasWidth / canvasHeight;
-  const contentWidth = campusAspect > canvasAspect ? canvasWidth : canvasHeight * campusAspect;
-  const contentHeight = campusAspect > canvasAspect ? canvasWidth / campusAspect : canvasHeight;
+  const contentWidth =
+    campusAspect > canvasAspect ? canvasWidth : canvasHeight * campusAspect;
+  const contentHeight =
+    campusAspect > canvasAspect ? canvasWidth / campusAspect : canvasHeight;
   const originX = (MAP_WIDTH - contentWidth) / 2;
   const originY = (MAP_HEIGHT - contentHeight) / 2;
 
   function project([longitude, latitude]) {
-    const xRatio = ((longitude - bounds.minLon) * longitudeScale) / projectedWidth;
+    const xRatio =
+      ((longitude - bounds.minLon) * longitudeScale) / projectedWidth;
     const yRatio = (bounds.maxLat - latitude) / projectedHeight;
     return [originX + xRatio * contentWidth, originY + yRatio * contentHeight];
   }
@@ -566,42 +613,59 @@ export function createCampusProjection(campusId) {
     ];
   }
 
-  return { campus, project, unproject, originX, originY, contentWidth, contentHeight };
+  return {
+    campus,
+    project,
+    unproject,
+    originX,
+    originY,
+    contentWidth,
+    contentHeight,
+  };
 }
 
 function ringPath(ring, project) {
-  return ring
-    .map((coordinate, index) => {
-      const [x, y] = project(coordinate);
-      return `${index === 0 ? 'M' : 'L'}${x.toFixed(2)} ${y.toFixed(2)}`;
-    })
-    .join(' ') + ' Z';
+  return (
+    ring
+      .map((coordinate, index) => {
+        const [x, y] = project(coordinate);
+        return `${index === 0 ? "M" : "L"}${x.toFixed(2)} ${y.toFixed(2)}`;
+      })
+      .join(" ") + " Z"
+  );
 }
 
 export function geometryPath(geometry, project) {
-  if (!geometry) return '';
-  if (geometry.type === 'Polygon') return geometry.coordinates.map((ring) => ringPath(ring, project)).join(' ');
-  if (geometry.type === 'MultiPolygon') {
-    return geometry.coordinates.flatMap((polygon) => polygon.map((ring) => ringPath(ring, project))).join(' ');
+  if (!geometry) return "";
+  if (geometry.type === "Polygon")
+    return geometry.coordinates
+      .map((ring) => ringPath(ring, project))
+      .join(" ");
+  if (geometry.type === "MultiPolygon") {
+    return geometry.coordinates
+      .flatMap((polygon) => polygon.map((ring) => ringPath(ring, project)))
+      .join(" ");
   }
-  if (geometry.type === 'LineString') {
+  if (geometry.type === "LineString") {
     return geometry.coordinates
       .map((coordinate, index) => {
         const [x, y] = project(coordinate);
-        return `${index === 0 ? 'M' : 'L'}${x.toFixed(2)} ${y.toFixed(2)}`;
+        return `${index === 0 ? "M" : "L"}${x.toFixed(2)} ${y.toFixed(2)}`;
       })
-      .join(' ');
+      .join(" ");
   }
-  return '';
+  return "";
 }
 
 export function geometryBounds(geometry, project, paddingFactor = 0.75) {
   let coordinates = [];
-  if (geometry?.type === 'Polygon') coordinates = geometry.coordinates.flat();
-  if (geometry?.type === 'MultiPolygon') coordinates = geometry.coordinates.flat(2);
-  if (geometry?.type === 'LineString') coordinates = geometry.coordinates;
-  if (geometry?.type === 'Point') coordinates = [geometry.coordinates];
-  if (!coordinates.length) return { x: 0, y: 0, width: MAP_WIDTH, height: MAP_HEIGHT };
+  if (geometry?.type === "Polygon") coordinates = geometry.coordinates.flat();
+  if (geometry?.type === "MultiPolygon")
+    coordinates = geometry.coordinates.flat(2);
+  if (geometry?.type === "LineString") coordinates = geometry.coordinates;
+  if (geometry?.type === "Point") coordinates = [geometry.coordinates];
+  if (!coordinates.length)
+    return { x: 0, y: 0, width: MAP_WIDTH, height: MAP_HEIGHT };
   const points = coordinates.map(project);
   const xs = points.map(([x]) => x);
   const ys = points.map(([, y]) => y);
@@ -637,8 +701,9 @@ function lonToTileX(lon, zoom) {
 function latToTileY(lat, zoom) {
   const radians = (lat * Math.PI) / 180;
   return (
-    (1 - Math.log(Math.tan(radians) + 1 / Math.cos(radians)) / Math.PI) / 2
-  ) * 2 ** zoom;
+    ((1 - Math.log(Math.tan(radians) + 1 / Math.cos(radians)) / Math.PI) / 2) *
+    2 ** zoom
+  );
 }
 
 function tileXToLon(x, zoom) {
@@ -680,7 +745,7 @@ export function tilesForCampus(campusId, project) {
   return tiles;
 }
 
-export function makeId(prefix = 'draft') {
+export function makeId(prefix = "draft") {
   return `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 }
 
