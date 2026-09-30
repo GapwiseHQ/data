@@ -6,7 +6,7 @@
 
 ### Canada's largest free and open multi-university campus navigation dataset.
 
-**Canada's largest free and open multi-university campus navigation dataset: auditable building identity, footprints, verified exterior entrances, accessible routes, provenance, schemas, and open contribution tooling across Canadian universities.**
+**A free and open multi-university campus navigation dataset: auditable building identity, footprints, source-classified entrances, pedestrian routes, provenance, schemas, and open contribution tooling across Canadian universities.**
 
 [![Data](https://img.shields.io/badge/Data-data.gapwise.ca-B42335?style=for-the-badge&logo=databricks&logoColor=white)](https://data.gapwise.ca)
 [![Docs](https://img.shields.io/badge/Docs-data_guides-111111?style=for-the-badge)](https://docs.gapwise.ca/data/)
@@ -23,7 +23,7 @@
 
 ## What Gapwise Data is
 
-`data` is the **canonical repository for campus facts and geometry used by Gapwise**. It contains campus-scoped building registries, verified entrances, and source-backed map geometry across **12 universities and 14 campus models**:
+`data` is the **canonical repository for campus facts and geometry used by Gapwise**. It contains campus-scoped building registries, source-classified entrances, and source-backed map geometry across **13 universities and 15 campus models**:
 
 1. **University of Toronto**: Mississauga, St. George, and Scarborough
 2. **Carleton University**: Main Campus
@@ -37,6 +37,7 @@
 10. **University of Ottawa**: Downtown Campus
 11. **Brock University**: St. Catharines Campus
 12. **University of British Columbia**: Vancouver Campus
+13. **University of Waterloo**: Main Campus
 
 The validated snapshots under [`universities/`](universities/) and [`data/`](data/) include source registers, schemas, footprints, and validation tests. Each campus model represents pedestrian networks, building geometries, entrance coordinates, and routing topologies tailored to that campus, with explicit representation of route uncertainty and entrance verification state.
 
@@ -48,7 +49,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 
 ## What the data layer covers
 
-- campus-scoped building and facility identities across all 12 supported universities;
+- campus-scoped building and facility identities across all 13 supported universities;
 - campus geometry and building footprints;
 - mapped, inferred, and evidence-only entrances;
 - outdoor routing nodes and edges;
@@ -61,7 +62,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 - attribution and reuse requirements;
 - versioned privacy-safe public data.
 
-The canonical campus models cover 12 universities and 14 campuses, consumed through the same deterministic platform semantics used by Gapwise web, Android, iOS, API, SDK, and AI-facing surfaces.
+The canonical campus models cover 13 universities and 15 campuses, consumed through the same deterministic platform semantics used by Gapwise web, Android, iOS, API, SDK, and AI-facing surfaces.
 
 ---
 
@@ -165,7 +166,7 @@ It verifies, among other things:
 | **[`android`](https://github.com/GapwiseHQ/android)** | Native Kotlin + Jetpack Compose Android client                                                                                      | Android app                                                                    |
 | **[`ios`](https://github.com/GapwiseHQ/ios)**         | Native Swift + SwiftUI iOS client                                                                                                   | iOS app                                                                        |
 | **[`ai`](https://github.com/GapwiseHQ/ai)**           | OAuth/MCP layer for explicitly delegated student context and bounded actions                                                        | [ai.gapwise.ca](https://ai.gapwise.ca)                                         |
-| **[`data`](https://github.com/GapwiseHQ/data)**       | **Canonical public multi-university campus data, provenance, schemas, validation, and distribution across 7 Canadian universities** | [data.gapwise.ca](https://data.gapwise.ca)                                     |
+| **[`data`](https://github.com/GapwiseHQ/data)**       | **Canonical public multi-university campus data, provenance, schemas, validation, and distribution across 13 Canadian universities** | [data.gapwise.ca](https://data.gapwise.ca)                                     |
 | **[`docs`](https://github.com/GapwiseHQ/docs)**       | Canonical public developer documentation                                                                                            | [docs.gapwise.ca](https://docs.gapwise.ca)                                     |
 | **[`status`](https://github.com/GapwiseHQ/status)**   | Independent service-health monitoring and incident communication                                                                    | [status.gapwise.ca](https://status.gapwise.ca)                                 |
 

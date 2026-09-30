@@ -5,9 +5,9 @@ import './styles.css';
 import './accent-theme.css';
 
 const datasets = [
-  { name: 'Multi-university campus models', file: 'universities/*/campus.json', type: 'JSON', status: 'Maintained', description: 'Comprehensive campus schemas with verified buildings, entrances, path graphs, and provenance across all 11 universities.', fields: ['institution', 'campus', 'buildings', 'entrances', 'pathNodes', 'pathEdges'] },
+  { name: 'Multi-university campus models', file: 'universities/*/campus.json', type: 'JSON', status: 'Maintained', description: 'Comprehensive campus schemas with source-backed buildings, source-classified entrances, path graphs, and provenance across all 13 universities and 15 campus models.', fields: ['institution', 'campus', 'buildings', 'entrances', 'pathNodes', 'pathEdges'] },
   { name: 'Building registry', file: 'building-registry.ts', type: 'Registry', status: 'Maintained', description: 'Canonical building codes, names, aliases, categories and room-to-floor interpretation rules.', fields: ['code', 'name', 'category', 'aliases', 'roomFloorRule'] },
-  { name: 'Campus buildings & footprints', file: 'buildings.geojson', type: 'GeoJSON', status: 'Derived + reviewed', description: 'Navigation points, polygon footprints, and canonical metadata spanning U of T, Carleton, TMU, Queen\'s, Laurier, York, McMaster, Western, Guelph, uOttawa, and Brock.', fields: ['geometry', 'code', 'name', 'geometryRole', 'source'] },
+  { name: 'Campus buildings & footprints', file: 'buildings.geojson', type: 'GeoJSON', status: 'Derived + reviewed', description: 'Navigation points, polygon footprints, and canonical metadata spanning every supported campus, including UBC Vancouver and Waterloo Main.', fields: ['geometry', 'code', 'name', 'geometryRole', 'source'] },
   { name: 'Entrances & access audits', file: 'generated/campus-access-audit.json', type: 'JSON', status: 'Audited', description: 'Coverage, barrier-free access, and verification information for exterior entrances and approach networks.', fields: ['code', 'canonicalGeometry', 'verifiedExteriorEntrances', 'inferredApproaches'] },
 ];
 
