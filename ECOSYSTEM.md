@@ -2,7 +2,7 @@
 
 `data` is the **canonical multi-university campus-data, provenance, and reuse surface** of the Gapwise product ecosystem. It owns campus-scoped facts and geometry across all supported Canadian university campuses; it does not redefine deterministic product calculations or public API behavior.
 
-The repository contains source-backed building identity and map geometry for 11 universities and 13 campus models. Reviewed entrance graphs, pedestrian routing data, campus places, stable public API, and production raw-data distribution currently have full coverage for UTM with expanding coverage across other campuses.
+The repository contains source-backed building identity and map geometry for 13 universities and 15 campus models. Entrance and pedestrian routing evidence is campus-specific, retains explicit provenance, and preserves unknown accessibility or access state rather than promoting it to verified fact.
 
 ## Connected surfaces
 
