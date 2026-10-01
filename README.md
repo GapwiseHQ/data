@@ -23,7 +23,7 @@
 
 ## What Gapwise Data is
 
-`data` is the **canonical repository for campus facts and geometry used by Gapwise**. It contains campus-scoped building registries, source-classified entrances, and source-backed map geometry across **13 universities and 15 campus models**:
+`data` is the **canonical repository for campus facts and geometry used by Gapwise**. It contains campus-scoped building registries, source-classified entrances, and source-backed map geometry across **14 universities and 16 campus models**:
 
 1. **University of Toronto**: Mississauga, St. George, and Scarborough
 2. **Carleton University**: Main Campus
@@ -38,6 +38,7 @@
 11. **Brock University**: St. Catharines Campus
 12. **University of British Columbia**: Vancouver Campus
 13. **University of Waterloo**: Main Campus
+14. **McGill University**: Downtown Campus
 
 The validated snapshots under [`universities/`](universities/) and [`data/`](data/) include source registers, schemas, footprints, and validation tests. Each campus model represents pedestrian networks, building geometries, entrance coordinates, and routing topologies tailored to that campus, with explicit representation of route uncertainty and entrance verification state.
 
@@ -49,7 +50,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 
 ## What the data layer covers
 
-- campus-scoped building and facility identities across all 13 supported universities;
+- campus-scoped building and facility identities across all 14 modeled universities;
 - campus geometry and building footprints;
 - mapped, inferred, and evidence-only entrances;
 - outdoor routing nodes and edges;
@@ -62,7 +63,7 @@ The main [`gapwise`](https://github.com/GapwiseHQ/gapwise) repository remains au
 - attribution and reuse requirements;
 - versioned privacy-safe public data.
 
-The canonical campus models cover 13 universities and 15 campuses, consumed through the same deterministic platform semantics used by Gapwise web, Android, iOS, API, SDK, and AI-facing surfaces.
+The canonical campus models cover 14 universities and 16 campuses. A canonical data model does not by itself declare a university edition fully supported; product support is released only after its timetable, UI, API, documentation, monitoring, and deployment checks pass.
 
 ---
 
