@@ -22,6 +22,7 @@ import uottawaCampus from "../universities/uottawa/campus.json";
 import brockCampus from "../universities/brock/campus.json";
 import ubcCampus from "../universities/ubc/campus.json";
 import waterlooCampus from "../universities/waterloo/campus.json";
+import mcgillCampus from "../universities/mcgill/campus.json";
 
 const utsgFootprints = JSON.parse(utsgFootprintsJson);
 const utscFootprints = JSON.parse(utscFootprintsJson);
@@ -234,6 +235,7 @@ const UOTTAWA_FOOTPRINTS = universityFootprints(uottawaCampus);
 const BROCK_FOOTPRINTS = universityFootprints(brockCampus);
 const UBC_FOOTPRINTS = universityFootprints(ubcCampus);
 const WATERLOO_FOOTPRINTS = universityFootprints(waterlooCampus);
+const MCGILL_FOOTPRINTS = universityFootprints(mcgillCampus);
 
 function importedBuildingsForCampus(campusId) {
   const registry = TRI_CAMPUS_REGISTRIES[campusId];
@@ -385,6 +387,19 @@ export const UNIVERSITIES = [
       },
     ],
   },
+  {
+    id: "mcgill",
+    name: "McGill University",
+    shortName: "McGill",
+    defaultCampus: "mcgill-downtown",
+    campuses: [
+      {
+        id: "mcgill-downtown",
+        name: "Downtown Campus",
+        shortName: "McGill Downtown",
+      },
+    ],
+  },
 ];
 
 export const CAMPUSES = {
@@ -518,6 +533,19 @@ export const CAMPUSES = {
     }),
     tileZoom: 16,
   },
+  "mcgill-downtown": {
+    id: "mcgill-downtown",
+    universityId: "mcgill",
+    shortName: "McGill Downtown",
+    name: "McGill University Downtown Campus",
+    bounds: boundsFromFeatures(MCGILL_FOOTPRINTS, {
+      minLon: mcgillCampus.campus.bounds[0][0],
+      maxLon: mcgillCampus.campus.bounds[1][0],
+      minLat: mcgillCampus.campus.bounds[0][1],
+      maxLat: mcgillCampus.campus.bounds[1][1],
+    }),
+    tileZoom: 16,
+  },
 };
 
 export const CAMPUS_IDS = Object.keys(CAMPUSES);
@@ -571,6 +599,8 @@ export function canonicalBuildingsForCampus(campusId) {
     return universityBuildings(ubcCampus, "ubc-vancouver");
   if (campusId === "waterloo-main")
     return universityBuildings(waterlooCampus, "waterloo-main");
+  if (campusId === "mcgill-downtown")
+    return universityBuildings(mcgillCampus, "mcgill-downtown");
   return [];
 }
 
@@ -590,6 +620,7 @@ export function canonicalFootprintsForCampus(campusId) {
   if (campusId === "brock") return BROCK_FOOTPRINTS;
   if (campusId === "ubc-vancouver") return UBC_FOOTPRINTS;
   if (campusId === "waterloo-main") return WATERLOO_FOOTPRINTS;
+  if (campusId === "mcgill-downtown") return MCGILL_FOOTPRINTS;
   return [];
 }
 
@@ -608,6 +639,7 @@ export function canonicalEntrancesForCampus(campusId) {
   if (campusId === "brock") return universityEntrances(brockCampus);
   if (campusId === "ubc-vancouver") return universityEntrances(ubcCampus);
   if (campusId === "waterloo-main") return universityEntrances(waterlooCampus);
+  if (campusId === "mcgill-downtown") return universityEntrances(mcgillCampus);
   return [];
 }
 

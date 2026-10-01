@@ -1,8 +1,8 @@
 # Public distribution contract
 
-Gapwise Data maintains canonical campus models across 13 supported universities (15 campus models) under `universities/<id>/campus.json`. Applications can discover them programmatically via the public API at `https://api.gapwise.ca/v1/universities` and `https://api.gapwise.ca/v1/campuses`.
+Gapwise Data maintains canonical campus models across 14 universities (16 campus models) under `universities/<id>/campus.json`. Applications can discover released product support programmatically via the public API at `https://api.gapwise.ca/v1/universities` and `https://api.gapwise.ca/v1/campuses`.
 
-In addition, `data/utm` is the canonical UTM raw distribution subtree. A production build copies that validated tree to `https://data.gapwise.ca/datasets/utm/latest/` and generates `manifest.json` with SHA-256 hashes and byte sizes. Additional university models, including UBC Vancouver and Waterloo Main Campus, remain canonical repository data with dedicated campus models.
+In addition, `data/utm` is the canonical UTM raw distribution subtree. A production build copies that validated tree to `https://data.gapwise.ca/datasets/utm/latest/` and generates `manifest.json` with SHA-256 hashes and byte sizes. Additional university models, including UBC Vancouver, Waterloo Main Campus, and McGill Downtown Campus, remain canonical repository data with dedicated campus models.
 
 This is a distribution surface, not a runtime dependency of Gapwise. The web app and public API ship with a tested snapshot so a Data-site outage does not break student routing.
 
