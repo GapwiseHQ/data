@@ -553,10 +553,17 @@ export const CAMPUS_IDS = Object.keys(CAMPUSES);
 export function campusFromQuery() {
   const params = new URLSearchParams(window.location.search);
   const requestedCampus = params.get("campus")?.toLowerCase();
-  if (requestedCampus && CAMPUSES[requestedCampus]) {
-    return requestedCampus;
-  }
   const requestedUni = params.get("university")?.toLowerCase();
+  if (requestedCampus) {
+    if (requestedCampus === "keele") return "york";
+    if (requestedCampus === "waterloo" && requestedUni === "laurier") return "laurier";
+    if (requestedCampus === "waterloo") return "waterloo-main";
+    if (requestedCampus === "ubc") return "ubc-vancouver";
+    if (requestedCampus === "mcgill") return "mcgill-downtown";
+    if (CAMPUSES[requestedCampus]) {
+      return requestedCampus;
+    }
+  }
   if (requestedUni) {
     const uni = UNIVERSITIES.find((u) => u.id === requestedUni);
     if (uni) return uni.defaultCampus;
