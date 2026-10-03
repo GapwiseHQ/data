@@ -4,7 +4,7 @@
 
 # Gapwise Data
 
-### Canada's largest free and open multi-university campus navigation dataset.
+### North America’s largest free and open multi-university campus navigation dataset.
 
 **A free and open multi-university campus navigation dataset: auditable building identity, footprints, source-classified entrances, pedestrian routes, provenance, schemas, and open contribution tooling across Canadian universities.**
 
@@ -167,7 +167,7 @@ It verifies, among other things:
 | **[`android`](https://github.com/GapwiseHQ/android)** | Native Kotlin + Jetpack Compose Android client                                                                                      | Android app                                                                    |
 | **[`ios`](https://github.com/GapwiseHQ/ios)**         | Native Swift + SwiftUI iOS client                                                                                                   | iOS app                                                                        |
 | **[`ai`](https://github.com/GapwiseHQ/ai)**           | OAuth/MCP layer for explicitly delegated student context and bounded actions                                                        | [ai.gapwise.ca](https://ai.gapwise.ca)                                         |
-| **[`data`](https://github.com/GapwiseHQ/data)**       | **Canonical public multi-university campus data, provenance, schemas, validation, and distribution across 13 Canadian universities** | [data.gapwise.ca](https://data.gapwise.ca)                                     |
+| **[`data`](https://github.com/GapwiseHQ/data)**       | **Canonical public multi-university campus data, provenance, schemas, validation, and distribution across 14 universities and 16 campuses** | [data.gapwise.ca](https://data.gapwise.ca)                                     |
 | **[`docs`](https://github.com/GapwiseHQ/docs)**       | Canonical public developer documentation                                                                                            | [docs.gapwise.ca](https://docs.gapwise.ca)                                     |
 | **[`status`](https://github.com/GapwiseHQ/status)**   | Independent service-health monitoring and incident communication                                                                    | [status.gapwise.ca](https://status.gapwise.ca)                                 |
 
