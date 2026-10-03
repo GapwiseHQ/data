@@ -17,25 +17,25 @@
   },
   "sources": [
     {
-      "id": "src-waterloo-cambridge",
-      "title": "Waterloo School of Architecture Directory",
-      "url": "https://uwaterloo.ca/architecture/",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "waterloo-arch-main",
-      "name": "School of Architecture Building",
+      "id": "waterloo-dickson-centre",
+      "name": "Dickson Centre",
       "nativeCodes": [
-        "ARC"
+        "DC"
       ],
       "aliases": [
-        "School of Architecture Building"
+        "Dickson Centre"
       ],
       "category": "academic",
       "geometry": {
@@ -43,44 +43,1661 @@
         "coordinates": [
           [
             [
-              -80.31785,
-              43.35875
+              -80.3194168,
+              43.3629258
             ],
             [
-              -80.31715,
-              43.35875
+              -80.3189967,
+              43.3629432
             ],
             [
-              -80.31715,
-              43.35925
+              -80.3190491,
+              43.3636105
             ],
             [
-              -80.31785,
-              43.35925
+              -80.3193245,
+              43.363599
             ],
             [
-              -80.31785,
-              43.35875
+              -80.3193279,
+              43.3636423
+            ],
+            [
+              -80.3194727,
+              43.3636363
+            ],
+            [
+              -80.3194168,
+              43.3629258
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "waterloo-arch-main",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68125885",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "waterloo-design-studios",
-      "name": "Grand River Design Studios",
+      "id": "waterloo-central-presbyterian-church",
+      "name": "Central Presbyterian Church",
       "nativeCodes": [
-        "GRDS"
+        "CPC"
       ],
       "aliases": [
-        "Grand River Design Studios"
+        "Central Presbyterian Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3167103,
+              43.35916
+            ],
+            [
+              -80.3164551,
+              43.3591565
+            ],
+            [
+              -80.3164387,
+              43.3597807
+            ],
+            [
+              -80.3166577,
+              43.3597837
+            ],
+            [
+              -80.3166597,
+              43.3597061
+            ],
+            [
+              -80.3165703,
+              43.3597049
+            ],
+            [
+              -80.3165746,
+              43.3595423
+            ],
+            [
+              -80.3167002,
+              43.359544
+            ],
+            [
+              -80.3167103,
+              43.35916
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68125933",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-cambridge-public-library-queen-s-square",
+      "name": "Cambridge Public Library - Queen's Square",
+      "nativeCodes": [
+        "CPLQSS"
+      ],
+      "aliases": [
+        "Cambridge Public Library - Queen's Square"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3181941,
+              43.3593046
+            ],
+            [
+              -80.3178091,
+              43.359304
+            ],
+            [
+              -80.3178082,
+              43.3595826
+            ],
+            [
+              -80.3179119,
+              43.3595828
+            ],
+            [
+              -80.3179117,
+              43.3596557
+            ],
+            [
+              -80.3181852,
+              43.3596562
+            ],
+            [
+              -80.3181855,
+              43.3595816
+            ],
+            [
+              -80.3182022,
+              43.3595816
+            ],
+            [
+              -80.3182024,
+              43.3595198
+            ],
+            [
+              -80.3183105,
+              43.35952
+            ],
+            [
+              -80.3183103,
+              43.3595803
+            ],
+            [
+              -80.318555,
+              43.3595807
+            ],
+            [
+              -80.3185559,
+              43.3593021
+            ],
+            [
+              -80.3183126,
+              43.3593017
+            ],
+            [
+              -80.3183125,
+              43.3593405
+            ],
+            [
+              -80.318194,
+              43.3593403
+            ],
+            [
+              -80.3181941,
+              43.3593046
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68125937",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-southworks-antiques",
+      "name": "Southworks Antiques",
+      "nativeCodes": [
+        "SA"
+      ],
+      "aliases": [
+        "Southworks Antiques"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.31456,
+              43.3615571
+            ],
+            [
+              -80.3145622,
+              43.3614766
+            ],
+            [
+              -80.3147854,
+              43.361478
+            ],
+            [
+              -80.3148972,
+              43.3615607
+            ],
+            [
+              -80.3149,
+              43.3614913
+            ],
+            [
+              -80.3151101,
+              43.3613444
+            ],
+            [
+              -80.3151135,
+              43.3612037
+            ],
+            [
+              -80.3147075,
+              43.3611998
+            ],
+            [
+              -80.3147099,
+              43.3610448
+            ],
+            [
+              -80.3146429,
+              43.3610434
+            ],
+            [
+              -80.3146055,
+              43.3610426
+            ],
+            [
+              -80.3145799,
+              43.361042
+            ],
+            [
+              -80.3142568,
+              43.3610352
+            ],
+            [
+              -80.3141722,
+              43.3610334
+            ],
+            [
+              -80.3141618,
+              43.3610331
+            ],
+            [
+              -80.3141618,
+              43.3611697
+            ],
+            [
+              -80.3142001,
+              43.3611998
+            ],
+            [
+              -80.3141986,
+              43.3612306
+            ],
+            [
+              -80.3141979,
+              43.3612428
+            ],
+            [
+              -80.3141885,
+              43.3613998
+            ],
+            [
+              -80.3143623,
+              43.3614015
+            ],
+            [
+              -80.31456,
+              43.3615571
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68125958",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-knox-s-galt-presbyterian-church",
+      "name": "Knox's Galt Presbyterian Church",
+      "nativeCodes": [
+        "KSGPC"
+      ],
+      "aliases": [
+        "Knox's Galt Presbyterian Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3185827,
+              43.3584058
+            ],
+            [
+              -80.318297,
+              43.3583927
+            ],
+            [
+              -80.318295,
+              43.3584795
+            ],
+            [
+              -80.3179201,
+              43.3584751
+            ],
+            [
+              -80.3179155,
+              43.3586559
+            ],
+            [
+              -80.3183372,
+              43.3586677
+            ],
+            [
+              -80.3183372,
+              43.3587096
+            ],
+            [
+              -80.318529,
+              43.3587159
+            ],
+            [
+              -80.3185552,
+              43.3587086
+            ],
+            [
+              -80.3185666,
+              43.3586925
+            ],
+            [
+              -80.3185793,
+              43.3586789
+            ],
+            [
+              -80.3185827,
+              43.3584058
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68126128",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-food-basics",
+      "name": "Food Basics",
+      "nativeCodes": [
+        "FB"
+      ],
+      "aliases": [
+        "Food Basics"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3151375,
+              43.3620717
+            ],
+            [
+              -80.3142594,
+              43.3621132
+            ],
+            [
+              -80.314279,
+              43.3623323
+            ],
+            [
+              -80.3142988,
+              43.3625543
+            ],
+            [
+              -80.3145165,
+              43.362544
+            ],
+            [
+              -80.3145176,
+              43.3625568
+            ],
+            [
+              -80.3149583,
+              43.362536
+            ],
+            [
+              -80.3149552,
+              43.3625006
+            ],
+            [
+              -80.3151749,
+              43.3624902
+            ],
+            [
+              -80.3151375,
+              43.3620717
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68126141",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-dickson-public-school",
+      "name": "Dickson Public School",
+      "nativeCodes": [
+        "DPS"
+      ],
+      "aliases": [
+        "Dickson Public School"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3204748,
+              43.3552838
+            ],
+            [
+              -80.320471,
+              43.3555084
+            ],
+            [
+              -80.3207339,
+              43.3555107
+            ],
+            [
+              -80.3207377,
+              43.3552862
+            ],
+            [
+              -80.3204748,
+              43.3552838
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68126220",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-university-of-waterloo-school-of-architecture",
+      "name": "University of Waterloo School of Architecture",
+      "nativeCodes": [
+        "UWSA"
+      ],
+      "aliases": [
+        "University of Waterloo School of Architecture"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3168909,
+              43.3576998
+            ],
+            [
+              -80.3166577,
+              43.3576942
+            ],
+            [
+              -80.3166473,
+              43.357925
+            ],
+            [
+              -80.3165396,
+              43.3579224
+            ],
+            [
+              -80.3165331,
+              43.3580657
+            ],
+            [
+              -80.3164956,
+              43.3580648
+            ],
+            [
+              -80.3164904,
+              43.3581809
+            ],
+            [
+              -80.3163921,
+              43.3581786
+            ],
+            [
+              -80.3163762,
+              43.3585291
+            ],
+            [
+              -80.3168533,
+              43.3585405
+            ],
+            [
+              -80.3168595,
+              43.3584035
+            ],
+            [
+              -80.316554,
+              43.3583962
+            ],
+            [
+              -80.3165575,
+              43.3583199
+            ],
+            [
+              -80.3168625,
+              43.3583272
+            ],
+            [
+              -80.3168909,
+              43.3576998
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68126301",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-galt-town-hall",
+      "name": "Galt Town Hall",
+      "nativeCodes": [
+        "GTH"
+      ],
+      "aliases": [
+        "Galt Town Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3127504,
+              43.3599518
+            ],
+            [
+              -80.3126741,
+              43.3599511
+            ],
+            [
+              -80.3126734,
+              43.3599883
+            ],
+            [
+              -80.3125879,
+              43.3599875
+            ],
+            [
+              -80.3125862,
+              43.3600813
+            ],
+            [
+              -80.312574,
+              43.3600812
+            ],
+            [
+              -80.3125728,
+              43.3601448
+            ],
+            [
+              -80.3125831,
+              43.3601449
+            ],
+            [
+              -80.3125814,
+              43.3602359
+            ],
+            [
+              -80.3128284,
+              43.3602384
+            ],
+            [
+              -80.3128302,
+              43.3601455
+            ],
+            [
+              -80.3128395,
+              43.3601456
+            ],
+            [
+              -80.3128407,
+              43.3600844
+            ],
+            [
+              -80.3128326,
+              43.3600843
+            ],
+            [
+              -80.3128343,
+              43.3599925
+            ],
+            [
+              -80.3127497,
+              43.3599917
+            ],
+            [
+              -80.3127504,
+              43.3599518
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68153158",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-wesley-united-church",
+      "name": "Wesley United Church",
+      "nativeCodes": [
+        "WUC"
+      ],
+      "aliases": [
+        "Wesley United Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3133066,
+              43.3604686
+            ],
+            [
+              -80.3130017,
+              43.3604607
+            ],
+            [
+              -80.3130029,
+              43.3604366
+            ],
+            [
+              -80.3129472,
+              43.3604352
+            ],
+            [
+              -80.312946,
+              43.3604592
+            ],
+            [
+              -80.3128481,
+              43.3604567
+            ],
+            [
+              -80.3128318,
+              43.3607885
+            ],
+            [
+              -80.3128441,
+              43.3607888
+            ],
+            [
+              -80.312843,
+              43.3608114
+            ],
+            [
+              -80.3130614,
+              43.3608171
+            ],
+            [
+              -80.3130704,
+              43.3606327
+            ],
+            [
+              -80.3132983,
+              43.3606386
+            ],
+            [
+              -80.3133066,
+              43.3604686
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68153314",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-barnacle-bill-s-fish-chips",
+      "name": "Barnacle Bill's Fish & Chips",
+      "nativeCodes": [
+        "BBSFC"
+      ],
+      "aliases": [
+        "Barnacle Bill's Fish & Chips"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3174164,
+              43.3564482
+            ],
+            [
+              -80.3171857,
+              43.3564482
+            ],
+            [
+              -80.3171858,
+              43.3563529
+            ],
+            [
+              -80.3172962,
+              43.3563529
+            ],
+            [
+              -80.3172962,
+              43.3563013
+            ],
+            [
+              -80.3173735,
+              43.3563014
+            ],
+            [
+              -80.3173734,
+              43.3563384
+            ],
+            [
+              -80.3174164,
+              43.3563384
+            ],
+            [
+              -80.3174164,
+              43.3564482
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/170244104",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-cambridge-farmer-s-market",
+      "name": "Cambridge Farmer's Market",
+      "nativeCodes": [
+        "CFSM"
+      ],
+      "aliases": [
+        "Cambridge Farmer's Market"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3134771,
+              43.3603881
+            ],
+            [
+              -80.3133122,
+              43.3603865
+            ],
+            [
+              -80.3133192,
+              43.3599931
+            ],
+            [
+              -80.3134842,
+              43.3599946
+            ],
+            [
+              -80.3134771,
+              43.3603881
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/204738885",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-cambridge-armoury",
+      "name": "Cambridge Armoury",
+      "nativeCodes": [
+        "CA"
+      ],
+      "aliases": [
+        "Cambridge Armoury"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3133282,
+              43.3581241
+            ],
+            [
+              -80.3132473,
+              43.3581084
+            ],
+            [
+              -80.3132507,
+              43.3580993
+            ],
+            [
+              -80.3131568,
+              43.358081
+            ],
+            [
+              -80.3131549,
+              43.358086
+            ],
+            [
+              -80.3126801,
+              43.3579939
+            ],
+            [
+              -80.3127628,
+              43.3577664
+            ],
+            [
+              -80.3132503,
+              43.3578628
+            ],
+            [
+              -80.3132477,
+              43.3578698
+            ],
+            [
+              -80.313326,
+              43.3578851
+            ],
+            [
+              -80.3133293,
+              43.3578762
+            ],
+            [
+              -80.3134137,
+              43.3578927
+            ],
+            [
+              -80.3133919,
+              43.3579521
+            ],
+            [
+              -80.3133762,
+              43.3579491
+            ],
+            [
+              -80.3133549,
+              43.3580073
+            ],
+            [
+              -80.3133335,
+              43.3580656
+            ],
+            [
+              -80.3133487,
+              43.3580685
+            ],
+            [
+              -80.3133282,
+              43.3581241
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/254448482",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-trinity-united-church",
+      "name": "Trinity United Church",
+      "nativeCodes": [
+        "TUC"
+      ],
+      "aliases": [
+        "Trinity United Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.316674,
+              43.3611661
+            ],
+            [
+              -80.3168479,
+              43.3611593
+            ],
+            [
+              -80.3168499,
+              43.3611868
+            ],
+            [
+              -80.3169165,
+              43.3611842
+            ],
+            [
+              -80.3169182,
+              43.3612073
+            ],
+            [
+              -80.3170154,
+              43.3612035
+            ],
+            [
+              -80.3170163,
+              43.3612163
+            ],
+            [
+              -80.3170668,
+              43.3612143
+            ],
+            [
+              -80.317069,
+              43.3612435
+            ],
+            [
+              -80.3171379,
+              43.3612408
+            ],
+            [
+              -80.3171286,
+              43.3611133
+            ],
+            [
+              -80.3170444,
+              43.3611165
+            ],
+            [
+              -80.3170366,
+              43.3610111
+            ],
+            [
+              -80.317109,
+              43.3610083
+            ],
+            [
+              -80.3171029,
+              43.3609255
+            ],
+            [
+              -80.3170088,
+              43.3609291
+            ],
+            [
+              -80.3170062,
+              43.3608928
+            ],
+            [
+              -80.3169135,
+              43.3608964
+            ],
+            [
+              -80.3169163,
+              43.3609342
+            ],
+            [
+              -80.316817,
+              43.3609381
+            ],
+            [
+              -80.316807,
+              43.3608011
+            ],
+            [
+              -80.3166477,
+              43.3608073
+            ],
+            [
+              -80.316674,
+              43.3611661
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/317752006",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-saint-paul-s-lutheran-church",
+      "name": "Saint Paul's Lutheran Church",
+      "nativeCodes": [
+        "SPSLC"
+      ],
+      "aliases": [
+        "Saint Paul's Lutheran Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3173428,
+              43.3617224
+            ],
+            [
+              -80.3173388,
+              43.3618044
+            ],
+            [
+              -80.3173123,
+              43.3618034
+            ],
+            [
+              -80.3173133,
+              43.3617586
+            ],
+            [
+              -80.3172878,
+              43.3617722
+            ],
+            [
+              -80.3172228,
+              43.3617703
+            ],
+            [
+              -80.3172248,
+              43.3617561
+            ],
+            [
+              -80.3170561,
+              43.3617513
+            ],
+            [
+              -80.3170839,
+              43.3618976
+            ],
+            [
+              -80.3169375,
+              43.3619143
+            ],
+            [
+              -80.3169096,
+              43.3617717
+            ],
+            [
+              -80.3169532,
+              43.3617656
+            ],
+            [
+              -80.3169552,
+              43.3617098
+            ],
+            [
+              -80.3169723,
+              43.3617108
+            ],
+            [
+              -80.3169747,
+              43.3616772
+            ],
+            [
+              -80.3169837,
+              43.3616586
+            ],
+            [
+              -80.3170089,
+              43.3616411
+            ],
+            [
+              -80.3170511,
+              43.3616286
+            ],
+            [
+              -80.3170544,
+              43.3616041
+            ],
+            [
+              -80.3173216,
+              43.3616129
+            ],
+            [
+              -80.3173627,
+              43.3616866
+            ],
+            [
+              -80.3173428,
+              43.3617224
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/337489347",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-17-cambridge-street",
+      "name": "17 Cambridge Street",
+      "nativeCodes": [
+        "1CS"
+      ],
+      "aliases": [
+        "17 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3124629,
+              43.3613992
+            ],
+            [
+              -80.3120615,
+              43.3613925
+            ],
+            [
+              -80.3120647,
+              43.3612904
+            ],
+            [
+              -80.3124071,
+              43.3612961
+            ],
+            [
+              -80.3124067,
+              43.361308
+            ],
+            [
+              -80.3124658,
+              43.361309
+            ],
+            [
+              -80.3124629,
+              43.3613992
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424428494",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-19-cambridge-street",
+      "name": "19 Cambridge Street",
+      "nativeCodes": [
+        "19"
+      ],
+      "aliases": [
+        "19 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.312522,
+              43.3615737
+            ],
+            [
+              -80.3120159,
+              43.361567
+            ],
+            [
+              -80.3120171,
+              43.3615213
+            ],
+            [
+              -80.3120783,
+              43.3615221
+            ],
+            [
+              -80.3120798,
+              43.3614608
+            ],
+            [
+              -80.3125247,
+              43.3614667
+            ],
+            [
+              -80.312522,
+              43.3615737
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424428495",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-saints-martyrs-canadiens-parish",
+      "name": "Saints Martyrs Canadiens Parish",
+      "nativeCodes": [
+        "SMCP"
+      ],
+      "aliases": [
+        "Saints Martyrs Canadiens Parish"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3131018,
+              43.3617068
+            ],
+            [
+              -80.3131071,
+              43.3615702
+            ],
+            [
+              -80.3131981,
+              43.3615721
+            ],
+            [
+              -80.3131993,
+              43.3615397
+            ],
+            [
+              -80.3131836,
+              43.3615394
+            ],
+            [
+              -80.313185,
+              43.3615029
+            ],
+            [
+              -80.313195,
+              43.3615031
+            ],
+            [
+              -80.313196,
+              43.3614786
+            ],
+            [
+              -80.3132141,
+              43.361479
+            ],
+            [
+              -80.3132161,
+              43.361428
+            ],
+            [
+              -80.3132076,
+              43.3614279
+            ],
+            [
+              -80.3132092,
+              43.3613866
+            ],
+            [
+              -80.3131282,
+              43.3613849
+            ],
+            [
+              -80.3131307,
+              43.3613211
+            ],
+            [
+              -80.3132117,
+              43.3613228
+            ],
+            [
+              -80.3132121,
+              43.3613136
+            ],
+            [
+              -80.3133379,
+              43.3613162
+            ],
+            [
+              -80.313333,
+              43.3614431
+            ],
+            [
+              -80.3134138,
+              43.3614447
+            ],
+            [
+              -80.3134062,
+              43.3616401
+            ],
+            [
+              -80.3134037,
+              43.3617038
+            ],
+            [
+              -80.3132412,
+              43.3617005
+            ],
+            [
+              -80.3132408,
+              43.3617096
+            ],
+            [
+              -80.3131018,
+              43.3617068
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424428496",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-12-cambridge-street",
+      "name": "12 Cambridge Street",
+      "nativeCodes": [
+        "12"
+      ],
+      "aliases": [
+        "12 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3129824,
+              43.3613341
+            ],
+            [
+              -80.3128417,
+              43.3613331
+            ],
+            [
+              -80.3128444,
+              43.3611285
+            ],
+            [
+              -80.312887,
+              43.3611288
+            ],
+            [
+              -80.3128875,
+              43.3610878
+            ],
+            [
+              -80.3128458,
+              43.3610875
+            ],
+            [
+              -80.3128472,
+              43.3609755
+            ],
+            [
+              -80.3129601,
+              43.3609763
+            ],
+            [
+              -80.3129587,
+              43.361081
+            ],
+            [
+              -80.3129728,
+              43.3610811
+            ],
+            [
+              -80.3129721,
+              43.3611294
+            ],
+            [
+              -80.312985,
+              43.3611294
+            ],
+            [
+              -80.3129824,
+              43.3613341
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424428497",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-martial-arts-centre",
+      "name": "Martial Arts Centre",
+      "nativeCodes": [
+        "MAC"
+      ],
+      "aliases": [
+        "Martial Arts Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3139587,
+              43.3611097
+            ],
+            [
+              -80.3138471,
+              43.3611086
+            ],
+            [
+              -80.3138474,
+              43.3610914
+            ],
+            [
+              -80.3136405,
+              43.3610893
+            ],
+            [
+              -80.3136406,
+              43.3610816
+            ],
+            [
+              -80.3136422,
+              43.3609965
+            ],
+            [
+              -80.3136852,
+              43.360997
+            ],
+            [
+              -80.3139525,
+              43.3609997
+            ],
+            [
+              -80.3139608,
+              43.3609998
+            ],
+            [
+              -80.3139587,
+              43.3611097
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424428659",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-lions-clubs-international",
+      "name": "Lions Clubs International",
+      "nativeCodes": [
+        "LCI"
+      ],
+      "aliases": [
+        "Lions Clubs International"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3139726,
+              43.3604585
+            ],
+            [
+              -80.3139693,
+              43.3605973
+            ],
+            [
+              -80.3137252,
+              43.3605943
+            ],
+            [
+              -80.3137298,
+              43.3604537
+            ],
+            [
+              -80.3139726,
+              43.3604585
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424428747",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-reid-candy-nut-shop",
+      "name": "Reid Candy & Nut Shop",
+      "nativeCodes": [
+        "RCNS"
+      ],
+      "aliases": [
+        "Reid Candy & Nut Shop"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3138796,
+              43.3603815
+            ],
+            [
+              -80.3138807,
+              43.3603434
+            ],
+            [
+              -80.3139576,
+              43.3603446
+            ],
+            [
+              -80.3139585,
+              43.3603136
+            ],
+            [
+              -80.313963,
+              43.3601922
+            ],
+            [
+              -80.3136746,
+              43.3601882
+            ],
+            [
+              -80.3136692,
+              43.3603783
+            ],
+            [
+              -80.3138796,
+              43.3603815
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424428900",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-26-ainslie-street-south",
+      "name": "26 Ainslie Street South",
+      "nativeCodes": [
+        "2ASS"
+      ],
+      "aliases": [
+        "26 Ainslie Street South"
       ],
       "category": "residence",
       "geometry": {
@@ -88,44 +1705,288 @@
         "coordinates": [
           [
             [
-              -80.31685,
-              43.35925
+              -80.3144091,
+              43.3579361
             ],
             [
-              -80.31615,
-              43.35925
+              -80.3138857,
+              43.3578965
             ],
             [
-              -80.31615,
-              43.35975
+              -80.3139071,
+              43.3577466
             ],
             [
-              -80.31685,
-              43.35975
+              -80.3144306,
+              43.3577861
             ],
             [
-              -80.31685,
-              43.35925
+              -80.3144091,
+              43.3579361
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "waterloo-design-studios",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424429169",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "waterloo-digital-fab",
-      "name": "Digital Fabrication Centre",
+      "id": "waterloo-monigram-coffee-roasters",
+      "name": "Monigram Coffee Roasters",
       "nativeCodes": [
-        "DFC"
+        "MCR"
       ],
       "aliases": [
-        "Digital Fabrication Centre"
+        "Monigram Coffee Roasters"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3142075,
+              43.3582343
+            ],
+            [
+              -80.3138018,
+              43.3582261
+            ],
+            [
+              -80.3138018,
+              43.3581437
+            ],
+            [
+              -80.3142143,
+              43.3581552
+            ],
+            [
+              -80.3142075,
+              43.3582343
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424429171",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-40-ainslie-street-south",
+      "name": "40 Ainslie Street South",
+      "nativeCodes": [
+        "4ASS"
+      ],
+      "aliases": [
+        "40 Ainslie Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3141281,
+              43.3573908
+            ],
+            [
+              -80.3139068,
+              43.3573707
+            ],
+            [
+              -80.3139301,
+              43.3571949
+            ],
+            [
+              -80.3140558,
+              43.3572122
+            ],
+            [
+              -80.3140946,
+              43.3572172
+            ],
+            [
+              -80.3143182,
+              43.3572498
+            ],
+            [
+              -80.3143001,
+              43.3573565
+            ],
+            [
+              -80.3141368,
+              43.3573428
+            ],
+            [
+              -80.3141281,
+              43.3573908
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424429330",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-water-street-auto-ltd",
+      "name": "Water Street Auto Ltd",
+      "nativeCodes": [
+        "WSAL"
+      ],
+      "aliases": [
+        "Water Street Auto Ltd"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3148465,
+              43.3567563
+            ],
+            [
+              -80.3148475,
+              43.356608
+            ],
+            [
+              -80.3153347,
+              43.3566097
+            ],
+            [
+              -80.3153337,
+              43.356758
+            ],
+            [
+              -80.3148465,
+              43.3567563
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424429515",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-54-ainslie-street-south",
+      "name": "54 Ainslie Street South",
+      "nativeCodes": [
+        "5ASS"
+      ],
+      "aliases": [
+        "54 Ainslie Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3144547,
+              43.3566963
+            ],
+            [
+              -80.3143945,
+              43.3566947
+            ],
+            [
+              -80.3143922,
+              43.3567424
+            ],
+            [
+              -80.3143562,
+              43.3567415
+            ],
+            [
+              -80.3143558,
+              43.3567503
+            ],
+            [
+              -80.3142972,
+              43.3567488
+            ],
+            [
+              -80.3142968,
+              43.3567578
+            ],
+            [
+              -80.3142732,
+              43.3567572
+            ],
+            [
+              -80.3142748,
+              43.356724
+            ],
+            [
+              -80.3142668,
+              43.3567238
+            ],
+            [
+              -80.3142684,
+              43.3566915
+            ],
+            [
+              -80.3140302,
+              43.3566854
+            ],
+            [
+              -80.3140551,
+              43.3565342
+            ],
+            [
+              -80.3146433,
+              43.3565492
+            ],
+            [
+              -80.3146388,
+              43.3566424
+            ],
+            [
+              -80.3144575,
+              43.3566378
+            ],
+            [
+              -80.3144547,
+              43.3566963
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/424429516",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-cambridge-city-hall",
+      "name": "Cambridge City Hall",
+      "nativeCodes": [
+        "CCH"
+      ],
+      "aliases": [
+        "Cambridge City Hall"
       ],
       "category": "academic",
       "geometry": {
@@ -133,44 +1994,347 @@
         "coordinates": [
           [
             [
-              -80.31885,
-              43.35825
+              -80.3125693,
+              43.3606132
             ],
             [
-              -80.31815,
-              43.35825
+              -80.3123222,
+              43.3606079
             ],
             [
-              -80.31815,
-              43.35875
+              -80.3123214,
+              43.3606002
             ],
             [
-              -80.31885,
-              43.35875
+              -80.31175,
+              43.3605904
             ],
             [
-              -80.31885,
-              43.35825
+              -80.3117513,
+              43.3605409
+            ],
+            [
+              -80.3115636,
+              43.3605386
+            ],
+            [
+              -80.3115647,
+              43.3604308
+            ],
+            [
+              -80.3120038,
+              43.3604387
+            ],
+            [
+              -80.3120029,
+              43.3603663
+            ],
+            [
+              -80.3119666,
+              43.3603662
+            ],
+            [
+              -80.3119662,
+              43.3602548
+            ],
+            [
+              -80.3125583,
+              43.3602657
+            ],
+            [
+              -80.3125565,
+              43.360375
+            ],
+            [
+              -80.3124771,
+              43.360373
+            ],
+            [
+              -80.3124763,
+              43.3604439
+            ],
+            [
+              -80.3125152,
+              43.3604449
+            ],
+            [
+              -80.3125062,
+              43.360566
+            ],
+            [
+              -80.3125704,
+              43.3605657
+            ],
+            [
+              -80.3125693,
+              43.3606132
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "waterloo-digital-fab",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/429085526",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "waterloo-musagetes-lib",
-      "name": "Musagetes Architecture Library",
+      "id": "waterloo-canada-post",
+      "name": "Canada Post",
       "nativeCodes": [
-        "MAL"
+        "CP"
       ],
       "aliases": [
-        "Musagetes Architecture Library"
+        "Canada Post"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3151767,
+              43.3602602
+            ],
+            [
+              -80.3148929,
+              43.3602587
+            ],
+            [
+              -80.3148753,
+              43.3602433
+            ],
+            [
+              -80.3146238,
+              43.3602447
+            ],
+            [
+              -80.3146259,
+              43.3601807
+            ],
+            [
+              -80.3146297,
+              43.3600663
+            ],
+            [
+              -80.3147117,
+              43.3600669
+            ],
+            [
+              -80.3147124,
+              43.3600192
+            ],
+            [
+              -80.3148821,
+              43.3600205
+            ],
+            [
+              -80.3148821,
+              43.3600167
+            ],
+            [
+              -80.3149335,
+              43.3600171
+            ],
+            [
+              -80.3149335,
+              43.3600206
+            ],
+            [
+              -80.3151223,
+              43.3600225
+            ],
+            [
+              -80.3151335,
+              43.3600139
+            ],
+            [
+              -80.3151728,
+              43.3600144
+            ],
+            [
+              -80.3151878,
+              43.3600248
+            ],
+            [
+              -80.3151878,
+              43.360057
+            ],
+            [
+              -80.3151786,
+              43.360063
+            ],
+            [
+              -80.3151767,
+              43.3602602
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/440522699",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-wispers-day-spa",
+      "name": "Wispers Day Spa",
+      "nativeCodes": [
+        "WDS"
+      ],
+      "aliases": [
+        "Wispers Day Spa"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3139636,
+              43.3601557
+            ],
+            [
+              -80.313963,
+              43.3601922
+            ],
+            [
+              -80.3139585,
+              43.3603136
+            ],
+            [
+              -80.3140261,
+              43.3603146
+            ],
+            [
+              -80.3140267,
+              43.3602803
+            ],
+            [
+              -80.3142051,
+              43.3602829
+            ],
+            [
+              -80.3142115,
+              43.3599791
+            ],
+            [
+              -80.3139643,
+              43.3599764
+            ],
+            [
+              -80.3139636,
+              43.3601557
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/440522709",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-63-water-street-south",
+      "name": "63 Water Street South",
+      "nativeCodes": [
+        "6WSS"
+      ],
+      "aliases": [
+        "63 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3152643,
+              43.3562883
+            ],
+            [
+              -80.3150248,
+              43.3562841
+            ],
+            [
+              -80.3150255,
+              43.3562641
+            ],
+            [
+              -80.3149907,
+              43.3562635
+            ],
+            [
+              -80.3149926,
+              43.3562083
+            ],
+            [
+              -80.315028,
+              43.3562089
+            ],
+            [
+              -80.3150318,
+              43.3560935
+            ],
+            [
+              -80.3152172,
+              43.3560967
+            ],
+            [
+              -80.3152166,
+              43.3561142
+            ],
+            [
+              -80.3152621,
+              43.356115
+            ],
+            [
+              -80.3152589,
+              43.3562143
+            ],
+            [
+              -80.315287,
+              43.3562148
+            ],
+            [
+              -80.315285,
+              43.3562751
+            ],
+            [
+              -80.3152648,
+              43.3562748
+            ],
+            [
+              -80.3152643,
+              43.3562883
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/458951713",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-cambridge-public-library-old-post-office",
+      "name": "Cambridge Public Library - Old Post Office",
+      "nativeCodes": [
+        "CPLOPO"
+      ],
+      "aliases": [
+        "Cambridge Public Library - Old Post Office"
       ],
       "category": "academic",
       "geometry": {
@@ -178,44 +2342,1349 @@
         "coordinates": [
           [
             [
-              -80.31635,
-              43.35975
+              -80.3155833,
+              43.3584117
             ],
             [
-              -80.31565,
-              43.35975
+              -80.3155424,
+              43.3584097
             ],
             [
-              -80.31565,
-              43.36025
+              -80.315539,
+              43.358439
             ],
             [
-              -80.31635,
-              43.36025
+              -80.315529,
+              43.3584536
             ],
             [
-              -80.31635,
-              43.35975
+              -80.3155082,
+              43.3584604
+            ],
+            [
+              -80.3154894,
+              43.3584551
+            ],
+            [
+              -80.315482,
+              43.3584507
+            ],
+            [
+              -80.3154814,
+              43.35844
+            ],
+            [
+              -80.3154254,
+              43.3584375
+            ],
+            [
+              -80.315423,
+              43.3584049
+            ],
+            [
+              -80.3154264,
+              43.3583064
+            ],
+            [
+              -80.3154297,
+              43.3582596
+            ],
+            [
+              -80.3154854,
+              43.3582601
+            ],
+            [
+              -80.3154909,
+              43.3581809
+            ],
+            [
+              -80.3156539,
+              43.3581886
+            ],
+            [
+              -80.3156523,
+              43.358222
+            ],
+            [
+              -80.315543,
+              43.3582547
+            ],
+            [
+              -80.3155397,
+              43.3582635
+            ],
+            [
+              -80.315592,
+              43.3582674
+            ],
+            [
+              -80.3155833,
+              43.3584117
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "waterloo-musagetes-lib",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/611678596",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "waterloo-melville-shop",
-      "name": "Melville Fabrication Shop",
+      "id": "waterloo-cibc",
+      "name": "CIBC",
       "nativeCodes": [
-        "MFS"
+        "CIBC"
       ],
       "aliases": [
-        "Melville Fabrication Shop"
+        "CIBC"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3156655,
+              43.3588594
+            ],
+            [
+              -80.3156742,
+              43.358592
+            ],
+            [
+              -80.3156685,
+              43.3585916
+            ],
+            [
+              -80.3156727,
+              43.35851
+            ],
+            [
+              -80.3156043,
+              43.3585092
+            ],
+            [
+              -80.3156037,
+              43.3585908
+            ],
+            [
+              -80.3155163,
+              43.3585901
+            ],
+            [
+              -80.3154145,
+              43.3585897
+            ],
+            [
+              -80.3154021,
+              43.3585896
+            ],
+            [
+              -80.3153981,
+              43.3586816
+            ],
+            [
+              -80.3153943,
+              43.3588322
+            ],
+            [
+              -80.315394,
+              43.3588414
+            ],
+            [
+              -80.3153995,
+              43.3588501
+            ],
+            [
+              -80.3154102,
+              43.3588559
+            ],
+            [
+              -80.3154227,
+              43.3588574
+            ],
+            [
+              -80.3156655,
+              43.3588594
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/666472987",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-26-wentworth-avenue",
+      "name": "26 Wentworth Avenue",
+      "nativeCodes": [
+        "2WA"
+      ],
+      "aliases": [
+        "26 Wentworth Avenue"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3198245,
+              43.3600986
+            ],
+            [
+              -80.3196797,
+              43.3600147
+            ],
+            [
+              -80.3195938,
+              43.3598704
+            ],
+            [
+              -80.3194651,
+              43.3598957
+            ],
+            [
+              -80.3195348,
+              43.3600186
+            ],
+            [
+              -80.3194597,
+              43.3600693
+            ],
+            [
+              -80.3195563,
+              43.3601434
+            ],
+            [
+              -80.319626,
+              43.3601044
+            ],
+            [
+              -80.3196877,
+              43.3601298
+            ],
+            [
+              -80.319669,
+              43.3601454
+            ],
+            [
+              -80.3196985,
+              43.3601649
+            ],
+            [
+              -80.3197172,
+              43.3601493
+            ],
+            [
+              -80.3197441,
+              43.3601629
+            ],
+            [
+              -80.3198245,
+              43.3600986
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/670949178",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-63-dickson-street",
+      "name": "63 Dickson Street",
+      "nativeCodes": [
+        "6DS"
+      ],
+      "aliases": [
+        "63 Dickson Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3122233,
+              43.359797
+            ],
+            [
+              -80.312108,
+              43.359798
+            ],
+            [
+              -80.312116,
+              43.3595669
+            ],
+            [
+              -80.3122345,
+              43.3595679
+            ],
+            [
+              -80.3122233,
+              43.359797
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1105091099",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-36-water-street-south",
+      "name": "36 Water Street South",
+      "nativeCodes": [
+        "3WSS"
+      ],
+      "aliases": [
+        "36 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3156658,
+              43.3573167
+            ],
+            [
+              -80.315662,
+              43.3574611
+            ],
+            [
+              -80.3156236,
+              43.3574613
+            ],
+            [
+              -80.3156221,
+              43.3576152
+            ],
+            [
+              -80.3155017,
+              43.3576164
+            ],
+            [
+              -80.3155044,
+              43.357315
+            ],
+            [
+              -80.3156658,
+              43.3573167
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1119748959",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-27-water-street-north",
+      "name": "27 Water Street North",
+      "nativeCodes": [
+        "2WSN"
+      ],
+      "aliases": [
+        "27 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3152092,
+              43.3598377
+            ],
+            [
+              -80.3152138,
+              43.3597109
+            ],
+            [
+              -80.3149481,
+              43.3597056
+            ],
+            [
+              -80.3149437,
+              43.3598326
+            ],
+            [
+              -80.3152092,
+              43.3598377
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300009",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-8-main-street",
+      "name": "8 Main Street",
+      "nativeCodes": [
+        "8MS"
+      ],
+      "aliases": [
+        "8 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3152318,
+              43.3590361
+            ],
+            [
+              -80.315225,
+              43.359216
+            ],
+            [
+              -80.3150583,
+              43.3592126
+            ],
+            [
+              -80.3150627,
+              43.359031
+            ],
+            [
+              -80.3152318,
+              43.3590361
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300014",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-18-main-street",
+      "name": "18 Main Street",
+      "nativeCodes": [
+        "1MS"
+      ],
+      "aliases": [
+        "18 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3150627,
+              43.359031
+            ],
+            [
+              -80.3149085,
+              43.3590243
+            ],
+            [
+              -80.3148959,
+              43.3593429
+            ],
+            [
+              -80.3148937,
+              43.3593554
+            ],
+            [
+              -80.3149722,
+              43.3593564
+            ],
+            [
+              -80.3149725,
+              43.3593429
+            ],
+            [
+              -80.3150551,
+              43.359344
+            ],
+            [
+              -80.3150578,
+              43.3592307
+            ],
+            [
+              -80.3150583,
+              43.3592126
+            ],
+            [
+              -80.3150627,
+              43.359031
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300015",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-20-main-street",
+      "name": "20 Main Street",
+      "nativeCodes": [
+        "2MS"
+      ],
+      "aliases": [
+        "20 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3149085,
+              43.3590243
+            ],
+            [
+              -80.3148095,
+              43.3590222
+            ],
+            [
+              -80.3147973,
+              43.3593295
+            ],
+            [
+              -80.3148089,
+              43.3593411
+            ],
+            [
+              -80.3148959,
+              43.3593429
+            ],
+            [
+              -80.3149085,
+              43.3590243
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300016",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-28-main-street",
+      "name": "28 Main Street",
+      "nativeCodes": [
+        "28"
+      ],
+      "aliases": [
+        "28 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3146969,
+              43.3590245
+            ],
+            [
+              -80.3147817,
+              43.3590266
+            ],
+            [
+              -80.3147652,
+              43.3593825
+            ],
+            [
+              -80.3146805,
+              43.3593804
+            ],
+            [
+              -80.3146879,
+              43.3592192
+            ],
+            [
+              -80.3146969,
+              43.3590245
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300017",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-30-main-street",
+      "name": "30 Main Street",
+      "nativeCodes": [
+        "3MS"
+      ],
+      "aliases": [
+        "30 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3146879,
+              43.3592192
+            ],
+            [
+              -80.3146084,
+              43.3592177
+            ],
+            [
+              -80.3146156,
+              43.359023
+            ],
+            [
+              -80.3146969,
+              43.3590245
+            ],
+            [
+              -80.3146879,
+              43.3592192
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300018",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-34-main-street",
+      "name": "34 Main Street",
+      "nativeCodes": [
+        "34"
+      ],
+      "aliases": [
+        "34 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3146084,
+              43.3592177
+            ],
+            [
+              -80.3145275,
+              43.3592163
+            ],
+            [
+              -80.3145344,
+              43.3590211
+            ],
+            [
+              -80.3146156,
+              43.359023
+            ],
+            [
+              -80.3146084,
+              43.3592177
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300020",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-38-main-street",
+      "name": "38 Main Street",
+      "nativeCodes": [
+        "38"
+      ],
+      "aliases": [
+        "38 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3145344,
+              43.3590211
+            ],
+            [
+              -80.3145275,
+              43.3592163
+            ],
+            [
+              -80.3145236,
+              43.3594016
+            ],
+            [
+              -80.3144361,
+              43.3594005
+            ],
+            [
+              -80.3144389,
+              43.359282
+            ],
+            [
+              -80.3144449,
+              43.3590309
+            ],
+            [
+              -80.3144452,
+              43.3590188
+            ],
+            [
+              -80.3145344,
+              43.3590211
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300021",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-40-main-street",
+      "name": "40 Main Street",
+      "nativeCodes": [
+        "4MS"
+      ],
+      "aliases": [
+        "40 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3144449,
+              43.3590309
+            ],
+            [
+              -80.3143874,
+              43.35903
+            ],
+            [
+              -80.31438,
+              43.3592811
+            ],
+            [
+              -80.3144389,
+              43.359282
+            ],
+            [
+              -80.3144449,
+              43.3590309
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300022",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-bmo",
+      "name": "BMO",
+      "nativeCodes": [
+        "BMO"
+      ],
+      "aliases": [
+        "BMO"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3143874,
+              43.35903
+            ],
+            [
+              -80.3143876,
+              43.3590183
+            ],
+            [
+              -80.3141488,
+              43.3590141
+            ],
+            [
+              -80.3141384,
+              43.3593229
+            ],
+            [
+              -80.3143773,
+              43.3593271
+            ],
+            [
+              -80.31438,
+              43.3592811
+            ],
+            [
+              -80.3143874,
+              43.35903
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158300023",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-philthy-philly-s",
+      "name": "Philthy Philly's",
+      "nativeCodes": [
+        "PPS"
+      ],
+      "aliases": [
+        "Philthy Philly's"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3149279,
+              43.361042
+            ],
+            [
+              -80.3149201,
+              43.3611837
+            ],
+            [
+              -80.3150532,
+              43.3611861
+            ],
+            [
+              -80.3150543,
+              43.3611536
+            ],
+            [
+              -80.3150665,
+              43.361154
+            ],
+            [
+              -80.3150643,
+              43.3610801
+            ],
+            [
+              -80.3150738,
+              43.3610726
+            ],
+            [
+              -80.3150769,
+              43.3610628
+            ],
+            [
+              -80.3150766,
+              43.3610538
+            ],
+            [
+              -80.3150707,
+              43.3610451
+            ],
+            [
+              -80.315058,
+              43.3610378
+            ],
+            [
+              -80.3150473,
+              43.3610351
+            ],
+            [
+              -80.3150363,
+              43.3610358
+            ],
+            [
+              -80.3150253,
+              43.3610386
+            ],
+            [
+              -80.3150202,
+              43.3610416
+            ],
+            [
+              -80.3149279,
+              43.361042
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158305243",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-73-water-street-north",
+      "name": "73 Water Street North",
+      "nativeCodes": [
+        "7WSN"
+      ],
+      "aliases": [
+        "73 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.31456,
+              43.3615571
+            ],
+            [
+              -80.314553,
+              43.3617942
+            ],
+            [
+              -80.3146615,
+              43.3618754
+            ],
+            [
+              -80.3150935,
+              43.3618818
+            ],
+            [
+              -80.3151008,
+              43.3617195
+            ],
+            [
+              -80.3148972,
+              43.3615607
+            ],
+            [
+              -80.3147854,
+              43.361478
+            ],
+            [
+              -80.3145622,
+              43.3614766
+            ],
+            [
+              -80.31456,
+              43.3615571
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1158305246",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-l-a-frank-s",
+      "name": "L.A. Frank's",
+      "nativeCodes": [
+        "LAFS"
+      ],
+      "aliases": [
+        "L.A. Frank's"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3155728,
+              43.3623875
+            ],
+            [
+              -80.3154879,
+              43.3623891
+            ],
+            [
+              -80.31549,
+              43.3624465
+            ],
+            [
+              -80.3155749,
+              43.3624449
+            ],
+            [
+              -80.3155728,
+              43.3623875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1167869825",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-hamilton-family-theatre",
+      "name": "Hamilton Family Theatre",
+      "nativeCodes": [
+        "HFT"
+      ],
+      "aliases": [
+        "Hamilton Family Theatre"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3188987,
+              43.3564359
+            ],
+            [
+              -80.3179506,
+              43.3564271
+            ],
+            [
+              -80.3179542,
+              43.356222
+            ],
+            [
+              -80.3178677,
+              43.3562212
+            ],
+            [
+              -80.317869,
+              43.3561454
+            ],
+            [
+              -80.3183967,
+              43.3561501
+            ],
+            [
+              -80.3183974,
+              43.356108
+            ],
+            [
+              -80.3185633,
+              43.3561095
+            ],
+            [
+              -80.3185625,
+              43.3561582
+            ],
+            [
+              -80.3188232,
+              43.3561606
+            ],
+            [
+              -80.3188222,
+              43.3562205
+            ],
+            [
+              -80.3189025,
+              43.3562213
+            ],
+            [
+              -80.3188987,
+              43.3564359
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1185413343",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-63-water-street-north",
+      "name": "63 Water Street North",
+      "nativeCodes": [
+        "6WSN"
+      ],
+      "aliases": [
+        "63 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3150348,
+              43.360724
+            ],
+            [
+              -80.3150345,
+              43.3608736
+            ],
+            [
+              -80.3149113,
+              43.3608735
+            ],
+            [
+              -80.3149113,
+              43.3608282
+            ],
+            [
+              -80.3148431,
+              43.3608281
+            ],
+            [
+              -80.3148433,
+              43.3607393
+            ],
+            [
+              -80.3149175,
+              43.3607393
+            ],
+            [
+              -80.3149176,
+              43.3607239
+            ],
+            [
+              -80.3150348,
+              43.360724
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1186232719",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-black-badger",
+      "name": "Black Badger",
+      "nativeCodes": [
+        "BB"
+      ],
+      "aliases": [
+        "Black Badger"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3148894,
+              43.3605851
+            ],
+            [
+              -80.3148896,
+              43.3606951
+            ],
+            [
+              -80.3149524,
+              43.3606951
+            ],
+            [
+              -80.3149524,
+              43.3607005
+            ],
+            [
+              -80.3150753,
+              43.3607004
+            ],
+            [
+              -80.3150753,
+              43.3607049
+            ],
+            [
+              -80.3152053,
+              43.3607047
+            ],
+            [
+              -80.315205,
+              43.3606368
+            ],
+            [
+              -80.315077,
+              43.360637
+            ],
+            [
+              -80.3150769,
+              43.3605944
+            ],
+            [
+              -80.3150632,
+              43.3605944
+            ],
+            [
+              -80.3150632,
+              43.3605899
+            ],
+            [
+              -80.315041,
+              43.3605899
+            ],
+            [
+              -80.315041,
+              43.360585
+            ],
+            [
+              -80.3148894,
+              43.3605851
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1186232720",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-51-water-street-north",
+      "name": "51 Water Street North",
+      "nativeCodes": [
+        "5WSN"
+      ],
+      "aliases": [
+        "51 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3148195,
+              43.3605535
+            ],
+            [
+              -80.3152024,
+              43.3605549
+            ],
+            [
+              -80.3152032,
+              43.3604397
+            ],
+            [
+              -80.3149121,
+              43.3604387
+            ],
+            [
+              -80.314912,
+              43.3604556
+            ],
+            [
+              -80.3148647,
+              43.3604554
+            ],
+            [
+              -80.3148643,
+              43.3605105
+            ],
+            [
+              -80.3148198,
+              43.3605103
+            ],
+            [
+              -80.3148195,
+              43.3605535
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1186232740",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-former-carnegie-library",
+      "name": "Former Carnegie Library",
+      "nativeCodes": [
+        "FCL"
+      ],
+      "aliases": [
+        "Former Carnegie Library"
       ],
       "category": "academic",
       "geometry": {
@@ -223,500 +3692,3446 @@
         "coordinates": [
           [
             [
-              -80.31935,
-              43.35775
+              -80.3155218,
+              43.3597472
             ],
             [
-              -80.31865,
-              43.35775
+              -80.3157046,
+              43.3597487
             ],
             [
-              -80.31865,
-              43.35825
+              -80.3157244,
+              43.3599532
             ],
             [
-              -80.31935,
-              43.35825
+              -80.3155168,
+              43.3599478
             ],
             [
-              -80.31935,
-              43.35775
+              -80.3155181,
+              43.3598886
+            ],
+            [
+              -80.3154739,
+              43.359889
+            ],
+            [
+              -80.3154749,
+              43.3598072
+            ],
+            [
+              -80.3155201,
+              43.3598074
+            ],
+            [
+              -80.3155218,
+              43.3597472
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "waterloo-melville-shop",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1187369962",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-26-water-street-north",
+      "name": "26 Water Street North",
+      "nativeCodes": [
+        "26"
+      ],
+      "aliases": [
+        "26 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.315683,
+              43.3596771
+            ],
+            [
+              -80.3156675,
+              43.3595233
+            ],
+            [
+              -80.3156096,
+              43.359537
+            ],
+            [
+              -80.3154786,
+              43.3595341
+            ],
+            [
+              -80.3154674,
+              43.3595338
+            ],
+            [
+              -80.3154679,
+              43.359678
+            ],
+            [
+              -80.315683,
+              43.3596771
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1187369963",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-18-water-street-north",
+      "name": "18 Water Street North",
+      "nativeCodes": [
+        "1WSN"
+      ],
+      "aliases": [
+        "18 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3154786,
+              43.3595341
+            ],
+            [
+              -80.3154798,
+              43.3593852
+            ],
+            [
+              -80.3156613,
+              43.3593885
+            ],
+            [
+              -80.3156675,
+              43.3595233
+            ],
+            [
+              -80.3156096,
+              43.359537
+            ],
+            [
+              -80.3154786,
+              43.3595341
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1187369964",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-2-water-street-north",
+      "name": "2 Water Street North",
+      "nativeCodes": [
+        "2W"
+      ],
+      "aliases": [
+        "2 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3154997,
+              43.3591706
+            ],
+            [
+              -80.3154848,
+              43.3591703
+            ],
+            [
+              -80.3154871,
+              43.3590367
+            ],
+            [
+              -80.3156233,
+              43.3590379
+            ],
+            [
+              -80.3156211,
+              43.3591716
+            ],
+            [
+              -80.3154997,
+              43.3591706
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1187369966",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-12-water-street-north",
+      "name": "12 Water Street North",
+      "nativeCodes": [
+        "121"
+      ],
+      "aliases": [
+        "12 Water Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3154798,
+              43.3593852
+            ],
+            [
+              -80.3154852,
+              43.3592162
+            ],
+            [
+              -80.3154983,
+              43.3592162
+            ],
+            [
+              -80.3156313,
+              43.3592158
+            ],
+            [
+              -80.3156459,
+              43.3592158
+            ],
+            [
+              -80.3156613,
+              43.3593885
+            ],
+            [
+              -80.3154798,
+              43.3593852
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1187369967",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-33-cambridge-street",
+      "name": "33 Cambridge Street",
+      "nativeCodes": [
+        "3CS"
+      ],
+      "aliases": [
+        "33 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3122942,
+              43.3620791
+            ],
+            [
+              -80.3122954,
+              43.361989
+            ],
+            [
+              -80.3125103,
+              43.3619905
+            ],
+            [
+              -80.3125091,
+              43.3620806
+            ],
+            [
+              -80.3122942,
+              43.3620791
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433433",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-25-water-street-south",
+      "name": "25 Water Street South",
+      "nativeCodes": [
+        "2WSS"
+      ],
+      "aliases": [
+        "25 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3152279,
+              43.3580153
+            ],
+            [
+              -80.3149335,
+              43.3580085
+            ],
+            [
+              -80.3149359,
+              43.3579535
+            ],
+            [
+              -80.3152303,
+              43.3579604
+            ],
+            [
+              -80.3152279,
+              43.3580153
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433437",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-72-main-street",
+      "name": "72 Main Street",
+      "nativeCodes": [
+        "7MS"
+      ],
+      "aliases": [
+        "72 Main Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3134938,
+              43.3593053
+            ],
+            [
+              -80.3130933,
+              43.3592994
+            ],
+            [
+              -80.313102,
+              43.3589888
+            ],
+            [
+              -80.3135026,
+              43.3589948
+            ],
+            [
+              -80.3134938,
+              43.3593053
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433450",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-tomita-sushi",
+      "name": "Tomita Sushi",
+      "nativeCodes": [
+        "TS"
+      ],
+      "aliases": [
+        "Tomita Sushi"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3133344,
+              43.3612749
+            ],
+            [
+              -80.3131214,
+              43.3612705
+            ],
+            [
+              -80.3131244,
+              43.361194
+            ],
+            [
+              -80.3133373,
+              43.3611984
+            ],
+            [
+              -80.3133344,
+              43.3612749
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433457",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-18-cambridge-street",
+      "name": "18 Cambridge Street",
+      "nativeCodes": [
+        "18"
+      ],
+      "aliases": [
+        "18 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3129708,
+              43.3614232
+            ],
+            [
+              -80.3128283,
+              43.3614202
+            ],
+            [
+              -80.3128307,
+              43.3613598
+            ],
+            [
+              -80.3129732,
+              43.3613627
+            ],
+            [
+              -80.3129708,
+              43.3614232
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433458",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-22-cambridge-street",
+      "name": "22 Cambridge Street",
+      "nativeCodes": [
+        "2CS"
+      ],
+      "aliases": [
+        "22 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3129507,
+              43.3615299
+            ],
+            [
+              -80.3128246,
+              43.3615273
+            ],
+            [
+              -80.3128273,
+              43.3614578
+            ],
+            [
+              -80.3129534,
+              43.3614604
+            ],
+            [
+              -80.3129507,
+              43.3615299
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433459",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-75-ainslie-street-north",
+      "name": "75 Ainslie Street North",
+      "nativeCodes": [
+        "7ASN"
+      ],
+      "aliases": [
+        "75 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3133837,
+              43.3619486
+            ],
+            [
+              -80.3132716,
+              43.3619485
+            ],
+            [
+              -80.3132716,
+              43.3619427
+            ],
+            [
+              -80.3132488,
+              43.3619427
+            ],
+            [
+              -80.3132489,
+              43.3618981
+            ],
+            [
+              -80.3132717,
+              43.3618981
+            ],
+            [
+              -80.3132717,
+              43.3618667
+            ],
+            [
+              -80.3133839,
+              43.3618668
+            ],
+            [
+              -80.3133837,
+              43.3619486
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433461",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-30-cambridge-street",
+      "name": "30 Cambridge Street",
+      "nativeCodes": [
+        "30"
+      ],
+      "aliases": [
+        "30 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3130479,
+              43.3618663
+            ],
+            [
+              -80.313057,
+              43.3619652
+            ],
+            [
+              -80.3128166,
+              43.3619769
+            ],
+            [
+              -80.3128136,
+              43.361944
+            ],
+            [
+              -80.3127843,
+              43.3619454
+            ],
+            [
+              -80.3127811,
+              43.3619101
+            ],
+            [
+              -80.3128103,
+              43.3619087
+            ],
+            [
+              -80.3128075,
+              43.361878
+            ],
+            [
+              -80.3129962,
+              43.3618688
+            ],
+            [
+              -80.3129949,
+              43.3618545
+            ],
+            [
+              -80.3130176,
+              43.3618534
+            ],
+            [
+              -80.3130189,
+              43.3618677
+            ],
+            [
+              -80.3130479,
+              43.3618663
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433462",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-31-water-street-south",
+      "name": "31 Water Street South",
+      "nativeCodes": [
+        "31"
+      ],
+      "aliases": [
+        "31 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3152488,
+              43.3576559
+            ],
+            [
+              -80.3152743,
+              43.3576565
+            ],
+            [
+              -80.3152669,
+              43.3578072
+            ],
+            [
+              -80.3152415,
+              43.3578065
+            ],
+            [
+              -80.3152418,
+              43.3578001
+            ],
+            [
+              -80.3149948,
+              43.3577937
+            ],
+            [
+              -80.3150014,
+              43.3576594
+            ],
+            [
+              -80.3152484,
+              43.3576658
+            ],
+            [
+              -80.3152488,
+              43.3576559
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433465",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-58-ainslie-street-south",
+      "name": "58 Ainslie Street South",
+      "nativeCodes": [
+        "58"
+      ],
+      "aliases": [
+        "58 Ainslie Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.314093,
+              43.3563574
+            ],
+            [
+              -80.3142271,
+              43.3563624
+            ],
+            [
+              -80.3142264,
+              43.3563719
+            ],
+            [
+              -80.3143425,
+              43.3563763
+            ],
+            [
+              -80.3143388,
+              43.3564286
+            ],
+            [
+              -80.3142677,
+              43.3564259
+            ],
+            [
+              -80.3142634,
+              43.3564868
+            ],
+            [
+              -80.3142172,
+              43.356485
+            ],
+            [
+              -80.3142155,
+              43.3565086
+            ],
+            [
+              -80.3141517,
+              43.3565062
+            ],
+            [
+              -80.3141533,
+              43.3564826
+            ],
+            [
+              -80.3140843,
+              43.35648
+            ],
+            [
+              -80.314093,
+              43.3563574
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433471",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-the-cambridge-arts-theatre",
+      "name": "The Cambridge Arts Theatre",
+      "nativeCodes": [
+        "CAT"
+      ],
+      "aliases": [
+        "The Cambridge Arts Theatre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3152765,
+              43.35701
+            ],
+            [
+              -80.314899,
+              43.3570032
+            ],
+            [
+              -80.3148994,
+              43.356991
+            ],
+            [
+              -80.3148824,
+              43.3569907
+            ],
+            [
+              -80.3148815,
+              43.3569671
+            ],
+            [
+              -80.3148119,
+              43.3569658
+            ],
+            [
+              -80.3148187,
+              43.3567644
+            ],
+            [
+              -80.31499,
+              43.3567675
+            ],
+            [
+              -80.3149868,
+              43.3568611
+            ],
+            [
+              -80.3152272,
+              43.3568655
+            ],
+            [
+              -80.3152286,
+              43.3568259
+            ],
+            [
+              -80.3152765,
+              43.3568268
+            ],
+            [
+              -80.3152752,
+              43.3568663
+            ],
+            [
+              -80.3152814,
+              43.3568664
+            ],
+            [
+              -80.3152765,
+              43.35701
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433473",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-81-water-street-south",
+      "name": "81 Water Street South",
+      "nativeCodes": [
+        "8WSS"
+      ],
+      "aliases": [
+        "81 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3153183,
+              43.3554167
+            ],
+            [
+              -80.3151489,
+              43.3554162
+            ],
+            [
+              -80.3151489,
+              43.3554125
+            ],
+            [
+              -80.3150893,
+              43.3554123
+            ],
+            [
+              -80.3150899,
+              43.3553043
+            ],
+            [
+              -80.3151495,
+              43.3553045
+            ],
+            [
+              -80.3151496,
+              43.3552936
+            ],
+            [
+              -80.3153189,
+              43.3552941
+            ],
+            [
+              -80.3153183,
+              43.3554167
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433476",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-ainsle-terminal-building",
+      "name": "Ainsle Terminal Building",
+      "nativeCodes": [
+        "ATB"
+      ],
+      "aliases": [
+        "Ainsle Terminal Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.313423,
+              43.3574237
+            ],
+            [
+              -80.3134164,
+              43.3574702
+            ],
+            [
+              -80.3134219,
+              43.3574706
+            ],
+            [
+              -80.3134179,
+              43.357499
+            ],
+            [
+              -80.3134137,
+              43.3575281
+            ],
+            [
+              -80.3134082,
+              43.3575277
+            ],
+            [
+              -80.3134013,
+              43.3575764
+            ],
+            [
+              -80.3133201,
+              43.3575703
+            ],
+            [
+              -80.3133133,
+              43.3576181
+            ],
+            [
+              -80.3132848,
+              43.3576159
+            ],
+            [
+              -80.3132843,
+              43.3576195
+            ],
+            [
+              -80.3132452,
+              43.3576166
+            ],
+            [
+              -80.313208,
+              43.3576138
+            ],
+            [
+              -80.3132085,
+              43.3576102
+            ],
+            [
+              -80.3131825,
+              43.3576083
+            ],
+            [
+              -80.3131893,
+              43.3575605
+            ],
+            [
+              -80.3130185,
+              43.3575477
+            ],
+            [
+              -80.3130402,
+              43.3573949
+            ],
+            [
+              -80.3132109,
+              43.3574078
+            ],
+            [
+              -80.3132177,
+              43.3573603
+            ],
+            [
+              -80.3132437,
+              43.3573623
+            ],
+            [
+              -80.313244,
+              43.3573597
+            ],
+            [
+              -80.3132795,
+              43.3573623
+            ],
+            [
+              -80.3133203,
+              43.3573654
+            ],
+            [
+              -80.31332,
+              43.357368
+            ],
+            [
+              -80.3133486,
+              43.3573702
+            ],
+            [
+              -80.3133419,
+              43.3574176
+            ],
+            [
+              -80.313423,
+              43.3574237
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433478",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-11-walnut-street",
+      "name": "11 Walnut Street",
+      "nativeCodes": [
+        "1WS"
+      ],
+      "aliases": [
+        "11 Walnut Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3136386,
+              43.3547823
+            ],
+            [
+              -80.3136293,
+              43.3550656
+            ],
+            [
+              -80.3133793,
+              43.3550613
+            ],
+            [
+              -80.3134617,
+              43.3547793
+            ],
+            [
+              -80.3136386,
+              43.3547823
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433479",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-4-veteran-s-way",
+      "name": "4 Veteran's Way",
+      "nativeCodes": [
+        "4VSW"
+      ],
+      "aliases": [
+        "4 Veteran's Way"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3146686,
+              43.3547258
+            ],
+            [
+              -80.3146612,
+              43.3548955
+            ],
+            [
+              -80.3146362,
+              43.3548949
+            ],
+            [
+              -80.3146355,
+              43.3549108
+            ],
+            [
+              -80.3145695,
+              43.3549092
+            ],
+            [
+              -80.3145678,
+              43.3549474
+            ],
+            [
+              -80.3144353,
+              43.3549443
+            ],
+            [
+              -80.3144298,
+              43.3550702
+            ],
+            [
+              -80.3142637,
+              43.3550664
+            ],
+            [
+              -80.3142679,
+              43.354973
+            ],
+            [
+              -80.3142616,
+              43.3549728
+            ],
+            [
+              -80.3142635,
+              43.3549282
+            ],
+            [
+              -80.3142825,
+              43.3549286
+            ],
+            [
+              -80.3142918,
+              43.354717
+            ],
+            [
+              -80.3146686,
+              43.3547258
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1198433480",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-83-water-street-south",
+      "name": "83 Water Street South",
+      "nativeCodes": [
+        "83"
+      ],
+      "aliases": [
+        "83 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3153063,
+              43.3550946
+            ],
+            [
+              -80.3153063,
+              43.355032
+            ],
+            [
+              -80.3150963,
+              43.3550261
+            ],
+            [
+              -80.3150922,
+              43.3550874
+            ],
+            [
+              -80.3153063,
+              43.3550946
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1264810540",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-grand-river-transit",
+      "name": "Grand River Transit",
+      "nativeCodes": [
+        "GRT"
+      ],
+      "aliases": [
+        "Grand River Transit"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3128437,
+              43.357518
+            ],
+            [
+              -80.312823,
+              43.3575306
+            ],
+            [
+              -80.3127964,
+              43.3575075
+            ],
+            [
+              -80.312817,
+              43.3574949
+            ],
+            [
+              -80.3128437,
+              43.357518
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1284742957",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-48-ainslie-street-south",
+      "name": "48 Ainslie Street South",
+      "nativeCodes": [
+        "48"
+      ],
+      "aliases": [
+        "48 Ainslie Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3139298,
+              43.3571889
+            ],
+            [
+              -80.3140317,
+              43.357197
+            ],
+            [
+              -80.3140501,
+              43.357086
+            ],
+            [
+              -80.3139449,
+              43.3570788
+            ],
+            [
+              -80.3139298,
+              43.3571889
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1306010816",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-8-water-street-south",
+      "name": "8 Water Street South",
+      "nativeCodes": [
+        "8W"
+      ],
+      "aliases": [
+        "8 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3155591,
+              43.3585785
+            ],
+            [
+              -80.3155637,
+              43.3585085
+            ],
+            [
+              -80.315419,
+              43.3585093
+            ],
+            [
+              -80.3154145,
+              43.3585897
+            ],
+            [
+              -80.3155163,
+              43.3585901
+            ],
+            [
+              -80.3155147,
+              43.3585785
+            ],
+            [
+              -80.3155591,
+              43.3585785
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1306022135",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-85-water-street-south",
+      "name": "85 Water Street South",
+      "nativeCodes": [
+        "85"
+      ],
+      "aliases": [
+        "85 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3153063,
+              43.355032
+            ],
+            [
+              -80.3153091,
+              43.3549692
+            ],
+            [
+              -80.3150978,
+              43.3549679
+            ],
+            [
+              -80.3150963,
+              43.3550261
+            ],
+            [
+              -80.3153063,
+              43.355032
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1306022137",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-84-water-street-south",
+      "name": "84 Water Street South",
+      "nativeCodes": [
+        "84"
+      ],
+      "aliases": [
+        "84 Water Street South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3158159,
+              43.3549326
+            ],
+            [
+              -80.3158164,
+              43.3550099
+            ],
+            [
+              -80.3157883,
+              43.3550137
+            ],
+            [
+              -80.3157784,
+              43.3551237
+            ],
+            [
+              -80.3158951,
+              43.3551246
+            ],
+            [
+              -80.3158991,
+              43.3549365
+            ],
+            [
+              -80.3158159,
+              43.3549326
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1306022138",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-50-cambridge-street",
+      "name": "50 Cambridge Street",
+      "nativeCodes": [
+        "5CS"
+      ],
+      "aliases": [
+        "50 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3128369,
+              43.3628027
+            ],
+            [
+              -80.3128696,
+              43.3628007
+            ],
+            [
+              -80.3128725,
+              43.3628246
+            ],
+            [
+              -80.3130284,
+              43.3628148
+            ],
+            [
+              -80.3130208,
+              43.3627511
+            ],
+            [
+              -80.3130384,
+              43.36275
+            ],
+            [
+              -80.3130335,
+              43.3627082
+            ],
+            [
+              -80.3129596,
+              43.3627128
+            ],
+            [
+              -80.3129611,
+              43.3627249
+            ],
+            [
+              -80.3128628,
+              43.3627311
+            ],
+            [
+              -80.312866,
+              43.3627585
+            ],
+            [
+              -80.3128319,
+              43.3627606
+            ],
+            [
+              -80.3128369,
+              43.3628027
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872438",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-46-cambridge-street",
+      "name": "46 Cambridge Street",
+      "nativeCodes": [
+        "4CS"
+      ],
+      "aliases": [
+        "46 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3128834,
+              43.3626888
+            ],
+            [
+              -80.3130155,
+              43.3626807
+            ],
+            [
+              -80.3130123,
+              43.3626501
+            ],
+            [
+              -80.3131351,
+              43.3626433
+            ],
+            [
+              -80.3131295,
+              43.3625894
+            ],
+            [
+              -80.3130062,
+              43.3625972
+            ],
+            [
+              -80.3130029,
+              43.3625663
+            ],
+            [
+              -80.3128708,
+              43.3625744
+            ],
+            [
+              -80.3128834,
+              43.3626888
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872439",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-40-cambridge-street",
+      "name": "40 Cambridge Street",
+      "nativeCodes": [
+        "40"
+      ],
+      "aliases": [
+        "40 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3130722,
+              43.3625169
+            ],
+            [
+              -80.3130617,
+              43.3624308
+            ],
+            [
+              -80.3130933,
+              43.3624288
+            ],
+            [
+              -80.31309,
+              43.3624019
+            ],
+            [
+              -80.313043,
+              43.362405
+            ],
+            [
+              -80.3130377,
+              43.3623616
+            ],
+            [
+              -80.3131025,
+              43.3623574
+            ],
+            [
+              -80.3131078,
+              43.362401
+            ],
+            [
+              -80.3131615,
+              43.3623975
+            ],
+            [
+              -80.313165,
+              43.3624258
+            ],
+            [
+              -80.3132025,
+              43.3624233
+            ],
+            [
+              -80.3132102,
+              43.3624872
+            ],
+            [
+              -80.3132038,
+              43.3624876
+            ],
+            [
+              -80.3132063,
+              43.3625082
+            ],
+            [
+              -80.3130722,
+              43.3625169
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872440",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-34-cambridge-street",
+      "name": "34 Cambridge Street",
+      "nativeCodes": [
+        "341"
+      ],
+      "aliases": [
+        "34 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3129188,
+              43.3623024
+            ],
+            [
+              -80.3129156,
+              43.3622805
+            ],
+            [
+              -80.3129333,
+              43.3622801
+            ],
+            [
+              -80.31293,
+              43.3622446
+            ],
+            [
+              -80.3129515,
+              43.3622423
+            ],
+            [
+              -80.3129461,
+              43.3621514
+            ],
+            [
+              -80.3128732,
+              43.3621553
+            ],
+            [
+              -80.3128737,
+              43.3621514
+            ],
+            [
+              -80.3127938,
+              43.3621545
+            ],
+            [
+              -80.3127975,
+              43.3621931
+            ],
+            [
+              -80.312782,
+              43.3621935
+            ],
+            [
+              -80.3127825,
+              43.3622165
+            ],
+            [
+              -80.3127938,
+              43.3622177
+            ],
+            [
+              -80.3128024,
+              43.3622852
+            ],
+            [
+              -80.3128394,
+              43.3622852
+            ],
+            [
+              -80.3128404,
+              43.3623063
+            ],
+            [
+              -80.3129188,
+              43.3623024
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872441",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-26-colborne-street",
+      "name": "26 Colborne Street",
+      "nativeCodes": [
+        "261"
+      ],
+      "aliases": [
+        "26 Colborne Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3136046,
+              43.3622857
+            ],
+            [
+              -80.3135982,
+              43.3622188
+            ],
+            [
+              -80.3136095,
+              43.3622193
+            ],
+            [
+              -80.3136024,
+              43.3621272
+            ],
+            [
+              -80.3134255,
+              43.3621339
+            ],
+            [
+              -80.3134333,
+              43.362226
+            ],
+            [
+              -80.3134934,
+              43.362225
+            ],
+            [
+              -80.3135033,
+              43.3622867
+            ],
+            [
+              -80.3136046,
+              43.3622857
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872443",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-107-ainslie-street-north",
+      "name": "107 Ainslie Street North",
+      "nativeCodes": [
+        "1ASN"
+      ],
+      "aliases": [
+        "107 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.313788,
+              43.3624801
+            ],
+            [
+              -80.3137769,
+              43.3624071
+            ],
+            [
+              -80.3135341,
+              43.3624223
+            ],
+            [
+              -80.3135452,
+              43.3624944
+            ],
+            [
+              -80.313788,
+              43.3624801
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872444",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-109-ainslie-street-north",
+      "name": "109 Ainslie Street North",
+      "nativeCodes": [
+        "109"
+      ],
+      "aliases": [
+        "109 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3138579,
+              43.3625659
+            ],
+            [
+              -80.3138556,
+              43.3625387
+            ],
+            [
+              -80.313878,
+              43.3625381
+            ],
+            [
+              -80.3138756,
+              43.3625126
+            ],
+            [
+              -80.3138476,
+              43.362515
+            ],
+            [
+              -80.3138453,
+              43.3624983
+            ],
+            [
+              -80.313743,
+              43.3625044
+            ],
+            [
+              -80.313743,
+              43.362515
+            ],
+            [
+              -80.3136926,
+              43.3625184
+            ],
+            [
+              -80.3136935,
+              43.3625516
+            ],
+            [
+              -80.3137472,
+              43.3625499
+            ],
+            [
+              -80.3137519,
+              43.3625713
+            ],
+            [
+              -80.3138579,
+              43.3625659
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872445",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-111-ainslie-street-north",
+      "name": "111 Ainslie Street North",
+      "nativeCodes": [
+        "111"
+      ],
+      "aliases": [
+        "111 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3138809,
+              43.3626524
+            ],
+            [
+              -80.3138738,
+              43.3626004
+            ],
+            [
+              -80.3138547,
+              43.362601
+            ],
+            [
+              -80.3138533,
+              43.3625845
+            ],
+            [
+              -80.3137542,
+              43.3625894
+            ],
+            [
+              -80.3137538,
+              43.3626017
+            ],
+            [
+              -80.3137011,
+              43.362603
+            ],
+            [
+              -80.3137043,
+              43.3626378
+            ],
+            [
+              -80.3137574,
+              43.3626367
+            ],
+            [
+              -80.3137581,
+              43.3626581
+            ],
+            [
+              -80.3138809,
+              43.3626524
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872446",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-113-ainslie-street-north",
+      "name": "113 Ainslie Street North",
+      "nativeCodes": [
+        "113"
+      ],
+      "aliases": [
+        "113 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3139301,
+              43.3627412
+            ],
+            [
+              -80.3139226,
+              43.3626604
+            ],
+            [
+              -80.3138688,
+              43.3626614
+            ],
+            [
+              -80.3138685,
+              43.3626704
+            ],
+            [
+              -80.3137651,
+              43.3626761
+            ],
+            [
+              -80.3137715,
+              43.3627484
+            ],
+            [
+              -80.3139301,
+              43.3627412
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872447",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-115-ainslie-street-north",
+      "name": "115 Ainslie Street North",
+      "nativeCodes": [
+        "115"
+      ],
+      "aliases": [
+        "115 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3138993,
+              43.3628408
+            ],
+            [
+              -80.313894,
+              43.3627811
+            ],
+            [
+              -80.3138635,
+              43.3627813
+            ],
+            [
+              -80.3138625,
+              43.3627687
+            ],
+            [
+              -80.3136901,
+              43.362778
+            ],
+            [
+              -80.3136986,
+              43.3628531
+            ],
+            [
+              -80.3138993,
+              43.3628408
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872448",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-125-ainslie-street-north",
+      "name": "125 Ainslie Street North",
+      "nativeCodes": [
+        "125"
+      ],
+      "aliases": [
+        "125 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.313917,
+              43.363019
+            ],
+            [
+              -80.3139092,
+              43.3629395
+            ],
+            [
+              -80.3138232,
+              43.3629447
+            ],
+            [
+              -80.313832,
+              43.3630234
+            ],
+            [
+              -80.313917,
+              43.363019
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872449",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-54-cambridge-street",
+      "name": "54 Cambridge Street",
+      "nativeCodes": [
+        "54"
+      ],
+      "aliases": [
+        "54 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3132646,
+              43.3628093
+            ],
+            [
+              -80.3132744,
+              43.362887
+            ],
+            [
+              -80.313111,
+              43.3628979
+            ],
+            [
+              -80.3131086,
+              43.3628819
+            ],
+            [
+              -80.3130871,
+              43.3628829
+            ],
+            [
+              -80.313082,
+              43.3628215
+            ],
+            [
+              -80.3131044,
+              43.3628174
+            ],
+            [
+              -80.3132081,
+              43.3628137
+            ],
+            [
+              -80.3132058,
+              43.3627957
+            ],
+            [
+              -80.3132567,
+              43.3627913
+            ],
+            [
+              -80.3132571,
+              43.3628082
+            ],
+            [
+              -80.3132646,
+              43.3628093
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872454",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-105-ainslie-street-north",
+      "name": "105 Ainslie Street North",
+      "nativeCodes": [
+        "105"
+      ],
+      "aliases": [
+        "105 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3137392,
+              43.3623551
+            ],
+            [
+              -80.3137345,
+              43.3622984
+            ],
+            [
+              -80.3135879,
+              43.3623055
+            ],
+            [
+              -80.3135911,
+              43.3623636
+            ],
+            [
+              -80.3137392,
+              43.3623551
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1331872455",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-57-cambridge-street",
+      "name": "57 Cambridge Street",
+      "nativeCodes": [
+        "57"
+      ],
+      "aliases": [
+        "57 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3125361,
+              43.3629267
+            ],
+            [
+              -80.3125296,
+              43.362885
+            ],
+            [
+              -80.3124593,
+              43.3628862
+            ],
+            [
+              -80.3124581,
+              43.362877
+            ],
+            [
+              -80.3124044,
+              43.3628797
+            ],
+            [
+              -80.3124048,
+              43.3628871
+            ],
+            [
+              -80.3123475,
+              43.3628903
+            ],
+            [
+              -80.3123564,
+              43.3629692
+            ],
+            [
+              -80.3125097,
+              43.3629621
+            ],
+            [
+              -80.3125056,
+              43.3629279
+            ],
+            [
+              -80.3125361,
+              43.3629267
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1333661998",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-51-cambridge-street",
+      "name": "51 Cambridge Street",
+      "nativeCodes": [
+        "51"
+      ],
+      "aliases": [
+        "51 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3123089,
+              43.3627205
+            ],
+            [
+              -80.3125097,
+              43.3627098
+            ],
+            [
+              -80.3125016,
+              43.3626285
+            ],
+            [
+              -80.3123142,
+              43.3626389
+            ],
+            [
+              -80.312315,
+              43.3626525
+            ],
+            [
+              -80.3122796,
+              43.3626528
+            ],
+            [
+              -80.312287,
+              43.3627021
+            ],
+            [
+              -80.3123044,
+              43.3627024
+            ],
+            [
+              -80.3123089,
+              43.3627205
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1333662018",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-39-cambridge-street",
+      "name": "39 Cambridge Street",
+      "nativeCodes": [
+        "39"
+      ],
+      "aliases": [
+        "39 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3125341,
+              43.3623723
+            ],
+            [
+              -80.3125244,
+              43.3623297
+            ],
+            [
+              -80.3122849,
+              43.3623522
+            ],
+            [
+              -80.3122992,
+              43.3624154
+            ],
+            [
+              -80.3123923,
+              43.3624075
+            ],
+            [
+              -80.3123951,
+              43.3624208
+            ],
+            [
+              -80.3125134,
+              43.3624092
+            ],
+            [
+              -80.3125085,
+              43.3623744
+            ],
+            [
+              -80.3125341,
+              43.3623723
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1333662020",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-37-cambridge-street",
+      "name": "37 Cambridge Street",
+      "nativeCodes": [
+        "37"
+      ],
+      "aliases": [
+        "37 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3124955,
+              43.3623182
+            ],
+            [
+              -80.3124906,
+              43.3622878
+            ],
+            [
+              -80.3125102,
+              43.3622866
+            ],
+            [
+              -80.3125049,
+              43.362249
+            ],
+            [
+              -80.3124297,
+              43.3622529
+            ],
+            [
+              -80.3124276,
+              43.3622419
+            ],
+            [
+              -80.3123642,
+              43.3622464
+            ],
+            [
+              -80.3123666,
+              43.3622609
+            ],
+            [
+              -80.3122658,
+              43.362268
+            ],
+            [
+              -80.3122711,
+              43.3623064
+            ],
+            [
+              -80.3123008,
+              43.3623194
+            ],
+            [
+              -80.3123768,
+              43.3623123
+            ],
+            [
+              -80.3123809,
+              43.3623268
+            ],
+            [
+              -80.3124955,
+              43.3623182
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1333662021",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-35-cambridge-street",
+      "name": "35 Cambridge Street",
+      "nativeCodes": [
+        "35"
+      ],
+      "aliases": [
+        "35 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3125045,
+              43.3622124
+            ],
+            [
+              -80.3125069,
+              43.3621409
+            ],
+            [
+              -80.3123918,
+              43.3621409
+            ],
+            [
+              -80.3123902,
+              43.3621494
+            ],
+            [
+              -80.3122878,
+              43.3621506
+            ],
+            [
+              -80.3122861,
+              43.3622245
+            ],
+            [
+              -80.3123675,
+              43.3622254
+            ],
+            [
+              -80.3123666,
+              43.3622127
+            ],
+            [
+              -80.3125045,
+              43.3622124
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1333662022",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-86-st-andrews-street",
+      "name": "86 St. Andrews Street",
+      "nativeCodes": [
+        "8SAS"
+      ],
+      "aliases": [
+        "86 St. Andrews Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3216848,
+              43.3551235
+            ],
+            [
+              -80.3216023,
+              43.3551236
+            ],
+            [
+              -80.3216022,
+              43.3550777
+            ],
+            [
+              -80.3215713,
+              43.3550778
+            ],
+            [
+              -80.3215711,
+              43.3550259
+            ],
+            [
+              -80.3215958,
+              43.3550258
+            ],
+            [
+              -80.3215956,
+              43.3549806
+            ],
+            [
+              -80.3216842,
+              43.3549804
+            ],
+            [
+              -80.3216848,
+              43.3551235
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364128073",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-28-st-andrews-street",
+      "name": "28 St. Andrews Street",
+      "nativeCodes": [
+        "2SAS"
+      ],
+      "aliases": [
+        "28 St. Andrews Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.319612,
+              43.3567689
+            ],
+            [
+              -80.3195043,
+              43.3567677
+            ],
+            [
+              -80.3195068,
+              43.3566509
+            ],
+            [
+              -80.3195358,
+              43.3566513
+            ],
+            [
+              -80.3195369,
+              43.356604
+            ],
+            [
+              -80.3196373,
+              43.3566052
+            ],
+            [
+              -80.3196352,
+              43.3567019
+            ],
+            [
+              -80.3196134,
+              43.3567016
+            ],
+            [
+              -80.319612,
+              43.3567689
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364128081",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-24-st-andrews-street",
+      "name": "24 St. Andrews Street",
+      "nativeCodes": [
+        "24"
+      ],
+      "aliases": [
+        "24 St. Andrews Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3194047,
+              43.3568213
+            ],
+            [
+              -80.3193099,
+              43.3568211
+            ],
+            [
+              -80.3193105,
+              43.3566786
+            ],
+            [
+              -80.3193575,
+              43.3566787
+            ],
+            [
+              -80.3193577,
+              43.3566406
+            ],
+            [
+              -80.3194345,
+              43.3566408
+            ],
+            [
+              -80.3194338,
+              43.3567853
+            ],
+            [
+              -80.3194048,
+              43.3567852
+            ],
+            [
+              -80.3194047,
+              43.3568213
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364128082",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-22-st-andrews-street",
+      "name": "22 St. Andrews Street",
+      "nativeCodes": [
+        "22"
+      ],
+      "aliases": [
+        "22 St. Andrews Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3191914,
+              43.3568037
+            ],
+            [
+              -80.3191051,
+              43.3568038
+            ],
+            [
+              -80.319105,
+              43.3566707
+            ],
+            [
+              -80.3191111,
+              43.3566707
+            ],
+            [
+              -80.319111,
+              43.3566492
+            ],
+            [
+              -80.3191913,
+              43.3566492
+            ],
+            [
+              -80.3191914,
+              43.3568037
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364128083",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-14-st-andrews-street",
+      "name": "14 St. Andrews Street",
+      "nativeCodes": [
+        "1SAS"
+      ],
+      "aliases": [
+        "14 St. Andrews Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3184635,
+              43.3567587
+            ],
+            [
+              -80.318409,
+              43.3567589
+            ],
+            [
+              -80.3184083,
+              43.3566724
+            ],
+            [
+              -80.3184471,
+              43.3566722
+            ],
+            [
+              -80.3184469,
+              43.3566538
+            ],
+            [
+              -80.3185089,
+              43.3566536
+            ],
+            [
+              -80.318509,
+              43.356672
+            ],
+            [
+              -80.3185541,
+              43.3566718
+            ],
+            [
+              -80.3185548,
+              43.3567583
+            ],
+            [
+              -80.3185436,
+              43.3567584
+            ],
+            [
+              -80.3185441,
+              43.3568174
+            ],
+            [
+              -80.318464,
+              43.3568177
+            ],
+            [
+              -80.3184635,
+              43.3567587
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364128085",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-44-grand-avenue-south",
+      "name": "44 Grand Avenue South",
+      "nativeCodes": [
+        "4GAS"
+      ],
+      "aliases": [
+        "44 Grand Avenue South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3178132,
+              43.3567016
+            ],
+            [
+              -80.3176553,
+              43.3567006
+            ],
+            [
+              -80.3176563,
+              43.3566117
+            ],
+            [
+              -80.3176803,
+              43.3565964
+            ],
+            [
+              -80.3178144,
+              43.3565972
+            ],
+            [
+              -80.3178132,
+              43.3567016
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364128088",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-83-st-andrews-street",
+      "name": "83 St. Andrews Street",
+      "nativeCodes": [
+        "831"
+      ],
+      "aliases": [
+        "83 St. Andrews Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3211794,
+              43.355001
+            ],
+            [
+              -80.3211073,
+              43.3549993
+            ],
+            [
+              -80.3211083,
+              43.3549776
+            ],
+            [
+              -80.3210821,
+              43.354977
+            ],
+            [
+              -80.3210818,
+              43.3549851
+            ],
+            [
+              -80.3210473,
+              43.3549843
+            ],
+            [
+              -80.321047,
+              43.3549912
+            ],
+            [
+              -80.3210026,
+              43.3549901
+            ],
+            [
+              -80.3210058,
+              43.354918
+            ],
+            [
+              -80.3210464,
+              43.354919
+            ],
+            [
+              -80.3210459,
+              43.3549303
+            ],
+            [
+              -80.3210872,
+              43.3549313
+            ],
+            [
+              -80.3210876,
+              43.3549235
+            ],
+            [
+              -80.321205,
+              43.3549262
+            ],
+            [
+              -80.3212026,
+              43.3549786
+            ],
+            [
+              -80.3211804,
+              43.3549781
+            ],
+            [
+              -80.3211794,
+              43.355001
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364317283",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-81-st-andrews-street",
+      "name": "81 St. Andrews Street",
+      "nativeCodes": [
+        "81"
+      ],
+      "aliases": [
+        "81 St. Andrews Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3211211,
+              43.3551039
+            ],
+            [
+              -80.3210208,
+              43.3551012
+            ],
+            [
+              -80.3210217,
+              43.3550822
+            ],
+            [
+              -80.3209353,
+              43.3550799
+            ],
+            [
+              -80.3209383,
+              43.355019
+            ],
+            [
+              -80.3211252,
+              43.355024
+            ],
+            [
+              -80.321124,
+              43.3550478
+            ],
+            [
+              -80.3211482,
+              43.3550484
+            ],
+            [
+              -80.3211466,
+              43.3550818
+            ],
+            [
+              -80.3211223,
+              43.3550812
+            ],
+            [
+              -80.3211211,
+              43.3551039
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1364317284",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-73-ainslie-street-north",
+      "name": "73 Ainslie Street North",
+      "nativeCodes": [
+        "73"
+      ],
+      "aliases": [
+        "73 Ainslie Street North"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3133508,
+              43.3618599
+            ],
+            [
+              -80.3132244,
+              43.3618572
+            ],
+            [
+              -80.3132268,
+              43.361797
+            ],
+            [
+              -80.3131753,
+              43.3617959
+            ],
+            [
+              -80.3131776,
+              43.3617397
+            ],
+            [
+              -80.3133324,
+              43.361743
+            ],
+            [
+              -80.3133305,
+              43.3617896
+            ],
+            [
+              -80.3133537,
+              43.3617901
+            ],
+            [
+              -80.3133508,
+              43.3618599
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1557872766",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-28-cambridge-street",
+      "name": "28 Cambridge Street",
+      "nativeCodes": [
+        "281"
+      ],
+      "aliases": [
+        "28 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3128086,
+              43.3617965
+            ],
+            [
+              -80.3130064,
+              43.3617982
+            ],
+            [
+              -80.3130073,
+              43.3617422
+            ],
+            [
+              -80.3129108,
+              43.3617413
+            ],
+            [
+              -80.3129115,
+              43.3617033
+            ],
+            [
+              -80.3128102,
+              43.3617024
+            ],
+            [
+              -80.3128086,
+              43.3617965
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1557872767",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-26-cambridge-street",
+      "name": "26 Cambridge Street",
+      "nativeCodes": [
+        "262"
+      ],
+      "aliases": [
+        "26 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.312815,
+              43.3616266
+            ],
+            [
+              -80.312977,
+              43.3616261
+            ],
+            [
+              -80.3129774,
+              43.3616931
+            ],
+            [
+              -80.3128153,
+              43.3616935
+            ],
+            [
+              -80.312815,
+              43.3616266
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1557872768",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-24-cambridge-street",
+      "name": "24 Cambridge Street",
+      "nativeCodes": [
+        "241"
+      ],
+      "aliases": [
+        "24 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.312819,
+              43.3616084
+            ],
+            [
+              -80.3129471,
+              43.361611
+            ],
+            [
+              -80.3129498,
+              43.3615393
+            ],
+            [
+              -80.3128217,
+              43.3615368
+            ],
+            [
+              -80.312819,
+              43.3616084
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1557872769",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-53-cambridge-street",
+      "name": "53 Cambridge Street",
+      "nativeCodes": [
+        "53"
+      ],
+      "aliases": [
+        "53 Cambridge Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.3125239,
+              43.3628215
+            ],
+            [
+              -80.3123291,
+              43.3628372
+            ],
+            [
+              -80.3123186,
+              43.3627682
+            ],
+            [
+              -80.3125133,
+              43.3627525
+            ],
+            [
+              -80.3125239,
+              43.3628215
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1557920599",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-waterloo-cambridge-waterloo-arch-main",
-      "buildingId": "waterloo-arch-main",
-      "coordinate": [
-        -80.3175,
-        43.35875
-      ],
-      "pathNodeId": "node-ent-waterloo-cambridge-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "ent-waterloo-cambridge-waterloo-arch-main",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-cambridge-waterloo-design-studios",
-      "buildingId": "waterloo-design-studios",
-      "coordinate": [
-        -80.3165,
-        43.35925
-      ],
-      "pathNodeId": "node-ent-waterloo-cambridge-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "ent-waterloo-cambridge-waterloo-design-studios",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-cambridge-waterloo-digital-fab",
-      "buildingId": "waterloo-digital-fab",
-      "coordinate": [
-        -80.3185,
-        43.35825
-      ],
-      "pathNodeId": "node-ent-waterloo-cambridge-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "ent-waterloo-cambridge-waterloo-digital-fab",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-cambridge-waterloo-musagetes-lib",
-      "buildingId": "waterloo-musagetes-lib",
-      "coordinate": [
-        -80.316,
-        43.35975
-      ],
-      "pathNodeId": "node-ent-waterloo-cambridge-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "ent-waterloo-cambridge-waterloo-musagetes-lib",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-cambridge-waterloo-melville-shop",
-      "buildingId": "waterloo-melville-shop",
-      "coordinate": [
-        -80.319,
-        43.35775
-      ],
-      "pathNodeId": "node-ent-waterloo-cambridge-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "ent-waterloo-cambridge-waterloo-melville-shop",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-waterloo-cambridge-0",
-      "coordinate": [
-        -80.3219,
-        43.355799999999995
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-spine-waterloo-cambridge-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-cambridge-1",
-      "coordinate": [
-        -80.3197,
-        43.3574
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-spine-waterloo-cambridge-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-cambridge-2",
-      "coordinate": [
-        -80.3175,
-        43.358999999999995
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-spine-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-cambridge-3",
-      "coordinate": [
-        -80.3153,
-        43.3606
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-spine-waterloo-cambridge-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-cambridge-4",
-      "coordinate": [
-        -80.31309999999999,
-        43.3622
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-spine-waterloo-cambridge-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-cambridge-0",
-      "coordinate": [
-        -80.3175,
-        43.35875
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-ent-waterloo-cambridge-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-cambridge-1",
-      "coordinate": [
-        -80.3165,
-        43.35925
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-ent-waterloo-cambridge-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-cambridge-2",
-      "coordinate": [
-        -80.3185,
-        43.35825
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-ent-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-cambridge-3",
-      "coordinate": [
-        -80.316,
-        43.35975
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-ent-waterloo-cambridge-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-cambridge-4",
-      "coordinate": [
-        -80.319,
-        43.35775
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "node-ent-waterloo-cambridge-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-waterloo-cambridge-0-node-spine-waterloo-cambridge-1",
-      "from": "node-spine-waterloo-cambridge-0",
-      "to": "node-spine-waterloo-cambridge-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-0-node-spine-waterloo-cambridge-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-1-node-spine-waterloo-cambridge-0",
-      "from": "node-spine-waterloo-cambridge-1",
-      "to": "node-spine-waterloo-cambridge-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-1-node-spine-waterloo-cambridge-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-1-node-spine-waterloo-cambridge-2",
-      "from": "node-spine-waterloo-cambridge-1",
-      "to": "node-spine-waterloo-cambridge-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-1-node-spine-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-2-node-spine-waterloo-cambridge-1",
-      "from": "node-spine-waterloo-cambridge-2",
-      "to": "node-spine-waterloo-cambridge-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-2-node-spine-waterloo-cambridge-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-2-node-spine-waterloo-cambridge-3",
-      "from": "node-spine-waterloo-cambridge-2",
-      "to": "node-spine-waterloo-cambridge-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-2-node-spine-waterloo-cambridge-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-3-node-spine-waterloo-cambridge-2",
-      "from": "node-spine-waterloo-cambridge-3",
-      "to": "node-spine-waterloo-cambridge-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-3-node-spine-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-3-node-spine-waterloo-cambridge-4",
-      "from": "node-spine-waterloo-cambridge-3",
-      "to": "node-spine-waterloo-cambridge-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-3-node-spine-waterloo-cambridge-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-4-node-spine-waterloo-cambridge-3",
-      "from": "node-spine-waterloo-cambridge-4",
-      "to": "node-spine-waterloo-cambridge-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-4-node-spine-waterloo-cambridge-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-cambridge-0-node-spine-waterloo-cambridge-2",
-      "from": "node-ent-waterloo-cambridge-0",
-      "to": "node-spine-waterloo-cambridge-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-ent-waterloo-cambridge-0-node-spine-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-2-node-ent-waterloo-cambridge-0",
-      "from": "node-spine-waterloo-cambridge-2",
-      "to": "node-ent-waterloo-cambridge-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-2-node-ent-waterloo-cambridge-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-cambridge-1-node-spine-waterloo-cambridge-2",
-      "from": "node-ent-waterloo-cambridge-1",
-      "to": "node-spine-waterloo-cambridge-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-ent-waterloo-cambridge-1-node-spine-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-2-node-ent-waterloo-cambridge-1",
-      "from": "node-spine-waterloo-cambridge-2",
-      "to": "node-ent-waterloo-cambridge-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-2-node-ent-waterloo-cambridge-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-cambridge-2-node-spine-waterloo-cambridge-2",
-      "from": "node-ent-waterloo-cambridge-2",
-      "to": "node-spine-waterloo-cambridge-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-ent-waterloo-cambridge-2-node-spine-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-2-node-ent-waterloo-cambridge-2",
-      "from": "node-spine-waterloo-cambridge-2",
-      "to": "node-ent-waterloo-cambridge-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-2-node-ent-waterloo-cambridge-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-cambridge-3-node-spine-waterloo-cambridge-3",
-      "from": "node-ent-waterloo-cambridge-3",
-      "to": "node-spine-waterloo-cambridge-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-ent-waterloo-cambridge-3-node-spine-waterloo-cambridge-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-3-node-ent-waterloo-cambridge-3",
-      "from": "node-spine-waterloo-cambridge-3",
-      "to": "node-ent-waterloo-cambridge-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-3-node-ent-waterloo-cambridge-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-cambridge-4-node-spine-waterloo-cambridge-1",
-      "from": "node-ent-waterloo-cambridge-4",
-      "to": "node-spine-waterloo-cambridge-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-ent-waterloo-cambridge-4-node-spine-waterloo-cambridge-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-cambridge-1-node-ent-waterloo-cambridge-4",
-      "from": "node-spine-waterloo-cambridge-1",
-      "to": "node-ent-waterloo-cambridge-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-cambridge",
-          "nativeId": "edge-node-spine-waterloo-cambridge-1-node-ent-waterloo-cambridge-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }

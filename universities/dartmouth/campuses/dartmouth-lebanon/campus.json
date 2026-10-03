@@ -17,25 +17,25 @@
   },
   "sources": [
     {
-      "id": "src-dartmouth-lebanon",
-      "title": "Dartmouth Hitchcock Medical Center Directory",
-      "url": "https://www.dartmouth-hitchcock.org/locations/dhmc",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "dartmouth-dhmc-main",
-      "name": "Dartmouth Hitchcock Medical Center",
+      "id": "dartmouth-35-centerra-parkway",
+      "name": "35 Centerra Parkway",
       "nativeCodes": [
-        "DHMC"
+        "3CP"
       ],
       "aliases": [
-        "Dartmouth Hitchcock Medical Center"
+        "35 Centerra Parkway"
       ],
       "category": "academic",
       "geometry": {
@@ -43,44 +43,283 @@
         "coordinates": [
           [
             [
-              -72.27485,
-              43.66625
+              -72.2648868,
+              43.6773254
             ],
             [
-              -72.27415,
-              43.66625
+              -72.2648886,
+              43.67734
             ],
             [
-              -72.27415,
-              43.66675
+              -72.2649617,
+              43.6773353
             ],
             [
-              -72.27485,
-              43.66675
+              -72.2649581,
+              43.6773053
             ],
             [
-              -72.27485,
-              43.66625
+              -72.2650266,
+              43.6773009
+            ],
+            [
+              -72.26503,
+              43.6773287
+            ],
+            [
+              -72.2652227,
+              43.6773165
+            ],
+            [
+              -72.2652527,
+              43.6775637
+            ],
+            [
+              -72.2651269,
+              43.6775719
+            ],
+            [
+              -72.2651139,
+              43.6775789
+            ],
+            [
+              -72.2651033,
+              43.6775817
+            ],
+            [
+              -72.2650884,
+              43.6775844
+            ],
+            [
+              -72.265073,
+              43.6775857
+            ],
+            [
+              -72.2650567,
+              43.6775851
+            ],
+            [
+              -72.2650426,
+              43.6775814
+            ],
+            [
+              -72.2650271,
+              43.6775774
+            ],
+            [
+              -72.2649258,
+              43.6775826
+            ],
+            [
+              -72.2649272,
+              43.6775957
+            ],
+            [
+              -72.2647716,
+              43.6776059
+            ],
+            [
+              -72.264738,
+              43.6773351
+            ],
+            [
+              -72.2648868,
+              43.6773254
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "dartmouth-dhmc-main",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/106196655",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "dartmouth-rubin-bldg",
-      "name": "Rubin Research Building",
+      "id": "dartmouth-lebanon-district-court",
+      "name": "Lebanon District Court",
       "nativeCodes": [
-        "RUB"
+        "LDC"
       ],
       "aliases": [
-        "Rubin Research Building"
+        "Lebanon District Court"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2638601,
+              43.67813
+            ],
+            [
+              -72.2637764,
+              43.678107
+            ],
+            [
+              -72.263753,
+              43.6781512
+            ],
+            [
+              -72.2635537,
+              43.6780963
+            ],
+            [
+              -72.2635768,
+              43.6780524
+            ],
+            [
+              -72.2635156,
+              43.6780355
+            ],
+            [
+              -72.2636332,
+              43.6778124
+            ],
+            [
+              -72.2639852,
+              43.6779095
+            ],
+            [
+              -72.2639712,
+              43.677936
+            ],
+            [
+              -72.2639876,
+              43.6779406
+            ],
+            [
+              -72.2639724,
+              43.6779695
+            ],
+            [
+              -72.2640228,
+              43.6779834
+            ],
+            [
+              -72.2639668,
+              43.6780896
+            ],
+            [
+              -72.2639156,
+              43.6780754
+            ],
+            [
+              -72.2638983,
+              43.6781082
+            ],
+            [
+              -72.263875,
+              43.6781018
+            ],
+            [
+              -72.2638601,
+              43.67813
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/106196656",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-41-centerra-parkway",
+      "name": "41 Centerra Parkway",
+      "nativeCodes": [
+        "4CP"
+      ],
+      "aliases": [
+        "41 Centerra Parkway"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2655459,
+              43.678792
+            ],
+            [
+              -72.2653516,
+              43.6788032
+            ],
+            [
+              -72.2653534,
+              43.6788198
+            ],
+            [
+              -72.2651617,
+              43.6788309
+            ],
+            [
+              -72.2651597,
+              43.6788128
+            ],
+            [
+              -72.2648909,
+              43.6788283
+            ],
+            [
+              -72.2648625,
+              43.6785723
+            ],
+            [
+              -72.2651208,
+              43.6785573
+            ],
+            [
+              -72.2651791,
+              43.6785068
+            ],
+            [
+              -72.2652761,
+              43.6785054
+            ],
+            [
+              -72.2652953,
+              43.6785218
+            ],
+            [
+              -72.2653304,
+              43.6785517
+            ],
+            [
+              -72.265518,
+              43.6785408
+            ],
+            [
+              -72.2655459,
+              43.678792
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/106196657",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-residence-inn-hanover-lebanon",
+      "name": "Residence Inn Hanover Lebanon",
+      "nativeCodes": [
+        "LEBRI"
+      ],
+      "aliases": [
+        "Residence Inn Hanover Lebanon",
+        "LEBRI"
       ],
       "category": "residence",
       "geometry": {
@@ -88,44 +327,169 @@
         "coordinates": [
           [
             [
-              -72.27385,
-              43.66675
+              -72.2630339,
+              43.6775141
             ],
             [
-              -72.27315,
-              43.66675
+              -72.2618544,
+              43.6775229
             ],
             [
-              -72.27315,
-              43.66725
+              -72.2618501,
+              43.6773759
             ],
             [
-              -72.27385,
-              43.66725
+              -72.2622132,
+              43.6773674
             ],
             [
-              -72.27385,
-              43.66675
+              -72.2622161,
+              43.6769382
+            ],
+            [
+              -72.2624271,
+              43.6769377
+            ],
+            [
+              -72.2624288,
+              43.6770275
+            ],
+            [
+              -72.2625797,
+              43.676997
+            ],
+            [
+              -72.2626397,
+              43.6771169
+            ],
+            [
+              -72.2627376,
+              43.6770948
+            ],
+            [
+              -72.2628223,
+              43.67729
+            ],
+            [
+              -72.2626667,
+              43.6773212
+            ],
+            [
+              -72.2626519,
+              43.6772904
+            ],
+            [
+              -72.2624912,
+              43.6773204
+            ],
+            [
+              -72.262463,
+              43.6772527
+            ],
+            [
+              -72.2624249,
+              43.6772574
+            ],
+            [
+              -72.2624314,
+              43.6773679
+            ],
+            [
+              -72.2630302,
+              43.6773563
+            ],
+            [
+              -72.2630339,
+              43.6775141
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "dartmouth-rubin-bldg",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/106196658",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "dartmouth-borwell-bldg",
-      "name": "Borwell Research Building",
+      "id": "dartmouth-dartmouth-hitchcock-advanced-response-team-hangar",
+      "name": "Dartmouth-Hitchcock Advanced Response Team Hangar",
       "nativeCodes": [
-        "BOR"
+        "DHARTH"
       ],
       "aliases": [
-        "Borwell Research Building"
+        "Dartmouth-Hitchcock Advanced Response Team Hangar"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2718183,
+              43.6774679
+            ],
+            [
+              -72.2716106,
+              43.6775081
+            ],
+            [
+              -72.271427,
+              43.6775437
+            ],
+            [
+              -72.2713646,
+              43.6775558
+            ],
+            [
+              -72.271279,
+              43.6773245
+            ],
+            [
+              -72.2713096,
+              43.6773185
+            ],
+            [
+              -72.271585,
+              43.6772652
+            ],
+            [
+              -72.2715922,
+              43.6772847
+            ],
+            [
+              -72.2716147,
+              43.6772804
+            ],
+            [
+              -72.27174,
+              43.6772561
+            ],
+            [
+              -72.2718183,
+              43.6774679
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/106196947",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-building-10",
+      "name": "Building 10",
+      "nativeCodes": [
+        "B1"
+      ],
+      "aliases": [
+        "Building 10"
       ],
       "category": "academic",
       "geometry": {
@@ -133,44 +497,178 @@
         "coordinates": [
           [
             [
-              -72.27585,
-              43.66575
+              -72.2717457,
+              43.6769398
             ],
             [
-              -72.27515,
-              43.66575
+              -72.2712288,
+              43.6770466
             ],
             [
-              -72.27515,
-              43.66625
+              -72.2711549,
+              43.6768595
             ],
             [
-              -72.27585,
-              43.66625
+              -72.2710799,
+              43.676875
             ],
             [
-              -72.27585,
-              43.66575
+              -72.2710116,
+              43.6767023
+            ],
+            [
+              -72.2710819,
+              43.6766878
+            ],
+            [
+              -72.2710182,
+              43.676527
+            ],
+            [
+              -72.2714968,
+              43.6764279
+            ],
+            [
+              -72.2716312,
+              43.6764001
+            ],
+            [
+              -72.2716897,
+              43.6765479
+            ],
+            [
+              -72.2720312,
+              43.6764772
+            ],
+            [
+              -72.2720511,
+              43.6765273
+            ],
+            [
+              -72.2717087,
+              43.6765981
+            ],
+            [
+              -72.2717376,
+              43.676671
+            ],
+            [
+              -72.2716469,
+              43.6766897
+            ],
+            [
+              -72.2717457,
+              43.6769398
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "dartmouth-borwell-bldg",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/106196948",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "dartmouth-geisel-ed",
-      "name": "Geisel Education Pavilion",
+      "id": "dartmouth-snax",
+      "name": "SNAX",
       "nativeCodes": [
-        "GEP"
+        "SNAX"
       ],
       "aliases": [
-        "Geisel Education Pavilion"
+        "SNAX"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2624391,
+              43.6766735
+            ],
+            [
+              -72.2626447,
+              43.6766664
+            ],
+            [
+              -72.2626307,
+              43.6764561
+            ],
+            [
+              -72.2624252,
+              43.6764633
+            ],
+            [
+              -72.2624391,
+              43.6766735
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/162281478",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-maintenance-garage",
+      "name": "Maintenance Garage",
+      "nativeCodes": [
+        "MG"
+      ],
+      "aliases": [
+        "Maintenance Garage"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2664453,
+              43.6735904
+            ],
+            [
+              -72.2663277,
+              43.6733882
+            ],
+            [
+              -72.2659473,
+              43.673504
+            ],
+            [
+              -72.266065,
+              43.6737062
+            ],
+            [
+              -72.2664453,
+              43.6735904
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/296952669",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-evergreen-center",
+      "name": "EverGreen Center",
+      "nativeCodes": [
+        "EC"
+      ],
+      "aliases": [
+        "EverGreen Center"
       ],
       "category": "academic",
       "geometry": {
@@ -178,44 +676,136 @@
         "coordinates": [
           [
             [
-              -72.27335,
-              43.66725
+              -72.2639605,
+              43.6788528
             ],
             [
-              -72.27265,
-              43.66725
+              -72.2638735,
+              43.6788556
             ],
             [
-              -72.27265,
-              43.66775
+              -72.2638682,
+              43.6788455
             ],
             [
-              -72.27335,
-              43.66775
+              -72.2638387,
+              43.678839
             ],
             [
-              -72.27335,
-              43.66725
+              -72.2638151,
+              43.6788384
+            ],
+            [
+              -72.2637855,
+              43.678841
+            ],
+            [
+              -72.2637602,
+              43.6788473
+            ],
+            [
+              -72.2637575,
+              43.6788592
+            ],
+            [
+              -72.2636384,
+              43.6788615
+            ],
+            [
+              -72.2636628,
+              43.6791588
+            ],
+            [
+              -72.2636671,
+              43.6791758
+            ],
+            [
+              -72.263671,
+              43.6791909
+            ],
+            [
+              -72.2638632,
+              43.6794676
+            ],
+            [
+              -72.2639569,
+              43.6794392
+            ],
+            [
+              -72.263969,
+              43.6794488
+            ],
+            [
+              -72.2639867,
+              43.6794513
+            ],
+            [
+              -72.2640256,
+              43.6794436
+            ],
+            [
+              -72.2640524,
+              43.6794304
+            ],
+            [
+              -72.2640661,
+              43.6794192
+            ],
+            [
+              -72.2640587,
+              43.6794046
+            ],
+            [
+              -72.2641417,
+              43.6793788
+            ],
+            [
+              -72.2640109,
+              43.6791746
+            ],
+            [
+              -72.2640432,
+              43.6791388
+            ],
+            [
+              -72.2640348,
+              43.679119
+            ],
+            [
+              -72.2640262,
+              43.6790989
+            ],
+            [
+              -72.2639762,
+              43.6790808
+            ],
+            [
+              -72.2639722,
+              43.6790238
+            ],
+            [
+              -72.2639605,
+              43.6788528
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "dartmouth-geisel-ed",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/726009934",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "dartmouth-clinical-lead",
-      "name": "Clinical Leadership Building",
+      "id": "dartmouth-clinical-records-center",
+      "name": "Clinical Records Center",
       "nativeCodes": [
-        "CLB"
+        "CRC"
       ],
       "aliases": [
-        "Clinical Leadership Building"
+        "Clinical Records Center"
       ],
       "category": "academic",
       "geometry": {
@@ -223,500 +813,459 @@
         "coordinates": [
           [
             [
-              -72.27635,
-              43.66525
+              -72.265877,
+              43.676014
             ],
             [
-              -72.27565,
-              43.66525
+              -72.265817,
+              43.675732
             ],
             [
-              -72.27565,
-              43.66575
+              -72.265115,
+              43.675811
             ],
             [
-              -72.27635,
-              43.66575
+              -72.265175,
+              43.676093
             ],
             [
-              -72.27635,
-              43.66525
+              -72.265877,
+              43.676014
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "dartmouth-clinical-lead",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/729141532",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-david-s-house",
+      "name": "David's House",
+      "nativeCodes": [
+        "DSH"
+      ],
+      "aliases": [
+        "David's House"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2676812,
+              43.6773171
+            ],
+            [
+              -72.2677133,
+              43.6774651
+            ],
+            [
+              -72.2678818,
+              43.677446
+            ],
+            [
+              -72.2678474,
+              43.677287
+            ],
+            [
+              -72.2678861,
+              43.6772826
+            ],
+            [
+              -72.2678726,
+              43.6772207
+            ],
+            [
+              -72.2680226,
+              43.6772037
+            ],
+            [
+              -72.268002,
+              43.677109
+            ],
+            [
+              -72.2677932,
+              43.6771327
+            ],
+            [
+              -72.2678036,
+              43.6771807
+            ],
+            [
+              -72.2675247,
+              43.6772124
+            ],
+            [
+              -72.2675169,
+              43.6771763
+            ],
+            [
+              -72.267397,
+              43.6771899
+            ],
+            [
+              -72.2674307,
+              43.6773455
+            ],
+            [
+              -72.2676812,
+              43.6773171
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/729141538",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-hanover-road-dental-health",
+      "name": "Hanover Road Dental Health",
+      "nativeCodes": [
+        "HRDH"
+      ],
+      "aliases": [
+        "Hanover Road Dental Health"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2684731,
+              43.6799697
+            ],
+            [
+              -72.2682919,
+              43.6800008
+            ],
+            [
+              -72.2683378,
+              43.6801408
+            ],
+            [
+              -72.2684059,
+              43.6801291
+            ],
+            [
+              -72.2684186,
+              43.680168
+            ],
+            [
+              -72.2684825,
+              43.6801571
+            ],
+            [
+              -72.2684709,
+              43.6801216
+            ],
+            [
+              -72.2685201,
+              43.6801131
+            ],
+            [
+              -72.2684731,
+              43.6799697
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/729141544",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-fitkids-childcare-at-river-valley-club",
+      "name": "FitKids Childcare at River Valley Club",
+      "nativeCodes": [
+        "FCRVC"
+      ],
+      "aliases": [
+        "FitKids Childcare at River Valley Club"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2621273,
+              43.678272
+            ],
+            [
+              -72.2611899,
+              43.678286
+            ],
+            [
+              -72.2611847,
+              43.6781578
+            ],
+            [
+              -72.2621218,
+              43.6781402
+            ],
+            [
+              -72.2621273,
+              43.678272
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/745959424",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-jack-byrne-center-for-pallative-hospice-care",
+      "name": "Jack Byrne Center for Pallative & Hospice Care",
+      "nativeCodes": [
+        "JBCPHC"
+      ],
+      "aliases": [
+        "Jack Byrne Center for Pallative & Hospice Care"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.276356,
+              43.6780731
+            ],
+            [
+              -72.2763056,
+              43.6781656
+            ],
+            [
+              -72.2760915,
+              43.6781046
+            ],
+            [
+              -72.2761022,
+              43.6780849
+            ],
+            [
+              -72.276073,
+              43.6780766
+            ],
+            [
+              -72.2761071,
+              43.6780143
+            ],
+            [
+              -72.2760888,
+              43.6780091
+            ],
+            [
+              -72.2761915,
+              43.6778221
+            ],
+            [
+              -72.2761464,
+              43.6778092
+            ],
+            [
+              -72.2760803,
+              43.6779295
+            ],
+            [
+              -72.2760594,
+              43.6779235
+            ],
+            [
+              -72.2760169,
+              43.6779113
+            ],
+            [
+              -72.2759164,
+              43.6778824
+            ],
+            [
+              -72.2759524,
+              43.677817
+            ],
+            [
+              -72.2760441,
+              43.6776502
+            ],
+            [
+              -72.2760732,
+              43.6776586
+            ],
+            [
+              -72.2761174,
+              43.6775781
+            ],
+            [
+              -72.2762324,
+              43.6776111
+            ],
+            [
+              -72.2762812,
+              43.6775222
+            ],
+            [
+              -72.2762368,
+              43.6775094
+            ],
+            [
+              -72.2763261,
+              43.6773468
+            ],
+            [
+              -72.276297,
+              43.6773384
+            ],
+            [
+              -72.2763403,
+              43.6772383
+            ],
+            [
+              -72.2766068,
+              43.6773053
+            ],
+            [
+              -72.2765681,
+              43.677376
+            ],
+            [
+              -72.2766829,
+              43.6774088
+            ],
+            [
+              -72.2766681,
+              43.6774359
+            ],
+            [
+              -72.2767233,
+              43.6774516
+            ],
+            [
+              -72.2766251,
+              43.6776319
+            ],
+            [
+              -72.2765424,
+              43.6776083
+            ],
+            [
+              -72.2765009,
+              43.6776845
+            ],
+            [
+              -72.2765736,
+              43.6777052
+            ],
+            [
+              -72.2764689,
+              43.6778974
+            ],
+            [
+              -72.2764984,
+              43.6779058
+            ],
+            [
+              -72.2764004,
+              43.6780858
+            ],
+            [
+              -72.276356,
+              43.6780731
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/800745479",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-outpatient-surgery-center",
+      "name": "Outpatient Surgery Center",
+      "nativeCodes": [
+        "OSC"
+      ],
+      "aliases": [
+        "Outpatient Surgery Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.2681408,
+              43.67298
+            ],
+            [
+              -72.2680605,
+              43.6729826
+            ],
+            [
+              -72.2680118,
+              43.6729842
+            ],
+            [
+              -72.2679354,
+              43.6729868
+            ],
+            [
+              -72.2673315,
+              43.6730066
+            ],
+            [
+              -72.2673076,
+              43.6726261
+            ],
+            [
+              -72.2678045,
+              43.6726098
+            ],
+            [
+              -72.268117,
+              43.6725996
+            ],
+            [
+              -72.2681408,
+              43.67298
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/800747254",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-dartmouth-lebanon-dartmouth-dhmc-main",
-      "buildingId": "dartmouth-dhmc-main",
-      "coordinate": [
-        -72.2745,
-        43.66625
-      ],
-      "pathNodeId": "node-ent-dartmouth-lebanon-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "ent-dartmouth-lebanon-dartmouth-dhmc-main",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-dartmouth-lebanon-dartmouth-rubin-bldg",
-      "buildingId": "dartmouth-rubin-bldg",
-      "coordinate": [
-        -72.2735,
-        43.66675
-      ],
-      "pathNodeId": "node-ent-dartmouth-lebanon-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "ent-dartmouth-lebanon-dartmouth-rubin-bldg",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-dartmouth-lebanon-dartmouth-borwell-bldg",
-      "buildingId": "dartmouth-borwell-bldg",
-      "coordinate": [
-        -72.2755,
-        43.66575
-      ],
-      "pathNodeId": "node-ent-dartmouth-lebanon-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "ent-dartmouth-lebanon-dartmouth-borwell-bldg",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-dartmouth-lebanon-dartmouth-geisel-ed",
-      "buildingId": "dartmouth-geisel-ed",
-      "coordinate": [
-        -72.273,
-        43.66725
-      ],
-      "pathNodeId": "node-ent-dartmouth-lebanon-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "ent-dartmouth-lebanon-dartmouth-geisel-ed",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-dartmouth-lebanon-dartmouth-clinical-lead",
-      "buildingId": "dartmouth-clinical-lead",
-      "coordinate": [
-        -72.276,
-        43.66525
-      ],
-      "pathNodeId": "node-ent-dartmouth-lebanon-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "ent-dartmouth-lebanon-dartmouth-clinical-lead",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-dartmouth-lebanon-0",
-      "coordinate": [
-        -72.2797,
-        43.6629
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-spine-dartmouth-lebanon-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-dartmouth-lebanon-1",
-      "coordinate": [
-        -72.2771,
-        43.664699999999996
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-spine-dartmouth-lebanon-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-dartmouth-lebanon-2",
-      "coordinate": [
-        -72.2745,
-        43.6665
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-spine-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-dartmouth-lebanon-3",
-      "coordinate": [
-        -72.2719,
-        43.6683
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-spine-dartmouth-lebanon-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-dartmouth-lebanon-4",
-      "coordinate": [
-        -72.2693,
-        43.6701
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-spine-dartmouth-lebanon-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-dartmouth-lebanon-0",
-      "coordinate": [
-        -72.2745,
-        43.66625
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-ent-dartmouth-lebanon-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-dartmouth-lebanon-1",
-      "coordinate": [
-        -72.2735,
-        43.66675
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-ent-dartmouth-lebanon-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-dartmouth-lebanon-2",
-      "coordinate": [
-        -72.2755,
-        43.66575
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-ent-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-dartmouth-lebanon-3",
-      "coordinate": [
-        -72.273,
-        43.66725
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-ent-dartmouth-lebanon-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-dartmouth-lebanon-4",
-      "coordinate": [
-        -72.276,
-        43.66525
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "node-ent-dartmouth-lebanon-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-1",
-      "from": "node-spine-dartmouth-lebanon-0",
-      "to": "node-spine-dartmouth-lebanon-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-0",
-      "from": "node-spine-dartmouth-lebanon-1",
-      "to": "node-spine-dartmouth-lebanon-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
-      "from": "node-spine-dartmouth-lebanon-1",
-      "to": "node-spine-dartmouth-lebanon-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-1",
-      "from": "node-spine-dartmouth-lebanon-2",
-      "to": "node-spine-dartmouth-lebanon-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-3",
-      "from": "node-spine-dartmouth-lebanon-2",
-      "to": "node-spine-dartmouth-lebanon-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-2",
-      "from": "node-spine-dartmouth-lebanon-3",
-      "to": "node-spine-dartmouth-lebanon-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-4",
-      "from": "node-spine-dartmouth-lebanon-3",
-      "to": "node-spine-dartmouth-lebanon-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-3",
-      "from": "node-spine-dartmouth-lebanon-4",
-      "to": "node-spine-dartmouth-lebanon-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-2",
-      "from": "node-ent-dartmouth-lebanon-0",
-      "to": "node-spine-dartmouth-lebanon-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-ent-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-0",
-      "from": "node-spine-dartmouth-lebanon-2",
-      "to": "node-ent-dartmouth-lebanon-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
-      "from": "node-ent-dartmouth-lebanon-1",
-      "to": "node-spine-dartmouth-lebanon-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-ent-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-1",
-      "from": "node-spine-dartmouth-lebanon-2",
-      "to": "node-ent-dartmouth-lebanon-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-2",
-      "from": "node-ent-dartmouth-lebanon-2",
-      "to": "node-spine-dartmouth-lebanon-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-ent-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-2",
-      "from": "node-spine-dartmouth-lebanon-2",
-      "to": "node-ent-dartmouth-lebanon-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-3",
-      "from": "node-ent-dartmouth-lebanon-3",
-      "to": "node-spine-dartmouth-lebanon-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-ent-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-3-node-ent-dartmouth-lebanon-3",
-      "from": "node-spine-dartmouth-lebanon-3",
-      "to": "node-ent-dartmouth-lebanon-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-3-node-ent-dartmouth-lebanon-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-1",
-      "from": "node-ent-dartmouth-lebanon-4",
-      "to": "node-spine-dartmouth-lebanon-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-ent-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-dartmouth-lebanon-1-node-ent-dartmouth-lebanon-4",
-      "from": "node-spine-dartmouth-lebanon-1",
-      "to": "node-ent-dartmouth-lebanon-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-dartmouth-lebanon",
-          "nativeId": "edge-node-spine-dartmouth-lebanon-1-node-ent-dartmouth-lebanon-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }

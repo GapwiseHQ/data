@@ -17,115 +17,25 @@
   },
   "sources": [
     {
-      "id": "src-waterloo-stratford",
-      "title": "Waterloo Stratford School Directory",
-      "url": "https://uwaterloo.ca/stratford-school-of-interaction-design-and-business/",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "waterloo-stratford-media",
-      "name": "Stratford Interactive Media Building",
+      "id": "waterloo-17-george-street-west",
+      "name": "17 George Street West",
       "nativeCodes": [
-        "DMS"
+        "1GSW"
       ],
       "aliases": [
-        "Stratford Interactive Media Building"
-      ],
-      "category": "academic",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -80.97685,
-              43.37025
-            ],
-            [
-              -80.97615,
-              43.37025
-            ],
-            [
-              -80.97615,
-              43.37075
-            ],
-            [
-              -80.97685,
-              43.37075
-            ],
-            [
-              -80.97685,
-              43.37025
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "waterloo-stratford-media",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "waterloo-media-creation",
-      "name": "Media Creation Studios",
-      "nativeCodes": [
-        "MCS"
-      ],
-      "aliases": [
-        "Media Creation Studios"
-      ],
-      "category": "residence",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -80.97585,
-              43.37075
-            ],
-            [
-              -80.97515,
-              43.37075
-            ],
-            [
-              -80.97515,
-              43.37125
-            ],
-            [
-              -80.97585,
-              43.37125
-            ],
-            [
-              -80.97585,
-              43.37075
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "waterloo-media-creation",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "waterloo-digital-atrium",
-      "name": "Digital Innovation Atrium",
-      "nativeCodes": [
-        "DIA"
-      ],
-      "aliases": [
-        "Digital Innovation Atrium"
+        "17 George Street West"
       ],
       "category": "facility",
       "geometry": {
@@ -133,44 +43,366 @@
         "coordinates": [
           [
             [
-              -80.97785,
-              43.36975
+              -80.9819472,
+              43.3684782
             ],
             [
-              -80.97715,
-              43.36975
+              -80.9818917,
+              43.3685365
             ],
             [
-              -80.97715,
-              43.37025
+              -80.9817403,
+              43.36857
             ],
             [
-              -80.97785,
-              43.37025
+              -80.9818534,
+              43.3688741
             ],
             [
-              -80.97785,
-              43.36975
+              -80.9822559,
+              43.3687955
+            ],
+            [
+              -80.9821777,
+              43.3686026
+            ],
+            [
+              -80.9821876,
+              43.3685831
+            ],
+            [
+              -80.9819472,
+              43.3684782
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "waterloo-digital-atrium",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68829347",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "waterloo-st-patrick-lab",
-      "name": "St. Patrick Project Lab",
+      "id": "waterloo-8-grange-street",
+      "name": "8 Grange Street",
       "nativeCodes": [
-        "STP"
+        "8GS"
       ],
       "aliases": [
-        "St. Patrick Project Lab"
+        "8 Grange Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9785169,
+              43.368431
+            ],
+            [
+              -80.9785109,
+              43.3686021
+            ],
+            [
+              -80.9793098,
+              43.3686169
+            ],
+            [
+              -80.9793002,
+              43.3688907
+            ],
+            [
+              -80.9796455,
+              43.3688971
+            ],
+            [
+              -80.9796611,
+              43.3684522
+            ],
+            [
+              -80.9785169,
+              43.368431
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68829373",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-49-rebecca-street",
+      "name": "49 Rebecca Street",
+      "nativeCodes": [
+        "4RS"
+      ],
+      "aliases": [
+        "49 Rebecca Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9777172,
+              43.3684374
+            ],
+            [
+              -80.9777073,
+              43.3686946
+            ],
+            [
+              -80.9775372,
+              43.3686911
+            ],
+            [
+              -80.9775322,
+              43.3688202
+            ],
+            [
+              -80.9775688,
+              43.3688209
+            ],
+            [
+              -80.9775671,
+              43.3688643
+            ],
+            [
+              -80.9780774,
+              43.3688747
+            ],
+            [
+              -80.9780838,
+              43.3687078
+            ],
+            [
+              -80.9779479,
+              43.368705
+            ],
+            [
+              -80.977958,
+              43.3684423
+            ],
+            [
+              -80.9777172,
+              43.3684374
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68829455",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-william-allman-memorial-arena",
+      "name": "William Allman Memorial Arena",
+      "nativeCodes": [
+        "WAMA"
+      ],
+      "aliases": [
+        "William Allman Memorial Arena"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9754992,
+              43.3740249
+            ],
+            [
+              -80.975496,
+              43.3744196
+            ],
+            [
+              -80.9765338,
+              43.3744241
+            ],
+            [
+              -80.9765371,
+              43.3740294
+            ],
+            [
+              -80.9754992,
+              43.3740249
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68829473",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-stratford-armoury",
+      "name": "Stratford Armoury",
+      "nativeCodes": [
+        "SA"
+      ],
+      "aliases": [
+        "Stratford Armoury"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9799917,
+              43.3706868
+            ],
+            [
+              -80.9799871,
+              43.3708642
+            ],
+            [
+              -80.9804969,
+              43.3708712
+            ],
+            [
+              -80.9805015,
+              43.3706938
+            ],
+            [
+              -80.9799917,
+              43.3706868
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68829539",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-the-huntingdon",
+      "name": "The Huntingdon",
+      "nativeCodes": [
+        "THE"
+      ],
+      "aliases": [
+        "The Huntingdon"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9736064,
+              43.3741507
+            ],
+            [
+              -80.9736003,
+              43.3743636
+            ],
+            [
+              -80.9743016,
+              43.3743743
+            ],
+            [
+              -80.9743078,
+              43.3741613
+            ],
+            [
+              -80.9736064,
+              43.3741507
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68829557",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-immaculate-conception-church",
+      "name": "Immaculate Conception Church",
+      "nativeCodes": [
+        "ICC"
+      ],
+      "aliases": [
+        "Immaculate Conception Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9713774,
+              43.3679139
+            ],
+            [
+              -80.9713764,
+              43.3680524
+            ],
+            [
+              -80.9716456,
+              43.3680535
+            ],
+            [
+              -80.9716383,
+              43.3681846
+            ],
+            [
+              -80.97181,
+              43.3681897
+            ],
+            [
+              -80.9718183,
+              43.3679157
+            ],
+            [
+              -80.9713774,
+              43.3679139
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/68829584",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-stratford-city-hall",
+      "name": "Stratford City Hall",
+      "nativeCodes": [
+        "SCH"
+      ],
+      "aliases": [
+        "Stratford City Hall"
       ],
       "category": "academic",
       "geometry": {
@@ -178,44 +410,231 @@
         "coordinates": [
           [
             [
-              -80.97535,
-              43.37125
+              -80.9824574,
+              43.3699001
             ],
             [
-              -80.97465,
-              43.37125
+              -80.9823144,
+              43.370097
             ],
             [
-              -80.97465,
-              43.37175
+              -80.9822121,
+              43.370093
             ],
             [
-              -80.97535,
-              43.37175
+              -80.9820979,
+              43.3700886
             ],
             [
-              -80.97535,
-              43.37125
+              -80.9819818,
+              43.3698853
+            ],
+            [
+              -80.9824574,
+              43.3699001
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "waterloo-st-patrick-lab",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/164420370",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "waterloo-design-hub",
-      "name": "Stratford Interaction Design Hub",
+      "id": "waterloo-125-st-patrick-street",
+      "name": "125 St. Patrick Street",
       "nativeCodes": [
-        "SID"
+        "1SPS"
       ],
       "aliases": [
-        "Stratford Interaction Design Hub"
+        "125 St. Patrick Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9822603,
+              43.3681539
+            ],
+            [
+              -80.9823897,
+              43.3679999
+            ],
+            [
+              -80.9823577,
+              43.3679843
+            ],
+            [
+              -80.9823727,
+              43.3679691
+            ],
+            [
+              -80.9823917,
+              43.3679742
+            ],
+            [
+              -80.9824398,
+              43.3679154
+            ],
+            [
+              -80.982407,
+              43.3678864
+            ],
+            [
+              -80.9821687,
+              43.3677706
+            ],
+            [
+              -80.9821428,
+              43.3677782
+            ],
+            [
+              -80.981913,
+              43.3676794
+            ],
+            [
+              -80.9818942,
+              43.3676839
+            ],
+            [
+              -80.9817138,
+              43.3679005
+            ],
+            [
+              -80.9821136,
+              43.3680743
+            ],
+            [
+              -80.9821061,
+              43.3680933
+            ],
+            [
+              -80.9821809,
+              43.3681272
+            ],
+            [
+              -80.9821878,
+              43.3681205
+            ],
+            [
+              -80.9822603,
+              43.3681539
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/166369445",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-franklin-e-hinz",
+      "name": "Franklin E. Hinz",
+      "nativeCodes": [
+        "FEH"
+      ],
+      "aliases": [
+        "Franklin E. Hinz"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9780808,
+              43.371514
+            ],
+            [
+              -80.978221,
+              43.3715138
+            ],
+            [
+              -80.9782216,
+              43.3717085
+            ],
+            [
+              -80.9780814,
+              43.3717087
+            ],
+            [
+              -80.9780808,
+              43.371514
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/246660294",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-206-ontario-street",
+      "name": "206 Ontario Street",
+      "nativeCodes": [
+        "2OS"
+      ],
+      "aliases": [
+        "206 Ontario Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9779383,
+              43.3714961
+            ],
+            [
+              -80.9779286,
+              43.3717549
+            ],
+            [
+              -80.9777395,
+              43.3717512
+            ],
+            [
+              -80.9777492,
+              43.3714924
+            ],
+            [
+              -80.9779383,
+              43.3714961
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/246660295",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-centre-mall",
+      "name": "Centre Mall",
+      "nativeCodes": [
+        "CM"
+      ],
+      "aliases": [
+        "Centre Mall"
       ],
       "category": "academic",
       "geometry": {
@@ -223,500 +642,775 @@
         "coordinates": [
           [
             [
-              -80.97835,
-              43.36925
+              -80.9788729,
+              43.371636
             ],
             [
-              -80.97765,
-              43.36925
+              -80.9788652,
+              43.3718555
             ],
             [
-              -80.97765,
-              43.36975
+              -80.9782818,
+              43.3718508
             ],
             [
-              -80.97835,
-              43.36975
+              -80.9782807,
+              43.3716201
             ],
             [
-              -80.97835,
-              43.36925
+              -80.9788729,
+              43.371636
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "waterloo-design-hub",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/246660297",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-bell-co",
+      "name": "Bell CO",
+      "nativeCodes": [
+        "BC"
+      ],
+      "aliases": [
+        "Bell CO"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9791953,
+              43.3701239
+            ],
+            [
+              -80.9791884,
+              43.3703483
+            ],
+            [
+              -80.9788053,
+              43.370342
+            ],
+            [
+              -80.9788123,
+              43.3701176
+            ],
+            [
+              -80.9791953,
+              43.3701239
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/253122775",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-the-ups-store",
+      "name": "The UPS Store",
+      "nativeCodes": [
+        "US"
+      ],
+      "aliases": [
+        "The UPS Store"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9718146,
+              43.3714976
+            ],
+            [
+              -80.9719815,
+              43.3715011
+            ],
+            [
+              -80.9719779,
+              43.3715948
+            ],
+            [
+              -80.971811,
+              43.3715913
+            ],
+            [
+              -80.9718146,
+              43.3714976
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/253359971",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-knox-presbyterian-church-stratford",
+      "name": "Knox Presbyterian Church Stratford",
+      "nativeCodes": [
+        "KPCS"
+      ],
+      "aliases": [
+        "Knox Presbyterian Church Stratford"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9799968,
+              43.3715434
+            ],
+            [
+              -80.9799835,
+              43.3717213
+            ],
+            [
+              -80.9799019,
+              43.3717192
+            ],
+            [
+              -80.9798984,
+              43.3717936
+            ],
+            [
+              -80.9799837,
+              43.3717955
+            ],
+            [
+              -80.9799839,
+              43.3718596
+            ],
+            [
+              -80.979937,
+              43.3718955
+            ],
+            [
+              -80.9799397,
+              43.3719342
+            ],
+            [
+              -80.9800342,
+              43.3719351
+            ],
+            [
+              -80.980034,
+              43.3719903
+            ],
+            [
+              -80.9800521,
+              43.3720172
+            ],
+            [
+              -80.980091,
+              43.3720411
+            ],
+            [
+              -80.9801377,
+              43.3720479
+            ],
+            [
+              -80.9801843,
+              43.3720426
+            ],
+            [
+              -80.9802223,
+              43.3720188
+            ],
+            [
+              -80.9802521,
+              43.3719951
+            ],
+            [
+              -80.980294,
+              43.3719911
+            ],
+            [
+              -80.9802931,
+              43.3718874
+            ],
+            [
+              -80.9801944,
+              43.3718885
+            ],
+            [
+              -80.9801996,
+              43.3718192
+            ],
+            [
+              -80.9802697,
+              43.3718194
+            ],
+            [
+              -80.9802765,
+              43.3717044
+            ],
+            [
+              -80.98018,
+              43.3717075
+            ],
+            [
+              -80.9801861,
+              43.3715486
+            ],
+            [
+              -80.9799968,
+              43.3715434
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/257380807",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-rbc-dominion-securities",
+      "name": "RBC Dominion Securities",
+      "nativeCodes": [
+        "RDS"
+      ],
+      "aliases": [
+        "RBC Dominion Securities"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9785971,
+              43.3712269
+            ],
+            [
+              -80.978782,
+              43.371229
+            ],
+            [
+              -80.9787854,
+              43.3710662
+            ],
+            [
+              -80.9786005,
+              43.3710641
+            ],
+            [
+              -80.9785971,
+              43.3712269
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/257380808",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-shoppers-drug-mart",
+      "name": "Shoppers Drug Mart",
+      "nativeCodes": [
+        "SDM"
+      ],
+      "aliases": [
+        "Shoppers Drug Mart"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9777301,
+              43.3708563
+            ],
+            [
+              -80.9777243,
+              43.3712
+            ],
+            [
+              -80.9771794,
+              43.3711928
+            ],
+            [
+              -80.9771977,
+              43.3708453
+            ],
+            [
+              -80.9772817,
+              43.3708485
+            ],
+            [
+              -80.9777301,
+              43.3708563
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/283422256",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-coronation-dental",
+      "name": "Coronation Dental",
+      "nativeCodes": [
+        "CD"
+      ],
+      "aliases": [
+        "Coronation Dental"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9747468,
+              43.3714807
+            ],
+            [
+              -80.974742,
+              43.3716261
+            ],
+            [
+              -80.9751277,
+              43.3716329
+            ],
+            [
+              -80.9751326,
+              43.3714875
+            ],
+            [
+              -80.9747468,
+              43.3714807
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/283422576",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-rh-o-thompson-candies",
+      "name": "Rh\u00e9o Thompson Candies",
+      "nativeCodes": [
+        "ROTC"
+      ],
+      "aliases": [
+        "Rh\u00e9o Thompson Candies"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9804958,
+              43.3704346
+            ],
+            [
+              -80.9805087,
+              43.3698834
+            ],
+            [
+              -80.980731,
+              43.3698862
+            ],
+            [
+              -80.9807181,
+              43.3704373
+            ],
+            [
+              -80.9804958,
+              43.3704346
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/345729070",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-230-ontario-street",
+      "name": "230 Ontario Street",
+      "nativeCodes": [
+        "230"
+      ],
+      "aliases": [
+        "230 Ontario Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9768784,
+              43.3715151
+            ],
+            [
+              -80.9768693,
+              43.3716929
+            ],
+            [
+              -80.9770062,
+              43.3716959
+            ],
+            [
+              -80.9770169,
+              43.371517
+            ],
+            [
+              -80.9768784,
+              43.3715151
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/350660130",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-36-front-street",
+      "name": "36 Front Street",
+      "nativeCodes": [
+        "3FS"
+      ],
+      "aliases": [
+        "36 Front Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9742829,
+              43.3738336
+            ],
+            [
+              -80.9742723,
+              43.3740249
+            ],
+            [
+              -80.9745562,
+              43.3740333
+            ],
+            [
+              -80.9745989,
+              43.3740714
+            ],
+            [
+              -80.9746577,
+              43.37407
+            ],
+            [
+              -80.9747039,
+              43.374037
+            ],
+            [
+              -80.9749811,
+              43.3740452
+            ],
+            [
+              -80.9749917,
+              43.3738544
+            ],
+            [
+              -80.9742829,
+              43.3738336
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/357831679",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-bld-540787626",
+      "name": "Immaculate Conception Church",
+      "nativeCodes": [
+        "IMMA"
+      ],
+      "aliases": [
+        "Immaculate Conception Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.97181,
+              43.3681897
+            ],
+            [
+              -80.9716383,
+              43.3681846
+            ],
+            [
+              -80.9716456,
+              43.3680535
+            ],
+            [
+              -80.9713764,
+              43.3680524
+            ],
+            [
+              -80.9713774,
+              43.3679139
+            ],
+            [
+              -80.9718183,
+              43.3679157
+            ],
+            [
+              -80.97181,
+              43.3681897
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/540787626",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-272-brunswick-street",
+      "name": "272 Brunswick Street",
+      "nativeCodes": [
+        "2BS"
+      ],
+      "aliases": [
+        "272 Brunswick Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9715956,
+              43.3698248
+            ],
+            [
+              -80.9715085,
+              43.3698239
+            ],
+            [
+              -80.9715103,
+              43.3697324
+            ],
+            [
+              -80.971395,
+              43.3697312
+            ],
+            [
+              -80.971393,
+              43.3698318
+            ],
+            [
+              -80.9714175,
+              43.3698321
+            ],
+            [
+              -80.9714163,
+              43.3698908
+            ],
+            [
+              -80.9715943,
+              43.3698927
+            ],
+            [
+              -80.9715956,
+              43.3698248
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/545067495",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-saint-paul-s-church",
+      "name": "Saint Paul's Church",
+      "nativeCodes": [
+        "SPSC"
+      ],
+      "aliases": [
+        "Saint Paul's Church"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9798071,
+              43.3673656
+            ],
+            [
+              -80.9795975,
+              43.3673609
+            ],
+            [
+              -80.9795943,
+              43.3673739
+            ],
+            [
+              -80.9794854,
+              43.3673715
+            ],
+            [
+              -80.979336,
+              43.3673621
+            ],
+            [
+              -80.9793473,
+              43.3672015
+            ],
+            [
+              -80.979604,
+              43.3672062
+            ],
+            [
+              -80.979604,
+              43.3672239
+            ],
+            [
+              -80.9797323,
+              43.3672215
+            ],
+            [
+              -80.9797583,
+              43.3672038
+            ],
+            [
+              -80.9798119,
+              43.3672074
+            ],
+            [
+              -80.9798071,
+              43.3673656
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/766794190",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "waterloo-new-orleans-pizza",
+      "name": "New Orleans Pizza",
+      "nativeCodes": [
+        "NOP"
+      ],
+      "aliases": [
+        "New Orleans Pizza"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9770068,
+              43.3709809
+            ],
+            [
+              -80.9769967,
+              43.3711052
+            ],
+            [
+              -80.9771383,
+              43.3711058
+            ],
+            [
+              -80.9771457,
+              43.3709818
+            ],
+            [
+              -80.9770068,
+              43.3709809
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1458626963",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-waterloo-stratford-waterloo-stratford-media",
-      "buildingId": "waterloo-stratford-media",
-      "coordinate": [
-        -80.9765,
-        43.37025
-      ],
-      "pathNodeId": "node-ent-waterloo-stratford-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "ent-waterloo-stratford-waterloo-stratford-media",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-stratford-waterloo-media-creation",
-      "buildingId": "waterloo-media-creation",
-      "coordinate": [
-        -80.9755,
-        43.37075
-      ],
-      "pathNodeId": "node-ent-waterloo-stratford-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "ent-waterloo-stratford-waterloo-media-creation",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-stratford-waterloo-digital-atrium",
-      "buildingId": "waterloo-digital-atrium",
-      "coordinate": [
-        -80.9775,
-        43.36975
-      ],
-      "pathNodeId": "node-ent-waterloo-stratford-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "ent-waterloo-stratford-waterloo-digital-atrium",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-stratford-waterloo-st-patrick-lab",
-      "buildingId": "waterloo-st-patrick-lab",
-      "coordinate": [
-        -80.975,
-        43.37125
-      ],
-      "pathNodeId": "node-ent-waterloo-stratford-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "ent-waterloo-stratford-waterloo-st-patrick-lab",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-waterloo-stratford-waterloo-design-hub",
-      "buildingId": "waterloo-design-hub",
-      "coordinate": [
-        -80.978,
-        43.36925
-      ],
-      "pathNodeId": "node-ent-waterloo-stratford-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "ent-waterloo-stratford-waterloo-design-hub",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-waterloo-stratford-0",
-      "coordinate": [
-        -80.9809,
-        43.3669
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-spine-waterloo-stratford-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-stratford-1",
-      "coordinate": [
-        -80.9787,
-        43.3687
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-spine-waterloo-stratford-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-stratford-2",
-      "coordinate": [
-        -80.9765,
-        43.3705
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-spine-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-stratford-3",
-      "coordinate": [
-        -80.9743,
-        43.3723
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-spine-waterloo-stratford-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-waterloo-stratford-4",
-      "coordinate": [
-        -80.9721,
-        43.3741
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-spine-waterloo-stratford-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-stratford-0",
-      "coordinate": [
-        -80.9765,
-        43.37025
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-ent-waterloo-stratford-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-stratford-1",
-      "coordinate": [
-        -80.9755,
-        43.37075
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-ent-waterloo-stratford-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-stratford-2",
-      "coordinate": [
-        -80.9775,
-        43.36975
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-ent-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-stratford-3",
-      "coordinate": [
-        -80.975,
-        43.37125
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-ent-waterloo-stratford-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-waterloo-stratford-4",
-      "coordinate": [
-        -80.978,
-        43.36925
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "node-ent-waterloo-stratford-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-waterloo-stratford-0-node-spine-waterloo-stratford-1",
-      "from": "node-spine-waterloo-stratford-0",
-      "to": "node-spine-waterloo-stratford-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-0-node-spine-waterloo-stratford-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-1-node-spine-waterloo-stratford-0",
-      "from": "node-spine-waterloo-stratford-1",
-      "to": "node-spine-waterloo-stratford-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-1-node-spine-waterloo-stratford-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-1-node-spine-waterloo-stratford-2",
-      "from": "node-spine-waterloo-stratford-1",
-      "to": "node-spine-waterloo-stratford-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-1-node-spine-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-2-node-spine-waterloo-stratford-1",
-      "from": "node-spine-waterloo-stratford-2",
-      "to": "node-spine-waterloo-stratford-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-2-node-spine-waterloo-stratford-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-2-node-spine-waterloo-stratford-3",
-      "from": "node-spine-waterloo-stratford-2",
-      "to": "node-spine-waterloo-stratford-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-2-node-spine-waterloo-stratford-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-3-node-spine-waterloo-stratford-2",
-      "from": "node-spine-waterloo-stratford-3",
-      "to": "node-spine-waterloo-stratford-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-3-node-spine-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-3-node-spine-waterloo-stratford-4",
-      "from": "node-spine-waterloo-stratford-3",
-      "to": "node-spine-waterloo-stratford-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-3-node-spine-waterloo-stratford-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-4-node-spine-waterloo-stratford-3",
-      "from": "node-spine-waterloo-stratford-4",
-      "to": "node-spine-waterloo-stratford-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-4-node-spine-waterloo-stratford-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-stratford-0-node-spine-waterloo-stratford-2",
-      "from": "node-ent-waterloo-stratford-0",
-      "to": "node-spine-waterloo-stratford-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-ent-waterloo-stratford-0-node-spine-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-2-node-ent-waterloo-stratford-0",
-      "from": "node-spine-waterloo-stratford-2",
-      "to": "node-ent-waterloo-stratford-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-2-node-ent-waterloo-stratford-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-stratford-1-node-spine-waterloo-stratford-2",
-      "from": "node-ent-waterloo-stratford-1",
-      "to": "node-spine-waterloo-stratford-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-ent-waterloo-stratford-1-node-spine-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-2-node-ent-waterloo-stratford-1",
-      "from": "node-spine-waterloo-stratford-2",
-      "to": "node-ent-waterloo-stratford-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-2-node-ent-waterloo-stratford-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-stratford-2-node-spine-waterloo-stratford-2",
-      "from": "node-ent-waterloo-stratford-2",
-      "to": "node-spine-waterloo-stratford-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-ent-waterloo-stratford-2-node-spine-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-2-node-ent-waterloo-stratford-2",
-      "from": "node-spine-waterloo-stratford-2",
-      "to": "node-ent-waterloo-stratford-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-2-node-ent-waterloo-stratford-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-stratford-3-node-spine-waterloo-stratford-3",
-      "from": "node-ent-waterloo-stratford-3",
-      "to": "node-spine-waterloo-stratford-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-ent-waterloo-stratford-3-node-spine-waterloo-stratford-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-3-node-ent-waterloo-stratford-3",
-      "from": "node-spine-waterloo-stratford-3",
-      "to": "node-ent-waterloo-stratford-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-3-node-ent-waterloo-stratford-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-waterloo-stratford-4-node-spine-waterloo-stratford-1",
-      "from": "node-ent-waterloo-stratford-4",
-      "to": "node-spine-waterloo-stratford-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-ent-waterloo-stratford-4-node-spine-waterloo-stratford-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-waterloo-stratford-1-node-ent-waterloo-stratford-4",
-      "from": "node-spine-waterloo-stratford-1",
-      "to": "node-ent-waterloo-stratford-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-waterloo-stratford",
-          "nativeId": "edge-node-spine-waterloo-stratford-1-node-ent-waterloo-stratford-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }

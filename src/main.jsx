@@ -1,11 +1,15 @@
 import React, { useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BookOpen, Braces, Check, ChevronRight, Clipboard, Database, ExternalLink, FileJson, Layers3, Map, MapPinned, Menu, Search, ShieldCheck, Sparkles, X } from 'lucide-react';
+import { UNIVERSITIES, CAMPUS_IDS } from './campus-contribution-data.js';
 import './styles.css';
 import './accent-theme.css';
 
+const universityCount = UNIVERSITIES.length;
+const campusCount = CAMPUS_IDS.length;
+
 const datasets = [
-  { name: 'Multi-university campus models', file: 'universities/*/campus.json', type: 'JSON', status: 'Maintained', description: 'Comprehensive campus schemas with source-backed buildings, source-classified entrances, path graphs, and provenance across 14 universities and 16 campus models.', fields: ['institution', 'campus', 'buildings', 'entrances', 'pathNodes', 'pathEdges'] },
+  { name: 'Multi-university campus models', file: 'universities/*/campus.json', type: 'JSON', status: 'Maintained', description: `Comprehensive campus schemas with source-backed buildings, source-classified entrances, path graphs, and provenance across ${universityCount} universities and ${campusCount} campus models.`, fields: ['institution', 'campus', 'buildings', 'entrances', 'pathNodes', 'pathEdges'] },
   { name: 'Building registry', file: 'building-registry.ts', type: 'Registry', status: 'Maintained', description: 'Canonical building codes, names, aliases, categories and room-to-floor interpretation rules.', fields: ['code', 'name', 'category', 'aliases', 'roomFloorRule'] },
   { name: 'Campus buildings & footprints', file: 'buildings.geojson', type: 'GeoJSON', status: 'Derived + reviewed', description: 'Navigation points, polygon footprints, and canonical metadata spanning modeled campuses, including UBC Vancouver, Waterloo Main, and McGill Downtown.', fields: ['geometry', 'code', 'name', 'geometryRole', 'source'] },
   { name: 'Entrances & access audits', file: 'generated/campus-access-audit.json', type: 'JSON', status: 'Audited', description: 'Coverage, barrier-free access, and verification information for exterior entrances and approach networks.', fields: ['code', 'canonicalGeometry', 'verifiedExteriorEntrances', 'inferredApproaches'] },
@@ -65,7 +69,7 @@ function App() {
         <section className="hero shell">
           <div className="eyebrow"><Sparkles size={13}/> GAPWISE DATA</div>
           <h1 className="hero-claim">North America’s largest free and open <span>multi-university</span> campus navigation dataset</h1>
-          <p className="lead">Auditable building geometry, source-classified entrances, pedestrian route evidence, provenance, schemas, and visual contribution tools spanning 14 Canadian universities, including U of T's three campuses, UBC Vancouver, Waterloo Main, and McGill Downtown.</p>
+          <p className="lead">Auditable building geometry, source-classified entrances, pedestrian route evidence, provenance, schemas, and visual contribution tools spanning {universityCount} Canadian and U.S. universities across {campusCount} campus models, including U of T, UBC, Waterloo, McGill, Harvard, Yale, and Columbia.</p>
           <div className="hero-actions">
             <a className="primary" href="/contribute"><MapPinned size={15}/> Contribute campus data <ChevronRight size={16}/></a>
             <a className="secondary" href="#datasets"><Database size={15}/> Explore the data</a>
@@ -73,8 +77,8 @@ function App() {
             <a className="secondary" href={`${DATA_REPOSITORY}/tree/main/universities`}><Braces size={15}/> View source</a>
           </div>
           <div className="stats">
-            <div><strong>14</strong><span>Universities</span></div>
-            <div><strong>16</strong><span>Campus models</span></div>
+            <div><strong>{universityCount}</strong><span>Universities</span></div>
+            <div><strong>{campusCount}</strong><span>Campus models</span></div>
             <div><strong>Auditable</strong><span>Provenance-first</span></div>
             <div><strong>Open source</strong><span>Visual studio</span></div>
           </div>

@@ -17,70 +17,25 @@
   },
   "sources": [
     {
-      "id": "src-princeton-forrestal",
-      "title": "Princeton Forrestal Campus & PPPL Directory",
-      "url": "https://www.pppl.gov/",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "princeton-spitzer-bldg",
-      "name": "Lyman Spitzer Building",
+      "id": "princeton-1100-campus-rd",
+      "name": "1100 Campus Rd",
       "nativeCodes": [
-        "LSB"
+        "1CR"
       ],
       "aliases": [
-        "Lyman Spitzer Building"
-      ],
-      "category": "academic",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -74.60485,
-              40.35125
-            ],
-            [
-              -74.60415,
-              40.35125
-            ],
-            [
-              -74.60415,
-              40.35175
-            ],
-            [
-              -74.60485,
-              40.35175
-            ],
-            [
-              -74.60485,
-              40.35125
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "princeton-spitzer-bldg",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "princeton-pppl-lab",
-      "name": "Princeton Plasma Physics Lab",
-      "nativeCodes": [
-        "PPPL"
-      ],
-      "aliases": [
-        "Princeton Plasma Physics Lab"
+        "1100 Campus Rd"
       ],
       "category": "residence",
       "geometry": {
@@ -88,635 +43,1894 @@
         "coordinates": [
           [
             [
-              -74.60385,
-              40.35175
+              -74.6106652,
+              40.3499358
             ],
             [
-              -74.60315,
-              40.35175
+              -74.6103179,
+              40.3498527
             ],
             [
-              -74.60315,
-              40.35225
+              -74.6101583,
+              40.35024
             ],
             [
-              -74.60385,
-              40.35225
+              -74.6099341,
+              40.3506284
             ],
             [
-              -74.60385,
-              40.35175
+              -74.6102661,
+              40.3507397
+            ],
+            [
+              -74.6104693,
+              40.3503878
+            ],
+            [
+              -74.6105274,
+              40.3502703
+            ],
+            [
+              -74.6106652,
+              40.3499358
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "princeton-pppl-lab",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/166624346",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "princeton-complex-materials",
-      "name": "Complex Materials Science Lab",
+      "id": "princeton-the-westin-princeton-at-forrestal-village",
+      "name": "The Westin Princeton at Forrestal Village",
       "nativeCodes": [
-        "CMSL"
+        "WPFV"
       ],
       "aliases": [
-        "Complex Materials Science Lab"
+        "The Westin Princeton at Forrestal Village"
       ],
-      "category": "academic",
+      "category": "facility",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -74.60585,
-              40.35075
+              -74.6113788,
+              40.3561369
             ],
             [
-              -74.60515,
-              40.35075
+              -74.6112369,
+              40.3561079
             ],
             [
-              -74.60515,
-              40.35125
+              -74.6112255,
+              40.3561403
             ],
             [
-              -74.60585,
-              40.35125
+              -74.6109473,
+              40.3560834
             ],
             [
-              -74.60585,
-              40.35075
+              -74.6109596,
+              40.3560487
+            ],
+            [
+              -74.6108169,
+              40.3560195
+            ],
+            [
+              -74.6109245,
+              40.3557138
+            ],
+            [
+              -74.6107705,
+              40.3556823
+            ],
+            [
+              -74.610825,
+              40.3555275
+            ],
+            [
+              -74.6115794,
+              40.3556816
+            ],
+            [
+              -74.6117048,
+              40.3553252
+            ],
+            [
+              -74.6115743,
+              40.3552985
+            ],
+            [
+              -74.6115671,
+              40.3553189
+            ],
+            [
+              -74.6114616,
+              40.3552973
+            ],
+            [
+              -74.6114692,
+              40.3552758
+            ],
+            [
+              -74.611375,
+              40.3552566
+            ],
+            [
+              -74.61143,
+              40.3551004
+            ],
+            [
+              -74.611617,
+              40.3551386
+            ],
+            [
+              -74.6116271,
+              40.35511
+            ],
+            [
+              -74.6116655,
+              40.355118
+            ],
+            [
+              -74.6116642,
+              40.3550981
+            ],
+            [
+              -74.6116975,
+              40.3550973
+            ],
+            [
+              -74.6117301,
+              40.3550999
+            ],
+            [
+              -74.6117532,
+              40.3551056
+            ],
+            [
+              -74.611774,
+              40.3551131
+            ],
+            [
+              -74.6118031,
+              40.3551293
+            ],
+            [
+              -74.6117947,
+              40.3551466
+            ],
+            [
+              -74.6118241,
+              40.3551526
+            ],
+            [
+              -74.6118137,
+              40.3551822
+            ],
+            [
+              -74.6118707,
+              40.3551939
+            ],
+            [
+              -74.6118182,
+              40.3553431
+            ],
+            [
+              -74.611876,
+              40.355355
+            ],
+            [
+              -74.611902,
+              40.3553603
+            ],
+            [
+              -74.6118839,
+              40.3554117
+            ],
+            [
+              -74.6117932,
+              40.3556695
+            ],
+            [
+              -74.6117741,
+              40.3557237
+            ],
+            [
+              -74.6117432,
+              40.3557174
+            ],
+            [
+              -74.611692,
+              40.355707
+            ],
+            [
+              -74.6116615,
+              40.3557935
+            ],
+            [
+              -74.6117116,
+              40.3558037
+            ],
+            [
+              -74.612002,
+              40.3558631
+            ],
+            [
+              -74.6119458,
+              40.3560226
+            ],
+            [
+              -74.6117241,
+              40.3559773
+            ],
+            [
+              -74.6117488,
+              40.3559073
+            ],
+            [
+              -74.6116789,
+              40.355893
+            ],
+            [
+              -74.6115133,
+              40.3558592
+            ],
+            [
+              -74.6115222,
+              40.3558339
+            ],
+            [
+              -74.6114879,
+              40.3558269
+            ],
+            [
+              -74.6113788,
+              40.3561369
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "princeton-complex-materials",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/166626905",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "princeton-gfdl-lab",
-      "name": "Geophysical Fluid Dynamics Lab",
+      "id": "princeton-princeton-university-forrestal-campus-facility-3",
+      "name": "Princeton University Forrestal Campus Facility 3",
       "nativeCodes": [
-        "GFDL"
+        "PUFCF3"
       ],
       "aliases": [
-        "Geophysical Fluid Dynamics Lab"
+        "Princeton University Forrestal Campus Facility 3"
       ],
-      "category": "academic",
+      "category": "facility",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -74.60335,
-              40.35225
+              -74.5989472,
+              40.3541291
             ],
             [
-              -74.60265,
-              40.35225
+              -74.5989025,
+              40.3538288
             ],
             [
-              -74.60265,
-              40.35275
+              -74.5981813,
+              40.353891
             ],
             [
-              -74.60335,
-              40.35275
+              -74.598226,
+              40.3541913
             ],
             [
-              -74.60335,
-              40.35225
+              -74.5989472,
+              40.3541291
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "princeton-gfdl-lab",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/278327645",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "princeton-adv-energy",
-      "name": "Advanced Energy Laboratory",
+      "id": "princeton-princeton-university-forrestal-campus-facility-4",
+      "name": "Princeton University Forrestal Campus Facility 4",
       "nativeCodes": [
-        "AEL"
+        "PUFCF4"
       ],
       "aliases": [
-        "Advanced Energy Laboratory"
+        "Princeton University Forrestal Campus Facility 4"
       ],
-      "category": "academic",
+      "category": "facility",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -74.60635,
-              40.35025
+              -74.598183,
+              40.3541999
             ],
             [
-              -74.60565,
-              40.35025
+              -74.598176,
+              40.3541321
             ],
             [
-              -74.60565,
-              40.35075
+              -74.5980044,
+              40.3541447
             ],
             [
-              -74.60635,
-              40.35075
+              -74.5980149,
+              40.3542115
             ],
             [
-              -74.60635,
-              40.35025
+              -74.598183,
+              40.3541999
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "princeton-adv-energy",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/278327873",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-5",
+      "name": "Princeton University Forrestal Campus Facility 5",
+      "nativeCodes": [
+        "PUFCF5"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 5"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6058234,
+              40.3543789
+            ],
+            [
+              -74.6057526,
+              40.3543291
+            ],
+            [
+              -74.6057643,
+              40.3543194
+            ],
+            [
+              -74.6055335,
+              40.354157
+            ],
+            [
+              -74.6057694,
+              40.3539623
+            ],
+            [
+              -74.6059312,
+              40.3540762
+            ],
+            [
+              -74.6059889,
+              40.3540285
+            ],
+            [
+              -74.6058262,
+              40.353914
+            ],
+            [
+              -74.6060573,
+              40.3537232
+            ],
+            [
+              -74.6060917,
+              40.3537474
+            ],
+            [
+              -74.606153,
+              40.3536968
+            ],
+            [
+              -74.6061194,
+              40.3536732
+            ],
+            [
+              -74.6063511,
+              40.353482
+            ],
+            [
+              -74.606381,
+              40.3535031
+            ],
+            [
+              -74.6064427,
+              40.3534521
+            ],
+            [
+              -74.6064145,
+              40.3534322
+            ],
+            [
+              -74.6066461,
+              40.3532411
+            ],
+            [
+              -74.6067275,
+              40.3532983
+            ],
+            [
+              -74.6067635,
+              40.3532686
+            ],
+            [
+              -74.6068507,
+              40.35333
+            ],
+            [
+              -74.6068228,
+              40.353353
+            ],
+            [
+              -74.6068717,
+              40.3533874
+            ],
+            [
+              -74.6069153,
+              40.3533514
+            ],
+            [
+              -74.6069479,
+              40.3533743
+            ],
+            [
+              -74.6067009,
+              40.3535781
+            ],
+            [
+              -74.6065351,
+              40.3537149
+            ],
+            [
+              -74.606871,
+              40.3539514
+            ],
+            [
+              -74.6069974,
+              40.3538471
+            ],
+            [
+              -74.6070367,
+              40.3538747
+            ],
+            [
+              -74.6072728,
+              40.3536799
+            ],
+            [
+              -74.6072897,
+              40.3536918
+            ],
+            [
+              -74.6073178,
+              40.3536686
+            ],
+            [
+              -74.6074252,
+              40.3537441
+            ],
+            [
+              -74.607397,
+              40.3537673
+            ],
+            [
+              -74.6075257,
+              40.3538579
+            ],
+            [
+              -74.6072896,
+              40.3540527
+            ],
+            [
+              -74.6072658,
+              40.3540359
+            ],
+            [
+              -74.6072048,
+              40.3540863
+            ],
+            [
+              -74.6073074,
+              40.3541585
+            ],
+            [
+              -74.6070741,
+              40.354351
+            ],
+            [
+              -74.6068216,
+              40.3541733
+            ],
+            [
+              -74.6068444,
+              40.3541545
+            ],
+            [
+              -74.6067778,
+              40.3541077
+            ],
+            [
+              -74.6066844,
+              40.3541848
+            ],
+            [
+              -74.6065829,
+              40.3541134
+            ],
+            [
+              -74.606525,
+              40.3541612
+            ],
+            [
+              -74.606549,
+              40.3541781
+            ],
+            [
+              -74.6063103,
+              40.354375
+            ],
+            [
+              -74.6060501,
+              40.3541919
+            ],
+            [
+              -74.6058234,
+              40.3543789
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/334259179",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-6",
+      "name": "Princeton University Forrestal Campus Facility 6",
+      "nativeCodes": [
+        "PUFCF6"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 6"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6029294,
+              40.3502898
+            ],
+            [
+              -74.6029615,
+              40.3503759
+            ],
+            [
+              -74.6027792,
+              40.3504117
+            ],
+            [
+              -74.6026652,
+              40.3503708
+            ],
+            [
+              -74.6026298,
+              40.3502741
+            ],
+            [
+              -74.6026189,
+              40.3502455
+            ],
+            [
+              -74.6027641,
+              40.350214
+            ],
+            [
+              -74.6029294,
+              40.3502898
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121756",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-7",
+      "name": "Princeton University Forrestal Campus Facility 7",
+      "nativeCodes": [
+        "PUFCF7"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 7"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.603284,
+              40.3480252
+            ],
+            [
+              -74.6044125,
+              40.3477915
+            ],
+            [
+              -74.6043168,
+              40.3475232
+            ],
+            [
+              -74.6036725,
+              40.3476566
+            ],
+            [
+              -74.603626,
+              40.3475261
+            ],
+            [
+              -74.6034582,
+              40.3475608
+            ],
+            [
+              -74.6035047,
+              40.3476914
+            ],
+            [
+              -74.6031883,
+              40.3477569
+            ],
+            [
+              -74.603284,
+              40.3480252
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121757",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-8",
+      "name": "Princeton University Forrestal Campus Facility 8",
+      "nativeCodes": [
+        "PUFCF8"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 8"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6015701,
+              40.3471984
+            ],
+            [
+              -74.6021335,
+              40.3470861
+            ],
+            [
+              -74.6020413,
+              40.3468173
+            ],
+            [
+              -74.6014774,
+              40.3469298
+            ],
+            [
+              -74.6015701,
+              40.3471984
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121758",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-9",
+      "name": "Princeton University Forrestal Campus Facility 9",
+      "nativeCodes": [
+        "PUFCF9"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 9"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6008928,
+              40.3473342
+            ],
+            [
+              -74.6015701,
+              40.3471984
+            ],
+            [
+              -74.6014774,
+              40.3469298
+            ],
+            [
+              -74.6008001,
+              40.3470655
+            ],
+            [
+              -74.6008928,
+              40.3473342
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121759",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-10",
+      "name": "Princeton University Forrestal Campus Facility 10",
+      "nativeCodes": [
+        "PUFCF1"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 10"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6003171,
+              40.3489508
+            ],
+            [
+              -74.6003973,
+              40.3489348
+            ],
+            [
+              -74.6004134,
+              40.3489103
+            ],
+            [
+              -74.6004054,
+              40.3489001
+            ],
+            [
+              -74.6003759,
+              40.3489072
+            ],
+            [
+              -74.6003518,
+              40.3488377
+            ],
+            [
+              -74.6009325,
+              40.348714
+            ],
+            [
+              -74.6009445,
+              40.3487437
+            ],
+            [
+              -74.6010116,
+              40.3487304
+            ],
+            [
+              -74.6010277,
+              40.3487099
+            ],
+            [
+              -74.601021,
+              40.3486915
+            ],
+            [
+              -74.6009901,
+              40.3486997
+            ],
+            [
+              -74.6009633,
+              40.3486098
+            ],
+            [
+              -74.6003249,
+              40.3487427
+            ],
+            [
+              -74.6001868,
+              40.3483614
+            ],
+            [
+              -74.6002056,
+              40.3483583
+            ],
+            [
+              -74.6002109,
+              40.348343
+            ],
+            [
+              -74.6001935,
+              40.3482796
+            ],
+            [
+              -74.600156,
+              40.3482878
+            ],
+            [
+              -74.6001345,
+              40.3482296
+            ],
+            [
+              -74.6003585,
+              40.3481795
+            ],
+            [
+              -74.6002123,
+              40.3477666
+            ],
+            [
+              -74.6000178,
+              40.3478054
+            ],
+            [
+              -74.6000674,
+              40.3479516
+            ],
+            [
+              -74.5998716,
+              40.3479884
+            ],
+            [
+              -74.6001613,
+              40.3487815
+            ],
+            [
+              -74.6001049,
+              40.3487966
+            ],
+            [
+              -74.6001619,
+              40.3489824
+            ],
+            [
+              -74.6003171,
+              40.3489508
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121760",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-11",
+      "name": "Princeton University Forrestal Campus Facility 11",
+      "nativeCodes": [
+        "PRIN"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 11"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6005099,
+              40.349499
+            ],
+            [
+              -74.6003171,
+              40.3489508
+            ],
+            [
+              -74.6001619,
+              40.3489824
+            ],
+            [
+              -74.6001049,
+              40.3487966
+            ],
+            [
+              -74.5994236,
+              40.3489179
+            ],
+            [
+              -74.5994847,
+              40.3491173
+            ],
+            [
+              -74.5994012,
+              40.3491322
+            ],
+            [
+              -74.5995138,
+              40.3494993
+            ],
+            [
+              -74.5996499,
+              40.3494751
+            ],
+            [
+              -74.5996352,
+              40.349427
+            ],
+            [
+              -74.5998716,
+              40.3493849
+            ],
+            [
+              -74.5999393,
+              40.3496057
+            ],
+            [
+              -74.6003353,
+              40.3495352
+            ],
+            [
+              -74.6003436,
+              40.3495623
+            ],
+            [
+              -74.6004282,
+              40.3495472
+            ],
+            [
+              -74.6004365,
+              40.3495319
+            ],
+            [
+              -74.600431,
+              40.3495089
+            ],
+            [
+              -74.6005099,
+              40.349499
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121761",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-12",
+      "name": "Princeton University Forrestal Campus Facility 12",
+      "nativeCodes": [
+        "PRI"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 12"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.5992932,
+              40.3496315
+            ],
+            [
+              -74.5992454,
+              40.3494974
+            ],
+            [
+              -74.5988159,
+              40.3495862
+            ],
+            [
+              -74.5988637,
+              40.3497203
+            ],
+            [
+              -74.5992932,
+              40.3496315
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121762",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-13",
+      "name": "Princeton University Forrestal Campus Facility 13",
+      "nativeCodes": [
+        "PRI1"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 13"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.601411,
+              40.3486483
+            ],
+            [
+              -74.6015425,
+              40.3486238
+            ],
+            [
+              -74.6015113,
+              40.3485265
+            ],
+            [
+              -74.6013798,
+              40.348551
+            ],
+            [
+              -74.601411,
+              40.3486483
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121763",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-14",
+      "name": "Princeton University Forrestal Campus Facility 14",
+      "nativeCodes": [
+        "PRI2"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 14"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6014447,
+              40.3483008
+            ],
+            [
+              -74.6013945,
+              40.3481623
+            ],
+            [
+              -74.6010981,
+              40.3482248
+            ],
+            [
+              -74.6011483,
+              40.3483632
+            ],
+            [
+              -74.6014447,
+              40.3483008
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121764",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-15",
+      "name": "Princeton University Forrestal Campus Facility 15",
+      "nativeCodes": [
+        "PRI3"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 15"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6025031,
+              40.3482249
+            ],
+            [
+              -74.6024041,
+              40.3479468
+            ],
+            [
+              -74.601753,
+              40.3480815
+            ],
+            [
+              -74.601852,
+              40.3483595
+            ],
+            [
+              -74.6025031,
+              40.3482249
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121765",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-16",
+      "name": "Princeton University Forrestal Campus Facility 16",
+      "nativeCodes": [
+        "PRI4"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 16"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.604221,
+              40.3497523
+            ],
+            [
+              -74.6042023,
+              40.349698
+            ],
+            [
+              -74.6041841,
+              40.349645
+            ],
+            [
+              -74.6040802,
+              40.3496658
+            ],
+            [
+              -74.6040758,
+              40.3496531
+            ],
+            [
+              -74.6039851,
+              40.3493889
+            ],
+            [
+              -74.603877,
+              40.3494105
+            ],
+            [
+              -74.6037853,
+              40.3494288
+            ],
+            [
+              -74.6038737,
+              40.349686
+            ],
+            [
+              -74.6038796,
+              40.3497032
+            ],
+            [
+              -74.6033445,
+              40.3498099
+            ],
+            [
+              -74.6033162,
+              40.3497277
+            ],
+            [
+              -74.6027276,
+              40.3498452
+            ],
+            [
+              -74.6027492,
+              40.349908
+            ],
+            [
+              -74.6025237,
+              40.3499529
+            ],
+            [
+              -74.6025656,
+              40.3500749
+            ],
+            [
+              -74.6025994,
+              40.3501889
+            ],
+            [
+              -74.6028784,
+              40.3501285
+            ],
+            [
+              -74.602869,
+              40.3500926
+            ],
+            [
+              -74.6028067,
+              40.3499173
+            ],
+            [
+              -74.6031833,
+              40.3498422
+            ],
+            [
+              -74.6032164,
+              40.3499589
+            ],
+            [
+              -74.604221,
+              40.3497523
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121788",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-17",
+      "name": "Princeton University Forrestal Campus Facility 17",
+      "nativeCodes": [
+        "PRI5"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 17"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6023211,
+              40.3492541
+            ],
+            [
+              -74.6021475,
+              40.3492854
+            ],
+            [
+              -74.6020778,
+              40.3490666
+            ],
+            [
+              -74.6022459,
+              40.3490338
+            ],
+            [
+              -74.6023211,
+              40.3492541
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121789",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-18",
+      "name": "Princeton University Forrestal Campus Facility 18",
+      "nativeCodes": [
+        "PRI6"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 18"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6029617,
+              40.3485912
+            ],
+            [
+              -74.6029225,
+              40.3484823
+            ],
+            [
+              -74.6026992,
+              40.348529
+            ],
+            [
+              -74.6026427,
+              40.348372
+            ],
+            [
+              -74.6023514,
+              40.3484328
+            ],
+            [
+              -74.6024094,
+              40.3485941
+            ],
+            [
+              -74.6021345,
+              40.3486515
+            ],
+            [
+              -74.602111,
+              40.3485863
+            ],
+            [
+              -74.6017143,
+              40.3486692
+            ],
+            [
+              -74.6017766,
+              40.3488425
+            ],
+            [
+              -74.6018465,
+              40.3488279
+            ],
+            [
+              -74.6018434,
+              40.348819
+            ],
+            [
+              -74.6021088,
+              40.3487636
+            ],
+            [
+              -74.6021107,
+              40.3487689
+            ],
+            [
+              -74.6021681,
+              40.3487569
+            ],
+            [
+              -74.6029617,
+              40.3485912
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121790",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-19",
+      "name": "Princeton University Forrestal Campus Facility 19",
+      "nativeCodes": [
+        "PRI7"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 19"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6030358,
+              40.3488026
+            ],
+            [
+              -74.6029617,
+              40.3485912
+            ],
+            [
+              -74.6021681,
+              40.3487569
+            ],
+            [
+              -74.6022418,
+              40.3489656
+            ],
+            [
+              -74.6027611,
+              40.348859
+            ],
+            [
+              -74.6030358,
+              40.3488026
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121791",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-20",
+      "name": "Princeton University Forrestal Campus Facility 20",
+      "nativeCodes": [
+        "PUFCF2"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 20"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.60287,
+              40.3491736
+            ],
+            [
+              -74.6023302,
+              40.3492808
+            ],
+            [
+              -74.6023211,
+              40.3492541
+            ],
+            [
+              -74.6022459,
+              40.3490338
+            ],
+            [
+              -74.6022377,
+              40.34901
+            ],
+            [
+              -74.6027775,
+              40.3489029
+            ],
+            [
+              -74.60287,
+              40.3491736
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121792",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-21",
+      "name": "Princeton University Forrestal Campus Facility 21",
+      "nativeCodes": [
+        "PRI8"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 21"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6020224,
+              40.3499325
+            ],
+            [
+              -74.6019559,
+              40.3497422
+            ],
+            [
+              -74.6019254,
+              40.3496549
+            ],
+            [
+              -74.601936,
+              40.3496527
+            ],
+            [
+              -74.6029655,
+              40.3494437
+            ],
+            [
+              -74.60287,
+              40.3491736
+            ],
+            [
+              -74.6027775,
+              40.3489029
+            ],
+            [
+              -74.6027611,
+              40.348859
+            ],
+            [
+              -74.6030358,
+              40.3488026
+            ],
+            [
+              -74.6032317,
+              40.349365
+            ],
+            [
+              -74.6032399,
+              40.3493884
+            ],
+            [
+              -74.6033626,
+              40.3493635
+            ],
+            [
+              -74.6033941,
+              40.3494537
+            ],
+            [
+              -74.6034115,
+              40.3495036
+            ],
+            [
+              -74.602488,
+              40.349691
+            ],
+            [
+              -74.6025442,
+              40.3498516
+            ],
+            [
+              -74.6024158,
+              40.3498777
+            ],
+            [
+              -74.6024076,
+              40.3498543
+            ],
+            [
+              -74.6020224,
+              40.3499325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121793",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-22",
+      "name": "Princeton University Forrestal Campus Facility 22",
+      "nativeCodes": [
+        "PRI9"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 22"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6026298,
+              40.3502741
+            ],
+            [
+              -74.6026189,
+              40.3502455
+            ],
+            [
+              -74.6025994,
+              40.3501889
+            ],
+            [
+              -74.6025656,
+              40.3500749
+            ],
+            [
+              -74.6019073,
+              40.3502117
+            ],
+            [
+              -74.6019781,
+              40.3504095
+            ],
+            [
+              -74.6026298,
+              40.3502741
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121794",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-23",
+      "name": "Princeton University Forrestal Campus Facility 23",
+      "nativeCodes": [
+        "PRI10"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 23"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6036419,
+              40.3501454
+            ],
+            [
+              -74.6035737,
+              40.3499505
+            ],
+            [
+              -74.602869,
+              40.3500926
+            ],
+            [
+              -74.6028784,
+              40.3501285
+            ],
+            [
+              -74.6025994,
+              40.3501889
+            ],
+            [
+              -74.6026189,
+              40.3502455
+            ],
+            [
+              -74.6027641,
+              40.350214
+            ],
+            [
+              -74.6029294,
+              40.3502898
+            ],
+            [
+              -74.6031024,
+              40.3502548
+            ],
+            [
+              -74.6032197,
+              40.350231
+            ],
+            [
+              -74.6033125,
+              40.3502122
+            ],
+            [
+              -74.6034579,
+              40.3501827
+            ],
+            [
+              -74.6036419,
+              40.3501454
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/505121795",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-24",
+      "name": "Princeton University Forrestal Campus Facility 24",
+      "nativeCodes": [
+        "PRI11"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 24"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6049904,
+              40.3475961
+            ],
+            [
+              -74.6050459,
+              40.3477501
+            ],
+            [
+              -74.6052324,
+              40.3477112
+            ],
+            [
+              -74.6051769,
+              40.3475571
+            ],
+            [
+              -74.6049904,
+              40.3475961
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1283358189",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-princeton-university-forrestal-campus-facility-25",
+      "name": "Princeton University Forrestal Campus Facility 25",
+      "nativeCodes": [
+        "PRI12"
+      ],
+      "aliases": [
+        "Princeton University Forrestal Campus Facility 25"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.6051952,
+              40.3475533
+            ],
+            [
+              -74.6051534,
+              40.3474372
+            ],
+            [
+              -74.6049311,
+              40.3474837
+            ],
+            [
+              -74.6049728,
+              40.3475998
+            ],
+            [
+              -74.6049904,
+              40.3475961
+            ],
+            [
+              -74.6051769,
+              40.3475571
+            ],
+            [
+              -74.6051952,
+              40.3475533
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1283358190",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-princeton-forrestal-princeton-spitzer-bldg",
-      "buildingId": "princeton-spitzer-bldg",
-      "coordinate": [
-        -74.6045,
-        40.35125
-      ],
-      "pathNodeId": "node-ent-princeton-forrestal-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "ent-princeton-forrestal-princeton-spitzer-bldg",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-princeton-forrestal-princeton-pppl-lab",
-      "buildingId": "princeton-pppl-lab",
-      "coordinate": [
-        -74.6035,
-        40.35175
-      ],
-      "pathNodeId": "node-ent-princeton-forrestal-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "ent-princeton-forrestal-princeton-pppl-lab",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-princeton-forrestal-princeton-complex-materials",
-      "buildingId": "princeton-complex-materials",
-      "coordinate": [
-        -74.6055,
-        40.35075
-      ],
-      "pathNodeId": "node-ent-princeton-forrestal-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "ent-princeton-forrestal-princeton-complex-materials",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-princeton-forrestal-princeton-gfdl-lab",
-      "buildingId": "princeton-gfdl-lab",
-      "coordinate": [
-        -74.603,
-        40.35225
-      ],
-      "pathNodeId": "node-ent-princeton-forrestal-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "ent-princeton-forrestal-princeton-gfdl-lab",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-princeton-forrestal-princeton-adv-energy",
-      "buildingId": "princeton-adv-energy",
-      "coordinate": [
-        -74.606,
-        40.35025
-      ],
-      "pathNodeId": "node-ent-princeton-forrestal-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "ent-princeton-forrestal-princeton-adv-energy",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-princeton-forrestal-0",
-      "coordinate": [
-        -74.6097,
-        40.3479
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-spine-princeton-forrestal-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-princeton-forrestal-1",
-      "coordinate": [
-        -74.6071,
-        40.3497
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-spine-princeton-forrestal-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-princeton-forrestal-2",
-      "coordinate": [
-        -74.6045,
-        40.3515
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-spine-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-princeton-forrestal-3",
-      "coordinate": [
-        -74.6019,
-        40.353300000000004
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-spine-princeton-forrestal-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-princeton-forrestal-4",
-      "coordinate": [
-        -74.5993,
-        40.3551
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-spine-princeton-forrestal-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-princeton-forrestal-0",
-      "coordinate": [
-        -74.6045,
-        40.35125
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-ent-princeton-forrestal-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-princeton-forrestal-1",
-      "coordinate": [
-        -74.6035,
-        40.35175
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-ent-princeton-forrestal-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-princeton-forrestal-2",
-      "coordinate": [
-        -74.6055,
-        40.35075
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-ent-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-princeton-forrestal-3",
-      "coordinate": [
-        -74.603,
-        40.35225
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-ent-princeton-forrestal-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-princeton-forrestal-4",
-      "coordinate": [
-        -74.606,
-        40.35025
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "node-ent-princeton-forrestal-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-princeton-forrestal-0-node-spine-princeton-forrestal-1",
-      "from": "node-spine-princeton-forrestal-0",
-      "to": "node-spine-princeton-forrestal-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-0-node-spine-princeton-forrestal-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-0",
-      "from": "node-spine-princeton-forrestal-1",
-      "to": "node-spine-princeton-forrestal-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-2",
-      "from": "node-spine-princeton-forrestal-1",
-      "to": "node-spine-princeton-forrestal-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-1",
-      "from": "node-spine-princeton-forrestal-2",
-      "to": "node-spine-princeton-forrestal-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-3",
-      "from": "node-spine-princeton-forrestal-2",
-      "to": "node-spine-princeton-forrestal-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-2",
-      "from": "node-spine-princeton-forrestal-3",
-      "to": "node-spine-princeton-forrestal-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-4",
-      "from": "node-spine-princeton-forrestal-3",
-      "to": "node-spine-princeton-forrestal-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-4-node-spine-princeton-forrestal-3",
-      "from": "node-spine-princeton-forrestal-4",
-      "to": "node-spine-princeton-forrestal-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-4-node-spine-princeton-forrestal-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-princeton-forrestal-0-node-spine-princeton-forrestal-2",
-      "from": "node-ent-princeton-forrestal-0",
-      "to": "node-spine-princeton-forrestal-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-ent-princeton-forrestal-0-node-spine-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-0",
-      "from": "node-spine-princeton-forrestal-2",
-      "to": "node-ent-princeton-forrestal-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-princeton-forrestal-1-node-spine-princeton-forrestal-2",
-      "from": "node-ent-princeton-forrestal-1",
-      "to": "node-spine-princeton-forrestal-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-ent-princeton-forrestal-1-node-spine-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-1",
-      "from": "node-spine-princeton-forrestal-2",
-      "to": "node-ent-princeton-forrestal-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-princeton-forrestal-2-node-spine-princeton-forrestal-2",
-      "from": "node-ent-princeton-forrestal-2",
-      "to": "node-spine-princeton-forrestal-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-ent-princeton-forrestal-2-node-spine-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-2",
-      "from": "node-spine-princeton-forrestal-2",
-      "to": "node-ent-princeton-forrestal-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-princeton-forrestal-3-node-spine-princeton-forrestal-3",
-      "from": "node-ent-princeton-forrestal-3",
-      "to": "node-spine-princeton-forrestal-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-ent-princeton-forrestal-3-node-spine-princeton-forrestal-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-3-node-ent-princeton-forrestal-3",
-      "from": "node-spine-princeton-forrestal-3",
-      "to": "node-ent-princeton-forrestal-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-3-node-ent-princeton-forrestal-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-princeton-forrestal-4-node-spine-princeton-forrestal-1",
-      "from": "node-ent-princeton-forrestal-4",
-      "to": "node-spine-princeton-forrestal-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-ent-princeton-forrestal-4-node-spine-princeton-forrestal-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-princeton-forrestal-1-node-ent-princeton-forrestal-4",
-      "from": "node-spine-princeton-forrestal-1",
-      "to": "node-ent-princeton-forrestal-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-princeton-forrestal",
-          "nativeId": "edge-node-spine-princeton-forrestal-1-node-ent-princeton-forrestal-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }
