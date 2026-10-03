@@ -78,6 +78,12 @@ test('rejects inverted campus bounds', () => {
   assert.match(validateCampus(data).join(' '), /campus bounds must run southwest to northeast/);
 });
 
+test('rejects implausibly broad campus bounds', () => {
+  const data = read('campus');
+  data.campus.bounds = [[-75.2, 37.948], [-75.187, 39.957]];
+  assert.match(validateCampus(data).join(' '), /campus bounds must describe a local campus extent/);
+});
+
 test('validates a complete, valid academic fixture', () => {
   const data = read('academic');
   data.sources.push({id:'src-acad',title:'Academic Schedule',url:'https://example.com/sched',retrievedAt:'2026-09-24',licenseOrTerms:'Permitted',redistribution:'permitted',transformation:'Direct'});

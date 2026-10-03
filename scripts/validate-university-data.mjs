@@ -52,7 +52,11 @@ export function validateCampus(campus) {
       }
     }
   }
-  if (campus.campus.bounds && (campus.campus.bounds[0][0] >= campus.campus.bounds[1][0] || campus.campus.bounds[0][1] >= campus.campus.bounds[1][1])) errors.push('campus bounds must run southwest to northeast');
+  if (campus.campus.bounds) {
+    const [[west, south], [east, north]] = campus.campus.bounds;
+    if (west >= east || south >= north) errors.push('campus bounds must run southwest to northeast');
+    if (east - west > 0.1 || north - south > 0.1) errors.push('campus bounds must describe a local campus extent');
+  }
   return errors;
 }
 
