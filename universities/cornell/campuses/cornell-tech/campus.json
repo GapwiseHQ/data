@@ -17,160 +17,25 @@
   },
   "sources": [
     {
-      "id": "src-cornell-tech",
-      "title": "Cornell Tech Roosevelt Island Map",
-      "url": "https://tech.cornell.edu/campus/",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "cornell-bloomberg-center",
-      "name": "Emma and Georgina Bloomberg Center",
+      "id": "cornell-smallpox-hospital",
+      "name": "Smallpox Hospital",
       "nativeCodes": [
-        "BLM"
+        "SH"
       ],
       "aliases": [
-        "Emma and Georgina Bloomberg Center"
-      ],
-      "category": "academic",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -73.95585,
-              40.75525
-            ],
-            [
-              -73.95515,
-              40.75525
-            ],
-            [
-              -73.95515,
-              40.75575
-            ],
-            [
-              -73.95585,
-              40.75575
-            ],
-            [
-              -73.95585,
-              40.75525
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "cornell-bloomberg-center",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "cornell-tata-center",
-      "name": "Tata Innovation Center",
-      "nativeCodes": [
-        "TATA"
-      ],
-      "aliases": [
-        "Tata Innovation Center"
-      ],
-      "category": "residence",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -73.95485,
-              40.75575
-            ],
-            [
-              -73.95415,
-              40.75575
-            ],
-            [
-              -73.95415,
-              40.75625
-            ],
-            [
-              -73.95485,
-              40.75625
-            ],
-            [
-              -73.95485,
-              40.75575
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "cornell-tata-center",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "cornell-bridge-tech",
-      "name": "The Bridge at Cornell Tech",
-      "nativeCodes": [
-        "BRG"
-      ],
-      "aliases": [
-        "The Bridge at Cornell Tech"
-      ],
-      "category": "academic",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -73.95685,
-              40.75475
-            ],
-            [
-              -73.95615,
-              40.75475
-            ],
-            [
-              -73.95615,
-              40.75525
-            ],
-            [
-              -73.95685,
-              40.75525
-            ],
-            [
-              -73.95685,
-              40.75475
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "cornell-bridge-tech",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "cornell-verizon-center",
-      "name": "Verizon Executive Education Center",
-      "nativeCodes": [
-        "VEC"
-      ],
-      "aliases": [
-        "Verizon Executive Education Center"
+        "Smallpox Hospital"
       ],
       "category": "facility",
       "geometry": {
@@ -178,41 +43,7211 @@
         "coordinates": [
           [
             [
-              -73.95435,
-              40.75625
+              -73.9595342,
+              40.7518549
             ],
             [
-              -73.95365,
-              40.75625
+              -73.9592269,
+              40.7516751
             ],
             [
-              -73.95365,
-              40.75675
+              -73.9593057,
+              40.7515978
             ],
             [
-              -73.95435,
-              40.75675
+              -73.9594276,
+              40.7516691
             ],
             [
-              -73.95435,
-              40.75625
+              -73.9596348,
+              40.751466
+            ],
+            [
+              -73.9595077,
+              40.7513916
+            ],
+            [
+              -73.9595856,
+              40.7513152
+            ],
+            [
+              -73.9598994,
+              40.7514988
+            ],
+            [
+              -73.9598168,
+              40.7515799
+            ],
+            [
+              -73.9597585,
+              40.7515458
+            ],
+            [
+              -73.9595581,
+              40.7517424
+            ],
+            [
+              -73.959615,
+              40.7517757
+            ],
+            [
+              -73.9595342,
+              40.7518549
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "cornell-verizon-center",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/29185374",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "cornell-house-residence",
+      "id": "cornell-roosevelt-island-tramway",
+      "name": "Roosevelt Island Tramway",
+      "nativeCodes": [
+        "RIT"
+      ],
+      "aliases": [
+        "Roosevelt Island Tramway"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.954239,
+              40.7573715
+            ],
+            [
+              -73.9541922,
+              40.7574414
+            ],
+            [
+              -73.9541809,
+              40.7574584
+            ],
+            [
+              -73.9540203,
+              40.7573968
+            ],
+            [
+              -73.9539939,
+              40.7573867
+            ],
+            [
+              -73.9538887,
+              40.7573464
+            ],
+            [
+              -73.9539928,
+              40.7571905
+            ],
+            [
+              -73.9540717,
+              40.7572208
+            ],
+            [
+              -73.954093,
+              40.7571889
+            ],
+            [
+              -73.9541065,
+              40.7571941
+            ],
+            [
+              -73.9541196,
+              40.7571745
+            ],
+            [
+              -73.9541525,
+              40.7571871
+            ],
+            [
+              -73.9541391,
+              40.7572071
+            ],
+            [
+              -73.9543061,
+              40.7572711
+            ],
+            [
+              -73.9542927,
+              40.7572911
+            ],
+            [
+              -73.954288,
+              40.7572981
+            ],
+            [
+              -73.954239,
+              40.7573715
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/32946762",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-16-sutton-place",
+      "name": "16 Sutton Place",
+      "nativeCodes": [
+        "1SP"
+      ],
+      "aliases": [
+        "16 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9606439,
+              40.7581336
+            ],
+            [
+              -73.9604091,
+              40.7580334
+            ],
+            [
+              -73.9604516,
+              40.7579758
+            ],
+            [
+              -73.9604329,
+              40.7579679
+            ],
+            [
+              -73.9605461,
+              40.7578144
+            ],
+            [
+              -73.9606618,
+              40.7578637
+            ],
+            [
+              -73.960644,
+              40.7578877
+            ],
+            [
+              -73.9607144,
+              40.7579178
+            ],
+            [
+              -73.9606628,
+              40.7579878
+            ],
+            [
+              -73.9607302,
+              40.7580165
+            ],
+            [
+              -73.9606439,
+              40.7581336
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433009",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-4-sutton-place",
+      "name": "4 Sutton Place",
+      "nativeCodes": [
+        "4SP"
+      ],
+      "aliases": [
+        "4 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9606861,
+              40.7578035
+            ],
+            [
+              -73.9605855,
+              40.7577611
+            ],
+            [
+              -73.9607416,
+              40.7575469
+            ],
+            [
+              -73.9608422,
+              40.7575893
+            ],
+            [
+              -73.9607639,
+              40.7576967
+            ],
+            [
+              -73.9606861,
+              40.7578035
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433010",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-414-east-58th-street",
+      "name": "414 East 58th Street",
+      "nativeCodes": [
+        "4E5S"
+      ],
+      "aliases": [
+        "414 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.961761,
+              40.7585885
+            ],
+            [
+              -73.9616847,
+              40.7585561
+            ],
+            [
+              -73.9618274,
+              40.7583618
+            ],
+            [
+              -73.9619037,
+              40.7583942
+            ],
+            [
+              -73.9618724,
+              40.7584369
+            ],
+            [
+              -73.9617823,
+              40.7585595
+            ],
+            [
+              -73.961761,
+              40.7585885
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433013",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-419-east-57th-street",
+      "name": "419 East 57th Street",
+      "nativeCodes": [
+        "419"
+      ],
+      "aliases": [
+        "419 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9617213,
+              40.7581361
+            ],
+            [
+              -73.9617831,
+              40.7581623
+            ],
+            [
+              -73.9618332,
+              40.758094
+            ],
+            [
+              -73.9618085,
+              40.75807
+            ],
+            [
+              -73.961779,
+              40.7580575
+            ],
+            [
+              -73.9618194,
+              40.7580026
+            ],
+            [
+              -73.9621776,
+              40.7581547
+            ],
+            [
+              -73.9621386,
+              40.7582078
+            ],
+            [
+              -73.962111,
+              40.758196
+            ],
+            [
+              -73.962086,
+              40.7581953
+            ],
+            [
+              -73.9620723,
+              40.7581895
+            ],
+            [
+              -73.9620303,
+              40.7582466
+            ],
+            [
+              -73.9620441,
+              40.7582525
+            ],
+            [
+              -73.9620331,
+              40.7582675
+            ],
+            [
+              -73.9620801,
+              40.7582875
+            ],
+            [
+              -73.9620399,
+              40.7583422
+            ],
+            [
+              -73.9618049,
+              40.7582424
+            ],
+            [
+              -73.9617966,
+              40.7582537
+            ],
+            [
+              -73.961738,
+              40.7582288
+            ],
+            [
+              -73.9617462,
+              40.7582176
+            ],
+            [
+              -73.9616816,
+              40.7581902
+            ],
+            [
+              -73.9617175,
+              40.7581413
+            ],
+            [
+              -73.9617213,
+              40.7581361
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433015",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-420-east-58th-street",
+      "name": "420 East 58th Street",
+      "nativeCodes": [
+        "420"
+      ],
+      "aliases": [
+        "420 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9615905,
+              40.7583137
+            ],
+            [
+              -73.961648,
+              40.7583383
+            ],
+            [
+              -73.9616389,
+              40.7583506
+            ],
+            [
+              -73.9617114,
+              40.7583816
+            ],
+            [
+              -73.9617206,
+              40.7583692
+            ],
+            [
+              -73.9617944,
+              40.7584007
+            ],
+            [
+              -73.9617068,
+              40.7585194
+            ],
+            [
+              -73.9615029,
+              40.7584325
+            ],
+            [
+              -73.9615039,
+              40.7584312
+            ],
+            [
+              -73.9615789,
+              40.7583294
+            ],
+            [
+              -73.9615905,
+              40.7583137
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433016",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-422-east-58th-street",
+      "name": "422 East 58th Street",
+      "nativeCodes": [
+        "422"
+      ],
+      "aliases": [
+        "422 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.96138,
+              40.7583747
+            ],
+            [
+              -73.9614024,
+              40.7583723
+            ],
+            [
+              -73.9614606,
+              40.7582935
+            ],
+            [
+              -73.9614518,
+              40.7582774
+            ],
+            [
+              -73.9614759,
+              40.7582448
+            ],
+            [
+              -73.9614906,
+              40.7582248
+            ],
+            [
+              -73.9616165,
+              40.7582785
+            ],
+            [
+              -73.9615905,
+              40.7583137
+            ],
+            [
+              -73.9615789,
+              40.7583294
+            ],
+            [
+              -73.9615578,
+              40.7583342
+            ],
+            [
+              -73.9614984,
+              40.7584147
+            ],
+            [
+              -73.9615039,
+              40.7584312
+            ],
+            [
+              -73.9615029,
+              40.7584325
+            ],
+            [
+              -73.9614619,
+              40.7584881
+            ],
+            [
+              -73.961336,
+              40.7584344
+            ],
+            [
+              -73.9613425,
+              40.7584239
+            ],
+            [
+              -73.96138,
+              40.7583747
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433017",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-sutton-58",
+      "name": "Sutton 58",
+      "nativeCodes": [
+        "S5"
+      ],
+      "aliases": [
+        "Sutton 58"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9612242,
+              40.7581375
+            ],
+            [
+              -73.9614759,
+              40.7582448
+            ],
+            [
+              -73.9614518,
+              40.7582774
+            ],
+            [
+              -73.96138,
+              40.7583747
+            ],
+            [
+              -73.9613425,
+              40.7584239
+            ],
+            [
+              -73.9610895,
+              40.7583201
+            ],
+            [
+              -73.9612242,
+              40.7581375
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433020",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-431-east-57th-street",
+      "name": "431 East 57th Street",
+      "nativeCodes": [
+        "431"
+      ],
+      "aliases": [
+        "431 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9617522,
+              40.7579741
+            ],
+            [
+              -73.9618194,
+              40.7580026
+            ],
+            [
+              -73.961779,
+              40.7580575
+            ],
+            [
+              -73.9617213,
+              40.7581361
+            ],
+            [
+              -73.9617175,
+              40.7581413
+            ],
+            [
+              -73.9616504,
+              40.7581128
+            ],
+            [
+              -73.9616967,
+              40.7580497
+            ],
+            [
+              -73.9617522,
+              40.7579741
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433021",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-434-east-58th-street",
+      "name": "434 East 58th Street",
+      "nativeCodes": [
+        "434"
+      ],
+      "aliases": [
+        "434 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9611458,
+              40.7580766
+            ],
+            [
+              -73.9612395,
+              40.7581166
+            ],
+            [
+              -73.9612242,
+              40.7581375
+            ],
+            [
+              -73.9610895,
+              40.7583201
+            ],
+            [
+              -73.9609958,
+              40.7582801
+            ],
+            [
+              -73.9611458,
+              40.7580766
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433023",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-435-east-57th-street",
+      "name": "435 East 57th Street",
+      "nativeCodes": [
+        "435"
+      ],
+      "aliases": [
+        "435 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9615043,
+              40.7578688
+            ],
+            [
+              -73.9617522,
+              40.7579741
+            ],
+            [
+              -73.9616967,
+              40.7580497
+            ],
+            [
+              -73.9616658,
+              40.7580366
+            ],
+            [
+              -73.9615823,
+              40.7581503
+            ],
+            [
+              -73.9613989,
+              40.7580724
+            ],
+            [
+              -73.9614886,
+              40.7579503
+            ],
+            [
+              -73.9614542,
+              40.7579357
+            ],
+            [
+              -73.9615043,
+              40.7578688
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433024",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-436-east-58th-street",
+      "name": "436 East 58th Street",
+      "nativeCodes": [
+        "436"
+      ],
+      "aliases": [
+        "436 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9610503,
+              40.7580359
+            ],
+            [
+              -73.9611458,
+              40.7580766
+            ],
+            [
+              -73.9609958,
+              40.7582801
+            ],
+            [
+              -73.9609002,
+              40.7582393
+            ],
+            [
+              -73.9610035,
+              40.7580993
+            ],
+            [
+              -73.9610503,
+              40.7580359
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433025",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-440-east-58th-street",
+      "name": "440 East 58th Street",
+      "nativeCodes": [
+        "440"
+      ],
+      "aliases": [
+        "440 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9609888,
+              40.7580113
+            ],
+            [
+              -73.9610234,
+              40.758026
+            ],
+            [
+              -73.9609775,
+              40.7580882
+            ],
+            [
+              -73.9610035,
+              40.7580993
+            ],
+            [
+              -73.9609002,
+              40.7582393
+            ],
+            [
+              -73.9608957,
+              40.7582455
+            ],
+            [
+              -73.9608352,
+              40.7582197
+            ],
+            [
+              -73.9608445,
+              40.7582071
+            ],
+            [
+              -73.9609262,
+              40.7580963
+            ],
+            [
+              -73.9609888,
+              40.7580113
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433026",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-441-east-57th-street",
+      "name": "441 East 57th Street",
+      "nativeCodes": [
+        "441"
+      ],
+      "aliases": [
+        "441 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9613767,
+              40.7580391
+            ],
+            [
+              -73.961311,
+              40.7580109
+            ],
+            [
+              -73.9614385,
+              40.7578405
+            ],
+            [
+              -73.9615043,
+              40.7578688
+            ],
+            [
+              -73.9614542,
+              40.7579357
+            ],
+            [
+              -73.9613767,
+              40.7580391
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433027",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-442-east-58th-street",
+      "name": "442 East 58th Street",
+      "nativeCodes": [
+        "442"
+      ],
+      "aliases": [
+        "442 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9608609,
+              40.7580685
+            ],
+            [
+              -73.9609262,
+              40.7580963
+            ],
+            [
+              -73.9608445,
+              40.7582071
+            ],
+            [
+              -73.9607792,
+              40.7581792
+            ],
+            [
+              -73.9608609,
+              40.7580685
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433028",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-444-east-58th-street",
+      "name": "444 East 58th Street",
+      "nativeCodes": [
+        "444"
+      ],
+      "aliases": [
+        "444 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.960791,
+              40.757934
+            ],
+            [
+              -73.9609196,
+              40.7579888
+            ],
+            [
+              -73.9608609,
+              40.7580685
+            ],
+            [
+              -73.9607792,
+              40.7581792
+            ],
+            [
+              -73.9607725,
+              40.7581884
+            ],
+            [
+              -73.9606439,
+              40.7581336
+            ],
+            [
+              -73.9607302,
+              40.7580165
+            ],
+            [
+              -73.960791,
+              40.757934
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433029",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-447-east-57th-street",
+      "name": "447 East 57th Street",
+      "nativeCodes": [
+        "447"
+      ],
+      "aliases": [
+        "447 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9611974,
+              40.757739
+            ],
+            [
+              -73.9613753,
+              40.757814
+            ],
+            [
+              -73.9612361,
+              40.758005
+            ],
+            [
+              -73.9610943,
+              40.7579452
+            ],
+            [
+              -73.9611541,
+              40.7578632
+            ],
+            [
+              -73.961118,
+              40.757848
+            ],
+            [
+              -73.9611471,
+              40.7578081
+            ],
+            [
+              -73.9611875,
+              40.7577526
+            ],
+            [
+              -73.9611974,
+              40.757739
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433030",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-455-east-57th-street",
+      "name": "455 East 57th Street",
+      "nativeCodes": [
+        "455"
+      ],
+      "aliases": [
+        "455 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9609479,
+              40.7576339
+            ],
+            [
+              -73.9611758,
+              40.7577299
+            ],
+            [
+              -73.9611659,
+              40.7577435
+            ],
+            [
+              -73.9611875,
+              40.7577526
+            ],
+            [
+              -73.9611471,
+              40.7578081
+            ],
+            [
+              -73.9610961,
+              40.7577865
+            ],
+            [
+              -73.9610383,
+              40.7578659
+            ],
+            [
+              -73.9610895,
+              40.7578874
+            ],
+            [
+              -73.9610584,
+              40.7579301
+            ],
+            [
+              -73.9608087,
+              40.7578248
+            ],
+            [
+              -73.9608397,
+              40.7577823
+            ],
+            [
+              -73.9608931,
+              40.7578048
+            ],
+            [
+              -73.9609511,
+              40.7577252
+            ],
+            [
+              -73.9608977,
+              40.7577027
+            ],
+            [
+              -73.9609479,
+              40.7576339
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433031",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-461-east-57th-street",
+      "name": "461 East 57th Street",
+      "nativeCodes": [
+        "461"
+      ],
+      "aliases": [
+        "461 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9608955,
+              40.7576118
+            ],
+            [
+              -73.9609479,
+              40.7576339
+            ],
+            [
+              -73.9608977,
+              40.7577027
+            ],
+            [
+              -73.9608696,
+              40.7577413
+            ],
+            [
+              -73.9608172,
+              40.7577192
+            ],
+            [
+              -73.9608955,
+              40.7576118
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433032",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-463-east-57th-street",
+      "name": "463 East 57th Street",
+      "nativeCodes": [
+        "463"
+      ],
+      "aliases": [
+        "463 East 57th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9608422,
+              40.7575893
+            ],
+            [
+              -73.9608955,
+              40.7576118
+            ],
+            [
+              -73.9608172,
+              40.7577192
+            ],
+            [
+              -73.9607639,
+              40.7576967
+            ],
+            [
+              -73.9608422,
+              40.7575893
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433033",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-2-sutton-place-south",
+      "name": "2 Sutton Place South",
+      "nativeCodes": [
+        "2SPS"
+      ],
+      "aliases": [
+        "2 Sutton Place South"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9612997,
+              40.7570529
+            ],
+            [
+              -73.9612803,
+              40.7570793
+            ],
+            [
+              -73.9613142,
+              40.7570936
+            ],
+            [
+              -73.9613033,
+              40.7571084
+            ],
+            [
+              -73.9613422,
+              40.7571249
+            ],
+            [
+              -73.9612797,
+              40.7572101
+            ],
+            [
+              -73.9612015,
+              40.757177
+            ],
+            [
+              -73.9611616,
+              40.7572315
+            ],
+            [
+              -73.9612857,
+              40.7572841
+            ],
+            [
+              -73.9612574,
+              40.7573227
+            ],
+            [
+              -73.9612888,
+              40.757336
+            ],
+            [
+              -73.9612193,
+              40.7574309
+            ],
+            [
+              -73.9609163,
+              40.7573023
+            ],
+            [
+              -73.9611468,
+              40.756988
+            ],
+            [
+              -73.9612592,
+              40.7570357
+            ],
+            [
+              -73.9612997,
+              40.7570529
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433122",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-424-east-57th-street",
+      "name": "424 East 57th Street",
+      "nativeCodes": [
+        "424"
+      ],
+      "aliases": [
+        "424 East 57th Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9620415,
+              40.7576844
+            ],
+            [
+              -73.9620876,
+              40.7577039
+            ],
+            [
+              -73.9620957,
+              40.7576929
+            ],
+            [
+              -73.9621317,
+              40.7576438
+            ],
+            [
+              -73.9620856,
+              40.7576242
+            ],
+            [
+              -73.9620951,
+              40.7576113
+            ],
+            [
+              -73.9621376,
+              40.7575533
+            ],
+            [
+              -73.962348,
+              40.7576435
+            ],
+            [
+              -73.962302,
+              40.7577062
+            ],
+            [
+              -73.9622966,
+              40.7577135
+            ],
+            [
+              -73.9622432,
+              40.7576909
+            ],
+            [
+              -73.9622267,
+              40.7577135
+            ],
+            [
+              -73.9621999,
+              40.7577499
+            ],
+            [
+              -73.9622533,
+              40.7577726
+            ],
+            [
+              -73.9622438,
+              40.7577856
+            ],
+            [
+              -73.9621992,
+              40.7578464
+            ],
+            [
+              -73.9619883,
+              40.7577569
+            ],
+            [
+              -73.9620395,
+              40.7576871
+            ],
+            [
+              -73.9620415,
+              40.7576844
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433125",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-430-east-57th-street",
+      "name": "430 East 57th Street",
+      "nativeCodes": [
+        "430"
+      ],
+      "aliases": [
+        "430 East 57th Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9617605,
+              40.7575704
+            ],
+            [
+              -73.9618277,
+              40.7575989
+            ],
+            [
+              -73.9618607,
+              40.7575538
+            ],
+            [
+              -73.9618698,
+              40.7575577
+            ],
+            [
+              -73.9618947,
+              40.7575237
+            ],
+            [
+              -73.9618184,
+              40.7574914
+            ],
+            [
+              -73.9618512,
+              40.7574466
+            ],
+            [
+              -73.9618655,
+              40.7574272
+            ],
+            [
+              -73.9621436,
+              40.7575451
+            ],
+            [
+              -73.9621376,
+              40.7575533
+            ],
+            [
+              -73.9620951,
+              40.7576113
+            ],
+            [
+              -73.9620316,
+              40.7575844
+            ],
+            [
+              -73.9620005,
+              40.7576269
+            ],
+            [
+              -73.9619846,
+              40.7576201
+            ],
+            [
+              -73.9619601,
+              40.7576534
+            ],
+            [
+              -73.9620395,
+              40.7576871
+            ],
+            [
+              -73.9619883,
+              40.7577569
+            ],
+            [
+              -73.9617102,
+              40.757639
+            ],
+            [
+              -73.9617158,
+              40.7576313
+            ],
+            [
+              -73.9617605,
+              40.7575704
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433126",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-433-east-56th-street",
+      "name": "433 East 56th Street",
+      "nativeCodes": [
+        "433"
+      ],
+      "aliases": [
+        "433 East 56th Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9621692,
+              40.7573869
+            ],
+            [
+              -73.9617494,
+              40.7571782
+            ],
+            [
+              -73.9618339,
+              40.7570629
+            ],
+            [
+              -73.962271,
+              40.7572482
+            ],
+            [
+              -73.9622601,
+              40.757263
+            ],
+            [
+              -73.9621692,
+              40.7573869
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433127",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-440-east-57th-street",
+      "name": "440 East 57th Street",
+      "nativeCodes": [
+        "4401"
+      ],
+      "aliases": [
+        "440 East 57th Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9616225,
+              40.7573496
+            ],
+            [
+              -73.9618512,
+              40.7574466
+            ],
+            [
+              -73.9618184,
+              40.7574914
+            ],
+            [
+              -73.9617605,
+              40.7575704
+            ],
+            [
+              -73.9617158,
+              40.7576313
+            ],
+            [
+              -73.9614871,
+              40.7575343
+            ],
+            [
+              -73.9615389,
+              40.7574636
+            ],
+            [
+              -73.9616001,
+              40.7573802
+            ],
+            [
+              -73.9616225,
+              40.7573496
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433128",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-444-east-57th-street",
+      "name": "444 East 57th Street",
+      "nativeCodes": [
+        "4441"
+      ],
+      "aliases": [
+        "444 East 57th Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9616001,
+              40.7573802
+            ],
+            [
+              -73.961537,
+              40.7573534
+            ],
+            [
+              -73.9615081,
+              40.7573929
+            ],
+            [
+              -73.9615184,
+              40.7573973
+            ],
+            [
+              -73.9614862,
+              40.7574413
+            ],
+            [
+              -73.9615389,
+              40.7574636
+            ],
+            [
+              -73.9614871,
+              40.7575343
+            ],
+            [
+              -73.9614787,
+              40.7575457
+            ],
+            [
+              -73.9612513,
+              40.7574493
+            ],
+            [
+              -73.9613059,
+              40.7573748
+            ],
+            [
+              -73.9613566,
+              40.7573963
+            ],
+            [
+              -73.9614113,
+              40.7573218
+            ],
+            [
+              -73.9613919,
+              40.7573136
+            ],
+            [
+              -73.961463,
+              40.7572167
+            ],
+            [
+              -73.9616591,
+              40.7572998
+            ],
+            [
+              -73.9616225,
+              40.7573496
+            ],
+            [
+              -73.9616001,
+              40.7573802
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265433129",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-20-sutton-place-south",
+      "name": "20 Sutton Place South",
+      "nativeCodes": [
+        "20"
+      ],
+      "aliases": [
+        "20 Sutton Place South"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9616338,
+              40.7567929
+            ],
+            [
+              -73.9616252,
+              40.7567751
+            ],
+            [
+              -73.9616308,
+              40.7567675
+            ],
+            [
+              -73.9615864,
+              40.7567487
+            ],
+            [
+              -73.961578,
+              40.7567408
+            ],
+            [
+              -73.9615794,
+              40.756739
+            ],
+            [
+              -73.9615179,
+              40.7567129
+            ],
+            [
+              -73.9615128,
+              40.7567199
+            ],
+            [
+              -73.9614955,
+              40.7567209
+            ],
+            [
+              -73.9614681,
+              40.7567093
+            ],
+            [
+              -73.9614628,
+              40.7567165
+            ],
+            [
+              -73.9613745,
+              40.7566791
+            ],
+            [
+              -73.9614167,
+              40.7566215
+            ],
+            [
+              -73.9614306,
+              40.7566198
+            ],
+            [
+              -73.9614241,
+              40.7566096
+            ],
+            [
+              -73.9614442,
+              40.7565822
+            ],
+            [
+              -73.9614766,
+              40.7565748
+            ],
+            [
+              -73.9615218,
+              40.756513
+            ],
+            [
+              -73.9615125,
+              40.7565091
+            ],
+            [
+              -73.9615518,
+              40.7564555
+            ],
+            [
+              -73.9615679,
+              40.756449
+            ],
+            [
+              -73.961744,
+              40.7565236
+            ],
+            [
+              -73.9617522,
+              40.7565325
+            ],
+            [
+              -73.9617357,
+              40.7565551
+            ],
+            [
+              -73.9617507,
+              40.7565615
+            ],
+            [
+              -73.9617281,
+              40.7565923
+            ],
+            [
+              -73.9617365,
+              40.7565959
+            ],
+            [
+              -73.9617407,
+              40.7566084
+            ],
+            [
+              -73.9617254,
+              40.7566293
+            ],
+            [
+              -73.9617398,
+              40.7566519
+            ],
+            [
+              -73.9617855,
+              40.7566712
+            ],
+            [
+              -73.9617523,
+              40.7567165
+            ],
+            [
+              -73.961783,
+              40.7567295
+            ],
+            [
+              -73.9617218,
+              40.7568131
+            ],
+            [
+              -73.9616948,
+              40.7568017
+            ],
+            [
+              -73.9616853,
+              40.7568147
+            ],
+            [
+              -73.9616338,
+              40.7567929
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265434508",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-440-east-56th-street",
+      "name": "440 East 56th Street",
+      "nativeCodes": [
+        "4402"
+      ],
+      "aliases": [
+        "440 East 56th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9620249,
+              40.75696
+            ],
+            [
+              -73.9620279,
+              40.7569445
+            ],
+            [
+              -73.9620122,
+              40.7569428
+            ],
+            [
+              -73.9620011,
+              40.7569328
+            ],
+            [
+              -73.962003,
+              40.7569231
+            ],
+            [
+              -73.961939,
+              40.7569158
+            ],
+            [
+              -73.9619282,
+              40.7569052
+            ],
+            [
+              -73.9619304,
+              40.7568942
+            ],
+            [
+              -73.9618838,
+              40.7568889
+            ],
+            [
+              -73.9618863,
+              40.7568762
+            ],
+            [
+              -73.9618476,
+              40.7568718
+            ],
+            [
+              -73.9618583,
+              40.7568169
+            ],
+            [
+              -73.9618643,
+              40.7568176
+            ],
+            [
+              -73.9618675,
+              40.7568015
+            ],
+            [
+              -73.9618787,
+              40.7568027
+            ],
+            [
+              -73.9618853,
+              40.7567693
+            ],
+            [
+              -73.9619117,
+              40.7567722
+            ],
+            [
+              -73.9619218,
+              40.7567203
+            ],
+            [
+              -73.9619501,
+              40.7567236
+            ],
+            [
+              -73.9619523,
+              40.7567122
+            ],
+            [
+              -73.9619677,
+              40.7567085
+            ],
+            [
+              -73.9619965,
+              40.7567118
+            ],
+            [
+              -73.9620069,
+              40.7567184
+            ],
+            [
+              -73.9620046,
+              40.7567298
+            ],
+            [
+              -73.9620422,
+              40.7567341
+            ],
+            [
+              -73.9620398,
+              40.7567465
+            ],
+            [
+              -73.9620847,
+              40.7567516
+            ],
+            [
+              -73.9620814,
+              40.7567686
+            ],
+            [
+              -73.9621481,
+              40.7567762
+            ],
+            [
+              -73.9621446,
+              40.7567941
+            ],
+            [
+              -73.9622044,
+              40.7568009
+            ],
+            [
+              -73.9622026,
+              40.75681
+            ],
+            [
+              -73.9622375,
+              40.7568139
+            ],
+            [
+              -73.9622228,
+              40.7568891
+            ],
+            [
+              -73.962213,
+              40.756888
+            ],
+            [
+              -73.9622084,
+              40.7569112
+            ],
+            [
+              -73.9621935,
+              40.7569192
+            ],
+            [
+              -73.9621768,
+              40.7569173
+            ],
+            [
+              -73.9621661,
+              40.7569722
+            ],
+            [
+              -73.9621363,
+              40.7569688
+            ],
+            [
+              -73.9621336,
+              40.7569823
+            ],
+            [
+              -73.9621185,
+              40.7569837
+            ],
+            [
+              -73.9620962,
+              40.7569819
+            ],
+            [
+              -73.9620785,
+              40.7569761
+            ],
+            [
+              -73.9620552,
+              40.7569715
+            ],
+            [
+              -73.9620249,
+              40.75696
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/265434511",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-1068-1st-avenue",
+      "name": "1068 1st Avenue",
+      "nativeCodes": [
+        "11A"
+      ],
+      "aliases": [
+        "1068 1st Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9619518,
+              40.7589978
+            ],
+            [
+              -73.9619746,
+              40.7589669
+            ],
+            [
+              -73.9620333,
+              40.7589919
+            ],
+            [
+              -73.9620465,
+              40.758974
+            ],
+            [
+              -73.9621876,
+              40.7590342
+            ],
+            [
+              -73.9621515,
+              40.759083
+            ],
+            [
+              -73.9619919,
+              40.7590149
+            ],
+            [
+              -73.9619518,
+              40.7589978
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194554",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-1070-1st-avenue",
+      "name": "1070 1st Avenue",
+      "nativeCodes": [
+        "1070"
+      ],
+      "aliases": [
+        "1070 1st Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9619919,
+              40.7590149
+            ],
+            [
+              -73.9621515,
+              40.759083
+            ],
+            [
+              -73.9621155,
+              40.7591318
+            ],
+            [
+              -73.9619559,
+              40.7590637
+            ],
+            [
+              -73.9619919,
+              40.7590149
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194558",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-1072-1st-avenue",
+      "name": "1072 1st Avenue",
+      "nativeCodes": [
+        "1072"
+      ],
+      "aliases": [
+        "1072 1st Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9619559,
+              40.7590637
+            ],
+            [
+              -73.9621155,
+              40.7591318
+            ],
+            [
+              -73.9620795,
+              40.7591806
+            ],
+            [
+              -73.9619198,
+              40.7591125
+            ],
+            [
+              -73.9619559,
+              40.7590637
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194564",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-1074-1st-avenue",
+      "name": "1074 1st Avenue",
+      "nativeCodes": [
+        "1074"
+      ],
+      "aliases": [
+        "1074 1st Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9620795,
+              40.7591806
+            ],
+            [
+              -73.962043,
+              40.7592301
+            ],
+            [
+              -73.9618834,
+              40.7591619
+            ],
+            [
+              -73.9619198,
+              40.7591125
+            ],
+            [
+              -73.9620795,
+              40.7591806
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194570",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-403-east-58th-street",
+      "name": "403 East 58th Street",
+      "nativeCodes": [
+        "403"
+      ],
+      "aliases": [
+        "403 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9619269,
+              40.7588845
+            ],
+            [
+              -73.9619849,
+              40.7589092
+            ],
+            [
+              -73.9619719,
+              40.7589269
+            ],
+            [
+              -73.9618567,
+              40.7590836
+            ],
+            [
+              -73.9617986,
+              40.7590589
+            ],
+            [
+              -73.9618423,
+              40.7589996
+            ],
+            [
+              -73.9619269,
+              40.7588845
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194633",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-405-east-58th-street",
+      "name": "405 East 58th Street",
+      "nativeCodes": [
+        "405"
+      ],
+      "aliases": [
+        "405 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9618717,
+              40.7588611
+            ],
+            [
+              -73.9619269,
+              40.7588845
+            ],
+            [
+              -73.9618423,
+              40.7589996
+            ],
+            [
+              -73.9617871,
+              40.7589762
+            ],
+            [
+              -73.9618717,
+              40.7588611
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194634",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-407-east-58th-street",
+      "name": "407 East 58th Street",
+      "nativeCodes": [
+        "407"
+      ],
+      "aliases": [
+        "407 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9618237,
+              40.7588332
+            ],
+            [
+              -73.9618759,
+              40.7588554
+            ],
+            [
+              -73.9618717,
+              40.7588611
+            ],
+            [
+              -73.9617871,
+              40.7589762
+            ],
+            [
+              -73.9617349,
+              40.758954
+            ],
+            [
+              -73.9618237,
+              40.7588332
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194635",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-409-east-58th-street",
+      "name": "409 East 58th Street",
+      "nativeCodes": [
+        "409"
+      ],
+      "aliases": [
+        "409 East 58th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9617349,
+              40.758954
+            ],
+            [
+              -73.9616813,
+              40.7589312
+            ],
+            [
+              -73.9617701,
+              40.7588104
+            ],
+            [
+              -73.9618237,
+              40.7588332
+            ],
+            [
+              -73.9617349,
+              40.758954
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194636",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-410-east-59th-street",
+      "name": "410 East 59th Street",
+      "nativeCodes": [
+        "410"
+      ],
+      "aliases": [
+        "410 East 59th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.961359,
+              40.7591285
+            ],
+            [
+              -73.9613715,
+              40.7591335
+            ],
+            [
+              -73.9613985,
+              40.759094
+            ],
+            [
+              -73.961386,
+              40.759089
+            ],
+            [
+              -73.9613999,
+              40.7590686
+            ],
+            [
+              -73.9614267,
+              40.7590791
+            ],
+            [
+              -73.9614452,
+              40.7590521
+            ],
+            [
+              -73.9614881,
+              40.759069
+            ],
+            [
+              -73.9614659,
+              40.7591016
+            ],
+            [
+              -73.9614794,
+              40.7591069
+            ],
+            [
+              -73.9614424,
+              40.759161
+            ],
+            [
+              -73.9614273,
+              40.7591657
+            ],
+            [
+              -73.9614106,
+              40.7591901
+            ],
+            [
+              -73.9614108,
+              40.7592021
+            ],
+            [
+              -73.9613682,
+              40.7592595
+            ],
+            [
+              -73.9612905,
+              40.7592288
+            ],
+            [
+              -73.9613427,
+              40.7591524
+            ],
+            [
+              -73.961359,
+              40.7591285
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194637",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-418-east-59th-street",
+      "name": "418 East 59th Street",
+      "nativeCodes": [
+        "418"
+      ],
+      "aliases": [
+        "418 East 59th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9611422,
+              40.7589414
+            ],
+            [
+              -73.9614093,
+              40.7590549
+            ],
+            [
+              -73.9613999,
+              40.7590686
+            ],
+            [
+              -73.961386,
+              40.759089
+            ],
+            [
+              -73.9613985,
+              40.759094
+            ],
+            [
+              -73.9613715,
+              40.7591335
+            ],
+            [
+              -73.961359,
+              40.7591285
+            ],
+            [
+              -73.9613427,
+              40.7591524
+            ],
+            [
+              -73.9610717,
+              40.7590372
+            ],
+            [
+              -73.9611422,
+              40.7589414
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194639",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-440-east-59th-street",
+      "name": "440 East 59th Street",
+      "nativeCodes": [
+        "4403"
+      ],
+      "aliases": [
+        "440 East 59th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.960326,
+              40.7586007
+            ],
+            [
+              -73.9603887,
+              40.7586274
+            ],
+            [
+              -73.960321,
+              40.7587195
+            ],
+            [
+              -73.9602668,
+              40.7587932
+            ],
+            [
+              -73.960204,
+              40.7587665
+            ],
+            [
+              -73.9602907,
+              40.7586486
+            ],
+            [
+              -73.960326,
+              40.7586007
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194640",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-the-sovereign",
+      "name": "The Sovereign",
+      "nativeCodes": [
+        "THE"
+      ],
+      "aliases": [
+        "The Sovereign"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.960456,
+              40.7585346
+            ],
+            [
+              -73.9604366,
+              40.7585256
+            ],
+            [
+              -73.9604877,
+              40.7584565
+            ],
+            [
+              -73.9604459,
+              40.7584388
+            ],
+            [
+              -73.9605075,
+              40.7583554
+            ],
+            [
+              -73.9605717,
+              40.7583827
+            ],
+            [
+              -73.9605828,
+              40.7583677
+            ],
+            [
+              -73.9606249,
+              40.7583855
+            ],
+            [
+              -73.9606138,
+              40.7584006
+            ],
+            [
+              -73.9607903,
+              40.7584755
+            ],
+            [
+              -73.9607374,
+              40.7585469
+            ],
+            [
+              -73.9608684,
+              40.7586025
+            ],
+            [
+              -73.9608367,
+              40.7586453
+            ],
+            [
+              -73.9609024,
+              40.7586736
+            ],
+            [
+              -73.9609135,
+              40.7586586
+            ],
+            [
+              -73.9609556,
+              40.7586765
+            ],
+            [
+              -73.9609445,
+              40.7586915
+            ],
+            [
+              -73.9610346,
+              40.7587297
+            ],
+            [
+              -73.9611442,
+              40.7587026
+            ],
+            [
+              -73.9611678,
+              40.7586709
+            ],
+            [
+              -73.9612182,
+              40.7586907
+            ],
+            [
+              -73.9612379,
+              40.7587479
+            ],
+            [
+              -73.9612527,
+              40.7587911
+            ],
+            [
+              -73.9612379,
+              40.7588115
+            ],
+            [
+              -73.9611826,
+              40.7588876
+            ],
+            [
+              -73.9611422,
+              40.7589414
+            ],
+            [
+              -73.9610717,
+              40.7590372
+            ],
+            [
+              -73.9610698,
+              40.7590398
+            ],
+            [
+              -73.9610378,
+              40.7590262
+            ],
+            [
+              -73.9610233,
+              40.75902
+            ],
+            [
+              -73.9610124,
+              40.7590351
+            ],
+            [
+              -73.9609701,
+              40.7590175
+            ],
+            [
+              -73.960981,
+              40.7590024
+            ],
+            [
+              -73.9608295,
+              40.758938
+            ],
+            [
+              -73.960321,
+              40.7587195
+            ],
+            [
+              -73.9603887,
+              40.7586274
+            ],
+            [
+              -73.960456,
+              40.7585346
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266194645",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-409-east-60th-street",
+      "name": "409 East 60th Street",
+      "nativeCodes": [
+        "4E6S"
+      ],
+      "aliases": [
+        "409 East 60th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9604415,
+              40.7598794
+            ],
+            [
+              -73.9607529,
+              40.7600103
+            ],
+            [
+              -73.9605992,
+              40.7602217
+            ],
+            [
+              -73.9605835,
+              40.7602434
+            ],
+            [
+              -73.9602721,
+              40.7601125
+            ],
+            [
+              -73.9602919,
+              40.7600852
+            ],
+            [
+              -73.9604415,
+              40.7598794
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266195283",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-420-east-61th-street",
+      "name": "420 East 61th Street",
+      "nativeCodes": [
+        "4201"
+      ],
+      "aliases": [
+        "420 East 61th Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9598918,
+              40.7601377
+            ],
+            [
+              -73.9598887,
+              40.7601421
+            ],
+            [
+              -73.9597995,
+              40.7601051
+            ],
+            [
+              -73.9599613,
+              40.7598815
+            ],
+            [
+              -73.9600054,
+              40.7598205
+            ],
+            [
+              -73.9600957,
+              40.759858
+            ],
+            [
+              -73.9600912,
+              40.7598643
+            ],
+            [
+              -73.9601284,
+              40.7598798
+            ],
+            [
+              -73.9601403,
+              40.7598634
+            ],
+            [
+              -73.9601963,
+              40.7598866
+            ],
+            [
+              -73.9599732,
+              40.760195
+            ],
+            [
+              -73.9599172,
+              40.7601717
+            ],
+            [
+              -73.9599303,
+              40.7601537
+            ],
+            [
+              -73.9598918,
+              40.7601377
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266195285",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-1113-york-avenue",
+      "name": "1113 York Avenue",
+      "nativeCodes": [
+        "1YA"
+      ],
+      "aliases": [
+        "1113 York Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9590306,
+              40.7599079
+            ],
+            [
+              -73.9593732,
+              40.7594292
+            ],
+            [
+              -73.9598142,
+              40.7596103
+            ],
+            [
+              -73.959754,
+              40.7596945
+            ],
+            [
+              -73.9597367,
+              40.7596873
+            ],
+            [
+              -73.959721,
+              40.7597093
+            ],
+            [
+              -73.9596788,
+              40.7597683
+            ],
+            [
+              -73.9596696,
+              40.7597811
+            ],
+            [
+              -73.959597,
+              40.7597513
+            ],
+            [
+              -73.9594112,
+              40.760011
+            ],
+            [
+              -73.9593228,
+              40.7599747
+            ],
+            [
+              -73.9592934,
+              40.7600158
+            ],
+            [
+              -73.9590306,
+              40.7599079
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266195287",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-tj-maxx",
+      "name": "TJ Maxx",
+      "nativeCodes": [
+        "TM"
+      ],
+      "aliases": [
+        "TJ Maxx"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.961192,
+              40.7593925
+            ],
+            [
+              -73.96154,
+              40.7595418
+            ],
+            [
+              -73.9614545,
+              40.759657
+            ],
+            [
+              -73.9611065,
+              40.7595078
+            ],
+            [
+              -73.961192,
+              40.7593925
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266195296",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-510-east-62nd-street",
+      "name": "510 East 62nd Street",
+      "nativeCodes": [
+        "5E6S"
+      ],
+      "aliases": [
+        "510 East 62nd Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9579913,
+              40.7602878
+            ],
+            [
+              -73.9577654,
+              40.7601945
+            ],
+            [
+              -73.9580118,
+              40.7599339
+            ],
+            [
+              -73.9581887,
+              40.7597468
+            ],
+            [
+              -73.9584145,
+              40.7598401
+            ],
+            [
+              -73.9583687,
+              40.7598885
+            ],
+            [
+              -73.9580415,
+              40.7602346
+            ],
+            [
+              -73.9579913,
+              40.7602878
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/266199267",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-42-10-vernon-boulevard",
+      "name": "42-10 Vernon Boulevard",
+      "nativeCodes": [
+        "41VB"
+      ],
+      "aliases": [
+        "42-10 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9497704,
+              40.7539678
+            ],
+            [
+              -73.9497635,
+              40.7539632
+            ],
+            [
+              -73.9497591,
+              40.7539571
+            ],
+            [
+              -73.949758,
+              40.7539537
+            ],
+            [
+              -73.9497581,
+              40.7539468
+            ],
+            [
+              -73.9497614,
+              40.7539403
+            ],
+            [
+              -73.9497673,
+              40.753935
+            ],
+            [
+              -73.9497711,
+              40.753933
+            ],
+            [
+              -73.9497797,
+              40.7539307
+            ],
+            [
+              -73.9497889,
+              40.7539307
+            ],
+            [
+              -73.9497995,
+              40.7539337
+            ],
+            [
+              -73.9498378,
+              40.7538887
+            ],
+            [
+              -73.9499009,
+              40.7539199
+            ],
+            [
+              -73.9498445,
+              40.7539861
+            ],
+            [
+              -73.9498902,
+              40.7540086
+            ],
+            [
+              -73.9498726,
+              40.7540292
+            ],
+            [
+              -73.9498269,
+              40.7540067
+            ],
+            [
+              -73.9497659,
+              40.7540782
+            ],
+            [
+              -73.9497028,
+              40.7540471
+            ],
+            [
+              -73.9497704,
+              40.7539678
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332366",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-42-22-9th-street",
+      "name": "42-22 9th Street",
+      "nativeCodes": [
+        "429S"
+      ],
+      "aliases": [
+        "42-22 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9490514,
+              40.7533962
+            ],
+            [
+              -73.9491073,
+              40.7534256
+            ],
+            [
+              -73.9490871,
+              40.7534478
+            ],
+            [
+              -73.9491392,
+              40.7534752
+            ],
+            [
+              -73.9491515,
+              40.7534618
+            ],
+            [
+              -73.949208,
+              40.7534915
+            ],
+            [
+              -73.9491379,
+              40.7535685
+            ],
+            [
+              -73.9489734,
+              40.7534819
+            ],
+            [
+              -73.9490514,
+              40.7533962
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332374",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-42-29-9th-street",
+      "name": "42-29 9th Street",
+      "nativeCodes": [
+        "42"
+      ],
+      "aliases": [
+        "42-29 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9487974,
+              40.7528847
+            ],
+            [
+              -73.9490956,
+              40.7530337
+            ],
+            [
+              -73.9490446,
+              40.7530927
+            ],
+            [
+              -73.9487464,
+              40.7529438
+            ],
+            [
+              -73.9487974,
+              40.7528847
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332377",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-42-31-9th-street",
+      "name": "42-31 9th Street",
+      "nativeCodes": [
+        "439S"
+      ],
+      "aliases": [
+        "42-31 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9489433,
+              40.7527159
+            ],
+            [
+              -73.9490187,
+              40.7527536
+            ],
+            [
+              -73.9490898,
+              40.7527891
+            ],
+            [
+              -73.9491685,
+              40.7528284
+            ],
+            [
+              -73.9492414,
+              40.7528649
+            ],
+            [
+              -73.9490956,
+              40.7530337
+            ],
+            [
+              -73.9487974,
+              40.7528847
+            ],
+            [
+              -73.9489433,
+              40.7527159
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332379",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-05-vernon-boulevard",
+      "name": "43-05 Vernon Boulevard",
+      "nativeCodes": [
+        "40VB"
+      ],
+      "aliases": [
+        "43-05 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9501131,
+              40.7526543
+            ],
+            [
+              -73.9501889,
+              40.7525663
+            ],
+            [
+              -73.9504887,
+              40.7527156
+            ],
+            [
+              -73.9504129,
+              40.7528036
+            ],
+            [
+              -73.9501767,
+              40.752686
+            ],
+            [
+              -73.9501131,
+              40.7526543
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332390",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-09-vernon-boulevard",
+      "name": "43-09 Vernon Boulevard",
+      "nativeCodes": [
+        "43"
+      ],
+      "aliases": [
+        "43-09 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.95039,
+              40.7523326
+            ],
+            [
+              -73.9504496,
+              40.7523623
+            ],
+            [
+              -73.9504254,
+              40.7523905
+            ],
+            [
+              -73.9503998,
+              40.7523777
+            ],
+            [
+              -73.9503621,
+              40.7524216
+            ],
+            [
+              -73.9506279,
+              40.7525539
+            ],
+            [
+              -73.9504887,
+              40.7527156
+            ],
+            [
+              -73.9501889,
+              40.7525663
+            ],
+            [
+              -73.9502391,
+              40.7525079
+            ],
+            [
+              -73.95039,
+              40.7523326
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332391",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-19-vernon-boulevard",
+      "name": "43-19 Vernon Boulevard",
+      "nativeCodes": [
+        "432"
+      ],
+      "aliases": [
+        "43-19 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.95039,
+              40.7523326
+            ],
+            [
+              -73.9504677,
+              40.7522425
+            ],
+            [
+              -73.9507406,
+              40.7524287
+            ],
+            [
+              -73.9506933,
+              40.7524836
+            ],
+            [
+              -73.9504496,
+              40.7523623
+            ],
+            [
+              -73.95039,
+              40.7523326
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332396",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-27-rear-9th-street",
+      "name": "43-27 REAR 9th Street",
+      "nativeCodes": [
+        "42R9S"
+      ],
+      "aliases": [
+        "43-27 REAR 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9507262,
+              40.7520658
+            ],
+            [
+              -73.9508248,
+              40.7521133
+            ],
+            [
+              -73.9507812,
+              40.7521657
+            ],
+            [
+              -73.9507313,
+              40.7522257
+            ],
+            [
+              -73.9506429,
+              40.7521656
+            ],
+            [
+              -73.9506608,
+              40.7521441
+            ],
+            [
+              -73.9507262,
+              40.7520658
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332399",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-27-vernon-boulevard",
+      "name": "43-27 Vernon Boulevard",
+      "nativeCodes": [
+        "42VB"
+      ],
+      "aliases": [
+        "43-27 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9508248,
+              40.7521133
+            ],
+            [
+              -73.9509576,
+              40.7521774
+            ],
+            [
+              -73.950914,
+              40.7522298
+            ],
+            [
+              -73.9507812,
+              40.7521657
+            ],
+            [
+              -73.9508248,
+              40.7521133
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332400",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-31-vernon-boulevard",
+      "name": "43-31 Vernon Boulevard",
+      "nativeCodes": [
+        "43VB"
+      ],
+      "aliases": [
+        "43-31 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9507262,
+              40.7520658
+            ],
+            [
+              -73.9507947,
+              40.7519836
+            ],
+            [
+              -73.9510262,
+              40.7520953
+            ],
+            [
+              -73.9509576,
+              40.7521774
+            ],
+            [
+              -73.9508248,
+              40.7521133
+            ],
+            [
+              -73.9507262,
+              40.7520658
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332401",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-32-9th-street",
+      "name": "43-32 9th Street",
+      "nativeCodes": [
+        "437"
+      ],
+      "aliases": [
+        "43-32 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9505294,
+              40.75191
+            ],
+            [
+              -73.9504513,
+              40.7520025
+            ],
+            [
+              -73.9505063,
+              40.7520261
+            ],
+            [
+              -73.9504814,
+              40.752056
+            ],
+            [
+              -73.9503074,
+              40.7519368
+            ],
+            [
+              -73.9503937,
+              40.7518369
+            ],
+            [
+              -73.9505294,
+              40.75191
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332402",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-36-9th-street",
+      "name": "43-36 9th Street",
+      "nativeCodes": [
+        "438"
+      ],
+      "aliases": [
+        "43-36 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9504244,
+              40.7518014
+            ],
+            [
+              -73.9505597,
+              40.7518741
+            ],
+            [
+              -73.9505294,
+              40.75191
+            ],
+            [
+              -73.9503937,
+              40.7518369
+            ],
+            [
+              -73.9504244,
+              40.7518014
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332403",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-38-9th-street",
+      "name": "43-38 9th Street",
+      "nativeCodes": [
+        "439"
+      ],
+      "aliases": [
+        "43-38 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9504675,
+              40.7517514
+            ],
+            [
+              -73.9506021,
+              40.7518238
+            ],
+            [
+              -73.9505597,
+              40.7518741
+            ],
+            [
+              -73.9504244,
+              40.7518014
+            ],
+            [
+              -73.9504675,
+              40.7517514
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332404",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-40-9th-street",
+      "name": "43-40 9th Street",
+      "nativeCodes": [
+        "449S"
+      ],
+      "aliases": [
+        "43-40 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9504675,
+              40.7517514
+            ],
+            [
+              -73.9506014,
+              40.7515963
+            ],
+            [
+              -73.9508746,
+              40.7517433
+            ],
+            [
+              -73.9508227,
+              40.7517991
+            ],
+            [
+              -73.9507065,
+              40.7517366
+            ],
+            [
+              -73.9506176,
+              40.7518321
+            ],
+            [
+              -73.9506021,
+              40.7518238
+            ],
+            [
+              -73.9504675,
+              40.7517514
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332406",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-42-10th-street",
+      "name": "43-42 10th Street",
+      "nativeCodes": [
+        "441S"
+      ],
+      "aliases": [
+        "43-42 10th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9498403,
+              40.7511788
+            ],
+            [
+              -73.9501379,
+              40.7513273
+            ],
+            [
+              -73.9501431,
+              40.7513299
+            ],
+            [
+              -73.9501182,
+              40.7513586
+            ],
+            [
+              -73.9501897,
+              40.7513943
+            ],
+            [
+              -73.9501404,
+              40.7514515
+            ],
+            [
+              -73.9500666,
+              40.7514146
+            ],
+            [
+              -73.9499585,
+              40.7513607
+            ],
+            [
+              -73.9498581,
+              40.7514772
+            ],
+            [
+              -73.9498006,
+              40.7514384
+            ],
+            [
+              -73.94982,
+              40.7514159
+            ],
+            [
+              -73.949699,
+              40.7513426
+            ],
+            [
+              -73.9498403,
+              40.7511788
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332407",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-43-9th-street",
+      "name": "43-43 9th Street",
+      "nativeCodes": [
+        "4310"
+      ],
+      "aliases": [
+        "43-43 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9501182,
+              40.7513586
+            ],
+            [
+              -73.9501431,
+              40.7513299
+            ],
+            [
+              -73.9501379,
+              40.7513273
+            ],
+            [
+              -73.9502103,
+              40.7512433
+            ],
+            [
+              -73.9505086,
+              40.7513921
+            ],
+            [
+              -73.9504113,
+              40.7515049
+            ],
+            [
+              -73.9501897,
+              40.7513943
+            ],
+            [
+              -73.9501182,
+              40.7513586
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332408",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-43-vernon-boulevard",
+      "name": "43-43 Vernon Boulevard",
+      "nativeCodes": [
+        "44VB"
+      ],
+      "aliases": [
+        "43-43 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9508675,
+              40.7518964
+            ],
+            [
+              -73.9509218,
+              40.7519225
+            ],
+            [
+              -73.9509696,
+              40.7518652
+            ],
+            [
+              -73.9509911,
+              40.7518756
+            ],
+            [
+              -73.9510101,
+              40.7518529
+            ],
+            [
+              -73.9508719,
+              40.7517862
+            ],
+            [
+              -73.9508974,
+              40.7517555
+            ],
+            [
+              -73.9509154,
+              40.751734
+            ],
+            [
+              -73.9510363,
+              40.7517923
+            ],
+            [
+              -73.9512093,
+              40.7518758
+            ],
+            [
+              -73.9510262,
+              40.7520953
+            ],
+            [
+              -73.9507947,
+              40.7519836
+            ],
+            [
+              -73.9508011,
+              40.751976
+            ],
+            [
+              -73.9508675,
+              40.7518964
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332409",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-45-rear-vernon-boulevard",
+      "name": "43-45 REAR Vernon Boulevard",
+      "nativeCodes": [
+        "44RVB"
+      ],
+      "aliases": [
+        "43-45 REAR Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9510131,
+              40.7516169
+            ],
+            [
+              -73.951134,
+              40.7516752
+            ],
+            [
+              -73.9510363,
+              40.7517923
+            ],
+            [
+              -73.9509154,
+              40.751734
+            ],
+            [
+              -73.9510131,
+              40.7516169
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332410",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-45-vernon-boulevard",
+      "name": "43-45 Vernon Boulevard",
+      "nativeCodes": [
+        "4311"
+      ],
+      "aliases": [
+        "43-45 Vernon Boulevard"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9510363,
+              40.7517923
+            ],
+            [
+              -73.951134,
+              40.7516752
+            ],
+            [
+              -73.9513133,
+              40.7517678
+            ],
+            [
+              -73.9512138,
+              40.751878
+            ],
+            [
+              -73.9512093,
+              40.7518758
+            ],
+            [
+              -73.9510363,
+              40.7517923
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332411",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-46-10th-street",
+      "name": "43-46 10th Street",
+      "nativeCodes": [
+        "4312"
+      ],
+      "aliases": [
+        "43-46 10th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9499128,
+              40.7510948
+            ],
+            [
+              -73.9502103,
+              40.7512433
+            ],
+            [
+              -73.9501379,
+              40.7513273
+            ],
+            [
+              -73.9498403,
+              40.7511788
+            ],
+            [
+              -73.9499128,
+              40.7510948
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332412",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-43-46-9th-street",
+      "name": "43-46 9th Street",
+      "nativeCodes": [
+        "4313"
+      ],
+      "aliases": [
+        "43-46 9th Street"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9506014,
+              40.7515963
+            ],
+            [
+              -73.9507134,
+              40.7514666
+            ],
+            [
+              -73.951013,
+              40.7516112
+            ],
+            [
+              -73.9510114,
+              40.7516149
+            ],
+            [
+              -73.9510131,
+              40.7516169
+            ],
+            [
+              -73.9509154,
+              40.751734
+            ],
+            [
+              -73.9508974,
+              40.7517555
+            ],
+            [
+              -73.9508746,
+              40.7517433
+            ],
+            [
+              -73.9506014,
+              40.7515963
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332414",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-8-02-43rd-road",
+      "name": "8-02 43rd Road",
+      "nativeCodes": [
+        "804R"
+      ],
+      "aliases": [
+        "8-02 43rd Road"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9507812,
+              40.7521657
+            ],
+            [
+              -73.950914,
+              40.7522298
+            ],
+            [
+              -73.9508451,
+              40.7523078
+            ],
+            [
+              -73.9507313,
+              40.7522257
+            ],
+            [
+              -73.9507812,
+              40.7521657
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332446",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-ravel-hotel",
+      "name": "Ravel Hotel",
+      "nativeCodes": [
+        "RH"
+      ],
+      "aliases": [
+        "Ravel Hotel"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9492668,
+              40.7536363
+            ],
+            [
+              -73.9492308,
+              40.7536783
+            ],
+            [
+              -73.948957,
+              40.7539971
+            ],
+            [
+              -73.9486143,
+              40.7539001
+            ],
+            [
+              -73.9489309,
+              40.7535314
+            ],
+            [
+              -73.9489734,
+              40.7534819
+            ],
+            [
+              -73.9491379,
+              40.7535685
+            ],
+            [
+              -73.9492668,
+              40.7536363
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332449",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-9-03-43rd-avenue",
+      "name": "9-03 43rd Avenue",
+      "nativeCodes": [
+        "904A"
+      ],
+      "aliases": [
+        "9-03 43rd Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9492747,
+              40.7525793
+            ],
+            [
+              -73.949341,
+              40.7526124
+            ],
+            [
+              -73.949253,
+              40.7527143
+            ],
+            [
+              -73.9491867,
+              40.7526812
+            ],
+            [
+              -73.9492016,
+              40.752664
+            ],
+            [
+              -73.949263,
+              40.7525929
+            ],
+            [
+              -73.9492747,
+              40.7525793
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332451",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-9-07-43rd-avenue",
+      "name": "9-07 43rd Avenue",
+      "nativeCodes": [
+        "90"
+      ],
+      "aliases": [
+        "9-07 43rd Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9491886,
+              40.7525557
+            ],
+            [
+              -73.949263,
+              40.7525929
+            ],
+            [
+              -73.9492016,
+              40.752664
+            ],
+            [
+              -73.9491271,
+              40.7526268
+            ],
+            [
+              -73.9491886,
+              40.7525557
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332454",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-9-09-43rd-avenue",
+      "name": "9-09 43rd Avenue",
+      "nativeCodes": [
+        "901"
+      ],
+      "aliases": [
+        "9-09 43rd Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9491139,
+              40.7525184
+            ],
+            [
+              -73.9491886,
+              40.7525557
+            ],
+            [
+              -73.9491271,
+              40.7526268
+            ],
+            [
+              -73.9491084,
+              40.7526174
+            ],
+            [
+              -73.9490849,
+              40.7526447
+            ],
+            [
+              -73.949029,
+              40.7526167
+            ],
+            [
+              -73.9491139,
+              40.7525184
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332457",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-9-11-43rd-avenue",
+      "name": "9-11 43rd Avenue",
+      "nativeCodes": [
+        "914A"
+      ],
+      "aliases": [
+        "9-11 43rd Avenue"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9489654,
+              40.752431
+            ],
+            [
+              -73.9491219,
+              40.7525092
+            ],
+            [
+              -73.9491139,
+              40.7525184
+            ],
+            [
+              -73.949029,
+              40.7526167
+            ],
+            [
+              -73.9489433,
+              40.7527159
+            ],
+            [
+              -73.9487868,
+              40.7526377
+            ],
+            [
+              -73.9489654,
+              40.752431
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332460",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-big-alice-brewing",
+      "name": "Big Alice Brewing",
+      "nativeCodes": [
+        "BAB"
+      ],
+      "aliases": [
+        "Big Alice Brewing"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9505196,
+              40.7520102
+            ],
+            [
+              -73.9506556,
+              40.752082
+            ],
+            [
+              -73.9506244,
+              40.7521194
+            ],
+            [
+              -73.9506608,
+              40.7521441
+            ],
+            [
+              -73.9506429,
+              40.7521656
+            ],
+            [
+              -73.9504814,
+              40.752056
+            ],
+            [
+              -73.9505063,
+              40.7520261
+            ],
+            [
+              -73.9505196,
+              40.7520102
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281332601",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-con-edison-the-learning-center",
+      "name": "Con Edison: The Learning Center",
+      "nativeCodes": [
+        "CELC"
+      ],
+      "aliases": [
+        "Con Edison: The Learning Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9522989,
+              40.7516524
+            ],
+            [
+              -73.9524075,
+              40.7515313
+            ],
+            [
+              -73.9522381,
+              40.7514435
+            ],
+            [
+              -73.9522612,
+              40.7514182
+            ],
+            [
+              -73.9523851,
+              40.7512795
+            ],
+            [
+              -73.95216,
+              40.7511627
+            ],
+            [
+              -73.952343,
+              40.7509586
+            ],
+            [
+              -73.9535292,
+              40.7515736
+            ],
+            [
+              -73.9533456,
+              40.7517784
+            ],
+            [
+              -73.9532892,
+              40.7517491
+            ],
+            [
+              -73.9530342,
+              40.7520336
+            ],
+            [
+              -73.9527428,
+              40.7518825
+            ],
+            [
+              -73.9522989,
+              40.7516524
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/281336581",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-alice-aycock-pavilion",
+      "name": "Alice Aycock Pavilion",
+      "nativeCodes": [
+        "AAP"
+      ],
+      "aliases": [
+        "Alice Aycock Pavilion"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9580109,
+              40.758981
+            ],
+            [
+              -73.9580596,
+              40.759012
+            ],
+            [
+              -73.9581681,
+              40.7590815
+            ],
+            [
+              -73.9579135,
+              40.7593781
+            ],
+            [
+              -73.9578296,
+              40.7594539
+            ],
+            [
+              -73.9576694,
+              40.759351
+            ],
+            [
+              -73.9576272,
+              40.7593247
+            ],
+            [
+              -73.9580109,
+              40.758981
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284868526",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-465-main-street",
+      "name": "465 Main Street",
+      "nativeCodes": [
+        "4MS"
+      ],
+      "aliases": [
+        "465 Main Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9519402,
+              40.7596017
+            ],
+            [
+              -73.9519689,
+              40.7595714
+            ],
+            [
+              -73.9519241,
+              40.7595469
+            ],
+            [
+              -73.9520339,
+              40.7594309
+            ],
+            [
+              -73.9520803,
+              40.7594563
+            ],
+            [
+              -73.952109,
+              40.759426
+            ],
+            [
+              -73.9522216,
+              40.7594876
+            ],
+            [
+              -73.9522102,
+              40.7594996
+            ],
+            [
+              -73.9523464,
+              40.7595742
+            ],
+            [
+              -73.9523356,
+              40.7595856
+            ],
+            [
+              -73.9524349,
+              40.7596399
+            ],
+            [
+              -73.9524034,
+              40.7596732
+            ],
+            [
+              -73.952427,
+              40.7596861
+            ],
+            [
+              -73.9523658,
+              40.7597508
+            ],
+            [
+              -73.9523422,
+              40.7597379
+            ],
+            [
+              -73.9523107,
+              40.7597712
+            ],
+            [
+              -73.9522114,
+              40.7597168
+            ],
+            [
+              -73.9522011,
+              40.7597277
+            ],
+            [
+              -73.9520639,
+              40.7596526
+            ],
+            [
+              -73.9520534,
+              40.7596636
+            ],
+            [
+              -73.9519402,
+              40.7596017
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284880675",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-475-main-street",
+      "name": "475 Main Street",
+      "nativeCodes": [
+        "475"
+      ],
+      "aliases": [
+        "475 Main Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9515352,
+              40.7598349
+            ],
+            [
+              -73.9517579,
+              40.7595859
+            ],
+            [
+              -73.9518605,
+              40.7596425
+            ],
+            [
+              -73.9518375,
+              40.7596666
+            ],
+            [
+              -73.9518613,
+              40.7596797
+            ],
+            [
+              -73.9518086,
+              40.7597349
+            ],
+            [
+              -73.9518629,
+              40.7597647
+            ],
+            [
+              -73.9517872,
+              40.7598445
+            ],
+            [
+              -73.9518371,
+              40.7599111
+            ],
+            [
+              -73.9519874,
+              40.7601118
+            ],
+            [
+              -73.952042,
+              40.7600881
+            ],
+            [
+              -73.9520993,
+              40.7601646
+            ],
+            [
+              -73.9518599,
+              40.7602683
+            ],
+            [
+              -73.9517877,
+              40.7601718
+            ],
+            [
+              -73.9515352,
+              40.7598349
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284880677",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-riverwalk-crossing",
+      "name": "Riverwalk Crossing",
+      "nativeCodes": [
+        "RC"
+      ],
+      "aliases": [
+        "Riverwalk Crossing"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9539702,
+              40.7579186
+            ],
+            [
+              -73.9537339,
+              40.7579946
+            ],
+            [
+              -73.9536996,
+              40.757933
+            ],
+            [
+              -73.9536552,
+              40.757853
+            ],
+            [
+              -73.9540226,
+              40.7577349
+            ],
+            [
+              -73.9542523,
+              40.7578226
+            ],
+            [
+              -73.9542626,
+              40.757807
+            ],
+            [
+              -73.9545597,
+              40.7579205
+            ],
+            [
+              -73.954547,
+              40.7579397
+            ],
+            [
+              -73.9545788,
+              40.7579518
+            ],
+            [
+              -73.9544313,
+              40.7581692
+            ],
+            [
+              -73.9543257,
+              40.7581312
+            ],
+            [
+              -73.9543602,
+              40.758076
+            ],
+            [
+              -73.9539702,
+              40.7579186
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882399",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-bld-284882403",
+      "name": "465 Main Street",
+      "nativeCodes": [
+        "465"
+      ],
+      "aliases": [
+        "465 Main Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9534209,
+              40.7581722
+            ],
+            [
+              -73.9533954,
+              40.7581516
+            ],
+            [
+              -73.9534719,
+              40.758093
+            ],
+            [
+              -73.9534975,
+              40.75811
+            ],
+            [
+              -73.953563,
+              40.7580651
+            ],
+            [
+              -73.9536351,
+              40.7581231
+            ],
+            [
+              -73.9536217,
+              40.7581318
+            ],
+            [
+              -73.9537288,
+              40.7582188
+            ],
+            [
+              -73.9537157,
+              40.7582287
+            ],
+            [
+              -73.9538501,
+              40.7583357
+            ],
+            [
+              -73.9538348,
+              40.7583454
+            ],
+            [
+              -73.9538574,
+              40.7583632
+            ],
+            [
+              -73.9537259,
+              40.7584545
+            ],
+            [
+              -73.9537036,
+              40.7584404
+            ],
+            [
+              -73.9536906,
+              40.7584511
+            ],
+            [
+              -73.9535568,
+              40.7583373
+            ],
+            [
+              -73.953546,
+              40.7583446
+            ],
+            [
+              -73.9534424,
+              40.7582666
+            ],
+            [
+              -73.9534291,
+              40.7582763
+            ],
+            [
+              -73.9533563,
+              40.7582192
+            ],
+            [
+              -73.9534209,
+              40.7581722
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882403",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-riverwalk-landing",
+      "name": "Riverwalk Landing",
+      "nativeCodes": [
+        "RL"
+      ],
+      "aliases": [
+        "Riverwalk Landing"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9530531,
+              40.7582731
+            ],
+            [
+              -73.9531357,
+              40.7583205
+            ],
+            [
+              -73.953165,
+              40.7583364
+            ],
+            [
+              -73.9531433,
+              40.7583581
+            ],
+            [
+              -73.9531954,
+              40.7583891
+            ],
+            [
+              -73.9531334,
+              40.7584481
+            ],
+            [
+              -73.9531154,
+              40.7584369
+            ],
+            [
+              -73.9530401,
+              40.7585034
+            ],
+            [
+              -73.9533749,
+              40.7587016
+            ],
+            [
+              -73.9534232,
+              40.7586544
+            ],
+            [
+              -73.9535337,
+              40.7587217
+            ],
+            [
+              -73.9533649,
+              40.7588849
+            ],
+            [
+              -73.9532899,
+              40.7588392
+            ],
+            [
+              -73.9532806,
+              40.7588473
+            ],
+            [
+              -73.9532057,
+              40.7588007
+            ],
+            [
+              -73.9531938,
+              40.7588088
+            ],
+            [
+              -73.9531017,
+              40.7587532
+            ],
+            [
+              -73.9530941,
+              40.7587614
+            ],
+            [
+              -73.9529972,
+              40.7587041
+            ],
+            [
+              -73.9529888,
+              40.7587117
+            ],
+            [
+              -73.9527512,
+              40.7585718
+            ],
+            [
+              -73.9530531,
+              40.7582731
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882406",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-455-main-street",
+      "name": "455 Main Street",
+      "nativeCodes": [
+        "4551"
+      ],
+      "aliases": [
+        "455 Main Street"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9523011,
+              40.7592302
+            ],
+            [
+              -73.9522457,
+              40.7592873
+            ],
+            [
+              -73.9522629,
+              40.759297
+            ],
+            [
+              -73.9522162,
+              40.7593452
+            ],
+            [
+              -73.9520685,
+              40.7592624
+            ],
+            [
+              -73.9522936,
+              40.7590301
+            ],
+            [
+              -73.9524994,
+              40.7590936
+            ],
+            [
+              -73.9524919,
+              40.7591077
+            ],
+            [
+              -73.952613,
+              40.759145
+            ],
+            [
+              -73.9526062,
+              40.7591579
+            ],
+            [
+              -73.9527442,
+              40.7592005
+            ],
+            [
+              -73.9527372,
+              40.7592136
+            ],
+            [
+              -73.9528422,
+              40.759246
+            ],
+            [
+              -73.9528364,
+              40.7592568
+            ],
+            [
+              -73.9529519,
+              40.7592924
+            ],
+            [
+              -73.9528668,
+              40.759452
+            ],
+            [
+              -73.9528469,
+              40.7594892
+            ],
+            [
+              -73.9527336,
+              40.7594543
+            ],
+            [
+              -73.9527751,
+              40.7593764
+            ],
+            [
+              -73.9523011,
+              40.7592302
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882411",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-roosevelt-island-racquet-club",
+      "name": "Roosevelt Island Racquet Club",
+      "nativeCodes": [
+        "RIRC"
+      ],
+      "aliases": [
+        "Roosevelt Island Racquet Club"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9542559,
+              40.7570664
+            ],
+            [
+              -73.9543778,
+              40.7569023
+            ],
+            [
+              -73.953746,
+              40.7566309
+            ],
+            [
+              -73.9540357,
+              40.7562409
+            ],
+            [
+              -73.9551543,
+              40.7567214
+            ],
+            [
+              -73.955115,
+              40.7567743
+            ],
+            [
+              -73.9551274,
+              40.7567797
+            ],
+            [
+              -73.9551626,
+              40.7567323
+            ],
+            [
+              -73.9552386,
+              40.7567649
+            ],
+            [
+              -73.9552877,
+              40.756967
+            ],
+            [
+              -73.9551746,
+              40.7571193
+            ],
+            [
+              -73.9551363,
+              40.7571028
+            ],
+            [
+              -73.9549438,
+              40.7573619
+            ],
+            [
+              -73.9548989,
+              40.7573426
+            ],
+            [
+              -73.9542559,
+              40.7570664
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882418",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-roosevelt-island-sportspark",
+      "name": "Roosevelt Island Sportspark",
+      "nativeCodes": [
+        "RIS"
+      ],
+      "aliases": [
+        "Roosevelt Island Sportspark"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.954373,
+              40.7559164
+            ],
+            [
+              -73.9555789,
+              40.7565703
+            ],
+            [
+              -73.9554992,
+              40.7566553
+            ],
+            [
+              -73.9554909,
+              40.7566642
+            ],
+            [
+              -73.955381,
+              40.7567814
+            ],
+            [
+              -73.9541751,
+              40.7561275
+            ],
+            [
+              -73.9542608,
+              40.756036
+            ],
+            [
+              -73.954373,
+              40.7559164
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882422",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-roosevelt-island-steam-plant",
+      "name": "Roosevelt Island Steam Plant",
+      "nativeCodes": [
+        "RISP"
+      ],
+      "aliases": [
+        "Roosevelt Island Steam Plant"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9536667,
+              40.7570195
+            ],
+            [
+              -73.953597,
+              40.7571126
+            ],
+            [
+              -73.9533911,
+              40.7570234
+            ],
+            [
+              -73.9536069,
+              40.7567351
+            ],
+            [
+              -73.9541794,
+              40.756983
+            ],
+            [
+              -73.9541262,
+              40.757054
+            ],
+            [
+              -73.9541287,
+              40.757055
+            ],
+            [
+              -73.9540903,
+              40.7571063
+            ],
+            [
+              -73.9540879,
+              40.7571052
+            ],
+            [
+              -73.9540332,
+              40.7571782
+            ],
+            [
+              -73.9540061,
+              40.7571665
+            ],
+            [
+              -73.9536667,
+              40.7570195
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882431",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-roosevelt-island-subway-entrance",
+      "name": "Roosevelt Island subway entrance",
+      "nativeCodes": [
+        "RISE"
+      ],
+      "aliases": [
+        "Roosevelt Island subway entrance"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9532178,
+              40.759184
+            ],
+            [
+              -73.9532046,
+              40.7591782
+            ],
+            [
+              -73.9532756,
+              40.7590845
+            ],
+            [
+              -73.9532885,
+              40.7590902
+            ],
+            [
+              -73.9533666,
+              40.7589869
+            ],
+            [
+              -73.9533971,
+              40.7590003
+            ],
+            [
+              -73.9535156,
+              40.7590009
+            ],
+            [
+              -73.9533433,
+              40.7592284
+            ],
+            [
+              -73.9532266,
+              40.7592257
+            ],
+            [
+              -73.9531983,
+              40.759263
+            ],
+            [
+              -73.953168,
+              40.7592497
+            ],
+            [
+              -73.9531722,
+              40.7592442
+            ],
+            [
+              -73.9532178,
+              40.759184
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882434",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-strecker-memorial-laboratory",
+      "name": "Strecker Memorial Laboratory",
+      "nativeCodes": [
+        "SML"
+      ],
+      "aliases": [
+        "Strecker Memorial Laboratory"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9581629,
+              40.7522271
+            ],
+            [
+              -73.958186,
+              40.7522407
+            ],
+            [
+              -73.9582579,
+              40.7521701
+            ],
+            [
+              -73.9583381,
+              40.7522172
+            ],
+            [
+              -73.9582662,
+              40.7522879
+            ],
+            [
+              -73.9582856,
+              40.7522993
+            ],
+            [
+              -73.9582368,
+              40.7523473
+            ],
+            [
+              -73.9581141,
+              40.7522751
+            ],
+            [
+              -73.9581629,
+              40.7522271
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284882461",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-11-sutton-place",
+      "name": "11 Sutton Place",
+      "nativeCodes": [
+        "11"
+      ],
+      "aliases": [
+        "11 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9600488,
+              40.7576189
+            ],
+            [
+              -73.9600787,
+              40.7575779
+            ],
+            [
+              -73.9602499,
+              40.7576503
+            ],
+            [
+              -73.9602369,
+              40.757668
+            ],
+            [
+              -73.9602213,
+              40.7576726
+            ],
+            [
+              -73.9602106,
+              40.7576873
+            ],
+            [
+              -73.9600601,
+              40.7576236
+            ],
+            [
+              -73.9600488,
+              40.7576189
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884806",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-12-sutton-square",
+      "name": "12 Sutton Square",
+      "nativeCodes": [
+        "1SS"
+      ],
+      "aliases": [
+        "12 Sutton Square"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9596824,
+              40.7575662
+            ],
+            [
+              -73.9597335,
+              40.7575878
+            ],
+            [
+              -73.9596497,
+              40.7577023
+            ],
+            [
+              -73.9595986,
+              40.7576807
+            ],
+            [
+              -73.9596824,
+              40.7575662
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884808",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-13-sutton-place",
+      "name": "13 Sutton Place",
+      "nativeCodes": [
+        "13"
+      ],
+      "aliases": [
+        "13 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9600601,
+              40.7576236
+            ],
+            [
+              -73.9602106,
+              40.7576873
+            ],
+            [
+              -73.9601811,
+              40.7577276
+            ],
+            [
+              -73.9600306,
+              40.757664
+            ],
+            [
+              -73.9600601,
+              40.7576236
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884810",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-14-sutton-square",
+      "name": "14 Sutton Square",
+      "nativeCodes": [
+        "14"
+      ],
+      "aliases": [
+        "14 Sutton Square"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9596269,
+              40.7575427
+            ],
+            [
+              -73.9596824,
+              40.7575662
+            ],
+            [
+              -73.9595986,
+              40.7576807
+            ],
+            [
+              -73.9595431,
+              40.7576572
+            ],
+            [
+              -73.9596269,
+              40.7575427
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884813",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-15-sutton-place",
+      "name": "15 Sutton Place",
+      "nativeCodes": [
+        "15"
+      ],
+      "aliases": [
+        "15 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9600306,
+              40.757664
+            ],
+            [
+              -73.9601811,
+              40.7577276
+            ],
+            [
+              -73.9601534,
+              40.7577655
+            ],
+            [
+              -73.9600029,
+              40.7577019
+            ],
+            [
+              -73.9600306,
+              40.757664
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884816",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-16-sutton-square",
+      "name": "16 Sutton Square",
+      "nativeCodes": [
+        "16"
+      ],
+      "aliases": [
+        "16 Sutton Square"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9595431,
+              40.7576572
+            ],
+            [
+              -73.9594814,
+              40.7576311
+            ],
+            [
+              -73.9595652,
+              40.7575166
+            ],
+            [
+              -73.9596269,
+              40.7575427
+            ],
+            [
+              -73.9595431,
+              40.7576572
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884819",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-17-sutton-place",
+      "name": "17 Sutton Place",
+      "nativeCodes": [
+        "17"
+      ],
+      "aliases": [
+        "17 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9600029,
+              40.7577019
+            ],
+            [
+              -73.9601534,
+              40.7577655
+            ],
+            [
+              -73.9601246,
+              40.7578049
+            ],
+            [
+              -73.9599741,
+              40.7577413
+            ],
+            [
+              -73.9600029,
+              40.7577019
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884821",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-19-sutton-place",
+      "name": "19 Sutton Place",
+      "nativeCodes": [
+        "19"
+      ],
+      "aliases": [
+        "19 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9599741,
+              40.7577413
+            ],
+            [
+              -73.9601246,
+              40.7578049
+            ],
+            [
+              -73.9600942,
+              40.7578465
+            ],
+            [
+              -73.9599437,
+              40.7577829
+            ],
+            [
+              -73.9599741,
+              40.7577413
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884825",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-2-riverview-terrace",
+      "name": "2 Riverview Terrace",
+      "nativeCodes": [
+        "2RT"
+      ],
+      "aliases": [
+        "2 Riverview Terrace"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9594385,
+              40.7579199
+            ],
+            [
+              -73.9594406,
+              40.7579171
+            ],
+            [
+              -73.9594353,
+              40.7579099
+            ],
+            [
+              -73.959434,
+              40.7579032
+            ],
+            [
+              -73.9594356,
+              40.7578966
+            ],
+            [
+              -73.9594398,
+              40.7578908
+            ],
+            [
+              -73.9594464,
+              40.7578866
+            ],
+            [
+              -73.9594503,
+              40.7578852
+            ],
+            [
+              -73.9594545,
+              40.7578844
+            ],
+            [
+              -73.9594648,
+              40.7578844
+            ],
+            [
+              -73.9594679,
+              40.7578801
+            ],
+            [
+              -73.959668,
+              40.7579656
+            ],
+            [
+              -73.9596386,
+              40.7580055
+            ],
+            [
+              -73.9595763,
+              40.7579788
+            ],
+            [
+              -73.9594385,
+              40.7579199
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884827",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-3-riverview-terrace",
+      "name": "3 Riverview Terrace",
+      "nativeCodes": [
+        "3RT"
+      ],
+      "aliases": [
+        "3 Riverview Terrace"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9594385,
+              40.7579199
+            ],
+            [
+              -73.9595763,
+              40.7579788
+            ],
+            [
+              -73.9595646,
+              40.7579946
+            ],
+            [
+              -73.9595467,
+              40.7579869
+            ],
+            [
+              -73.959528,
+              40.7580122
+            ],
+            [
+              -73.9594081,
+              40.757961
+            ],
+            [
+              -73.9594385,
+              40.7579199
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884830",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-3-sutton-place",
+      "name": "3 Sutton Place",
+      "nativeCodes": [
+        "3SP"
+      ],
+      "aliases": [
+        "3 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9601713,
+              40.7573669
+            ],
+            [
+              -73.9603896,
+              40.7574592
+            ],
+            [
+              -73.960321,
+              40.757553
+            ],
+            [
+              -73.9601027,
+              40.7574608
+            ],
+            [
+              -73.9601713,
+              40.7573669
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884834",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-31-sutton-place",
+      "name": "31 Sutton Place",
+      "nativeCodes": [
+        "31"
+      ],
+      "aliases": [
+        "31 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.959728,
+              40.7581443
+            ],
+            [
+              -73.9598483,
+              40.7581957
+            ],
+            [
+              -73.9598166,
+              40.7582386
+            ],
+            [
+              -73.9596964,
+              40.7581872
+            ],
+            [
+              -73.959728,
+              40.7581443
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884836",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-33-sutton-place",
+      "name": "33 Sutton Place",
+      "nativeCodes": [
+        "33"
+      ],
+      "aliases": [
+        "33 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9596488,
+              40.7581669
+            ],
+            [
+              -73.9596964,
+              40.7581872
+            ],
+            [
+              -73.9598166,
+              40.7582386
+            ],
+            [
+              -73.9597865,
+              40.7582794
+            ],
+            [
+              -73.9596186,
+              40.7582077
+            ],
+            [
+              -73.9596488,
+              40.7581669
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884838",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-4-riverview-terrace",
+      "name": "4 Riverview Terrace",
+      "nativeCodes": [
+        "4RT"
+      ],
+      "aliases": [
+        "4 Riverview Terrace"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9593792,
+              40.7580002
+            ],
+            [
+              -73.9594081,
+              40.757961
+            ],
+            [
+              -73.959528,
+              40.7580122
+            ],
+            [
+              -73.9595787,
+              40.7580339
+            ],
+            [
+              -73.9595538,
+              40.7580676
+            ],
+            [
+              -73.9595073,
+              40.7580477
+            ],
+            [
+              -73.9595032,
+              40.7580532
+            ],
+            [
+              -73.9593792,
+              40.7580002
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884841",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-4-sutton-square",
+      "name": "4 Sutton Square",
+      "nativeCodes": [
+        "4SS"
+      ],
+      "aliases": [
+        "4 Sutton Square"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9598916,
+              40.7576547
+            ],
+            [
+              -73.9599458,
+              40.7576776
+            ],
+            [
+              -73.959862,
+              40.7577921
+            ],
+            [
+              -73.9598079,
+              40.7577692
+            ],
+            [
+              -73.9598916,
+              40.7576547
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884845",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-5-riverview-terrace",
+      "name": "5 Riverview Terrace",
+      "nativeCodes": [
+        "5RT"
+      ],
+      "aliases": [
+        "5 Riverview Terrace"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9593792,
+              40.7580002
+            ],
+            [
+              -73.9595032,
+              40.7580532
+            ],
+            [
+              -73.9595703,
+              40.7580819
+            ],
+            [
+              -73.9595398,
+              40.7581231
+            ],
+            [
+              -73.9593487,
+              40.7580415
+            ],
+            [
+              -73.9593792,
+              40.7580002
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884847",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-6-riverview-terrace",
+      "name": "6 Riverview Terrace",
+      "nativeCodes": [
+        "6RT"
+      ],
+      "aliases": [
+        "6 Riverview Terrace"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9593197,
+              40.7580807
+            ],
+            [
+              -73.9593487,
+              40.7580415
+            ],
+            [
+              -73.9595398,
+              40.7581231
+            ],
+            [
+              -73.9595108,
+              40.7581624
+            ],
+            [
+              -73.9594912,
+              40.758154
+            ],
+            [
+              -73.9593197,
+              40.7580807
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884850",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-6-sutton-square",
+      "name": "6 Sutton Square",
+      "nativeCodes": [
+        "6SS"
+      ],
+      "aliases": [
+        "6 Sutton Square"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9598418,
+              40.7576336
+            ],
+            [
+              -73.9598916,
+              40.7576547
+            ],
+            [
+              -73.9598079,
+              40.7577692
+            ],
+            [
+              -73.9597581,
+              40.7577481
+            ],
+            [
+              -73.9598418,
+              40.7576336
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884855",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-7-sutton-place",
+      "name": "7 Sutton Place",
+      "nativeCodes": [
+        "7SP"
+      ],
+      "aliases": [
+        "7 Sutton Place"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9600316,
+              40.757558
+            ],
+            [
+              -73.9601027,
+              40.7574608
+            ],
+            [
+              -73.960321,
+              40.757553
+            ],
+            [
+              -73.9602499,
+              40.7576503
+            ],
+            [
+              -73.9600787,
+              40.7575779
+            ],
+            [
+              -73.9600316,
+              40.757558
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884858",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-8-sutton-square",
+      "name": "8 Sutton Square",
+      "nativeCodes": [
+        "8SS"
+      ],
+      "aliases": [
+        "8 Sutton Square"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9597899,
+              40.7576116
+            ],
+            [
+              -73.9598418,
+              40.7576336
+            ],
+            [
+              -73.9597581,
+              40.7577481
+            ],
+            [
+              -73.9597061,
+              40.7577262
+            ],
+            [
+              -73.9597899,
+              40.7576116
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884860",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-10-sutton-square",
+      "name": "10 Sutton Square",
+      "nativeCodes": [
+        "10"
+      ],
+      "aliases": [
+        "10 Sutton Square"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9597335,
+              40.7575878
+            ],
+            [
+              -73.9597899,
+              40.7576116
+            ],
+            [
+              -73.9597061,
+              40.7577262
+            ],
+            [
+              -73.9596497,
+              40.7577023
+            ],
+            [
+              -73.9597335,
+              40.7575878
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/284884869",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-roosevelt-island-visitor-center-kiosk",
+      "name": "Roosevelt Island Visitor Center Kiosk",
+      "nativeCodes": [
+        "RIVCK"
+      ],
+      "aliases": [
+        "Roosevelt Island Visitor Center Kiosk"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9547525,
+              40.7576492
+            ],
+            [
+              -73.9547291,
+              40.7576004
+            ],
+            [
+              -73.9546477,
+              40.7576229
+            ],
+            [
+              -73.9546712,
+              40.7576716
+            ],
+            [
+              -73.9547525,
+              40.7576492
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/319797240",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-riverwalk-point",
+      "name": "Riverwalk Point",
+      "nativeCodes": [
+        "RP"
+      ],
+      "aliases": [
+        "Riverwalk Point"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9513578,
+              40.7596533
+            ],
+            [
+              -73.9510046,
+              40.7594675
+            ],
+            [
+              -73.9512384,
+              40.7592115
+            ],
+            [
+              -73.9514137,
+              40.7593039
+            ],
+            [
+              -73.9513044,
+              40.7594242
+            ],
+            [
+              -73.9514785,
+              40.7595234
+            ],
+            [
+              -73.9513578,
+              40.7596533
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/351213267",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-tata-innovation-center",
+      "name": "Tata Innovation Center",
+      "nativeCodes": [
+        "TIC"
+      ],
+      "aliases": [
+        "Tata Innovation Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9549498,
+              40.7554952
+            ],
+            [
+              -73.9550675,
+              40.7554955
+            ],
+            [
+              -73.95508,
+              40.7554955
+            ],
+            [
+              -73.9551006,
+              40.7554956
+            ],
+            [
+              -73.9551485,
+              40.7554957
+            ],
+            [
+              -73.9551605,
+              40.7554957
+            ],
+            [
+              -73.9551725,
+              40.7554957
+            ],
+            [
+              -73.9556786,
+              40.7554967
+            ],
+            [
+              -73.9557122,
+              40.7554968
+            ],
+            [
+              -73.9557524,
+              40.7554969
+            ],
+            [
+              -73.9558249,
+              40.7553424
+            ],
+            [
+              -73.9558579,
+              40.7552721
+            ],
+            [
+              -73.9557938,
+              40.7552775
+            ],
+            [
+              -73.9557982,
+              40.755128
+            ],
+            [
+              -73.9557994,
+              40.7550881
+            ],
+            [
+              -73.955846,
+              40.7550621
+            ],
+            [
+              -73.9559345,
+              40.7550128
+            ],
+            [
+              -73.9559579,
+              40.7549504
+            ],
+            [
+              -73.955377,
+              40.754948
+            ],
+            [
+              -73.9553552,
+              40.7549718
+            ],
+            [
+              -73.9551692,
+              40.7551771
+            ],
+            [
+              -73.9552242,
+              40.7552005
+            ],
+            [
+              -73.9552203,
+              40.7553408
+            ],
+            [
+              -73.9550686,
+              40.7553599
+            ],
+            [
+              -73.9549677,
+              40.7554749
+            ],
+            [
+              -73.9549498,
+              40.7554952
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/524727870",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-the-house-at-cornell-tech",
       "name": "The House at Cornell Tech",
       "nativeCodes": [
-        "TH"
+        "HCT"
       ],
       "aliases": [
         "The House at Cornell Tech"
@@ -223,500 +7258,664 @@
         "coordinates": [
           [
             [
-              -73.95735,
-              40.75425
+              -73.9552439,
+              40.7558654
             ],
             [
-              -73.95665,
-              40.75425
+              -73.955243,
+              40.7557313
             ],
             [
-              -73.95665,
-              40.75475
+              -73.9550858,
+              40.7557178
             ],
             [
-              -73.95735,
-              40.75475
+              -73.9550847,
+              40.7557009
             ],
             [
-              -73.95735,
-              40.75425
+              -73.9549618,
+              40.7556786
+            ],
+            [
+              -73.9546546,
+              40.7556782
+            ],
+            [
+              -73.9545682,
+              40.7557783
+            ],
+            [
+              -73.9545674,
+              40.7558375
+            ],
+            [
+              -73.9547036,
+              40.755868
+            ],
+            [
+              -73.9547222,
+              40.7558678
+            ],
+            [
+              -73.9551041,
+              40.7558641
+            ],
+            [
+              -73.9552439,
+              40.7558654
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "cornell-house-residence",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/524729284",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-bloomberg-center",
+      "name": "Bloomberg Center",
+      "nativeCodes": [
+        "BC"
+      ],
+      "aliases": [
+        "Bloomberg Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.95595,
+              40.7563092
+            ],
+            [
+              -73.9558938,
+              40.7562797
+            ],
+            [
+              -73.9558423,
+              40.7562527
+            ],
+            [
+              -73.9558787,
+              40.7562095
+            ],
+            [
+              -73.9558844,
+              40.7562027
+            ],
+            [
+              -73.9558878,
+              40.7561884
+            ],
+            [
+              -73.9559394,
+              40.7559729
+            ],
+            [
+              -73.9559221,
+              40.7559014
+            ],
+            [
+              -73.9559161,
+              40.7558767
+            ],
+            [
+              -73.9559177,
+              40.755863
+            ],
+            [
+              -73.9559695,
+              40.7557988
+            ],
+            [
+              -73.9559753,
+              40.7557824
+            ],
+            [
+              -73.9559911,
+              40.7554679
+            ],
+            [
+              -73.9559977,
+              40.7554536
+            ],
+            [
+              -73.9560064,
+              40.7554453
+            ],
+            [
+              -73.9560929,
+              40.7554288
+            ],
+            [
+              -73.9560947,
+              40.7554166
+            ],
+            [
+              -73.9561019,
+              40.7554077
+            ],
+            [
+              -73.9562012,
+              40.7553762
+            ],
+            [
+              -73.956215,
+              40.7553664
+            ],
+            [
+              -73.9562972,
+              40.7552788
+            ],
+            [
+              -73.9563103,
+              40.7552671
+            ],
+            [
+              -73.9563347,
+              40.7552615
+            ],
+            [
+              -73.9565518,
+              40.7552784
+            ],
+            [
+              -73.9564304,
+              40.7553675
+            ],
+            [
+              -73.9566215,
+              40.7553414
+            ],
+            [
+              -73.9566537,
+              40.7553534
+            ],
+            [
+              -73.9566762,
+              40.7553713
+            ],
+            [
+              -73.9566839,
+              40.7553945
+            ],
+            [
+              -73.9567416,
+              40.7554025
+            ],
+            [
+              -73.9566772,
+              40.7554585
+            ],
+            [
+              -73.9566749,
+              40.7555412
+            ],
+            [
+              -73.9566643,
+              40.7555737
+            ],
+            [
+              -73.9566464,
+              40.7555975
+            ],
+            [
+              -73.9566226,
+              40.7556177
+            ],
+            [
+              -73.9564628,
+              40.7557144
+            ],
+            [
+              -73.9564539,
+              40.755728
+            ],
+            [
+              -73.9564425,
+              40.7557795
+            ],
+            [
+              -73.9564322,
+              40.7557966
+            ],
+            [
+              -73.95595,
+              40.7563092
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/700380609",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-riverwalk-park",
+      "name": "Riverwalk Park",
+      "nativeCodes": [
+        "RIVE"
+      ],
+      "aliases": [
+        "Riverwalk Park"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9513842,
+              40.7590809
+            ],
+            [
+              -73.9517062,
+              40.7587428
+            ],
+            [
+              -73.9518799,
+              40.7588384
+            ],
+            [
+              -73.9520361,
+              40.7589244
+            ],
+            [
+              -73.9519098,
+              40.7590531
+            ],
+            [
+              -73.9517277,
+              40.7589584
+            ],
+            [
+              -73.9517113,
+              40.7589768
+            ],
+            [
+              -73.9517229,
+              40.7589827
+            ],
+            [
+              -73.9515453,
+              40.7591645
+            ],
+            [
+              -73.9513842,
+              40.7590809
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/889906331",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-22-north-loop-road",
+      "name": "22 North Loop Road",
+      "nativeCodes": [
+        "2NLR"
+      ],
+      "aliases": [
+        "22 North Loop Road"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.955273,
+              40.7560555
+            ],
+            [
+              -73.9552673,
+              40.7558656
+            ],
+            [
+              -73.9553727,
+              40.7558642
+            ],
+            [
+              -73.9553721,
+              40.7558126
+            ],
+            [
+              -73.9553723,
+              40.7556986
+            ],
+            [
+              -73.9553759,
+              40.7556926
+            ],
+            [
+              -73.9553835,
+              40.7556889
+            ],
+            [
+              -73.955393,
+              40.7556869
+            ],
+            [
+              -73.9557295,
+              40.7556867
+            ],
+            [
+              -73.9557363,
+              40.7556892
+            ],
+            [
+              -73.9557426,
+              40.7556924
+            ],
+            [
+              -73.9557459,
+              40.7556973
+            ],
+            [
+              -73.9557479,
+              40.7559578
+            ],
+            [
+              -73.9557454,
+              40.7559622
+            ],
+            [
+              -73.9557409,
+              40.755966
+            ],
+            [
+              -73.9557328,
+              40.7559689
+            ],
+            [
+              -73.9555294,
+              40.7559701
+            ],
+            [
+              -73.9555179,
+              40.755979
+            ],
+            [
+              -73.9555133,
+              40.7559873
+            ],
+            [
+              -73.9555019,
+              40.7561539
+            ],
+            [
+              -73.9556095,
+              40.7562283
+            ],
+            [
+              -73.9556381,
+              40.7562585
+            ],
+            [
+              -73.9556563,
+              40.7563009
+            ],
+            [
+              -73.9556893,
+              40.756378
+            ],
+            [
+              -73.9556474,
+              40.7563982
+            ],
+            [
+              -73.955289,
+              40.756219
+            ],
+            [
+              -73.9552757,
+              40.7562035
+            ],
+            [
+              -73.9552674,
+              40.7561511
+            ],
+            [
+              -73.955273,
+              40.7560555
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/922315195",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-central-utility-plant",
+      "name": "Central Utility Plant",
+      "nativeCodes": [
+        "CUP"
+      ],
+      "aliases": [
+        "Central Utility Plant"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9552674,
+              40.7561511
+            ],
+            [
+              -73.9552319,
+              40.7561524
+            ],
+            [
+              -73.9552312,
+              40.7561722
+            ],
+            [
+              -73.9551306,
+              40.7561321
+            ],
+            [
+              -73.9551286,
+              40.7561204
+            ],
+            [
+              -73.9550508,
+              40.7560889
+            ],
+            [
+              -73.9550501,
+              40.7560762
+            ],
+            [
+              -73.954973,
+              40.7560457
+            ],
+            [
+              -73.9549717,
+              40.7560371
+            ],
+            [
+              -73.9548932,
+              40.7560041
+            ],
+            [
+              -73.9548879,
+              40.7559929
+            ],
+            [
+              -73.9548221,
+              40.7559639
+            ],
+            [
+              -73.954806,
+              40.7559594
+            ],
+            [
+              -73.9547048,
+              40.7558862
+            ],
+            [
+              -73.9547175,
+              40.7558847
+            ],
+            [
+              -73.9547222,
+              40.7558678
+            ],
+            [
+              -73.9551041,
+              40.7558641
+            ],
+            [
+              -73.9552439,
+              40.7558654
+            ],
+            [
+              -73.9552673,
+              40.7558656
+            ],
+            [
+              -73.955273,
+              40.7560555
+            ],
+            [
+              -73.9552674,
+              40.7561511
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1015955710",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-bridgemarket-building",
+      "name": "Bridgemarket Building",
+      "nativeCodes": [
+        "BB"
+      ],
+      "aliases": [
+        "Bridgemarket Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9616232,
+              40.7597651
+            ],
+            [
+              -73.9614053,
+              40.7600555
+            ],
+            [
+              -73.9605264,
+              40.7596766
+            ],
+            [
+              -73.9607401,
+              40.7593922
+            ],
+            [
+              -73.9616232,
+              40.7597651
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1016487165",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cornell-riverwalk-heights",
+      "name": "Riverwalk Heights",
+      "nativeCodes": [
+        "RIV"
+      ],
+      "aliases": [
+        "Riverwalk Heights"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.9525911,
+              40.7583428
+            ],
+            [
+              -73.952269,
+              40.7581358
+            ],
+            [
+              -73.9520568,
+              40.7583253
+            ],
+            [
+              -73.9522182,
+              40.7584291
+            ],
+            [
+              -73.9523481,
+              40.7583131
+            ],
+            [
+              -73.9525088,
+              40.7584163
+            ],
+            [
+              -73.9525911,
+              40.7583428
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1381993258",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-cornell-tech-cornell-bloomberg-center",
-      "buildingId": "cornell-bloomberg-center",
-      "coordinate": [
-        -73.9555,
-        40.75525
-      ],
-      "pathNodeId": "node-ent-cornell-tech-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "ent-cornell-tech-cornell-bloomberg-center",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-cornell-tech-cornell-tata-center",
-      "buildingId": "cornell-tata-center",
-      "coordinate": [
-        -73.9545,
-        40.75575
-      ],
-      "pathNodeId": "node-ent-cornell-tech-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "ent-cornell-tech-cornell-tata-center",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-cornell-tech-cornell-bridge-tech",
-      "buildingId": "cornell-bridge-tech",
-      "coordinate": [
-        -73.9565,
-        40.75475
-      ],
-      "pathNodeId": "node-ent-cornell-tech-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "ent-cornell-tech-cornell-bridge-tech",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-cornell-tech-cornell-verizon-center",
-      "buildingId": "cornell-verizon-center",
-      "coordinate": [
-        -73.954,
-        40.75625
-      ],
-      "pathNodeId": "node-ent-cornell-tech-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "ent-cornell-tech-cornell-verizon-center",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-cornell-tech-cornell-house-residence",
-      "buildingId": "cornell-house-residence",
-      "coordinate": [
-        -73.957,
-        40.75425
-      ],
-      "pathNodeId": "node-ent-cornell-tech-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "ent-cornell-tech-cornell-house-residence",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-cornell-tech-0",
-      "coordinate": [
-        -73.9607,
-        40.7519
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-spine-cornell-tech-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-cornell-tech-1",
-      "coordinate": [
-        -73.9581,
-        40.753699999999995
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-spine-cornell-tech-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-cornell-tech-2",
-      "coordinate": [
-        -73.9555,
-        40.7555
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-spine-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-cornell-tech-3",
-      "coordinate": [
-        -73.9529,
-        40.7573
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-spine-cornell-tech-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-cornell-tech-4",
-      "coordinate": [
-        -73.9503,
-        40.7591
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-spine-cornell-tech-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-cornell-tech-0",
-      "coordinate": [
-        -73.9555,
-        40.75525
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-ent-cornell-tech-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-cornell-tech-1",
-      "coordinate": [
-        -73.9545,
-        40.75575
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-ent-cornell-tech-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-cornell-tech-2",
-      "coordinate": [
-        -73.9565,
-        40.75475
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-ent-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-cornell-tech-3",
-      "coordinate": [
-        -73.954,
-        40.75625
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-ent-cornell-tech-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-cornell-tech-4",
-      "coordinate": [
-        -73.957,
-        40.75425
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "node-ent-cornell-tech-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-cornell-tech-0-node-spine-cornell-tech-1",
-      "from": "node-spine-cornell-tech-0",
-      "to": "node-spine-cornell-tech-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-0-node-spine-cornell-tech-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-1-node-spine-cornell-tech-0",
-      "from": "node-spine-cornell-tech-1",
-      "to": "node-spine-cornell-tech-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-1-node-spine-cornell-tech-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-1-node-spine-cornell-tech-2",
-      "from": "node-spine-cornell-tech-1",
-      "to": "node-spine-cornell-tech-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-1-node-spine-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-2-node-spine-cornell-tech-1",
-      "from": "node-spine-cornell-tech-2",
-      "to": "node-spine-cornell-tech-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-2-node-spine-cornell-tech-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-2-node-spine-cornell-tech-3",
-      "from": "node-spine-cornell-tech-2",
-      "to": "node-spine-cornell-tech-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-2-node-spine-cornell-tech-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-3-node-spine-cornell-tech-2",
-      "from": "node-spine-cornell-tech-3",
-      "to": "node-spine-cornell-tech-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-3-node-spine-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-3-node-spine-cornell-tech-4",
-      "from": "node-spine-cornell-tech-3",
-      "to": "node-spine-cornell-tech-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-3-node-spine-cornell-tech-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-4-node-spine-cornell-tech-3",
-      "from": "node-spine-cornell-tech-4",
-      "to": "node-spine-cornell-tech-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-4-node-spine-cornell-tech-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-cornell-tech-0-node-spine-cornell-tech-2",
-      "from": "node-ent-cornell-tech-0",
-      "to": "node-spine-cornell-tech-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-ent-cornell-tech-0-node-spine-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-2-node-ent-cornell-tech-0",
-      "from": "node-spine-cornell-tech-2",
-      "to": "node-ent-cornell-tech-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-2-node-ent-cornell-tech-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-cornell-tech-1-node-spine-cornell-tech-2",
-      "from": "node-ent-cornell-tech-1",
-      "to": "node-spine-cornell-tech-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-ent-cornell-tech-1-node-spine-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-2-node-ent-cornell-tech-1",
-      "from": "node-spine-cornell-tech-2",
-      "to": "node-ent-cornell-tech-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-2-node-ent-cornell-tech-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-cornell-tech-2-node-spine-cornell-tech-2",
-      "from": "node-ent-cornell-tech-2",
-      "to": "node-spine-cornell-tech-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-ent-cornell-tech-2-node-spine-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-2-node-ent-cornell-tech-2",
-      "from": "node-spine-cornell-tech-2",
-      "to": "node-ent-cornell-tech-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-2-node-ent-cornell-tech-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-cornell-tech-3-node-spine-cornell-tech-3",
-      "from": "node-ent-cornell-tech-3",
-      "to": "node-spine-cornell-tech-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-ent-cornell-tech-3-node-spine-cornell-tech-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-3-node-ent-cornell-tech-3",
-      "from": "node-spine-cornell-tech-3",
-      "to": "node-ent-cornell-tech-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-3-node-ent-cornell-tech-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-cornell-tech-4-node-spine-cornell-tech-1",
-      "from": "node-ent-cornell-tech-4",
-      "to": "node-spine-cornell-tech-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-ent-cornell-tech-4-node-spine-cornell-tech-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-cornell-tech-1-node-ent-cornell-tech-4",
-      "from": "node-spine-cornell-tech-1",
-      "to": "node-ent-cornell-tech-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-cornell-tech",
-          "nativeId": "edge-node-spine-cornell-tech-1-node-ent-cornell-tech-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }

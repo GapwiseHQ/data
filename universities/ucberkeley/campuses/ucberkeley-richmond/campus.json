@@ -17,70 +17,25 @@
   },
   "sources": [
     {
-      "id": "src-ucberkeley-richmond",
-      "title": "UC Berkeley Richmond Field Station Directory",
-      "url": "https://rfs.berkeley.edu/",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "ucb-rfs-bldg478",
-      "name": "Richmond Field Station Building 478",
+      "id": "ucberkeley-building-486",
+      "name": "Building 486",
       "nativeCodes": [
-        "RFS478"
+        "B4"
       ],
       "aliases": [
-        "Richmond Field Station Building 478"
-      ],
-      "category": "academic",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -122.33285,
-              37.91525
-            ],
-            [
-              -122.33215,
-              37.91525
-            ],
-            [
-              -122.33215,
-              37.91575
-            ],
-            [
-              -122.33285,
-              37.91575
-            ],
-            [
-              -122.33285,
-              37.91525
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ucb-rfs-bldg478",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "ucb-earthquake-centre",
-      "name": "Earthquake Engineering Research Center",
-      "nativeCodes": [
-        "EERC"
-      ],
-      "aliases": [
-        "Earthquake Engineering Research Center"
+        "Building 486"
       ],
       "category": "residence",
       "geometry": {
@@ -88,44 +43,44 @@
         "coordinates": [
           [
             [
-              -122.33185,
-              37.91575
+              -122.3310885,
+              37.9173507
             ],
             [
-              -122.33115,
-              37.91575
+              -122.3312148,
+              37.9170771
             ],
             [
-              -122.33115,
-              37.91625
+              -122.3314715,
+              37.9171509
             ],
             [
-              -122.33185,
-              37.91625
+              -122.3313452,
+              37.9174245
             ],
             [
-              -122.33185,
-              37.91575
+              -122.3310885,
+              37.9173507
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ucb-earthquake-centre",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365189",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "ucb-env-eng-lab",
-      "name": "Environmental Engineering Lab",
+      "id": "ucberkeley-building-420",
+      "name": "Building 420",
       "nativeCodes": [
-        "EEL"
+        "BUIL"
       ],
       "aliases": [
-        "Environmental Engineering Lab"
+        "Building 420"
       ],
       "category": "academic",
       "geometry": {
@@ -133,44 +88,2397 @@
         "coordinates": [
           [
             [
-              -122.33385,
-              37.91475
+              -122.3321825,
+              37.9162043
             ],
             [
-              -122.33315,
-              37.91475
+              -122.3322568,
+              37.9160373
             ],
             [
-              -122.33315,
+              -122.3318609,
+              37.9159277
+            ],
+            [
+              -122.3317866,
+              37.9160947
+            ],
+            [
+              -122.3321825,
+              37.9162043
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365190",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-472",
+      "name": "Building 472",
+      "nativeCodes": [
+        "BUI"
+      ],
+      "aliases": [
+        "Building 472"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3310331,
+              37.9161411
+            ],
+            [
+              -122.3311912,
+              37.9159479
+            ],
+            [
+              -122.3310808,
+              37.9158917
+            ],
+            [
+              -122.3309227,
+              37.916085
+            ],
+            [
+              -122.3310331,
+              37.9161411
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365191",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-475",
+      "name": "Building 475",
+      "nativeCodes": [
+        "BUI1"
+      ],
+      "aliases": [
+        "Building 475"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3313527,
+              37.9157459
+            ],
+            [
+              -122.3313521,
+              37.9156835
+            ],
+            [
+              -122.3312662,
+              37.9156841
+            ],
+            [
+              -122.3312669,
+              37.9157464
+            ],
+            [
+              -122.3313527,
+              37.9157459
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365193",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-480-482",
+      "name": "Building 480 / 482",
+      "nativeCodes": [
+        "B44"
+      ],
+      "aliases": [
+        "Building 480 / 482"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3318275,
+              37.917427
+            ],
+            [
+              -122.3319211,
+              37.9172253
+            ],
+            [
+              -122.331869,
+              37.9172102
+            ],
+            [
+              -122.3318783,
+              37.9171903
+            ],
+            [
+              -122.331924,
+              37.9172035
+            ],
+            [
+              -122.3319614,
+              37.9171228
+            ],
+            [
+              -122.3317111,
+              37.9170506
+            ],
+            [
+              -122.3316713,
+              37.9171364
+            ],
+            [
+              -122.3317686,
+              37.9171645
+            ],
+            [
+              -122.3317322,
+              37.9172428
+            ],
+            [
+              -122.3316277,
+              37.9172126
+            ],
+            [
+              -122.3315675,
+              37.9173424
+            ],
+            [
+              -122.3316728,
+              37.9173728
+            ],
+            [
+              -122.3316689,
+              37.9173812
+            ],
+            [
+              -122.3318275,
+              37.917427
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365195",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-478",
+      "name": "Building 478",
+      "nativeCodes": [
+        "BUI2"
+      ],
+      "aliases": [
+        "Building 478"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3306423,
+              37.917128
+            ],
+            [
+              -122.3308066,
+              37.9169167
+            ],
+            [
+              -122.3306503,
+              37.9168338
+            ],
+            [
+              -122.3306637,
+              37.9168212
+            ],
+            [
+              -122.3308434,
+              37.9169185
+            ],
+            [
+              -122.3308729,
+              37.9168825
+            ],
+            [
+              -122.33094,
+              37.9169121
+            ],
+            [
+              -122.3311025,
+              37.9167069
+            ],
+            [
+              -122.330932,
+              37.9166138
+            ],
+            [
+              -122.3307818,
+              37.9168
+            ],
+            [
+              -122.3306879,
+              37.9167492
+            ],
+            [
+              -122.3307791,
+              37.9166328
+            ],
+            [
+              -122.3306047,
+              37.9165482
+            ],
+            [
+              -122.3304635,
+              37.916722
+            ],
+            [
+              -122.3304036,
+              37.9166878
+            ],
+            [
+              -122.3303767,
+              37.916728
+            ],
+            [
+              -122.3303231,
+              37.9167005
+            ],
+            [
+              -122.3305082,
+              37.9164572
+            ],
+            [
+              -122.3303285,
+              37.9163641
+            ],
+            [
+              -122.3299664,
+              37.9168381
+            ],
+            [
+              -122.3301327,
+              37.9169206
+            ],
+            [
+              -122.3301836,
+              37.9168677
+            ],
+            [
+              -122.3303133,
+              37.9169271
+            ],
+            [
+              -122.3302963,
+              37.9169523
+            ],
+            [
+              -122.3306423,
+              37.917128
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365196",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-421",
+      "name": "Building 421",
+      "nativeCodes": [
+        "BUI3"
+      ],
+      "aliases": [
+        "Building 421"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.331796,
+              37.9162737
+            ],
+            [
+              -122.3318547,
+              37.9161376
+            ],
+            [
+              -122.3317753,
+              37.9161163
+            ],
+            [
+              -122.3317166,
+              37.9162524
+            ],
+            [
+              -122.331796,
+              37.9162737
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365199",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-484",
+      "name": "Building 484",
+      "nativeCodes": [
+        "BUI4"
+      ],
+      "aliases": [
+        "Building 484"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3319705,
+              37.9167329
+            ],
+            [
+              -122.3321204,
+              37.9164063
+            ],
+            [
+              -122.3317861,
+              37.9163109
+            ],
+            [
+              -122.3316362,
+              37.9166375
+            ],
+            [
+              -122.3319705,
+              37.9167329
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365201",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-473",
+      "name": "Building 473",
+      "nativeCodes": [
+        "BUI5"
+      ],
+      "aliases": [
+        "Building 473"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3312122,
+              37.9164286
+            ],
+            [
+              -122.3314851,
+              37.91609
+            ],
+            [
+              -122.3313914,
+              37.916043
+            ],
+            [
+              -122.3311185,
+              37.9163816
+            ],
+            [
+              -122.3312122,
+              37.9164286
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365202",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-470",
+      "name": "Building 470",
+      "nativeCodes": [
+        "BUI6"
+      ],
+      "aliases": [
+        "Building 470"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.33141,
+              37.9159412
+            ],
+            [
+              -122.3314481,
+              37.9158946
+            ],
+            [
+              -122.3313342,
+              37.9158368
+            ],
+            [
+              -122.3312961,
+              37.9158834
+            ],
+            [
+              -122.33141,
+              37.9159412
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365203",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-470a",
+      "name": "Building 470A",
+      "nativeCodes": [
+        "BUI7"
+      ],
+      "aliases": [
+        "Building 470A"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3312195,
+              37.9159065
+            ],
+            [
+              -122.3312515,
+              37.9158631
+            ],
+            [
+              -122.3311658,
+              37.9158238
+            ],
+            [
+              -122.3311338,
+              37.9158673
+            ],
+            [
+              -122.3312195,
+              37.9159065
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365206",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-systemwide-library-facility-north-slf-north",
+      "name": "Systemwide Library Facility - North (SLF-North)",
+      "nativeCodes": [
+        "SLFNSN"
+      ],
+      "aliases": [
+        "Systemwide Library Facility - North (SLF-North)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3360452,
+              37.9179263
+            ],
+            [
+              -122.3360357,
+              37.9175471
+            ],
+            [
+              -122.3356279,
+              37.9175534
+            ],
+            [
+              -122.335627,
+              37.917518
+            ],
+            [
+              -122.3357374,
+              37.9175163
+            ],
+            [
+              -122.3357254,
+              37.9170345
+            ],
+            [
+              -122.3355853,
+              37.9170367
+            ],
+            [
+              -122.3355865,
+              37.9170845
+            ],
+            [
+              -122.3353216,
+              37.9170886
+            ],
+            [
+              -122.3353203,
+              37.9170367
+            ],
+            [
+              -122.3352227,
+              37.9170383
+            ],
+            [
+              -122.3352234,
+              37.9170673
+            ],
+            [
+              -122.3348853,
+              37.9170727
+            ],
+            [
+              -122.3348902,
+              37.917269
+            ],
+            [
+              -122.3348533,
+              37.9172695
+            ],
+            [
+              -122.3348546,
+              37.9173212
+            ],
+            [
+              -122.3348934,
+              37.9173206
+            ],
+            [
+              -122.3348973,
+              37.9174692
+            ],
+            [
+              -122.3348499,
+              37.91747
+            ],
+            [
+              -122.334853,
+              37.917593
+            ],
+            [
+              -122.3346032,
+              37.917597
+            ],
+            [
+              -122.3346055,
+              37.9176851
+            ],
+            [
+              -122.3348344,
+              37.9176814
+            ],
+            [
+              -122.3348795,
+              37.9176807
+            ],
+            [
+              -122.3348823,
+              37.9177884
+            ],
+            [
+              -122.3350603,
+              37.9177855
+            ],
+            [
+              -122.3350611,
+              37.9178167
+            ],
+            [
+              -122.3351816,
+              37.9178148
+            ],
+            [
+              -122.3352718,
+              37.9178133
+            ],
+            [
+              -122.3352712,
+              37.9177917
+            ],
+            [
+              -122.3353238,
+              37.9177909
+            ],
+            [
+              -122.3353183,
+              37.9175792
+            ],
+            [
+              -122.3354509,
+              37.9175771
+            ],
+            [
+              -122.3354602,
+              37.9179336
+            ],
+            [
+              -122.3355507,
+              37.9179321
+            ],
+            [
+              -122.33555,
+              37.917904
+            ],
+            [
+              -122.3356362,
+              37.9179026
+            ],
+            [
+              -122.335638,
+              37.917973
+            ],
+            [
+              -122.3359079,
+              37.9179687
+            ],
+            [
+              -122.3359061,
+              37.9178997
+            ],
+            [
+              -122.3359472,
+              37.917899
+            ],
+            [
+              -122.3359479,
+              37.9179278
+            ],
+            [
+              -122.3360452,
+              37.9179263
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365328",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-460",
+      "name": "Building 460",
+      "nativeCodes": [
+        "BUI8"
+      ],
+      "aliases": [
+        "Building 460"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3333695,
+              37.9172032
+            ],
+            [
+              -122.3334023,
+              37.9171302
+            ],
+            [
+              -122.3332328,
+              37.9170828
+            ],
+            [
+              -122.3332115,
+              37.9171302
+            ],
+            [
+              -122.33332,
+              37.9171605
+            ],
+            [
+              -122.3333085,
+              37.9171861
+            ],
+            [
+              -122.3333695,
+              37.9172032
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365331",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-450",
+      "name": "Building 450",
+      "nativeCodes": [
+        "BUI9"
+      ],
+      "aliases": [
+        "Building 450"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3327851,
+              37.9176481
+            ],
+            [
+              -122.3328331,
+              37.9175397
+            ],
+            [
+              -122.3323602,
+              37.9174094
+            ],
+            [
+              -122.3323123,
+              37.9175177
+            ],
+            [
+              -122.3327851,
+              37.9176481
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365332",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-454-452",
+      "name": "Building 454 / 452",
+      "nativeCodes": [
+        "BUI10"
+      ],
+      "aliases": [
+        "Building 454 / 452"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3317298,
+              37.9182755
+            ],
+            [
+              -122.3323204,
+              37.9184313
+            ],
+            [
+              -122.3322947,
+              37.9184921
+            ],
+            [
+              -122.3327586,
+              37.9186144
+            ],
+            [
+              -122.3326911,
+              37.9187736
+            ],
+            [
+              -122.3322182,
+              37.9186489
+            ],
+            [
+              -122.3322485,
+              37.9185775
+            ],
+            [
+              -122.3316668,
+              37.9184241
+            ],
+            [
+              -122.3317298,
+              37.9182755
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365333",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-445",
+      "name": "Building 445",
+      "nativeCodes": [
+        "BUI11"
+      ],
+      "aliases": [
+        "Building 445"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3327851,
+              37.9167467
+            ],
+            [
+              -122.3328399,
+              37.916626
+            ],
+            [
+              -122.3326294,
+              37.9165666
+            ],
+            [
+              -122.3325747,
+              37.9166873
+            ],
+            [
+              -122.3327851,
+              37.9167467
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365334",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-453-451",
+      "name": "Building 453 / 451",
+      "nativeCodes": [
+        "BUI12"
+      ],
+      "aliases": [
+        "Building 453 / 451"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3318055,
+              37.9181517
+            ],
+            [
+              -122.3318276,
+              37.9180975
+            ],
+            [
+              -122.3318093,
+              37.9180928
+            ],
+            [
+              -122.3318474,
+              37.9179993
+            ],
+            [
+              -122.3324448,
+              37.918151
+            ],
+            [
+              -122.3324113,
+              37.918233
+            ],
+            [
+              -122.3327375,
+              37.9183158
+            ],
+            [
+              -122.3326735,
+              37.9184726
+            ],
+            [
+              -122.3323151,
+              37.9183815
+            ],
+            [
+              -122.3323522,
+              37.9182906
+            ],
+            [
+              -122.3318055,
+              37.9181517
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123365339",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-194",
+      "name": "Building 194",
+      "nativeCodes": [
+        "B1"
+      ],
+      "aliases": [
+        "Building 194"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3326635,
+              37.9151464
+            ],
+            [
+              -122.3325977,
+              37.9151275
+            ],
+            [
+              -122.332591,
+              37.915142
+            ],
+            [
+              -122.332496,
+              37.9151148
+            ],
+            [
+              -122.3325027,
+              37.9151003
+            ],
+            [
+              -122.3324545,
+              37.9150865
+            ],
+            [
+              -122.3324945,
+              37.9149996
+            ],
+            [
+              -122.3325607,
+              37.9150186
+            ],
+            [
+              -122.3325672,
+              37.9150045
+            ],
+            [
+              -122.3326452,
+              37.9150268
+            ],
+            [
+              -122.3326409,
+              37.915036
+            ],
+            [
+              -122.3327058,
+              37.9150546
+            ],
+            [
+              -122.3326635,
+              37.9151464
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489803",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-111",
+      "name": "Building 111",
+      "nativeCodes": [
+        "BUI13"
+      ],
+      "aliases": [
+        "Building 111"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3346042,
+              37.9133111
+            ],
+            [
+              -122.3346363,
+              37.9132424
+            ],
+            [
+              -122.3345612,
+              37.9132206
+            ],
+            [
+              -122.3345291,
+              37.9132893
+            ],
+            [
+              -122.3346042,
+              37.9133111
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489805",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-180",
+      "name": "Building 180",
+      "nativeCodes": [
+        "BUI14"
+      ],
+      "aliases": [
+        "Building 180"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3338134,
+              37.9149553
+            ],
+            [
+              -122.3338479,
+              37.9148794
+            ],
+            [
+              -122.3337652,
+              37.914856
+            ],
+            [
+              -122.3338554,
+              37.9146577
+            ],
+            [
+              -122.3341102,
+              37.9147298
+            ],
+            [
+              -122.3341478,
+              37.9146471
+            ],
+            [
+              -122.3339399,
+              37.9145883
+            ],
+            [
+              -122.3339493,
+              37.9145676
+            ],
+            [
+              -122.3339113,
+              37.9145569
+            ],
+            [
+              -122.3339841,
+              37.9143966
+            ],
+            [
+              -122.3340314,
+              37.91441
+            ],
+            [
+              -122.334094,
+              37.9142723
+            ],
+            [
+              -122.3339418,
+              37.9142292
+            ],
+            [
+              -122.3336674,
+              37.9148327
+            ],
+            [
+              -122.3336248,
+              37.9148207
+            ],
+            [
+              -122.3335921,
+              37.9148926
+            ],
+            [
+              -122.3338134,
+              37.9149553
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489806",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-118",
+      "name": "Building 118",
+      "nativeCodes": [
+        "BUI15"
+      ],
+      "aliases": [
+        "Building 118"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3345222,
+              37.9136908
+            ],
+            [
+              -122.3345686,
+              37.9135766
+            ],
+            [
+              -122.3345625,
+              37.913575
+            ],
+            [
+              -122.3345695,
+              37.9135578
+            ],
+            [
+              -122.3345262,
+              37.9135469
+            ],
+            [
+              -122.3345192,
+              37.9135641
+            ],
+            [
+              -122.3344265,
+              37.9135407
+            ],
+            [
+              -122.33438,
+              37.9136549
+            ],
+            [
+              -122.3345222,
+              37.9136908
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489808",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-38",
+      "name": "Building 38",
+      "nativeCodes": [
+        "B3"
+      ],
+      "aliases": [
+        "Building 38"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3348925,
+              37.9152148
+            ],
+            [
+              -122.334959,
+              37.9150411
+            ],
+            [
+              -122.3346911,
+              37.9149772
+            ],
+            [
+              -122.3346246,
+              37.9151509
+            ],
+            [
+              -122.3348925,
+              37.9152148
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489810",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-300",
+      "name": "Building 300",
+      "nativeCodes": [
+        "BUI16"
+      ],
+      "aliases": [
+        "Building 300"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3354513,
+              37.9159419
+            ],
+            [
+              -122.335331,
+              37.9159081
+            ],
+            [
+              -122.335403,
+              37.9157536
+            ],
+            [
+              -122.335521,
+              37.9157874
+            ],
+            [
+              -122.3355559,
+              37.9157218
+            ],
+            [
+              -122.3353559,
+              37.9156613
+            ],
+            [
+              -122.3352251,
+              37.9159467
+            ],
+            [
+              -122.3353037,
+              37.9159715
+            ],
+            [
+              -122.3352886,
+              37.915999
+            ],
+            [
+              -122.3352072,
+              37.9159743
+            ],
+            [
+              -122.3351758,
+              37.9160308
+            ],
+            [
+              -122.3352918,
+              37.9160634
+            ],
+            [
+              -122.3352447,
+              37.9161817
+            ],
+            [
+              -122.3353386,
+              37.9162085
+            ],
+            [
+              -122.3354513,
+              37.9159419
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489811",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-197",
+      "name": "Building 197",
+      "nativeCodes": [
+        "BUI17"
+      ],
+      "aliases": [
+        "Building 197"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3333675,
+              37.913793
+            ],
+            [
+              -122.3333262,
+              37.9138839
+            ],
+            [
+              -122.3330439,
+              37.9138041
+            ],
+            [
+              -122.3330852,
+              37.9137132
+            ],
+            [
+              -122.3333675,
+              37.913793
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489814",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-190-196",
+      "name": "Building 190 / 196",
+      "nativeCodes": [
+        "B11"
+      ],
+      "aliases": [
+        "Building 190 / 196"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3329345,
+              37.9152782
+            ],
+            [
+              -122.3330698,
+              37.9149661
+            ],
+            [
+              -122.3328652,
+              37.9149109
+            ],
+            [
+              -122.3328035,
+              37.9150533
+            ],
+            [
+              -122.3329197,
+              37.9150847
+            ],
+            [
+              -122.3328462,
+              37.9152544
+            ],
+            [
+              -122.3329345,
+              37.9152782
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489815",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-102",
+      "name": "Building 102",
+      "nativeCodes": [
+        "BUI18"
+      ],
+      "aliases": [
+        "Building 102"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3344277,
+              37.9123794
+            ],
+            [
+              -122.3344572,
+              37.9123174
+            ],
+            [
+              -122.3344631,
+              37.9123192
+            ],
+            [
+              -122.3345608,
+              37.9121136
+            ],
+            [
+              -122.334786,
+              37.9121802
+            ],
+            [
+              -122.334749,
+              37.9122581
+            ],
+            [
+              -122.3347432,
+              37.9122564
+            ],
+            [
+              -122.3347253,
+              37.9122941
+            ],
+            [
+              -122.3348396,
+              37.9123279
+            ],
+            [
+              -122.3348157,
+              37.9123783
+            ],
+            [
+              -122.3346828,
+              37.912339
+            ],
+            [
+              -122.3346798,
+              37.9123453
+            ],
+            [
+              -122.33465,
+              37.9123365
+            ],
+            [
+              -122.3346345,
+              37.9123691
+            ],
+            [
+              -122.3346644,
+              37.912378
+            ],
+            [
+              -122.3346245,
+              37.9124619
+            ],
+            [
+              -122.3345205,
+              37.912431
+            ],
+            [
+              -122.3345306,
+              37.9124098
+            ],
+            [
+              -122.3344277,
+              37.9123794
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489819",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-128",
+      "name": "Building 128",
+      "nativeCodes": [
+        "BUI19"
+      ],
+      "aliases": [
+        "Building 128"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3361345,
+              37.9134664
+            ],
+            [
+              -122.336238,
+              37.9132488
+            ],
+            [
+              -122.3362576,
+              37.9132546
+            ],
+            [
+              -122.3363185,
+              37.9131265
+            ],
+            [
+              -122.3362399,
+              37.9131032
+            ],
+            [
+              -122.3361799,
+              37.9132294
+            ],
+            [
+              -122.336115,
+              37.9132102
+            ],
+            [
+              -122.3362554,
+              37.912915
+            ],
+            [
+              -122.3361437,
+              37.9128819
+            ],
+            [
+              -122.3360139,
+              37.9131547
+            ],
+            [
+              -122.3359992,
+              37.9131504
+            ],
+            [
+              -122.3359567,
+              37.9132398
+            ],
+            [
+              -122.3359899,
+              37.9132497
+            ],
+            [
+              -122.3359419,
+              37.9133506
+            ],
+            [
+              -122.3359299,
+              37.913347
+            ],
+            [
+              -122.3359054,
+              37.9133986
+            ],
+            [
+              -122.3361345,
+              37.9134664
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489820",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-155",
+      "name": "Building 155",
+      "nativeCodes": [
+        "BUI20"
+      ],
+      "aliases": [
+        "Building 155"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3345593,
+              37.9144204
+            ],
+            [
+              -122.3344455,
+              37.9146874
+            ],
+            [
+              -122.3343809,
+              37.9146702
+            ],
+            [
+              -122.3343906,
+              37.9146474
+            ],
+            [
+              -122.3342414,
+              37.9146078
+            ],
+            [
+              -122.3342607,
+              37.9145627
+            ],
+            [
+              -122.3344284,
+              37.9146072
+            ],
+            [
+              -122.3344957,
+              37.9144493
+            ],
+            [
+              -122.3343643,
+              37.9144145
+            ],
+            [
+              -122.3343819,
+              37.9143733
+            ],
+            [
+              -122.3345593,
+              37.9144204
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489822",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-167",
+      "name": "Building 167",
+      "nativeCodes": [
+        "BUI21"
+      ],
+      "aliases": [
+        "Building 167"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3336712,
+              37.9154714
+            ],
+            [
+              -122.3337352,
+              37.9153335
+            ],
+            [
+              -122.3334743,
+              37.9152582
+            ],
+            [
+              -122.3334103,
+              37.9153961
+            ],
+            [
+              -122.3336712,
+              37.9154714
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489826",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-113",
+      "name": "Building 113",
+      "nativeCodes": [
+        "BUI22"
+      ],
+      "aliases": [
+        "Building 113"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3344777,
+              37.9132577
+            ],
+            [
+              -122.3344047,
+              37.9134172
+            ],
+            [
+              -122.3342985,
+              37.913387
+            ],
+            [
+              -122.3343714,
+              37.9132275
+            ],
+            [
+              -122.3344777,
+              37.9132577
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489828",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-276",
+      "name": "Building 276",
+      "nativeCodes": [
+        "B2"
+      ],
+      "aliases": [
+        "Building 276"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3359727,
+              37.9144717
+            ],
+            [
+              -122.3361198,
+              37.9141652
+            ],
+            [
+              -122.3359775,
+              37.9141226
+            ],
+            [
+              -122.3358303,
+              37.9144292
+            ],
+            [
+              -122.3359727,
+              37.9144717
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489831",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-178",
+      "name": "Building 178",
+      "nativeCodes": [
+        "BUI23"
+      ],
+      "aliases": [
+        "Building 178"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3335926,
+              37.9128807
+            ],
+            [
+              -122.333478,
+              37.9131193
+            ],
+            [
+              -122.3334399,
+              37.9131079
+            ],
+            [
+              -122.3334349,
+              37.9131184
+            ],
+            [
+              -122.3333881,
+              37.9131044
+            ],
+            [
+              -122.3333931,
+              37.9130939
+            ],
+            [
+              -122.3333711,
+              37.9130873
+            ],
+            [
+              -122.3334857,
+              37.9128487
+            ],
+            [
+              -122.3335926,
+              37.9128807
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489833",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-161",
+      "name": "Building 161",
+      "nativeCodes": [
+        "BUI24"
+      ],
+      "aliases": [
+        "Building 161"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3343559,
+              37.9149194
+            ],
+            [
+              -122.3343139,
+              37.9150008
+            ],
+            [
+              -122.3342756,
+              37.9149885
+            ],
+            [
+              -122.33426,
+              37.9150189
+            ],
+            [
+              -122.3341314,
+              37.9149776
+            ],
+            [
+              -122.334189,
+              37.9148658
+            ],
+            [
+              -122.3343559,
+              37.9149194
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489835",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-163",
+      "name": "Building 163",
+      "nativeCodes": [
+        "BUI25"
+      ],
+      "aliases": [
+        "Building 163"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.33405,
+              37.912479
+            ],
+            [
+              -122.3337131,
+              37.9123833
+            ],
+            [
+              -122.3338744,
+              37.9120296
+            ],
+            [
+              -122.3339759,
+              37.9120584
+            ],
+            [
+              -122.3338593,
+              37.9123139
+            ],
+            [
+              -122.3340948,
+              37.9123808
+            ],
+            [
+              -122.33405,
+              37.912479
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489836",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-121",
+      "name": "Building 121",
+      "nativeCodes": [
+        "BUI26"
+      ],
+      "aliases": [
+        "Building 121"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3346649,
+              37.9137398
+            ],
+            [
+              -122.3347096,
+              37.913634
+            ],
+            [
+              -122.334633,
+              37.9136137
+            ],
+            [
+              -122.3345883,
+              37.9137197
+            ],
+            [
+              -122.3346649,
+              37.9137398
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489839",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-198",
+      "name": "Building 198",
+      "nativeCodes": [
+        "BUI27"
+      ],
+      "aliases": [
+        "Building 198"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3330378,
+              37.914252
+            ],
+            [
+              -122.3331078,
+              37.9141016
+            ],
+            [
+              -122.3330102,
+              37.9140733
+            ],
+            [
+              -122.3329402,
+              37.9142237
+            ],
+            [
+              -122.3330378,
+              37.914252
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489840",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-151-154-158",
+      "name": "Building 151 / 154 / 158",
+      "nativeCodes": [
+        "B111"
+      ],
+      "aliases": [
+        "Building 151 / 154 / 158"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3351964,
+              37.9147865
+            ],
+            [
+              -122.3352475,
+              37.9146733
+            ],
+            [
+              -122.3347309,
+              37.9145279
+            ],
+            [
+              -122.3346546,
+              37.9146966
+            ],
+            [
+              -122.3349576,
+              37.9147819
+            ],
+            [
+              -122.3349827,
+              37.9147264
+            ],
+            [
+              -122.3351964,
+              37.9147865
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489841",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-175",
+      "name": "Building 175",
+      "nativeCodes": [
+        "BUI28"
+      ],
+      "aliases": [
+        "Building 175"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3337045,
+              37.9137509
+            ],
+            [
+              -122.3336152,
+              37.9139652
+            ],
+            [
+              -122.3340992,
+              37.9140907
+            ],
+            [
+              -122.3341799,
+              37.913897
+            ],
+            [
+              -122.3342478,
+              37.9139146
+            ],
+            [
+              -122.3342867,
+              37.9138215
+            ],
+            [
+              -122.3341011,
+              37.9137733
+            ],
+            [
+              -122.3341045,
+              37.9137651
+            ],
+            [
+              -122.3339956,
+              37.9137369
+            ],
+            [
+              -122.3339921,
+              37.9137451
+            ],
+            [
+              -122.3338924,
+              37.9137192
+            ],
+            [
+              -122.3338667,
+              37.9137808
+            ],
+            [
+              -122.3337389,
+              37.9137477
+            ],
+            [
+              -122.3337343,
+              37.9137586
+            ],
+            [
+              -122.3337045,
+              37.9137509
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489845",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-164",
+      "name": "Building 164",
+      "nativeCodes": [
+        "BUI29"
+      ],
+      "aliases": [
+        "Building 164"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3344934,
+              37.9152576
+            ],
+            [
+              -122.3345256,
+              37.9151824
+            ],
+            [
+              -122.3341668,
+              37.9150865
+            ],
+            [
+              -122.3341305,
+              37.9151712
+            ],
+            [
+              -122.334258,
+              37.9152053
+            ],
+            [
+              -122.3342388,
               37.91525
             ],
             [
-              -122.33385,
-              37.91525
+              -122.3343245,
+              37.915273
             ],
             [
-              -122.33385,
-              37.91475
+              -122.3343478,
+              37.9152187
+            ],
+            [
+              -122.3344934,
+              37.9152576
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ucb-env-eng-lab",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489849",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "ucb-transport-lab",
-      "name": "Transportation Center Laboratory",
+      "id": "ucberkeley-building-159",
+      "name": "Building 159",
       "nativeCodes": [
-        "TCL"
+        "BUI30"
       ],
       "aliases": [
-        "Transportation Center Laboratory"
+        "Building 159"
       ],
       "category": "academic",
       "geometry": {
@@ -178,44 +2486,44 @@
         "coordinates": [
           [
             [
-              -122.33135,
-              37.91625
+              -122.3347113,
+              37.9148589
             ],
             [
-              -122.33065,
-              37.91625
+              -122.3347449,
+              37.9147859
             ],
             [
-              -122.33065,
-              37.91675
+              -122.334479,
+              37.9147098
             ],
             [
-              -122.33135,
-              37.91675
+              -122.3344454,
+              37.9147828
             ],
             [
-              -122.33135,
-              37.91625
+              -122.3347113,
+              37.9148589
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ucb-transport-lab",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489853",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "ucb-bayview-lab",
-      "name": "Bayview Research Laboratory",
+      "id": "ucberkeley-building-153",
+      "name": "Building 153",
       "nativeCodes": [
-        "BRL"
+        "BUI31"
       ],
       "aliases": [
-        "Bayview Research Laboratory"
+        "Building 153"
       ],
       "category": "academic",
       "geometry": {
@@ -223,500 +2531,1472 @@
         "coordinates": [
           [
             [
-              -122.33435,
-              37.91425
+              -122.3354215,
+              37.9144515
             ],
             [
-              -122.33365,
-              37.91425
+              -122.3354602,
+              37.9143565
             ],
             [
-              -122.33365,
-              37.91475
+              -122.3355005,
+              37.9143667
             ],
             [
-              -122.33435,
-              37.91475
+              -122.33555,
+              37.914245
             ],
             [
-              -122.33435,
-              37.91425
+              -122.3353687,
+              37.9141991
+            ],
+            [
+              -122.3353208,
+              37.9143169
+            ],
+            [
+              -122.3353469,
+              37.9143235
+            ],
+            [
+              -122.3353066,
+              37.9144224
+            ],
+            [
+              -122.3354215,
+              37.9144515
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ucb-bayview-lab",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489855",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-125",
+      "name": "Building 125",
+      "nativeCodes": [
+        "BUI32"
+      ],
+      "aliases": [
+        "Building 125"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3342939,
+              37.9136212
+            ],
+            [
+              -122.3343547,
+              37.9134822
+            ],
+            [
+              -122.3343819,
+              37.9134896
+            ],
+            [
+              -122.334388,
+              37.9134756
+            ],
+            [
+              -122.3344291,
+              37.9134868
+            ],
+            [
+              -122.334423,
+              37.9135008
+            ],
+            [
+              -122.3344341,
+              37.9135038
+            ],
+            [
+              -122.3343733,
+              37.9136428
+            ],
+            [
+              -122.3342939,
+              37.9136212
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489857",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-185",
+      "name": "Building 185",
+      "nativeCodes": [
+        "BUI33"
+      ],
+      "aliases": [
+        "Building 185"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3336048,
+              37.9128632
+            ],
+            [
+              -122.3336764,
+              37.9127125
+            ],
+            [
+              -122.333671,
+              37.9127109
+            ],
+            [
+              -122.3337124,
+              37.9126237
+            ],
+            [
+              -122.3336006,
+              37.9125906
+            ],
+            [
+              -122.333483,
+              37.9128379
+            ],
+            [
+              -122.3335809,
+              37.912867
+            ],
+            [
+              -122.3335855,
+              37.9128574
+            ],
+            [
+              -122.3336048,
+              37.9128632
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489859",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-201-epa-region-9-laboratory",
+      "name": "Building 201 EPA Region 9 Laboratory",
+      "nativeCodes": [
+        "B2ER9L"
+      ],
+      "aliases": [
+        "Building 201 EPA Region 9 Laboratory"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3369104,
+              37.9139551
+            ],
+            [
+              -122.3372637,
+              37.9132307
+            ],
+            [
+              -122.3370648,
+              37.9131703
+            ],
+            [
+              -122.337083,
+              37.9131328
+            ],
+            [
+              -122.3369716,
+              37.913099
+            ],
+            [
+              -122.3369534,
+              37.9131365
+            ],
+            [
+              -122.3367527,
+              37.9130755
+            ],
+            [
+              -122.3367501,
+              37.9130808
+            ],
+            [
+              -122.3366571,
+              37.9130511
+            ],
+            [
+              -122.3366571,
+              37.913064
+            ],
+            [
+              -122.3366302,
+              37.913064
+            ],
+            [
+              -122.3366301,
+              37.9131868
+            ],
+            [
+              -122.336657,
+              37.9131868
+            ],
+            [
+              -122.3366569,
+              37.9132461
+            ],
+            [
+              -122.3366665,
+              37.913249
+            ],
+            [
+              -122.3366599,
+              37.9132627
+            ],
+            [
+              -122.3366494,
+              37.9132595
+            ],
+            [
+              -122.336608,
+              37.9133444
+            ],
+            [
+              -122.3366185,
+              37.9133476
+            ],
+            [
+              -122.3365707,
+              37.9134455
+            ],
+            [
+              -122.3365584,
+              37.9134418
+            ],
+            [
+              -122.3364921,
+              37.9135778
+            ],
+            [
+              -122.3365044,
+              37.9135815
+            ],
+            [
+              -122.336398,
+              37.9137996
+            ],
+            [
+              -122.3369104,
+              37.9139551
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489862",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-116",
+      "name": "Building 116",
+      "nativeCodes": [
+        "BUI34"
+      ],
+      "aliases": [
+        "Building 116"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3342909,
+              37.913504
+            ],
+            [
+              -122.3342674,
+              37.9135598
+            ],
+            [
+              -122.3340986,
+              37.9135154
+            ],
+            [
+              -122.3341222,
+              37.9134595
+            ],
+            [
+              -122.3342909,
+              37.913504
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489864",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-110",
+      "name": "Building 110",
+      "nativeCodes": [
+        "BUI35"
+      ],
+      "aliases": [
+        "Building 110"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3348535,
+              37.9124359
+            ],
+            [
+              -122.3348164,
+              37.9125176
+            ],
+            [
+              -122.3347783,
+              37.9125068
+            ],
+            [
+              -122.3347766,
+              37.9125106
+            ],
+            [
+              -122.33466,
+              37.9124777
+            ],
+            [
+              -122.3347016,
+              37.9123861
+            ],
+            [
+              -122.3348206,
+              37.9124197
+            ],
+            [
+              -122.3348178,
+              37.9124258
+            ],
+            [
+              -122.3348535,
+              37.9124359
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489868",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-160",
+      "name": "Building 160",
+      "nativeCodes": [
+        "BUI36"
+      ],
+      "aliases": [
+        "Building 160"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3351045,
+              37.9149693
+            ],
+            [
+              -122.335138,
+              37.9148932
+            ],
+            [
+              -122.3349222,
+              37.914834
+            ],
+            [
+              -122.3348886,
+              37.9149101
+            ],
+            [
+              -122.3351045,
+              37.9149693
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489869",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-112",
+      "name": "Building 112",
+      "nativeCodes": [
+        "BUI37"
+      ],
+      "aliases": [
+        "Building 112"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3345242,
+              37.9131947
+            ],
+            [
+              -122.3347587,
+              37.9126621
+            ],
+            [
+              -122.3344147,
+              37.9125678
+            ],
+            [
+              -122.3342954,
+              37.9128388
+            ],
+            [
+              -122.3343588,
+              37.9128562
+            ],
+            [
+              -122.3342436,
+              37.9131178
+            ],
+            [
+              -122.3345242,
+              37.9131947
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489870",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-177-179",
+      "name": "Building 177 / 179",
+      "nativeCodes": [
+        "BUI38"
+      ],
+      "aliases": [
+        "Building 177 / 179"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3341267,
+              37.9145821
+            ],
+            [
+              -122.3342379,
+              37.9143226
+            ],
+            [
+              -122.3341659,
+              37.9143034
+            ],
+            [
+              -122.3340548,
+              37.9145629
+            ],
+            [
+              -122.3341267,
+              37.9145821
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489875",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-280a",
+      "name": "Building 280A",
+      "nativeCodes": [
+        "BUI39"
+      ],
+      "aliases": [
+        "Building 280A"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3375754,
+              37.9162266
+            ],
+            [
+              -122.3375729,
+              37.9152329
+            ],
+            [
+              -122.3376895,
+              37.9152335
+            ],
+            [
+              -122.3376915,
+              37.9153059
+            ],
+            [
+              -122.3377229,
+              37.9153061
+            ],
+            [
+              -122.3377349,
+              37.915693
+            ],
+            [
+              -122.3376886,
+              37.915693
+            ],
+            [
+              -122.3376922,
+              37.9162267
+            ],
+            [
+              -122.3375754,
+              37.9162266
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489877",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-275",
+      "name": "Building 275",
+      "nativeCodes": [
+        "BUI40"
+      ],
+      "aliases": [
+        "Building 275"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3357343,
+              37.9145204
+            ],
+            [
+              -122.3360429,
+              37.9138475
+            ],
+            [
+              -122.3359677,
+              37.913826
+            ],
+            [
+              -122.3357548,
+              37.9142902
+            ],
+            [
+              -122.335637,
+              37.9142566
+            ],
+            [
+              -122.3355413,
+              37.9144653
+            ],
+            [
+              -122.3357343,
+              37.9145204
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489878",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-152",
+      "name": "Building 152",
+      "nativeCodes": [
+        "BUI41"
+      ],
+      "aliases": [
+        "Building 152"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3351089,
+              37.9143648
+            ],
+            [
+              -122.3351802,
+              37.9141996
+            ],
+            [
+              -122.3350812,
+              37.9141729
+            ],
+            [
+              -122.3350284,
+              37.9142951
+            ],
+            [
+              -122.3349425,
+              37.914272
+            ],
+            [
+              -122.3349711,
+              37.9142058
+            ],
+            [
+              -122.3349058,
+              37.9141882
+            ],
+            [
+              -122.3348913,
+              37.9142218
+            ],
+            [
+              -122.3348234,
+              37.9142035
+            ],
+            [
+              -122.3347907,
+              37.9142792
+            ],
+            [
+              -122.3351089,
+              37.9143648
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489880",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-150",
+      "name": "Building 150",
+      "nativeCodes": [
+        "BUI42"
+      ],
+      "aliases": [
+        "Building 150"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3346314,
+              37.9142251
+            ],
+            [
+              -122.334681,
+              37.9141053
+            ],
+            [
+              -122.3344026,
+              37.9140335
+            ],
+            [
+              -122.3343529,
+              37.9141532
+            ],
+            [
+              -122.3346314,
+              37.9142251
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489884",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-277",
+      "name": "Building 277",
+      "nativeCodes": [
+        "BUI43"
+      ],
+      "aliases": [
+        "Building 277"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3358755,
+              37.9151175
+            ],
+            [
+              -122.3360006,
+              37.914846
+            ],
+            [
+              -122.3353671,
+              37.9146643
+            ],
+            [
+              -122.335242,
+              37.9149358
+            ],
+            [
+              -122.3358755,
+              37.9151175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489886",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-114",
+      "name": "Building 114",
+      "nativeCodes": [
+        "BUI44"
+      ],
+      "aliases": [
+        "Building 114"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3337598,
+              37.913628
+            ],
+            [
+              -122.3338673,
+              37.9133865
+            ],
+            [
+              -122.3340175,
+              37.9134281
+            ],
+            [
+              -122.3339443,
+              37.9135926
+            ],
+            [
+              -122.33391,
+              37.9136696
+            ],
+            [
+              -122.3337598,
+              37.913628
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489887",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-165",
+      "name": "Building 165",
+      "nativeCodes": [
+        "BUI45"
+      ],
+      "aliases": [
+        "Building 165"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3348374,
+              37.915345
+            ],
+            [
+              -122.334864,
+              37.9152756
+            ],
+            [
+              -122.3349489,
+              37.9152958
+            ],
+            [
+              -122.3349223,
+              37.9153653
+            ],
+            [
+              -122.3348374,
+              37.915345
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489889",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-280b",
+      "name": "Building 280B",
+      "nativeCodes": [
+        "BUI46"
+      ],
+      "aliases": [
+        "Building 280B"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3376989,
+              37.9180516
+            ],
+            [
+              -122.3376989,
+              37.9167248
+            ],
+            [
+              -122.3375782,
+              37.9167248
+            ],
+            [
+              -122.3375702,
+              37.9180495
+            ],
+            [
+              -122.3376989,
+              37.9180516
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/123489891",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-booker-t-anderson-community-center",
+      "name": "Booker T Anderson Community Center",
+      "nativeCodes": [
+        "BTACC"
+      ],
+      "aliases": [
+        "Booker T Anderson Community Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3269819,
+              37.9186754
+            ],
+            [
+              -122.3269653,
+              37.9185593
+            ],
+            [
+              -122.3269269,
+              37.9185627
+            ],
+            [
+              -122.3269085,
+              37.9184342
+            ],
+            [
+              -122.3269834,
+              37.9184276
+            ],
+            [
+              -122.3269642,
+              37.918293
+            ],
+            [
+              -122.3268186,
+              37.9183059
+            ],
+            [
+              -122.3268128,
+              37.918265
+            ],
+            [
+              -122.3264072,
+              37.918301
+            ],
+            [
+              -122.3264376,
+              37.9185138
+            ],
+            [
+              -122.326497,
+              37.9185085
+            ],
+            [
+              -122.3265114,
+              37.9186092
+            ],
+            [
+              -122.3264643,
+              37.9186134
+            ],
+            [
+              -122.3264817,
+              37.9187353
+            ],
+            [
+              -122.3266594,
+              37.9187195
+            ],
+            [
+              -122.3266513,
+              37.9186634
+            ],
+            [
+              -122.3268335,
+              37.9186472
+            ],
+            [
+              -122.3268394,
+              37.9186881
+            ],
+            [
+              -122.3269819,
+              37.9186754
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/444806139",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-149",
+      "name": "Building 149",
+      "nativeCodes": [
+        "BUI47"
+      ],
+      "aliases": [
+        "Building 149"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3351597,
+              37.9138512
+            ],
+            [
+              -122.3351356,
+              37.9139055
+            ],
+            [
+              -122.3349961,
+              37.9138669
+            ],
+            [
+              -122.3350202,
+              37.9138126
+            ],
+            [
+              -122.3351597,
+              37.9138512
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/484528032",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-seaport-art-studios",
+      "name": "Seaport Art Studios",
+      "nativeCodes": [
+        "SAS"
+      ],
+      "aliases": [
+        "Seaport Art Studios"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3279031,
+              37.9127563
+            ],
+            [
+              -122.3277397,
+              37.9127109
+            ],
+            [
+              -122.3279365,
+              37.912269
+            ],
+            [
+              -122.328037,
+              37.9122968
+            ],
+            [
+              -122.3280399,
+              37.9122902
+            ],
+            [
+              -122.328103,
+              37.9123077
+            ],
+            [
+              -122.3279031,
+              37.9127563
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/484528169",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-176",
+      "name": "Building 176",
+      "nativeCodes": [
+        "BUI48"
+      ],
+      "aliases": [
+        "Building 176"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.334318,
+              37.9141461
+            ],
+            [
+              -122.3342281,
+              37.9141238
+            ],
+            [
+              -122.3342586,
+              37.9140471
+            ],
+            [
+              -122.3343485,
+              37.9140693
+            ],
+            [
+              -122.334318,
+              37.9141461
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/484821021",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-building-195",
+      "name": "Building 195",
+      "nativeCodes": [
+        "BUI49"
+      ],
+      "aliases": [
+        "Building 195"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3328499,
+              37.9144893
+            ],
+            [
+              -122.3327646,
+              37.9144671
+            ],
+            [
+              -122.3327994,
+              37.9143835
+            ],
+            [
+              -122.3328848,
+              37.9144057
+            ],
+            [
+              -122.3328499,
+              37.9144893
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/484821031",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucberkeley-systemwide-library-facility-north",
+      "name": "Systemwide Library Facility - North",
+      "nativeCodes": [
+        "SLFN"
+      ],
+      "aliases": [
+        "Systemwide Library Facility - North"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.3346055,
+              37.9176851
+            ],
+            [
+              -122.3348344,
+              37.9176814
+            ],
+            [
+              -122.3348795,
+              37.9176807
+            ],
+            [
+              -122.3348823,
+              37.9177884
+            ],
+            [
+              -122.3350603,
+              37.9177855
+            ],
+            [
+              -122.3350611,
+              37.9178167
+            ],
+            [
+              -122.3351816,
+              37.9178148
+            ],
+            [
+              -122.3352718,
+              37.9178133
+            ],
+            [
+              -122.3352712,
+              37.9177917
+            ],
+            [
+              -122.3353238,
+              37.9177909
+            ],
+            [
+              -122.3353183,
+              37.9175792
+            ],
+            [
+              -122.3354509,
+              37.9175771
+            ],
+            [
+              -122.3354602,
+              37.9179336
+            ],
+            [
+              -122.3355507,
+              37.9179321
+            ],
+            [
+              -122.33555,
+              37.917904
+            ],
+            [
+              -122.3356362,
+              37.9179026
+            ],
+            [
+              -122.335638,
+              37.917973
+            ],
+            [
+              -122.3359079,
+              37.9179687
+            ],
+            [
+              -122.3359061,
+              37.9178997
+            ],
+            [
+              -122.3359472,
+              37.917899
+            ],
+            [
+              -122.3359479,
+              37.9179278
+            ],
+            [
+              -122.3360452,
+              37.9179263
+            ],
+            [
+              -122.3360357,
+              37.9175471
+            ],
+            [
+              -122.336168,
+              37.9175448
+            ],
+            [
+              -122.336165,
+              37.9174452
+            ],
+            [
+              -122.3361408,
+              37.9174457
+            ],
+            [
+              -122.3361249,
+              37.9168697
+            ],
+            [
+              -122.3356842,
+              37.9168765
+            ],
+            [
+              -122.3356873,
+              37.9169784
+            ],
+            [
+              -122.3357703,
+              37.9169778
+            ],
+            [
+              -122.3357883,
+              37.9175152
+            ],
+            [
+              -122.3357374,
+              37.9175163
+            ],
+            [
+              -122.3357254,
+              37.9170345
+            ],
+            [
+              -122.3355853,
+              37.9170367
+            ],
+            [
+              -122.3355865,
+              37.9170845
+            ],
+            [
+              -122.3353216,
+              37.9170886
+            ],
+            [
+              -122.3353203,
+              37.9170367
+            ],
+            [
+              -122.3352227,
+              37.9170383
+            ],
+            [
+              -122.3352234,
+              37.9170673
+            ],
+            [
+              -122.3348853,
+              37.9170727
+            ],
+            [
+              -122.3348902,
+              37.917269
+            ],
+            [
+              -122.3348533,
+              37.9172695
+            ],
+            [
+              -122.3348546,
+              37.9173212
+            ],
+            [
+              -122.3348934,
+              37.9173206
+            ],
+            [
+              -122.3348973,
+              37.9174692
+            ],
+            [
+              -122.3348499,
+              37.91747
+            ],
+            [
+              -122.334853,
+              37.917593
+            ],
+            [
+              -122.3346032,
+              37.917597
+            ],
+            [
+              -122.3346055,
+              37.9176851
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1539619951",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-ucberkeley-richmond-ucb-rfs-bldg478",
-      "buildingId": "ucb-rfs-bldg478",
-      "coordinate": [
-        -122.3325,
-        37.91525
-      ],
-      "pathNodeId": "node-ent-ucberkeley-richmond-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ent-ucberkeley-richmond-ucb-rfs-bldg478",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-ucberkeley-richmond-ucb-earthquake-centre",
-      "buildingId": "ucb-earthquake-centre",
-      "coordinate": [
-        -122.3315,
-        37.91575
-      ],
-      "pathNodeId": "node-ent-ucberkeley-richmond-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ent-ucberkeley-richmond-ucb-earthquake-centre",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-ucberkeley-richmond-ucb-env-eng-lab",
-      "buildingId": "ucb-env-eng-lab",
-      "coordinate": [
-        -122.3335,
-        37.91475
-      ],
-      "pathNodeId": "node-ent-ucberkeley-richmond-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ent-ucberkeley-richmond-ucb-env-eng-lab",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-ucberkeley-richmond-ucb-transport-lab",
-      "buildingId": "ucb-transport-lab",
-      "coordinate": [
-        -122.331,
-        37.91625
-      ],
-      "pathNodeId": "node-ent-ucberkeley-richmond-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ent-ucberkeley-richmond-ucb-transport-lab",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-ucberkeley-richmond-ucb-bayview-lab",
-      "buildingId": "ucb-bayview-lab",
-      "coordinate": [
-        -122.334,
-        37.91425
-      ],
-      "pathNodeId": "node-ent-ucberkeley-richmond-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "ent-ucberkeley-richmond-ucb-bayview-lab",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-ucberkeley-richmond-0",
-      "coordinate": [
-        -122.3377,
-        37.9119
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-spine-ucberkeley-richmond-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-ucberkeley-richmond-1",
-      "coordinate": [
-        -122.3351,
-        37.9137
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-spine-ucberkeley-richmond-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-ucberkeley-richmond-2",
-      "coordinate": [
-        -122.3325,
-        37.9155
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-spine-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-ucberkeley-richmond-3",
-      "coordinate": [
-        -122.3299,
-        37.917300000000004
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-spine-ucberkeley-richmond-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-ucberkeley-richmond-4",
-      "coordinate": [
-        -122.3273,
-        37.9191
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-spine-ucberkeley-richmond-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-ucberkeley-richmond-0",
-      "coordinate": [
-        -122.3325,
-        37.91525
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-ent-ucberkeley-richmond-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-ucberkeley-richmond-1",
-      "coordinate": [
-        -122.3315,
-        37.91575
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-ent-ucberkeley-richmond-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-ucberkeley-richmond-2",
-      "coordinate": [
-        -122.3335,
-        37.91475
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-ent-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-ucberkeley-richmond-3",
-      "coordinate": [
-        -122.331,
-        37.91625
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-ent-ucberkeley-richmond-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-ucberkeley-richmond-4",
-      "coordinate": [
-        -122.334,
-        37.91425
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "node-ent-ucberkeley-richmond-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-0-node-spine-ucberkeley-richmond-1",
-      "from": "node-spine-ucberkeley-richmond-0",
-      "to": "node-spine-ucberkeley-richmond-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-0-node-spine-ucberkeley-richmond-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-1-node-spine-ucberkeley-richmond-0",
-      "from": "node-spine-ucberkeley-richmond-1",
-      "to": "node-spine-ucberkeley-richmond-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-1-node-spine-ucberkeley-richmond-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-1-node-spine-ucberkeley-richmond-2",
-      "from": "node-spine-ucberkeley-richmond-1",
-      "to": "node-spine-ucberkeley-richmond-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-1-node-spine-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-2-node-spine-ucberkeley-richmond-1",
-      "from": "node-spine-ucberkeley-richmond-2",
-      "to": "node-spine-ucberkeley-richmond-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-2-node-spine-ucberkeley-richmond-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-2-node-spine-ucberkeley-richmond-3",
-      "from": "node-spine-ucberkeley-richmond-2",
-      "to": "node-spine-ucberkeley-richmond-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-2-node-spine-ucberkeley-richmond-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-3-node-spine-ucberkeley-richmond-2",
-      "from": "node-spine-ucberkeley-richmond-3",
-      "to": "node-spine-ucberkeley-richmond-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-3-node-spine-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-3-node-spine-ucberkeley-richmond-4",
-      "from": "node-spine-ucberkeley-richmond-3",
-      "to": "node-spine-ucberkeley-richmond-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-3-node-spine-ucberkeley-richmond-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-4-node-spine-ucberkeley-richmond-3",
-      "from": "node-spine-ucberkeley-richmond-4",
-      "to": "node-spine-ucberkeley-richmond-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-4-node-spine-ucberkeley-richmond-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-ucberkeley-richmond-0-node-spine-ucberkeley-richmond-2",
-      "from": "node-ent-ucberkeley-richmond-0",
-      "to": "node-spine-ucberkeley-richmond-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-ent-ucberkeley-richmond-0-node-spine-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-2-node-ent-ucberkeley-richmond-0",
-      "from": "node-spine-ucberkeley-richmond-2",
-      "to": "node-ent-ucberkeley-richmond-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-2-node-ent-ucberkeley-richmond-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-ucberkeley-richmond-1-node-spine-ucberkeley-richmond-2",
-      "from": "node-ent-ucberkeley-richmond-1",
-      "to": "node-spine-ucberkeley-richmond-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-ent-ucberkeley-richmond-1-node-spine-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-2-node-ent-ucberkeley-richmond-1",
-      "from": "node-spine-ucberkeley-richmond-2",
-      "to": "node-ent-ucberkeley-richmond-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-2-node-ent-ucberkeley-richmond-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-ucberkeley-richmond-2-node-spine-ucberkeley-richmond-2",
-      "from": "node-ent-ucberkeley-richmond-2",
-      "to": "node-spine-ucberkeley-richmond-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-ent-ucberkeley-richmond-2-node-spine-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-2-node-ent-ucberkeley-richmond-2",
-      "from": "node-spine-ucberkeley-richmond-2",
-      "to": "node-ent-ucberkeley-richmond-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-2-node-ent-ucberkeley-richmond-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-ucberkeley-richmond-3-node-spine-ucberkeley-richmond-3",
-      "from": "node-ent-ucberkeley-richmond-3",
-      "to": "node-spine-ucberkeley-richmond-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-ent-ucberkeley-richmond-3-node-spine-ucberkeley-richmond-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-3-node-ent-ucberkeley-richmond-3",
-      "from": "node-spine-ucberkeley-richmond-3",
-      "to": "node-ent-ucberkeley-richmond-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-3-node-ent-ucberkeley-richmond-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-ucberkeley-richmond-4-node-spine-ucberkeley-richmond-1",
-      "from": "node-ent-ucberkeley-richmond-4",
-      "to": "node-spine-ucberkeley-richmond-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-ent-ucberkeley-richmond-4-node-spine-ucberkeley-richmond-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-ucberkeley-richmond-1-node-ent-ucberkeley-richmond-4",
-      "from": "node-spine-ucberkeley-richmond-1",
-      "to": "node-ent-ucberkeley-richmond-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-ucberkeley-richmond",
-          "nativeId": "edge-node-spine-ucberkeley-richmond-1-node-ent-ucberkeley-richmond-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }

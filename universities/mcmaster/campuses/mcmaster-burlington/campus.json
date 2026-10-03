@@ -17,70 +17,25 @@
   },
   "sources": [
     {
-      "id": "src-mcmaster-burlington",
-      "title": "McMaster DeGroote Ron Joyce Centre Directory",
-      "url": "https://degroote.mcmaster.ca/about/locations/",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "mcmaster-ron-joyce",
-      "name": "Ron Joyce Centre",
+      "id": "mcmaster-nelson-arena",
+      "name": "Nelson Arena",
       "nativeCodes": [
-        "RJC"
+        "NA"
       ],
       "aliases": [
-        "Ron Joyce Centre"
-      ],
-      "category": "academic",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -79.76935,
-              43.36425
-            ],
-            [
-              -79.76865,
-              43.36425
-            ],
-            [
-              -79.76865,
-              43.36475
-            ],
-            [
-              -79.76935,
-              43.36475
-            ],
-            [
-              -79.76935,
-              43.36425
-            ]
-          ]
-        ]
-      },
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "mcmaster-ron-joyce",
-          "verification": "source-backed"
-        }
-      ]
-    },
-    {
-      "id": "mcmaster-south-service",
-      "name": "South Service Pavilion",
-      "nativeCodes": [
-        "SSP"
-      ],
-      "aliases": [
-        "South Service Pavilion"
+        "Nelson Arena"
       ],
       "category": "residence",
       "geometry": {
@@ -88,44 +43,100 @@
         "coordinates": [
           [
             [
-              -79.76835,
-              43.36475
+              -79.7635461,
+              43.3611471
             ],
             [
-              -79.76765,
-              43.36475
+              -79.7630728,
+              43.3608001
             ],
             [
-              -79.76765,
-              43.36525
+              -79.7629626,
+              43.3608801
             ],
             [
-              -79.76835,
-              43.36525
+              -79.7627628,
+              43.3607337
             ],
             [
-              -79.76835,
-              43.36475
+              -79.7628765,
+              43.3606512
+            ],
+            [
+              -79.7629461,
+              43.3607022
+            ],
+            [
+              -79.7629891,
+              43.3606709
+            ],
+            [
+              -79.7629983,
+              43.3606776
+            ],
+            [
+              -79.7631892,
+              43.3605389
+            ],
+            [
+              -79.7631223,
+              43.3604899
+            ],
+            [
+              -79.7632366,
+              43.3604069
+            ],
+            [
+              -79.7635838,
+              43.3606613
+            ],
+            [
+              -79.7634963,
+              43.3607248
+            ],
+            [
+              -79.7636617,
+              43.360846
+            ],
+            [
+              -79.7636502,
+              43.3608544
+            ],
+            [
+              -79.7638512,
+              43.3610016
+            ],
+            [
+              -79.7637515,
+              43.361074
+            ],
+            [
+              -79.7636993,
+              43.3610358
+            ],
+            [
+              -79.7635461,
+              43.3611471
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "mcmaster-south-service",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/43938396",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "mcmaster-degroote-exec",
-      "name": "DeGroote Executive Wing",
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-2",
+      "name": "McMaster University Ron Joyce Centre Facility 2",
       "nativeCodes": [
-        "DEW"
+        "MCMA"
       ],
       "aliases": [
-        "DeGroote Executive Wing"
+        "McMaster University Ron Joyce Centre Facility 2"
       ],
       "category": "academic",
       "geometry": {
@@ -133,44 +144,60 @@
         "coordinates": [
           [
             [
-              -79.77035,
-              43.36375
+              -79.7743395,
+              43.3648482
             ],
             [
-              -79.76965,
-              43.36375
+              -79.7744565,
+              43.3647631
             ],
             [
-              -79.76965,
-              43.36425
+              -79.7744398,
+              43.3647509
             ],
             [
-              -79.77035,
-              43.36425
+              -79.774473,
+              43.3647267
             ],
             [
-              -79.77035,
-              43.36375
+              -79.7744885,
+              43.364738
+            ],
+            [
+              -79.7746071,
+              43.3646519
+            ],
+            [
+              -79.7751398,
+              43.3650422
+            ],
+            [
+              -79.7748709,
+              43.3652376
+            ],
+            [
+              -79.7743395,
+              43.3648482
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "mcmaster-degroote-exec",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/43940085",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "mcmaster-mba-centre",
-      "name": "MBA Learning Centre",
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-3",
+      "name": "McMaster University Ron Joyce Centre Facility 3",
       "nativeCodes": [
-        "MBA"
+        "MCM"
       ],
       "aliases": [
-        "MBA Learning Centre"
+        "McMaster University Ron Joyce Centre Facility 3"
       ],
       "category": "academic",
       "geometry": {
@@ -178,545 +205,1324 @@
         "coordinates": [
           [
             [
-              -79.76785,
-              43.36525
+              -79.7674434,
+              43.3613066
             ],
             [
-              -79.76715,
-              43.36525
+              -79.7673922,
+              43.3613066
             ],
             [
-              -79.76715,
-              43.36575
+              -79.7673922,
+              43.3612476
             ],
             [
-              -79.76785,
-              43.36575
+              -79.7674434,
+              43.3612476
             ],
             [
-              -79.76785,
-              43.36525
+              -79.7674434,
+              43.3613066
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "mcmaster-mba-centre",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/159267586",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "mcmaster-rjc-atrium",
-      "name": "RJC Central Atrium",
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-4",
+      "name": "McMaster University Ron Joyce Centre Facility 4",
       "nativeCodes": [
-        "RJA"
+        "MCM1"
       ],
       "aliases": [
-        "RJC Central Atrium"
+        "McMaster University Ron Joyce Centre Facility 4"
       ],
-      "category": "facility",
+      "category": "academic",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -79.77085,
-              43.36325
+              -79.7648431,
+              43.3643307
             ],
             [
-              -79.77015,
-              43.36325
+              -79.7649428,
+              43.3642512
             ],
             [
-              -79.77015,
-              43.36375
+              -79.7648511,
+              43.3641905
             ],
             [
-              -79.77085,
-              43.36375
+              -79.7647515,
+              43.36427
             ],
             [
-              -79.77085,
-              43.36325
+              -79.7648431,
+              43.3643307
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "mcmaster-rjc-atrium",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/166402206",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-5",
+      "name": "McMaster University Ron Joyce Centre Facility 5",
+      "nativeCodes": [
+        "MCM2"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 5"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7732931,
+              43.3602441
+            ],
+            [
+              -79.7733369,
+              43.3601944
+            ],
+            [
+              -79.7732876,
+              43.3601713
+            ],
+            [
+              -79.7733453,
+              43.3601057
+            ],
+            [
+              -79.773501,
+              43.3601787
+            ],
+            [
+              -79.7733995,
+              43.3602939
+            ],
+            [
+              -79.7732931,
+              43.3602441
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833350985",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-6",
+      "name": "McMaster University Ron Joyce Centre Facility 6",
+      "nativeCodes": [
+        "MCM3"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 6"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7721918,
+              43.3626402
+            ],
+            [
+              -79.7720109,
+              43.3626134
+            ],
+            [
+              -79.7720352,
+              43.362526
+            ],
+            [
+              -79.7722161,
+              43.3625528
+            ],
+            [
+              -79.7721918,
+              43.3626402
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833350997",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-7",
+      "name": "McMaster University Ron Joyce Centre Facility 7",
+      "nativeCodes": [
+        "MCM4"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 7"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7724325,
+              43.3617244
+            ],
+            [
+              -79.7723869,
+              43.3617402
+            ],
+            [
+              -79.7723834,
+              43.3617073
+            ],
+            [
+              -79.7723177,
+              43.3617085
+            ],
+            [
+              -79.7723152,
+              43.3616617
+            ],
+            [
+              -79.7722632,
+              43.3616653
+            ],
+            [
+              -79.7722595,
+              43.3615986
+            ],
+            [
+              -79.7724462,
+              43.3615904
+            ],
+            [
+              -79.7724493,
+              43.361659
+            ],
+            [
+              -79.7724394,
+              43.3616592
+            ],
+            [
+              -79.7724411,
+              43.361705
+            ],
+            [
+              -79.7724318,
+              43.3617052
+            ],
+            [
+              -79.7724325,
+              43.3617244
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351070",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-8",
+      "name": "McMaster University Ron Joyce Centre Facility 8",
+      "nativeCodes": [
+        "MCM5"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 8"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7719436,
+              43.3619646
+            ],
+            [
+              -79.7719459,
+              43.3620826
+            ],
+            [
+              -79.7719349,
+              43.3620827
+            ],
+            [
+              -79.7719354,
+              43.3621038
+            ],
+            [
+              -79.7718993,
+              43.3621042
+            ],
+            [
+              -79.7718988,
+              43.362083
+            ],
+            [
+              -79.7718055,
+              43.362084
+            ],
+            [
+              -79.7718031,
+              43.3619661
+            ],
+            [
+              -79.7719436,
+              43.3619646
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351111",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-9",
+      "name": "McMaster University Ron Joyce Centre Facility 9",
+      "nativeCodes": [
+        "MCM6"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 9"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.771766,
+              43.3622124
+            ],
+            [
+              -79.7717839,
+              43.3621225
+            ],
+            [
+              -79.7719283,
+              43.3621378
+            ],
+            [
+              -79.7719338,
+              43.3621104
+            ],
+            [
+              -79.7719702,
+              43.3621142
+            ],
+            [
+              -79.7719648,
+              43.3621414
+            ],
+            [
+              -79.7720438,
+              43.3621498
+            ],
+            [
+              -79.772028,
+              43.3622294
+            ],
+            [
+              -79.7718897,
+              43.3622148
+            ],
+            [
+              -79.7718877,
+              43.3622253
+            ],
+            [
+              -79.771766,
+              43.3622124
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351112",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-10",
+      "name": "McMaster University Ron Joyce Centre Facility 10",
+      "nativeCodes": [
+        "MCM7"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 10"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7720909,
+              43.362216
+            ],
+            [
+              -79.7721211,
+              43.3621257
+            ],
+            [
+              -79.7723132,
+              43.3621599
+            ],
+            [
+              -79.7722808,
+              43.3622569
+            ],
+            [
+              -79.7722285,
+              43.3622476
+            ],
+            [
+              -79.7722307,
+              43.3622408
+            ],
+            [
+              -79.7720909,
+              43.362216
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351113",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-11",
+      "name": "McMaster University Ron Joyce Centre Facility 11",
+      "nativeCodes": [
+        "MCM8"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 11"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7750479,
+              43.3601344
+            ],
+            [
+              -79.7749212,
+              43.360139
+            ],
+            [
+              -79.7749111,
+              43.3599897
+            ],
+            [
+              -79.7750213,
+              43.3599857
+            ],
+            [
+              -79.775027,
+              43.3600703
+            ],
+            [
+              -79.7750435,
+              43.3600697
+            ],
+            [
+              -79.7750479,
+              43.3601344
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351157",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-12",
+      "name": "McMaster University Ron Joyce Centre Facility 12",
+      "nativeCodes": [
+        "MCM9"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 12"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7740673,
+              43.3601
+            ],
+            [
+              -79.7741507,
+              43.3600309
+            ],
+            [
+              -79.7743285,
+              43.360145
+            ],
+            [
+              -79.7742562,
+              43.3602049
+            ],
+            [
+              -79.7741463,
+              43.3601344
+            ],
+            [
+              -79.7741352,
+              43.3601436
+            ],
+            [
+              -79.7740673,
+              43.3601
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351158",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-13",
+      "name": "McMaster University Ron Joyce Centre Facility 13",
+      "nativeCodes": [
+        "MCM10"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 13"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7745261,
+              43.3603682
+            ],
+            [
+              -79.7745996,
+              43.3603008
+            ],
+            [
+              -79.7747275,
+              43.360375
+            ],
+            [
+              -79.774654,
+              43.3604425
+            ],
+            [
+              -79.7745261,
+              43.3603682
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351159",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-14",
+      "name": "McMaster University Ron Joyce Centre Facility 14",
+      "nativeCodes": [
+        "MCM11"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 14"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7738647,
+              43.3605461
+            ],
+            [
+              -79.7739946,
+              43.3604393
+            ],
+            [
+              -79.7740712,
+              43.3604889
+            ],
+            [
+              -79.7740482,
+              43.3605078
+            ],
+            [
+              -79.7740993,
+              43.3605409
+            ],
+            [
+              -79.7740356,
+              43.3605932
+            ],
+            [
+              -79.7739834,
+              43.3605594
+            ],
+            [
+              -79.7739402,
+              43.3605949
+            ],
+            [
+              -79.7738647,
+              43.3605461
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351162",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-15",
+      "name": "McMaster University Ron Joyce Centre Facility 15",
+      "nativeCodes": [
+        "MCM12"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 15"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7740755,
+              43.3606013
+            ],
+            [
+              -79.7741613,
+              43.360532
+            ],
+            [
+              -79.774226,
+              43.3605746
+            ],
+            [
+              -79.7742155,
+              43.360583
+            ],
+            [
+              -79.7742715,
+              43.36062
+            ],
+            [
+              -79.7741962,
+              43.3606808
+            ],
+            [
+              -79.7740755,
+              43.3606013
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351163",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-16",
+      "name": "McMaster University Ron Joyce Centre Facility 16",
+      "nativeCodes": [
+        "MCM13"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 16"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7742831,
+              43.3599076
+            ],
+            [
+              -79.7743757,
+              43.3599611
+            ],
+            [
+              -79.774317,
+              43.3600152
+            ],
+            [
+              -79.7743949,
+              43.3600601
+            ],
+            [
+              -79.7743515,
+              43.3601002
+            ],
+            [
+              -79.774181,
+              43.3600017
+            ],
+            [
+              -79.7742831,
+              43.3599076
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351165",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-17",
+      "name": "McMaster University Ron Joyce Centre Facility 17",
+      "nativeCodes": [
+        "MCM14"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 17"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7746172,
+              43.3602443
+            ],
+            [
+              -79.7744949,
+              43.3603541
+            ],
+            [
+              -79.7744157,
+              43.3603071
+            ],
+            [
+              -79.7744353,
+              43.3602895
+            ],
+            [
+              -79.7743838,
+              43.3602589
+            ],
+            [
+              -79.7744438,
+              43.360205
+            ],
+            [
+              -79.774495,
+              43.3602354
+            ],
+            [
+              -79.7745375,
+              43.3601971
+            ],
+            [
+              -79.7746172,
+              43.3602443
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351168",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-18",
+      "name": "McMaster University Ron Joyce Centre Facility 18",
+      "nativeCodes": [
+        "MCM15"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 18"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7738166,
+              43.3605106
+            ],
+            [
+              -79.773719,
+              43.3604474
+            ],
+            [
+              -79.7738529,
+              43.3603375
+            ],
+            [
+              -79.7739695,
+              43.360413
+            ],
+            [
+              -79.773906,
+              43.3604652
+            ],
+            [
+              -79.7738737,
+              43.3604442
+            ],
+            [
+              -79.7738628,
+              43.3604532
+            ],
+            [
+              -79.7738761,
+              43.3604618
+            ],
+            [
+              -79.7738166,
+              43.3605106
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351169",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-19",
+      "name": "McMaster University Ron Joyce Centre Facility 19",
+      "nativeCodes": [
+        "MCM16"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 19"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.772797,
+              43.3604834
+            ],
+            [
+              -79.7727962,
+              43.3604611
+            ],
+            [
+              -79.7727246,
+              43.3604624
+            ],
+            [
+              -79.7727222,
+              43.3603934
+            ],
+            [
+              -79.7727847,
+              43.3603922
+            ],
+            [
+              -79.7727832,
+              43.360347
+            ],
+            [
+              -79.772888,
+              43.3603451
+            ],
+            [
+              -79.77289,
+              43.3604013
+            ],
+            [
+              -79.7729351,
+              43.3604005
+            ],
+            [
+              -79.7729364,
+              43.360437
+            ],
+            [
+              -79.7728918,
+              43.3604379
+            ],
+            [
+              -79.7728933,
+              43.3604816
+            ],
+            [
+              -79.772797,
+              43.3604834
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351188",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-20",
+      "name": "McMaster University Ron Joyce Centre Facility 20",
+      "nativeCodes": [
+        "MCM17"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 20"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7730963,
+              43.3604781
+            ],
+            [
+              -79.7729994,
+              43.3605046
+            ],
+            [
+              -79.7729644,
+              43.3604362
+            ],
+            [
+              -79.7729893,
+              43.3604294
+            ],
+            [
+              -79.7729419,
+              43.3603368
+            ],
+            [
+              -79.7730605,
+              43.3603044
+            ],
+            [
+              -79.7731318,
+              43.3604437
+            ],
+            [
+              -79.7730852,
+              43.3604564
+            ],
+            [
+              -79.7730963,
+              43.3604781
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351189",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-21",
+      "name": "McMaster University Ron Joyce Centre Facility 21",
+      "nativeCodes": [
+        "MCM18"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 21"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7736428,
+              43.3600381
+            ],
+            [
+              -79.7734795,
+              43.3599589
+            ],
+            [
+              -79.7735357,
+              43.3598971
+            ],
+            [
+              -79.773593,
+              43.3599249
+            ],
+            [
+              -79.7736309,
+              43.3598833
+            ],
+            [
+              -79.7737102,
+              43.3599218
+            ],
+            [
+              -79.7736735,
+              43.3599622
+            ],
+            [
+              -79.7737002,
+              43.3599751
+            ],
+            [
+              -79.7736428,
+              43.3600381
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351192",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-22",
+      "name": "McMaster University Ron Joyce Centre Facility 22",
+      "nativeCodes": [
+        "MCM19"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 22"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7723165,
+              43.3622501
+            ],
+            [
+              -79.7723494,
+              43.3621799
+            ],
+            [
+              -79.7724464,
+              43.3622041
+            ],
+            [
+              -79.7724527,
+              43.3621906
+            ],
+            [
+              -79.772509,
+              43.3622046
+            ],
+            [
+              -79.7724629,
+              43.3623029
+            ],
+            [
+              -79.7723702,
+              43.3622798
+            ],
+            [
+              -79.7723771,
+              43.3622652
+            ],
+            [
+              -79.7723165,
+              43.3622501
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351194",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-23",
+      "name": "McMaster University Ron Joyce Centre Facility 23",
+      "nativeCodes": [
+        "MCM20"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 23"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7717335,
+              43.3609268
+            ],
+            [
+              -79.7717293,
+              43.360807
+            ],
+            [
+              -79.7719982,
+              43.360802
+            ],
+            [
+              -79.7720003,
+              43.3608616
+            ],
+            [
+              -79.7719807,
+              43.3608619
+            ],
+            [
+              -79.7719817,
+              43.36089
+            ],
+            [
+              -79.7718659,
+              43.3608922
+            ],
+            [
+              -79.771867,
+              43.3609243
+            ],
+            [
+              -79.7717335,
+              43.3609268
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351195",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-24",
+      "name": "McMaster University Ron Joyce Centre Facility 24",
+      "nativeCodes": [
+        "MCM21"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 24"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.7718273,
+              43.3619397
+            ],
+            [
+              -79.771824,
+              43.361886
+            ],
+            [
+              -79.7717997,
+              43.3618868
+            ],
+            [
+              -79.7717957,
+              43.361824
+            ],
+            [
+              -79.7719338,
+              43.3618193
+            ],
+            [
+              -79.7719378,
+              43.3618824
+            ],
+            [
+              -79.7719739,
+              43.3618812
+            ],
+            [
+              -79.7719773,
+              43.3619346
+            ],
+            [
+              -79.7718273,
+              43.3619397
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351198",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "mcmaster-mcmaster-university-ron-joyce-centre-facility-25",
+      "name": "McMaster University Ron Joyce Centre Facility 25",
+      "nativeCodes": [
+        "MCM22"
+      ],
+      "aliases": [
+        "McMaster University Ron Joyce Centre Facility 25"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.772125,
+              43.3609748
+            ],
+            [
+              -79.7721183,
+              43.3608366
+            ],
+            [
+              -79.772219,
+              43.360834
+            ],
+            [
+              -79.7722208,
+              43.3608721
+            ],
+            [
+              -79.7722896,
+              43.3608703
+            ],
+            [
+              -79.7722928,
+              43.3609368
+            ],
+            [
+              -79.7722241,
+              43.3609386
+            ],
+            [
+              -79.7722257,
+              43.3609722
+            ],
+            [
+              -79.772125,
+              43.3609748
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/833351199",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-mcmaster-burlington-mcmaster-ron-joyce",
-      "buildingId": "mcmaster-ron-joyce",
-      "coordinate": [
-        -79.769,
-        43.36425
-      ],
-      "pathNodeId": "node-ent-mcmaster-burlington-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "ent-mcmaster-burlington-mcmaster-ron-joyce",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-mcmaster-burlington-mcmaster-south-service",
-      "buildingId": "mcmaster-south-service",
-      "coordinate": [
-        -79.768,
-        43.36475
-      ],
-      "pathNodeId": "node-ent-mcmaster-burlington-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "ent-mcmaster-burlington-mcmaster-south-service",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-mcmaster-burlington-mcmaster-degroote-exec",
-      "buildingId": "mcmaster-degroote-exec",
-      "coordinate": [
-        -79.77,
-        43.36375
-      ],
-      "pathNodeId": "node-ent-mcmaster-burlington-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "ent-mcmaster-burlington-mcmaster-degroote-exec",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-mcmaster-burlington-mcmaster-mba-centre",
-      "buildingId": "mcmaster-mba-centre",
-      "coordinate": [
-        -79.7675,
-        43.36525
-      ],
-      "pathNodeId": "node-ent-mcmaster-burlington-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "ent-mcmaster-burlington-mcmaster-mba-centre",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-mcmaster-burlington-mcmaster-rjc-atrium",
-      "buildingId": "mcmaster-rjc-atrium",
-      "coordinate": [
-        -79.7705,
-        43.36325
-      ],
-      "pathNodeId": "node-ent-mcmaster-burlington-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "ent-mcmaster-burlington-mcmaster-rjc-atrium",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-mcmaster-burlington-0",
-      "coordinate": [
-        -79.77380000000001,
-        43.3609
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-spine-mcmaster-burlington-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-mcmaster-burlington-1",
-      "coordinate": [
-        -79.7714,
-        43.3627
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-spine-mcmaster-burlington-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-mcmaster-burlington-2",
-      "coordinate": [
-        -79.769,
-        43.3645
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-spine-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-mcmaster-burlington-3",
-      "coordinate": [
-        -79.76660000000001,
-        43.3663
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-spine-mcmaster-burlington-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-mcmaster-burlington-4",
-      "coordinate": [
-        -79.7642,
-        43.3681
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-spine-mcmaster-burlington-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-mcmaster-burlington-0",
-      "coordinate": [
-        -79.769,
-        43.36425
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-ent-mcmaster-burlington-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-mcmaster-burlington-1",
-      "coordinate": [
-        -79.768,
-        43.36475
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-ent-mcmaster-burlington-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-mcmaster-burlington-2",
-      "coordinate": [
-        -79.77,
-        43.36375
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-ent-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-mcmaster-burlington-3",
-      "coordinate": [
-        -79.7675,
-        43.36525
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-ent-mcmaster-burlington-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-mcmaster-burlington-4",
-      "coordinate": [
-        -79.7705,
-        43.36325
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "node-ent-mcmaster-burlington-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-mcmaster-burlington-0-node-spine-mcmaster-burlington-1",
-      "from": "node-spine-mcmaster-burlington-0",
-      "to": "node-spine-mcmaster-burlington-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-0-node-spine-mcmaster-burlington-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-1-node-spine-mcmaster-burlington-0",
-      "from": "node-spine-mcmaster-burlington-1",
-      "to": "node-spine-mcmaster-burlington-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-1-node-spine-mcmaster-burlington-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-1-node-spine-mcmaster-burlington-2",
-      "from": "node-spine-mcmaster-burlington-1",
-      "to": "node-spine-mcmaster-burlington-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-1-node-spine-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-2-node-spine-mcmaster-burlington-1",
-      "from": "node-spine-mcmaster-burlington-2",
-      "to": "node-spine-mcmaster-burlington-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-2-node-spine-mcmaster-burlington-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-2-node-spine-mcmaster-burlington-3",
-      "from": "node-spine-mcmaster-burlington-2",
-      "to": "node-spine-mcmaster-burlington-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-2-node-spine-mcmaster-burlington-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-3-node-spine-mcmaster-burlington-2",
-      "from": "node-spine-mcmaster-burlington-3",
-      "to": "node-spine-mcmaster-burlington-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-3-node-spine-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-3-node-spine-mcmaster-burlington-4",
-      "from": "node-spine-mcmaster-burlington-3",
-      "to": "node-spine-mcmaster-burlington-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-3-node-spine-mcmaster-burlington-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-4-node-spine-mcmaster-burlington-3",
-      "from": "node-spine-mcmaster-burlington-4",
-      "to": "node-spine-mcmaster-burlington-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-4-node-spine-mcmaster-burlington-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-mcmaster-burlington-0-node-spine-mcmaster-burlington-2",
-      "from": "node-ent-mcmaster-burlington-0",
-      "to": "node-spine-mcmaster-burlington-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-ent-mcmaster-burlington-0-node-spine-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-2-node-ent-mcmaster-burlington-0",
-      "from": "node-spine-mcmaster-burlington-2",
-      "to": "node-ent-mcmaster-burlington-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-2-node-ent-mcmaster-burlington-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-mcmaster-burlington-1-node-spine-mcmaster-burlington-2",
-      "from": "node-ent-mcmaster-burlington-1",
-      "to": "node-spine-mcmaster-burlington-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-ent-mcmaster-burlington-1-node-spine-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-2-node-ent-mcmaster-burlington-1",
-      "from": "node-spine-mcmaster-burlington-2",
-      "to": "node-ent-mcmaster-burlington-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-2-node-ent-mcmaster-burlington-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-mcmaster-burlington-2-node-spine-mcmaster-burlington-2",
-      "from": "node-ent-mcmaster-burlington-2",
-      "to": "node-spine-mcmaster-burlington-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-ent-mcmaster-burlington-2-node-spine-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-2-node-ent-mcmaster-burlington-2",
-      "from": "node-spine-mcmaster-burlington-2",
-      "to": "node-ent-mcmaster-burlington-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-2-node-ent-mcmaster-burlington-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-mcmaster-burlington-3-node-spine-mcmaster-burlington-3",
-      "from": "node-ent-mcmaster-burlington-3",
-      "to": "node-spine-mcmaster-burlington-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-ent-mcmaster-burlington-3-node-spine-mcmaster-burlington-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-3-node-ent-mcmaster-burlington-3",
-      "from": "node-spine-mcmaster-burlington-3",
-      "to": "node-ent-mcmaster-burlington-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-3-node-ent-mcmaster-burlington-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-mcmaster-burlington-4-node-spine-mcmaster-burlington-1",
-      "from": "node-ent-mcmaster-burlington-4",
-      "to": "node-spine-mcmaster-burlington-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-ent-mcmaster-burlington-4-node-spine-mcmaster-burlington-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-mcmaster-burlington-1-node-ent-mcmaster-burlington-4",
-      "from": "node-spine-mcmaster-burlington-1",
-      "to": "node-ent-mcmaster-burlington-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-mcmaster-burlington",
-          "nativeId": "edge-node-spine-mcmaster-burlington-1-node-ent-mcmaster-burlington-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }

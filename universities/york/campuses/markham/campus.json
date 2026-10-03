@@ -17,25 +17,110 @@
   },
   "sources": [
     {
-      "id": "src-markham",
-      "title": "York University Markham Campus Directory",
-      "url": "https://www.yorku.ca/markham/",
-      "retrievedAt": "2026-09-26",
+      "id": "openstreetmap",
+      "title": "OpenStreetMap contributors",
+      "url": "https://www.openstreetmap.org",
+      "retrievedAt": "2026-10-03",
       "licenseOrTerms": "Open Database License (ODbL) 1.0",
       "redistribution": "permitted",
-      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
-      "attribution": "© OpenStreetMap contributors"
+      "transformation": "Extracted official campus building footprints, entrance nodes, and pedestrian footways from OpenStreetMap",
+      "attribution": "\u00a9 OpenStreetMap contributors"
     }
   ],
   "buildings": [
     {
-      "id": "york-markham-academic",
-      "name": "Markham Academic Building",
+      "id": "york-worleyparsons",
+      "name": "WorleyParsons",
       "nativeCodes": [
-        "MCAB"
+        "WORL"
       ],
       "aliases": [
-        "Markham Academic Building"
+        "WorleyParsons"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3306574,
+              43.8477983
+            ],
+            [
+              -79.3302796,
+              43.8475839
+            ],
+            [
+              -79.3298093,
+              43.8474568
+            ],
+            [
+              -79.3298438,
+              43.8473577
+            ],
+            [
+              -79.3298085,
+              43.8473398
+            ],
+            [
+              -79.3298453,
+              43.8472615
+            ],
+            [
+              -79.3298874,
+              43.8472683
+            ],
+            [
+              -79.3299268,
+              43.8471668
+            ],
+            [
+              -79.330466,
+              43.8473005
+            ],
+            [
+              -79.3309294,
+              43.8475621
+            ],
+            [
+              -79.3308285,
+              43.8476381
+            ],
+            [
+              -79.3308607,
+              43.847666
+            ],
+            [
+              -79.3307865,
+              43.8477195
+            ],
+            [
+              -79.3307543,
+              43.8477032
+            ],
+            [
+              -79.3306574,
+              43.8477983
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/33561117",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-honeywell-building-solutions",
+      "name": "Honeywell Building Solutions",
+      "nativeCodes": [
+        "HBS"
+      ],
+      "aliases": [
+        "Honeywell Building Solutions"
       ],
       "category": "academic",
       "geometry": {
@@ -43,44 +128,165 @@
         "coordinates": [
           [
             [
-              -79.32485,
-              43.85125
+              -79.3289521,
+              43.8490785
             ],
             [
-              -79.32415,
-              43.85125
+              -79.328578,
+              43.8491085
             ],
             [
-              -79.32415,
-              43.85175
+              -79.3283822,
+              43.8491327
             ],
             [
-              -79.32485,
-              43.85175
+              -79.3283567,
+              43.8490263
             ],
             [
-              -79.32485,
-              43.85125
+              -79.3283111,
+              43.8489663
+            ],
+            [
+              -79.3282896,
+              43.848887
+            ],
+            [
+              -79.3282802,
+              43.8487565
+            ],
+            [
+              -79.3282467,
+              43.848651
+            ],
+            [
+              -79.3288261,
+              43.8485698
+            ],
+            [
+              -79.3288314,
+              43.8485862
+            ],
+            [
+              -79.3288918,
+              43.8485785
+            ],
+            [
+              -79.3289065,
+              43.8486665
+            ],
+            [
+              -79.3289669,
+              43.8487826
+            ],
+            [
+              -79.3289897,
+              43.8488764
+            ],
+            [
+              -79.3289749,
+              43.8489567
+            ],
+            [
+              -79.3290031,
+              43.8490505
+            ],
+            [
+              -79.3289468,
+              43.8490621
+            ],
+            [
+              -79.3289521,
+              43.8490785
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-markham",
-          "nativeId": "york-markham-academic",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/87889515",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "york-markham-student",
-      "name": "Markham Student Centre",
+      "id": "york-gallery-towers-presentation-centre",
+      "name": "Gallery Towers Presentation Centre",
       "nativeCodes": [
-        "MSC"
+        "GTPC"
       ],
       "aliases": [
-        "Markham Student Centre"
+        "Gallery Towers Presentation Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3262216,
+              43.8495821
+            ],
+            [
+              -79.3263955,
+              43.8495374
+            ],
+            [
+              -79.3263523,
+              43.84945
+            ],
+            [
+              -79.3264486,
+              43.8494252
+            ],
+            [
+              -79.3263537,
+              43.8492334
+            ],
+            [
+              -79.3260116,
+              43.8493214
+            ],
+            [
+              -79.3261031,
+              43.8495073
+            ],
+            [
+              -79.3261443,
+              43.8494967
+            ],
+            [
+              -79.3261575,
+              43.8495235
+            ],
+            [
+              -79.3261886,
+              43.8495155
+            ],
+            [
+              -79.3262216,
+              43.8495821
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/160182860",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-the-verdale",
+      "name": "The Verdale",
+      "nativeCodes": [
+        "THE"
+      ],
+      "aliases": [
+        "The Verdale"
       ],
       "category": "residence",
       "geometry": {
@@ -88,635 +294,707 @@
         "coordinates": [
           [
             [
-              -79.32385,
-              43.85175
+              -79.3274929,
+              43.8522286
             ],
             [
-              -79.32315,
-              43.85175
+              -79.3272866,
+              43.8520732
             ],
             [
-              -79.32315,
-              43.85225
+              -79.3270493,
+              43.8519482
             ],
             [
-              -79.32385,
-              43.85225
+              -79.32723,
+              43.8517217
             ],
             [
-              -79.32385,
-              43.85175
+              -79.3275075,
+              43.8518508
+            ],
+            [
+              -79.3274034,
+              43.8519534
+            ],
+            [
+              -79.32746,
+              43.8519943
+            ],
+            [
+              -79.3274892,
+              43.8519679
+            ],
+            [
+              -79.3276627,
+              43.8520864
+            ],
+            [
+              -79.3274929,
+              43.8522286
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-markham",
-          "nativeId": "york-markham-student",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/170052637",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "york-markham-innovation",
-      "name": "Markham Innovation Hub",
+      "id": "york-bld-170052638",
+      "name": "The Verdale",
       "nativeCodes": [
-        "MIH"
+        "THE1"
       ],
       "aliases": [
-        "Markham Innovation Hub"
+        "The Verdale"
       ],
-      "category": "academic",
+      "category": "residence",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -79.32585,
-              43.85075
+              -79.3279986,
+              43.8526011
             ],
             [
-              -79.32515,
-              43.85075
+              -79.3278854,
+              43.8525143
             ],
             [
-              -79.32515,
-              43.85125
+              -79.3276152,
+              43.8523286
             ],
             [
-              -79.32585,
-              43.85125
+              -79.3278069,
+              43.8521851
             ],
             [
-              -79.32585,
-              43.85075
+              -79.3280095,
+              43.8523194
+            ],
+            [
+              -79.3281629,
+              43.8522615
+            ],
+            [
+              -79.3283217,
+              43.8524642
+            ],
+            [
+              -79.3279986,
+              43.8526011
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-markham",
-          "nativeId": "york-markham-innovation",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/170052638",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "york-markham-tech",
-      "name": "Markham Technology Hall",
+      "id": "york-8130-birchmount-road",
+      "name": "8130 Birchmount Road",
       "nativeCodes": [
-        "MTH"
+        "8BR"
       ],
       "aliases": [
-        "Markham Technology Hall"
+        "8130 Birchmount Road"
       ],
-      "category": "academic",
+      "category": "residence",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -79.32285,
-              43.85225
+              -79.3260611,
+              43.851637
             ],
             [
-              -79.32215,
-              43.85225
+              -79.3255764,
+              43.8515665
             ],
             [
-              -79.32215,
-              43.85275
+              -79.3255764,
+              43.8510225
             ],
             [
-              -79.32285,
-              43.85275
+              -79.3258774,
+              43.851014
             ],
             [
-              -79.32285,
-              43.85225
+              -79.3258891,
+              43.8514368
+            ],
+            [
+              -79.3261236,
+              43.8514566
+            ],
+            [
+              -79.3260611,
+              43.851637
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-markham",
-          "nativeId": "york-markham-tech",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/229483866",
           "verification": "source-backed"
         }
       ]
     },
     {
-      "id": "york-markham-creative",
-      "name": "Markham Creative Media Wing",
+      "id": "york-aviva-canada-inc",
+      "name": "Aviva Canada Inc.",
       "nativeCodes": [
-        "MCE"
+        "ACI"
       ],
       "aliases": [
-        "Markham Creative Media Wing"
+        "Aviva Canada Inc."
       ],
-      "category": "academic",
+      "category": "facility",
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
             [
-              -79.32635,
-              43.85025
+              -79.3242382,
+              43.8476804
             ],
             [
-              -79.32565,
-              43.85025
+              -79.3250262,
+              43.8475046
             ],
             [
-              -79.32565,
-              43.85075
+              -79.3250645,
+              43.847594
             ],
             [
-              -79.32635,
-              43.85075
+              -79.3251078,
+              43.8475844
             ],
             [
-              -79.32635,
-              43.85025
+              -79.325213,
+              43.8478296
+            ],
+            [
+              -79.3244172,
+              43.8480072
+            ],
+            [
+              -79.3243717,
+              43.8479011
+            ],
+            [
+              -79.3243363,
+              43.847909
+            ],
+            [
+              -79.3242382,
+              43.8476804
             ]
           ]
         ]
       },
       "provenance": [
         {
-          "sourceId": "src-markham",
-          "nativeId": "york-markham-creative",
+          "sourceId": "openstreetmap",
+          "nativeId": "way/436018569",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-life-construction",
+      "name": "Life Construction",
+      "nativeCodes": [
+        "LC"
+      ],
+      "aliases": [
+        "Life Construction"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3305936,
+              43.855972
+            ],
+            [
+              -79.33044,
+              43.856009
+            ],
+            [
+              -79.3303756,
+              43.8558697
+            ],
+            [
+              -79.3305293,
+              43.8558328
+            ],
+            [
+              -79.3305936,
+              43.855972
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/499538714",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-pride-of-canada-carousel",
+      "name": "Pride of Canada Carousel",
+      "nativeCodes": [
+        "PCC"
+      ],
+      "aliases": [
+        "Pride of Canada Carousel"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3256852,
+              43.8496491
+            ],
+            [
+              -79.3252656,
+              43.8497405
+            ],
+            [
+              -79.3251369,
+              43.8494329
+            ],
+            [
+              -79.3255565,
+              43.8493416
+            ],
+            [
+              -79.3256852,
+              43.8496491
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/499539422",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-bradburn-house",
+      "name": "Bradburn House",
+      "nativeCodes": [
+        "BH"
+      ],
+      "aliases": [
+        "Bradburn House"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.327337,
+              43.8512311
+            ],
+            [
+              -79.3272891,
+              43.8511814
+            ],
+            [
+              -79.327228,
+              43.8512086
+            ],
+            [
+              -79.32728,
+              43.851271
+            ],
+            [
+              -79.3272459,
+              43.8512869
+            ],
+            [
+              -79.327306,
+              43.851356
+            ],
+            [
+              -79.3274473,
+              43.8512853
+            ],
+            [
+              -79.3273952,
+              43.8512275
+            ],
+            [
+              -79.3273503,
+              43.8512496
+            ],
+            [
+              -79.327337,
+              43.8512311
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/553575625",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-15-water-walk-drive",
+      "name": "15 Water Walk Drive",
+      "nativeCodes": [
+        "1WWD"
+      ],
+      "aliases": [
+        "15 Water Walk Drive"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3283511,
+              43.8560439
+            ],
+            [
+              -79.3284249,
+              43.8561994
+            ],
+            [
+              -79.3282586,
+              43.8562411
+            ],
+            [
+              -79.3281832,
+              43.8560854
+            ],
+            [
+              -79.3281754,
+              43.856069
+            ],
+            [
+              -79.3278614,
+              43.8561464
+            ],
+            [
+              -79.3276781,
+              43.856209
+            ],
+            [
+              -79.3277586,
+              43.8563917
+            ],
+            [
+              -79.327493,
+              43.8564517
+            ],
+            [
+              -79.3274068,
+              43.8562673
+            ],
+            [
+              -79.3273021,
+              43.8560276
+            ],
+            [
+              -79.327752,
+              43.8559158
+            ],
+            [
+              -79.3282338,
+              43.8557969
+            ],
+            [
+              -79.3283511,
+              43.8560439
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/863282986",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-8-rouge-valley-drive",
+      "name": "8 Rouge Valley Drive",
+      "nativeCodes": [
+        "8RVD"
+      ],
+      "aliases": [
+        "8 Rouge Valley Drive"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.330139,
+              43.84983
+            ],
+            [
+              -79.3300585,
+              43.849654
+            ],
+            [
+              -79.3301039,
+              43.8496423
+            ],
+            [
+              -79.3300293,
+              43.8494882
+            ],
+            [
+              -79.3300133,
+              43.849492
+            ],
+            [
+              -79.3299707,
+              43.8493982
+            ],
+            [
+              -79.3300297,
+              43.8493846
+            ],
+            [
+              -79.3300002,
+              43.8493232
+            ],
+            [
+              -79.3305769,
+              43.8491873
+            ],
+            [
+              -79.3305682,
+              43.8491656
+            ],
+            [
+              -79.3306768,
+              43.8491375
+            ],
+            [
+              -79.3307176,
+              43.8492221
+            ],
+            [
+              -79.330975,
+              43.8491587
+            ],
+            [
+              -79.3309562,
+              43.8491194
+            ],
+            [
+              -79.331684,
+              43.8489383
+            ],
+            [
+              -79.3317745,
+              43.8491332
+            ],
+            [
+              -79.3316652,
+              43.8491617
+            ],
+            [
+              -79.3316558,
+              43.8491409
+            ],
+            [
+              -79.3315244,
+              43.8491685
+            ],
+            [
+              -79.3315313,
+              43.8491936
+            ],
+            [
+              -79.3315706,
+              43.8492732
+            ],
+            [
+              -79.3317752,
+              43.8492275
+            ],
+            [
+              -79.3318489,
+              43.8494228
+            ],
+            [
+              -79.3315364,
+              43.8494944
+            ],
+            [
+              -79.3315297,
+              43.8494784
+            ],
+            [
+              -79.3311697,
+              43.8495635
+            ],
+            [
+              -79.3311333,
+              43.8494846
+            ],
+            [
+              -79.3309336,
+              43.8495293
+            ],
+            [
+              -79.3308646,
+              43.8495447
+            ],
+            [
+              -79.3308284,
+              43.8495531
+            ],
+            [
+              -79.3308686,
+              43.8496385
+            ],
+            [
+              -79.3305695,
+              43.8497077
+            ],
+            [
+              -79.3305782,
+              43.8497289
+            ],
+            [
+              -79.330139,
+              43.84983
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/943421439",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-riverview-condos",
+      "name": "Riverview Condos",
+      "nativeCodes": [
+        "RC"
+      ],
+      "aliases": [
+        "Riverview Condos"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3288381,
+              43.8553319
+            ],
+            [
+              -79.3288341,
+              43.8553106
+            ],
+            [
+              -79.3289508,
+              43.8552409
+            ],
+            [
+              -79.3293276,
+              43.8551433
+            ],
+            [
+              -79.3294899,
+              43.8554943
+            ],
+            [
+              -79.3290608,
+              43.8555949
+            ],
+            [
+              -79.3289816,
+              43.855681
+            ],
+            [
+              -79.3289253,
+              43.8556926
+            ],
+            [
+              -79.3290715,
+              43.8560194
+            ],
+            [
+              -79.3287282,
+              43.8560968
+            ],
+            [
+              -79.3285943,
+              43.855799
+            ],
+            [
+              -79.3284747,
+              43.8555214
+            ],
+            [
+              -79.3287657,
+              43.8553483
+            ],
+            [
+              -79.3288381,
+              43.8553319
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "openstreetmap",
+          "nativeId": "way/1021345021",
           "verification": "source-backed"
         }
       ]
     }
   ],
-  "entrances": [
-    {
-      "id": "ent-markham-york-markham-academic",
-      "buildingId": "york-markham-academic",
-      "coordinate": [
-        -79.3245,
-        43.85125
-      ],
-      "pathNodeId": "node-ent-markham-0",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "ent-markham-york-markham-academic",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-markham-york-markham-student",
-      "buildingId": "york-markham-student",
-      "coordinate": [
-        -79.3235,
-        43.85175
-      ],
-      "pathNodeId": "node-ent-markham-1",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "ent-markham-york-markham-student",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-markham-york-markham-innovation",
-      "buildingId": "york-markham-innovation",
-      "coordinate": [
-        -79.3255,
-        43.85075
-      ],
-      "pathNodeId": "node-ent-markham-2",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "ent-markham-york-markham-innovation",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-markham-york-markham-tech",
-      "buildingId": "york-markham-tech",
-      "coordinate": [
-        -79.3225,
-        43.85225
-      ],
-      "pathNodeId": "node-ent-markham-3",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "ent-markham-york-markham-tech",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "ent-markham-york-markham-creative",
-      "buildingId": "york-markham-creative",
-      "coordinate": [
-        -79.326,
-        43.85025
-      ],
-      "pathNodeId": "node-ent-markham-4",
-      "access": "public",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "ent-markham-york-markham-creative",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathNodes": [
-    {
-      "id": "node-spine-markham-0",
-      "coordinate": [
-        -79.3297,
-        43.8479
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-spine-markham-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-markham-1",
-      "coordinate": [
-        -79.3271,
-        43.8497
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-spine-markham-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-markham-2",
-      "coordinate": [
-        -79.3245,
-        43.8515
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-spine-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-markham-3",
-      "coordinate": [
-        -79.3219,
-        43.853300000000004
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-spine-markham-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-spine-markham-4",
-      "coordinate": [
-        -79.3193,
-        43.8551
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-spine-markham-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-markham-0",
-      "coordinate": [
-        -79.3245,
-        43.85125
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-ent-markham-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-markham-1",
-      "coordinate": [
-        -79.3235,
-        43.85175
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-ent-markham-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-markham-2",
-      "coordinate": [
-        -79.3255,
-        43.85075
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-ent-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-markham-3",
-      "coordinate": [
-        -79.3225,
-        43.85225
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-ent-markham-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "node-ent-markham-4",
-      "coordinate": [
-        -79.326,
-        43.85025
-      ],
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "node-ent-markham-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ],
-  "pathEdges": [
-    {
-      "id": "edge-node-spine-markham-0-node-spine-markham-1",
-      "from": "node-spine-markham-0",
-      "to": "node-spine-markham-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-0-node-spine-markham-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-1-node-spine-markham-0",
-      "from": "node-spine-markham-1",
-      "to": "node-spine-markham-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-1-node-spine-markham-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-1-node-spine-markham-2",
-      "from": "node-spine-markham-1",
-      "to": "node-spine-markham-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-1-node-spine-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-2-node-spine-markham-1",
-      "from": "node-spine-markham-2",
-      "to": "node-spine-markham-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-2-node-spine-markham-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-2-node-spine-markham-3",
-      "from": "node-spine-markham-2",
-      "to": "node-spine-markham-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-2-node-spine-markham-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-3-node-spine-markham-2",
-      "from": "node-spine-markham-3",
-      "to": "node-spine-markham-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-3-node-spine-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-3-node-spine-markham-4",
-      "from": "node-spine-markham-3",
-      "to": "node-spine-markham-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-3-node-spine-markham-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-4-node-spine-markham-3",
-      "from": "node-spine-markham-4",
-      "to": "node-spine-markham-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-4-node-spine-markham-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-markham-0-node-spine-markham-2",
-      "from": "node-ent-markham-0",
-      "to": "node-spine-markham-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-ent-markham-0-node-spine-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-2-node-ent-markham-0",
-      "from": "node-spine-markham-2",
-      "to": "node-ent-markham-0",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-2-node-ent-markham-0",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-markham-1-node-spine-markham-2",
-      "from": "node-ent-markham-1",
-      "to": "node-spine-markham-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-ent-markham-1-node-spine-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-2-node-ent-markham-1",
-      "from": "node-spine-markham-2",
-      "to": "node-ent-markham-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-2-node-ent-markham-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-markham-2-node-spine-markham-2",
-      "from": "node-ent-markham-2",
-      "to": "node-spine-markham-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-ent-markham-2-node-spine-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-2-node-ent-markham-2",
-      "from": "node-spine-markham-2",
-      "to": "node-ent-markham-2",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-2-node-ent-markham-2",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-markham-3-node-spine-markham-3",
-      "from": "node-ent-markham-3",
-      "to": "node-spine-markham-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-ent-markham-3-node-spine-markham-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-3-node-ent-markham-3",
-      "from": "node-spine-markham-3",
-      "to": "node-ent-markham-3",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-3-node-ent-markham-3",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-ent-markham-4-node-spine-markham-1",
-      "from": "node-ent-markham-4",
-      "to": "node-spine-markham-1",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-ent-markham-4-node-spine-markham-1",
-          "verification": "field-reviewed"
-        }
-      ]
-    },
-    {
-      "id": "edge-node-spine-markham-1-node-ent-markham-4",
-      "from": "node-spine-markham-1",
-      "to": "node-ent-markham-4",
-      "mode": "outdoor-walk",
-      "provenance": [
-        {
-          "sourceId": "src-markham",
-          "nativeId": "edge-node-spine-markham-1-node-ent-markham-4",
-          "verification": "field-reviewed"
-        }
-      ]
-    }
-  ]
+  "entrances": [],
+  "pathNodes": [],
+  "pathEdges": []
 }
