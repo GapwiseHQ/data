@@ -24,6 +24,11 @@ import ubcCampus from "../universities/ubc/campus.json";
 import waterlooCampus from "../universities/waterloo/campus.json";
 import mcgillCampus from "../universities/mcgill/campus.json";
 
+const universityCampusModules = import.meta.glob(
+  "../universities/**/campus.json",
+  { eager: true, import: "default" },
+);
+
 const utsgFootprints = JSON.parse(utsgFootprintsJson);
 const utscFootprints = JSON.parse(utscFootprintsJson);
 
@@ -821,6 +826,20 @@ export const UNIVERSITIES = [
   }
 ];
 
+const UNIVERSITY_DATASETS = new Map();
+
+for (const university of UNIVERSITIES) {
+  if (university.id === "uoft") continue;
+  for (const campus of university.campuses) {
+    const subcampusPath = `../universities/${university.id}/campuses/${campus.id}/campus.json`;
+    const primaryPath = `../universities/${university.id}/campus.json`;
+    const dataset =
+      universityCampusModules[subcampusPath] ??
+      (campus.id === university.defaultCampus ? universityCampusModules[primaryPath] : undefined);
+    if (dataset) UNIVERSITY_DATASETS.set(campus.id, dataset);
+  }
+}
+
 export const CAMPUSES = {
   utm: {
     id: "utm",
@@ -967,6 +986,29 @@ export const CAMPUSES = {
   },
 };
 
+for (const university of UNIVERSITIES) {
+  for (const campus of university.campuses) {
+    if (university.id === "uoft") continue;
+    const dataset = UNIVERSITY_DATASETS.get(campus.id);
+    if (!dataset) continue;
+    const [[minLon, minLat], [maxLon, maxLat]] = dataset.campus.bounds;
+    const footprints = universityFootprints(dataset);
+    CAMPUSES[campus.id] = {
+      id: campus.id,
+      universityId: university.id,
+      shortName: campus.shortName,
+      name: campus.name,
+      bounds: boundsFromFeatures(footprints, { minLon, maxLon, minLat, maxLat }),
+      tileZoom: 16,
+    };
+  }
+}
+
+// Retire the pre-registry aliases now that the real Keele and Laurier Waterloo IDs
+// are first-class contribution targets.
+delete CAMPUSES.york;
+delete CAMPUSES.laurier;
+
 export const CAMPUS_IDS = Object.keys(CAMPUSES);
 
 export function campusFromQuery() {
@@ -974,14 +1016,9 @@ export function campusFromQuery() {
   const requestedCampus = params.get("campus")?.toLowerCase();
   const requestedUni = params.get("university")?.toLowerCase();
   if (requestedCampus) {
-    if (requestedCampus === "keele") return "york";
-    if (requestedCampus === "waterloo" && requestedUni === "laurier") return "laurier";
-    if (requestedCampus === "waterloo") return "waterloo-main";
+    if (CAMPUSES[requestedCampus]) return requestedCampus;
     if (requestedCampus === "ubc") return "ubc-vancouver";
     if (requestedCampus === "mcgill") return "mcgill-downtown";
-    if (CAMPUSES[requestedCampus]) {
-      return requestedCampus;
-    }
   }
   if (requestedUni) {
     const uni = UNIVERSITIES.find((u) => u.id === requestedUni);
@@ -1005,68 +1042,20 @@ export function canonicalBuildingsForCampus(campusId) {
   if (campusId === "utsg" || campusId === "utsc") {
     return importedBuildingsForCampus(campusId);
   }
-  if (campusId === "carleton")
-    return universityBuildings(carletonCampus, "carleton");
-  if (campusId === "tmu") return universityBuildings(tmuCampus, "tmu");
-  if (campusId === "queens") return universityBuildings(queensCampus, "queens");
-  if (campusId === "laurier")
-    return universityBuildings(laurierCampus, "laurier");
-  if (campusId === "york" || campusId === "keele")
-    return universityBuildings(yorkCampus, "york");
-  if (campusId === "mcmaster")
-    return universityBuildings(mcmasterCampus, "mcmaster");
-  if (campusId === "western")
-    return universityBuildings(westernCampus, "western");
-  if (campusId === "guelph") return universityBuildings(guelphCampus, "guelph");
-  if (campusId === "uottawa")
-    return universityBuildings(uottawaCampus, "uottawa");
-  if (campusId === "brock") return universityBuildings(brockCampus, "brock");
-  if (campusId === "ubc-vancouver")
-    return universityBuildings(ubcCampus, "ubc-vancouver");
-  if (campusId === "waterloo-main")
-    return universityBuildings(waterlooCampus, "waterloo-main");
-  if (campusId === "mcgill-downtown")
-    return universityBuildings(mcgillCampus, "mcgill-downtown");
-  return [];
+  return universityBuildings(UNIVERSITY_DATASETS.get(campusId), campusId);
 }
 
 export function canonicalFootprintsForCampus(campusId) {
   if (campusId === "utm") return utmFootprintFeatures;
   if (campusId === "utsg" || campusId === "utsc")
     return TRI_CAMPUS_FOOTPRINTS[campusId] ?? [];
-  if (campusId === "carleton") return CARLETON_FOOTPRINTS;
-  if (campusId === "tmu") return TMU_FOOTPRINTS;
-  if (campusId === "queens") return QUEENS_FOOTPRINTS;
-  if (campusId === "laurier") return LAURIER_FOOTPRINTS;
-  if (campusId === "york" || campusId === "keele") return YORK_FOOTPRINTS;
-  if (campusId === "mcmaster") return MCMASTER_FOOTPRINTS;
-  if (campusId === "western") return WESTERN_FOOTPRINTS;
-  if (campusId === "guelph") return GUELPH_FOOTPRINTS;
-  if (campusId === "uottawa") return UOTTAWA_FOOTPRINTS;
-  if (campusId === "brock") return BROCK_FOOTPRINTS;
-  if (campusId === "ubc-vancouver") return UBC_FOOTPRINTS;
-  if (campusId === "waterloo-main") return WATERLOO_FOOTPRINTS;
-  if (campusId === "mcgill-downtown") return MCGILL_FOOTPRINTS;
-  return [];
+  return universityFootprints(UNIVERSITY_DATASETS.get(campusId));
 }
 
 export function canonicalEntrancesForCampus(campusId) {
   if (campusId === "utm") return utmEntranceFeatures;
-  if (campusId === "carleton") return universityEntrances(carletonCampus);
-  if (campusId === "tmu") return universityEntrances(tmuCampus);
-  if (campusId === "queens") return universityEntrances(queensCampus);
-  if (campusId === "laurier") return universityEntrances(laurierCampus);
-  if (campusId === "york" || campusId === "keele")
-    return universityEntrances(yorkCampus);
-  if (campusId === "mcmaster") return universityEntrances(mcmasterCampus);
-  if (campusId === "western") return universityEntrances(westernCampus);
-  if (campusId === "guelph") return universityEntrances(guelphCampus);
-  if (campusId === "uottawa") return universityEntrances(uottawaCampus);
-  if (campusId === "brock") return universityEntrances(brockCampus);
-  if (campusId === "ubc-vancouver") return universityEntrances(ubcCampus);
-  if (campusId === "waterloo-main") return universityEntrances(waterlooCampus);
-  if (campusId === "mcgill-downtown") return universityEntrances(mcgillCampus);
-  return [];
+  if (campusId === "utsg" || campusId === "utsc") return [];
+  return universityEntrances(UNIVERSITY_DATASETS.get(campusId));
 }
 
 export function createCampusProjection(campusId) {
