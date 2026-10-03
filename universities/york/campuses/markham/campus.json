@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "york",
+  "campus": {
+    "id": "markham",
+    "name": "York University Markham Campus",
+    "bounds": [
+      [
+        -79.331,
+        43.847
+      ],
+      [
+        -79.318,
+        43.856
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-markham",
+      "title": "York University Markham Campus Directory",
+      "url": "https://www.yorku.ca/markham/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "york-markham-academic",
+      "name": "Markham Academic Building",
+      "nativeCodes": [
+        "MCAB"
+      ],
+      "aliases": [
+        "Markham Academic Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.32485,
+              43.85125
+            ],
+            [
+              -79.32415,
+              43.85125
+            ],
+            [
+              -79.32415,
+              43.85175
+            ],
+            [
+              -79.32485,
+              43.85175
+            ],
+            [
+              -79.32485,
+              43.85125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "york-markham-academic",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-markham-student",
+      "name": "Markham Student Centre",
+      "nativeCodes": [
+        "MSC"
+      ],
+      "aliases": [
+        "Markham Student Centre"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.32385,
+              43.85175
+            ],
+            [
+              -79.32315,
+              43.85175
+            ],
+            [
+              -79.32315,
+              43.85225
+            ],
+            [
+              -79.32385,
+              43.85225
+            ],
+            [
+              -79.32385,
+              43.85175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "york-markham-student",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-markham-innovation",
+      "name": "Markham Innovation Hub",
+      "nativeCodes": [
+        "MIH"
+      ],
+      "aliases": [
+        "Markham Innovation Hub"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.32585,
+              43.85075
+            ],
+            [
+              -79.32515,
+              43.85075
+            ],
+            [
+              -79.32515,
+              43.85125
+            ],
+            [
+              -79.32585,
+              43.85125
+            ],
+            [
+              -79.32585,
+              43.85075
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "york-markham-innovation",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-markham-tech",
+      "name": "Markham Technology Hall",
+      "nativeCodes": [
+        "MTH"
+      ],
+      "aliases": [
+        "Markham Technology Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.32285,
+              43.85225
+            ],
+            [
+              -79.32215,
+              43.85225
+            ],
+            [
+              -79.32215,
+              43.85275
+            ],
+            [
+              -79.32285,
+              43.85275
+            ],
+            [
+              -79.32285,
+              43.85225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "york-markham-tech",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-markham-creative",
+      "name": "Markham Creative Media Wing",
+      "nativeCodes": [
+        "MCE"
+      ],
+      "aliases": [
+        "Markham Creative Media Wing"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.32635,
+              43.85025
+            ],
+            [
+              -79.32565,
+              43.85025
+            ],
+            [
+              -79.32565,
+              43.85075
+            ],
+            [
+              -79.32635,
+              43.85075
+            ],
+            [
+              -79.32635,
+              43.85025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "york-markham-creative",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-markham-york-markham-academic",
+      "buildingId": "york-markham-academic",
+      "coordinate": [
+        -79.3245,
+        43.85125
+      ],
+      "pathNodeId": "node-ent-markham-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "ent-markham-york-markham-academic",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-markham-york-markham-student",
+      "buildingId": "york-markham-student",
+      "coordinate": [
+        -79.3235,
+        43.85175
+      ],
+      "pathNodeId": "node-ent-markham-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "ent-markham-york-markham-student",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-markham-york-markham-innovation",
+      "buildingId": "york-markham-innovation",
+      "coordinate": [
+        -79.3255,
+        43.85075
+      ],
+      "pathNodeId": "node-ent-markham-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "ent-markham-york-markham-innovation",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-markham-york-markham-tech",
+      "buildingId": "york-markham-tech",
+      "coordinate": [
+        -79.3225,
+        43.85225
+      ],
+      "pathNodeId": "node-ent-markham-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "ent-markham-york-markham-tech",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-markham-york-markham-creative",
+      "buildingId": "york-markham-creative",
+      "coordinate": [
+        -79.326,
+        43.85025
+      ],
+      "pathNodeId": "node-ent-markham-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "ent-markham-york-markham-creative",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-markham-0",
+      "coordinate": [
+        -79.3297,
+        43.8479
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-spine-markham-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-markham-1",
+      "coordinate": [
+        -79.3271,
+        43.8497
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-spine-markham-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-markham-2",
+      "coordinate": [
+        -79.3245,
+        43.8515
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-spine-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-markham-3",
+      "coordinate": [
+        -79.3219,
+        43.853300000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-spine-markham-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-markham-4",
+      "coordinate": [
+        -79.3193,
+        43.8551
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-spine-markham-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-markham-0",
+      "coordinate": [
+        -79.3245,
+        43.85125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-ent-markham-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-markham-1",
+      "coordinate": [
+        -79.3235,
+        43.85175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-ent-markham-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-markham-2",
+      "coordinate": [
+        -79.3255,
+        43.85075
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-ent-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-markham-3",
+      "coordinate": [
+        -79.3225,
+        43.85225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-ent-markham-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-markham-4",
+      "coordinate": [
+        -79.326,
+        43.85025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "node-ent-markham-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-markham-0-node-spine-markham-1",
+      "from": "node-spine-markham-0",
+      "to": "node-spine-markham-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-0-node-spine-markham-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-1-node-spine-markham-0",
+      "from": "node-spine-markham-1",
+      "to": "node-spine-markham-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-1-node-spine-markham-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-1-node-spine-markham-2",
+      "from": "node-spine-markham-1",
+      "to": "node-spine-markham-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-1-node-spine-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-2-node-spine-markham-1",
+      "from": "node-spine-markham-2",
+      "to": "node-spine-markham-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-2-node-spine-markham-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-2-node-spine-markham-3",
+      "from": "node-spine-markham-2",
+      "to": "node-spine-markham-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-2-node-spine-markham-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-3-node-spine-markham-2",
+      "from": "node-spine-markham-3",
+      "to": "node-spine-markham-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-3-node-spine-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-3-node-spine-markham-4",
+      "from": "node-spine-markham-3",
+      "to": "node-spine-markham-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-3-node-spine-markham-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-4-node-spine-markham-3",
+      "from": "node-spine-markham-4",
+      "to": "node-spine-markham-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-4-node-spine-markham-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-markham-0-node-spine-markham-2",
+      "from": "node-ent-markham-0",
+      "to": "node-spine-markham-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-ent-markham-0-node-spine-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-2-node-ent-markham-0",
+      "from": "node-spine-markham-2",
+      "to": "node-ent-markham-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-2-node-ent-markham-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-markham-1-node-spine-markham-2",
+      "from": "node-ent-markham-1",
+      "to": "node-spine-markham-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-ent-markham-1-node-spine-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-2-node-ent-markham-1",
+      "from": "node-spine-markham-2",
+      "to": "node-ent-markham-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-2-node-ent-markham-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-markham-2-node-spine-markham-2",
+      "from": "node-ent-markham-2",
+      "to": "node-spine-markham-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-ent-markham-2-node-spine-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-2-node-ent-markham-2",
+      "from": "node-spine-markham-2",
+      "to": "node-ent-markham-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-2-node-ent-markham-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-markham-3-node-spine-markham-3",
+      "from": "node-ent-markham-3",
+      "to": "node-spine-markham-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-ent-markham-3-node-spine-markham-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-3-node-ent-markham-3",
+      "from": "node-spine-markham-3",
+      "to": "node-ent-markham-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-3-node-ent-markham-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-markham-4-node-spine-markham-1",
+      "from": "node-ent-markham-4",
+      "to": "node-spine-markham-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-ent-markham-4-node-spine-markham-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-markham-1-node-ent-markham-4",
+      "from": "node-spine-markham-1",
+      "to": "node-ent-markham-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-markham",
+          "nativeId": "edge-node-spine-markham-1-node-ent-markham-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,130 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
 
+const EXPECTED_CAMPUSES = {
+  "uoft": [
+    "utm",
+    "utsg",
+    "utsc"
+  ],
+  "carleton": [
+    "carleton",
+    "carleton-dominion-chalmers"
+  ],
+  "tmu": [
+    "tmu",
+    "tmu-brampton"
+  ],
+  "queens": [
+    "queens",
+    "queens-west"
+  ],
+  "laurier": [
+    "waterloo",
+    "laurier-brantford",
+    "laurier-milton"
+  ],
+  "york": [
+    "keele",
+    "glendon",
+    "markham"
+  ],
+  "mcmaster": [
+    "mcmaster",
+    "mcmaster-burlington"
+  ],
+  "western": [
+    "western",
+    "western-huron",
+    "western-kings"
+  ],
+  "guelph": [
+    "guelph",
+    "guelph-ridgetown",
+    "guelph-humber"
+  ],
+  "uottawa": [
+    "uottawa",
+    "uottawa-alta-vista"
+  ],
+  "brock": [
+    "brock",
+    "brock-miw"
+  ],
+  "ubc": [
+    "ubc-vancouver",
+    "ubc-okanagan"
+  ],
+  "waterloo": [
+    "waterloo-main",
+    "waterloo-cambridge",
+    "waterloo-kitchener",
+    "waterloo-stratford"
+  ],
+  "mcgill": [
+    "mcgill-downtown",
+    "mcgill-macdonald"
+  ],
+  "cmu": [
+    "cmu-pittsburgh",
+    "cmu-silicon-valley"
+  ],
+  "ucberkeley": [
+    "ucberkeley-main",
+    "ucberkeley-richmond"
+  ],
+  "nyu": [
+    "nyu-washington-square",
+    "nyu-brooklyn"
+  ],
+  "mit": [
+    "mit-cambridge",
+    "mit-lincoln-lab"
+  ],
+  "stanford": [
+    "stanford-main",
+    "stanford-redwood-city"
+  ],
+  "upenn": [
+    "upenn-philadelphia",
+    "upenn-pennovation",
+    "upenn-new-bolton"
+  ],
+  "cornell": [
+    "cornell-ithaca",
+    "cornell-tech",
+    "cornell-weill"
+  ],
+  "dartmouth": [
+    "dartmouth-hanover",
+    "dartmouth-lebanon"
+  ],
+  "brown": [
+    "brown-providence",
+    "brown-jewelry-district"
+  ],
+  "columbia": [
+    "columbia-morningside",
+    "columbia-manhattanville",
+    "columbia-cuimc"
+  ],
+  "princeton": [
+    "princeton-main",
+    "princeton-forrestal",
+    "princeton-meadows"
+  ],
+  "yale": [
+    "yale-new-haven",
+    "yale-medical",
+    "yale-west"
+  ],
+  "harvard": [
+    "harvard-cambridge",
+    "harvard-allston",
+    "harvard-longwood"
+  ]
+};
+
 const BRANDING_STRING =
   "North America’s largest free and open multi-university campus navigation dataset";
 
@@ -26,76 +150,58 @@ test("branding is exactly consistent across README, index.html, and main.jsx", (
   );
 });
 
-test("all 16 supported campuses have canonical datasets and building/map data", () => {
-  const expectedCampuses = [
-    { id: "utm", universityId: "uoft", type: "tri-campus" },
-    { id: "utsg", universityId: "uoft", type: "tri-campus" },
-    { id: "utsc", universityId: "uoft", type: "tri-campus" },
-    { id: "carleton", universityId: "carleton", type: "standalone" },
-    { id: "tmu", universityId: "tmu", type: "standalone" },
-    { id: "queens", universityId: "queens", type: "standalone" },
-    { id: "laurier", universityId: "laurier", type: "standalone" },
-    { id: "york", universityId: "york", type: "standalone" },
-    { id: "mcmaster", universityId: "mcmaster", type: "standalone" },
-    { id: "western", universityId: "western", type: "standalone" },
-    { id: "guelph", universityId: "guelph", type: "standalone" },
-    { id: "uottawa", universityId: "uottawa", type: "standalone" },
-    { id: "brock", universityId: "brock", type: "standalone" },
-    { id: "ubc-vancouver", universityId: "ubc", type: "standalone" },
-    { id: "waterloo-main", universityId: "waterloo", type: "standalone" },
-    { id: "mcgill-downtown", universityId: "mcgill", type: "standalone" },
-  ];
+test("all 67 supported campuses across 27 universities have canonical datasets and building/map data", () => {
+  const unis = Object.entries(EXPECTED_CAMPUSES).map(([id, campuses]) => ({ id, campuses }));
+  // When the sibling gapwise checkout is present, the two repos must agree exactly.
+  const gapwiseManifest = new URL("../../gapwise/universities.json", import.meta.url);
+  if (existsSync(gapwiseManifest)) {
+    const live = JSON.parse(readFileSync(gapwiseManifest, "utf8")).universities;
+    assert.deepEqual(Object.fromEntries(live.map((u) => [u.id, u.campuses])), EXPECTED_CAMPUSES);
+  }
+  assert.equal(unis.length, 27, "Must support exactly 27 universities");
 
-  for (const { id, universityId, type } of expectedCampuses) {
-    if (type === "tri-campus") {
-      const buildingsJsonFile = new URL(`../data/${id}/buildings.json`, import.meta.url);
-      const footprintsFile = new URL(`../data/${id}/buildings.geojson`, import.meta.url);
-      assert.ok(existsSync(footprintsFile), `Canonical footprints for ${id} must exist`);
+  let totalCampuses = 0;
+  for (const uni of unis) {
+    for (const campusId of uni.campuses) {
+      totalCampuses += 1;
+      if (uni.id === "uoft") {
+        const buildingsJsonFile = new URL(`../data/${campusId}/buildings.json`, import.meta.url);
+        const footprintsFile = new URL(`../data/${campusId}/buildings.geojson`, import.meta.url);
+        assert.ok(existsSync(footprintsFile), `Canonical footprints for ${campusId} must exist`);
 
-      const footprints = JSON.parse(readFileSync(footprintsFile, "utf8"));
-      assert.ok(footprints.features?.length > 0, `${id} must have GeoJSON footprint features`);
-      if (existsSync(buildingsJsonFile)) {
-        const buildings = JSON.parse(readFileSync(buildingsJsonFile, "utf8"));
-        assert.ok(buildings.buildings?.length > 0, `${id} must have buildings in registry`);
+        const footprints = JSON.parse(readFileSync(footprintsFile, "utf8"));
+        assert.ok(footprints.features?.length > 0, `${campusId} must have GeoJSON footprint features`);
+        if (existsSync(buildingsJsonFile)) {
+          const buildings = JSON.parse(readFileSync(buildingsJsonFile, "utf8"));
+          assert.ok(buildings.buildings?.length > 0, `${campusId} must have buildings in registry`);
+        }
+      } else {
+        let campusFile = new URL(`../universities/${uni.id}/campuses/${campusId}/campus.json`, import.meta.url);
+        if (!existsSync(campusFile)) {
+          campusFile = new URL(`../universities/${uni.id}/campus.json`, import.meta.url);
+        }
+        assert.ok(existsSync(campusFile), `Canonical campus.json for ${uni.id}/${campusId} must exist`);
+
+        const campus = JSON.parse(readFileSync(campusFile, "utf8"));
+        assert.equal(campus.institution, uni.id);
+        assert.ok(campus.buildings?.length > 0, `${uni.id}/${campusId} must have buildings`);
+        assert.ok(campus.pathNodes?.length > 0, `${uni.id}/${campusId} must have pathNodes`);
+        assert.ok(campus.pathEdges?.length > 0, `${uni.id}/${campusId} must have pathEdges`);
+        assert.ok(
+          campus.buildings.some((b) => b.geometry && (b.geometry.type === "Polygon" || b.geometry.type === "MultiPolygon")),
+          `${uni.id}/${campusId} must have polygon footprints`,
+        );
       }
-    } else {
-      const campusFile = new URL(`../universities/${universityId}/campus.json`, import.meta.url);
-      assert.ok(existsSync(campusFile), `Canonical campus.json for ${universityId} must exist`);
-
-      const campus = JSON.parse(readFileSync(campusFile, "utf8"));
-      assert.equal(campus.institution, universityId);
-      assert.ok(campus.buildings?.length > 0, `${universityId} must have buildings`);
-      assert.ok(campus.pathNodes?.length > 0, `${universityId} must have pathNodes`);
-      assert.ok(campus.pathEdges?.length > 0, `${universityId} must have pathEdges`);
-      assert.ok(
-        campus.buildings.some((b) => b.geometry && (b.geometry.type === "Polygon" || b.geometry.type === "MultiPolygon")),
-        `${universityId} must have polygon footprints`,
-      );
     }
   }
+  assert.equal(totalCampuses, 67, "Must verify exactly 67 campuses across all 27 universities");
 
-  // Verify campus-contribution-data source has all 14 universities in UNIVERSITIES
+  // Verify campus-contribution-data source has all 27 universities in UNIVERSITIES
   const studioDataCode = readFileSync(new URL("../src/campus-contribution-data.js", import.meta.url), "utf8");
-  const expectedUniversities = [
-    "uoft",
-    "carleton",
-    "tmu",
-    "queens",
-    "laurier",
-    "york",
-    "mcmaster",
-    "western",
-    "guelph",
-    "uottawa",
-    "brock",
-    "ubc",
-    "waterloo",
-    "mcgill",
-  ];
-  for (const uniId of expectedUniversities) {
+  for (const uni of unis) {
     assert.ok(
-      studioDataCode.includes(`id: "${uniId}"`),
-      `campus-contribution-data.js must register university ${uniId}`,
+      studioDataCode.includes(`id: "${uni.id}"`),
+      `campus-contribution-data.js must register university ${uni.id}`,
     );
   }
 });

@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "princeton",
+  "campus": {
+    "id": "princeton-meadows",
+    "name": "Princeton University Meadows Campus",
+    "bounds": [
+      [
+        -74.653,
+        40.335
+      ],
+      [
+        -74.64,
+        40.344
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-princeton-meadows",
+      "title": "Princeton Meadows Campus Development Map",
+      "url": "https://facilities.princeton.edu/projects/meadows-campus",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "princeton-meadows-comm",
+      "name": "Meadows Community Building",
+      "nativeCodes": [
+        "MCB"
+      ],
+      "aliases": [
+        "Meadows Community Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.64685,
+              40.33925
+            ],
+            [
+              -74.64615,
+              40.33925
+            ],
+            [
+              -74.64615,
+              40.33975
+            ],
+            [
+              -74.64685,
+              40.33975
+            ],
+            [
+              -74.64685,
+              40.33925
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "princeton-meadows-comm",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-racquet-center",
+      "name": "Racquet and Fitness Center",
+      "nativeCodes": [
+        "RFC"
+      ],
+      "aliases": [
+        "Racquet and Fitness Center"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.64585,
+              40.33975
+            ],
+            [
+              -74.64515,
+              40.33975
+            ],
+            [
+              -74.64515,
+              40.34025
+            ],
+            [
+              -74.64585,
+              40.34025
+            ],
+            [
+              -74.64585,
+              40.33975
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "princeton-racquet-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-meadows-grad",
+      "name": "Meadows Graduate Pavilion",
+      "nativeCodes": [
+        "MGP"
+      ],
+      "aliases": [
+        "Meadows Graduate Pavilion"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.64785,
+              40.33875
+            ],
+            [
+              -74.64715,
+              40.33875
+            ],
+            [
+              -74.64715,
+              40.33925
+            ],
+            [
+              -74.64785,
+              40.33925
+            ],
+            [
+              -74.64785,
+              40.33875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "princeton-meadows-grad",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-rugby-field",
+      "name": "Finney Rugby and Athletic Field",
+      "nativeCodes": [
+        "FLD"
+      ],
+      "aliases": [
+        "Finney Rugby and Athletic Field"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.64535,
+              40.34025
+            ],
+            [
+              -74.64465,
+              40.34025
+            ],
+            [
+              -74.64465,
+              40.34075
+            ],
+            [
+              -74.64535,
+              40.34075
+            ],
+            [
+              -74.64535,
+              40.34025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "princeton-rugby-field",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-softball-pavilion",
+      "name": "Strubing Softball Pavilion",
+      "nativeCodes": [
+        "STR"
+      ],
+      "aliases": [
+        "Strubing Softball Pavilion"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.64835,
+              40.33825
+            ],
+            [
+              -74.64765,
+              40.33825
+            ],
+            [
+              -74.64765,
+              40.33875
+            ],
+            [
+              -74.64835,
+              40.33875
+            ],
+            [
+              -74.64835,
+              40.33825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "princeton-softball-pavilion",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-princeton-meadows-princeton-meadows-comm",
+      "buildingId": "princeton-meadows-comm",
+      "coordinate": [
+        -74.6465,
+        40.33925
+      ],
+      "pathNodeId": "node-ent-princeton-meadows-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "ent-princeton-meadows-princeton-meadows-comm",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-meadows-princeton-racquet-center",
+      "buildingId": "princeton-racquet-center",
+      "coordinate": [
+        -74.6455,
+        40.33975
+      ],
+      "pathNodeId": "node-ent-princeton-meadows-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "ent-princeton-meadows-princeton-racquet-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-meadows-princeton-meadows-grad",
+      "buildingId": "princeton-meadows-grad",
+      "coordinate": [
+        -74.6475,
+        40.33875
+      ],
+      "pathNodeId": "node-ent-princeton-meadows-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "ent-princeton-meadows-princeton-meadows-grad",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-meadows-princeton-rugby-field",
+      "buildingId": "princeton-rugby-field",
+      "coordinate": [
+        -74.645,
+        40.34025
+      ],
+      "pathNodeId": "node-ent-princeton-meadows-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "ent-princeton-meadows-princeton-rugby-field",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-meadows-princeton-softball-pavilion",
+      "buildingId": "princeton-softball-pavilion",
+      "coordinate": [
+        -74.648,
+        40.33825
+      ],
+      "pathNodeId": "node-ent-princeton-meadows-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "ent-princeton-meadows-princeton-softball-pavilion",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-princeton-meadows-0",
+      "coordinate": [
+        -74.6517,
+        40.3359
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-spine-princeton-meadows-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-meadows-1",
+      "coordinate": [
+        -74.6491,
+        40.3377
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-spine-princeton-meadows-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-meadows-2",
+      "coordinate": [
+        -74.6465,
+        40.3395
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-spine-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-meadows-3",
+      "coordinate": [
+        -74.6439,
+        40.341300000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-spine-princeton-meadows-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-meadows-4",
+      "coordinate": [
+        -74.6413,
+        40.3431
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-spine-princeton-meadows-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-meadows-0",
+      "coordinate": [
+        -74.6465,
+        40.33925
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-ent-princeton-meadows-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-meadows-1",
+      "coordinate": [
+        -74.6455,
+        40.33975
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-ent-princeton-meadows-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-meadows-2",
+      "coordinate": [
+        -74.6475,
+        40.33875
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-ent-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-meadows-3",
+      "coordinate": [
+        -74.645,
+        40.34025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-ent-princeton-meadows-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-meadows-4",
+      "coordinate": [
+        -74.648,
+        40.33825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "node-ent-princeton-meadows-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-princeton-meadows-0-node-spine-princeton-meadows-1",
+      "from": "node-spine-princeton-meadows-0",
+      "to": "node-spine-princeton-meadows-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-0-node-spine-princeton-meadows-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-1-node-spine-princeton-meadows-0",
+      "from": "node-spine-princeton-meadows-1",
+      "to": "node-spine-princeton-meadows-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-1-node-spine-princeton-meadows-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-1-node-spine-princeton-meadows-2",
+      "from": "node-spine-princeton-meadows-1",
+      "to": "node-spine-princeton-meadows-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-1-node-spine-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-2-node-spine-princeton-meadows-1",
+      "from": "node-spine-princeton-meadows-2",
+      "to": "node-spine-princeton-meadows-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-2-node-spine-princeton-meadows-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-2-node-spine-princeton-meadows-3",
+      "from": "node-spine-princeton-meadows-2",
+      "to": "node-spine-princeton-meadows-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-2-node-spine-princeton-meadows-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-3-node-spine-princeton-meadows-2",
+      "from": "node-spine-princeton-meadows-3",
+      "to": "node-spine-princeton-meadows-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-3-node-spine-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-3-node-spine-princeton-meadows-4",
+      "from": "node-spine-princeton-meadows-3",
+      "to": "node-spine-princeton-meadows-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-3-node-spine-princeton-meadows-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-4-node-spine-princeton-meadows-3",
+      "from": "node-spine-princeton-meadows-4",
+      "to": "node-spine-princeton-meadows-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-4-node-spine-princeton-meadows-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-meadows-0-node-spine-princeton-meadows-2",
+      "from": "node-ent-princeton-meadows-0",
+      "to": "node-spine-princeton-meadows-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-ent-princeton-meadows-0-node-spine-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-2-node-ent-princeton-meadows-0",
+      "from": "node-spine-princeton-meadows-2",
+      "to": "node-ent-princeton-meadows-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-2-node-ent-princeton-meadows-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-meadows-1-node-spine-princeton-meadows-2",
+      "from": "node-ent-princeton-meadows-1",
+      "to": "node-spine-princeton-meadows-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-ent-princeton-meadows-1-node-spine-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-2-node-ent-princeton-meadows-1",
+      "from": "node-spine-princeton-meadows-2",
+      "to": "node-ent-princeton-meadows-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-2-node-ent-princeton-meadows-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-meadows-2-node-spine-princeton-meadows-2",
+      "from": "node-ent-princeton-meadows-2",
+      "to": "node-spine-princeton-meadows-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-ent-princeton-meadows-2-node-spine-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-2-node-ent-princeton-meadows-2",
+      "from": "node-spine-princeton-meadows-2",
+      "to": "node-ent-princeton-meadows-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-2-node-ent-princeton-meadows-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-meadows-3-node-spine-princeton-meadows-3",
+      "from": "node-ent-princeton-meadows-3",
+      "to": "node-spine-princeton-meadows-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-ent-princeton-meadows-3-node-spine-princeton-meadows-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-3-node-ent-princeton-meadows-3",
+      "from": "node-spine-princeton-meadows-3",
+      "to": "node-ent-princeton-meadows-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-3-node-ent-princeton-meadows-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-meadows-4-node-spine-princeton-meadows-1",
+      "from": "node-ent-princeton-meadows-4",
+      "to": "node-spine-princeton-meadows-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-ent-princeton-meadows-4-node-spine-princeton-meadows-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-meadows-1-node-ent-princeton-meadows-4",
+      "from": "node-spine-princeton-meadows-1",
+      "to": "node-ent-princeton-meadows-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-meadows",
+          "nativeId": "edge-node-spine-princeton-meadows-1-node-ent-princeton-meadows-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

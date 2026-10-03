@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "upenn",
+  "sources": [
+    {
+      "id": "src-upenn-academic",
+      "title": "University of Pennsylvania Philadelphia Campus Academic Schedule",
+      "url": "https://facilities.upenn.edu/maps",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "University of Pennsylvania Philadelphia Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

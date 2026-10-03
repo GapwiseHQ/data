@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "queens",
+  "campus": {
+    "id": "queens-west",
+    "name": "Queen's University West Campus",
+    "bounds": [
+      [
+        -76.524,
+        44.221
+      ],
+      [
+        -76.509,
+        44.23
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-queens-west",
+      "title": "Queen's University West Campus Directory",
+      "url": "https://www.queensu.ca/campusmap/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "queens-duncan-mcarthur",
+      "name": "Duncan McArthur Hall",
+      "nativeCodes": [
+        "MAC"
+      ],
+      "aliases": [
+        "Duncan McArthur Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.51685,
+              44.22525
+            ],
+            [
+              -76.51615,
+              44.22525
+            ],
+            [
+              -76.51615,
+              44.22575
+            ],
+            [
+              -76.51685,
+              44.22575
+            ],
+            [
+              -76.51685,
+              44.22525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "queens-duncan-mcarthur",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "queens-jean-royce",
+      "name": "Jean Royce Hall",
+      "nativeCodes": [
+        "JRH"
+      ],
+      "aliases": [
+        "Jean Royce Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.51535,
+              44.22425
+            ],
+            [
+              -76.51465,
+              44.22425
+            ],
+            [
+              -76.51465,
+              44.22475
+            ],
+            [
+              -76.51535,
+              44.22475
+            ],
+            [
+              -76.51535,
+              44.22425
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "queens-jean-royce",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "queens-richardson-stadium",
+      "name": "Richardson Memorial Stadium",
+      "nativeCodes": [
+        "STAD"
+      ],
+      "aliases": [
+        "Richardson Memorial Stadium"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.51885,
+              44.22625
+            ],
+            [
+              -76.51815,
+              44.22625
+            ],
+            [
+              -76.51815,
+              44.22675
+            ],
+            [
+              -76.51885,
+              44.22675
+            ],
+            [
+              -76.51885,
+              44.22625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "queens-richardson-stadium",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "queens-deutsch-pavilion",
+      "name": "John Deutsch Sports Pavilion",
+      "nativeCodes": [
+        "JDP"
+      ],
+      "aliases": [
+        "John Deutsch Sports Pavilion"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.51785,
+              44.22725
+            ],
+            [
+              -76.51715,
+              44.22725
+            ],
+            [
+              -76.51715,
+              44.22775
+            ],
+            [
+              -76.51785,
+              44.22775
+            ],
+            [
+              -76.51785,
+              44.22725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "queens-deutsch-pavilion",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "queens-west-tech",
+      "name": "West Technology Centre",
+      "nativeCodes": [
+        "WTC"
+      ],
+      "aliases": [
+        "West Technology Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.51485,
+              44.22575
+            ],
+            [
+              -76.51415,
+              44.22575
+            ],
+            [
+              -76.51415,
+              44.22625
+            ],
+            [
+              -76.51485,
+              44.22625
+            ],
+            [
+              -76.51485,
+              44.22575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "queens-west-tech",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-queens-west-queens-duncan-mcarthur",
+      "buildingId": "queens-duncan-mcarthur",
+      "coordinate": [
+        -76.5165,
+        44.22525
+      ],
+      "pathNodeId": "node-ent-queens-west-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "ent-queens-west-queens-duncan-mcarthur",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-queens-west-queens-jean-royce",
+      "buildingId": "queens-jean-royce",
+      "coordinate": [
+        -76.515,
+        44.22425
+      ],
+      "pathNodeId": "node-ent-queens-west-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "ent-queens-west-queens-jean-royce",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-queens-west-queens-richardson-stadium",
+      "buildingId": "queens-richardson-stadium",
+      "coordinate": [
+        -76.5185,
+        44.22625
+      ],
+      "pathNodeId": "node-ent-queens-west-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "ent-queens-west-queens-richardson-stadium",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-queens-west-queens-deutsch-pavilion",
+      "buildingId": "queens-deutsch-pavilion",
+      "coordinate": [
+        -76.5175,
+        44.22725
+      ],
+      "pathNodeId": "node-ent-queens-west-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "ent-queens-west-queens-deutsch-pavilion",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-queens-west-queens-west-tech",
+      "buildingId": "queens-west-tech",
+      "coordinate": [
+        -76.5145,
+        44.22575
+      ],
+      "pathNodeId": "node-ent-queens-west-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "ent-queens-west-queens-west-tech",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-queens-west-0",
+      "coordinate": [
+        -76.52250000000001,
+        44.2219
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-spine-queens-west-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-queens-west-1",
+      "coordinate": [
+        -76.5195,
+        44.223699999999994
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-spine-queens-west-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-queens-west-2",
+      "coordinate": [
+        -76.51650000000001,
+        44.2255
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-spine-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-queens-west-3",
+      "coordinate": [
+        -76.5135,
+        44.2273
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-spine-queens-west-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-queens-west-4",
+      "coordinate": [
+        -76.51050000000001,
+        44.229099999999995
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-spine-queens-west-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-queens-west-0",
+      "coordinate": [
+        -76.5165,
+        44.22525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-ent-queens-west-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-queens-west-1",
+      "coordinate": [
+        -76.515,
+        44.22425
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-ent-queens-west-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-queens-west-2",
+      "coordinate": [
+        -76.5185,
+        44.22625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-ent-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-queens-west-3",
+      "coordinate": [
+        -76.5175,
+        44.22725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-ent-queens-west-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-queens-west-4",
+      "coordinate": [
+        -76.5145,
+        44.22575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "node-ent-queens-west-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-queens-west-0-node-spine-queens-west-1",
+      "from": "node-spine-queens-west-0",
+      "to": "node-spine-queens-west-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-0-node-spine-queens-west-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-1-node-spine-queens-west-0",
+      "from": "node-spine-queens-west-1",
+      "to": "node-spine-queens-west-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-1-node-spine-queens-west-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-1-node-spine-queens-west-2",
+      "from": "node-spine-queens-west-1",
+      "to": "node-spine-queens-west-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-1-node-spine-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-2-node-spine-queens-west-1",
+      "from": "node-spine-queens-west-2",
+      "to": "node-spine-queens-west-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-2-node-spine-queens-west-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-2-node-spine-queens-west-3",
+      "from": "node-spine-queens-west-2",
+      "to": "node-spine-queens-west-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-2-node-spine-queens-west-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-3-node-spine-queens-west-2",
+      "from": "node-spine-queens-west-3",
+      "to": "node-spine-queens-west-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-3-node-spine-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-3-node-spine-queens-west-4",
+      "from": "node-spine-queens-west-3",
+      "to": "node-spine-queens-west-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-3-node-spine-queens-west-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-4-node-spine-queens-west-3",
+      "from": "node-spine-queens-west-4",
+      "to": "node-spine-queens-west-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-4-node-spine-queens-west-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-queens-west-0-node-spine-queens-west-2",
+      "from": "node-ent-queens-west-0",
+      "to": "node-spine-queens-west-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-ent-queens-west-0-node-spine-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-2-node-ent-queens-west-0",
+      "from": "node-spine-queens-west-2",
+      "to": "node-ent-queens-west-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-2-node-ent-queens-west-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-queens-west-1-node-spine-queens-west-2",
+      "from": "node-ent-queens-west-1",
+      "to": "node-spine-queens-west-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-ent-queens-west-1-node-spine-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-2-node-ent-queens-west-1",
+      "from": "node-spine-queens-west-2",
+      "to": "node-ent-queens-west-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-2-node-ent-queens-west-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-queens-west-2-node-spine-queens-west-2",
+      "from": "node-ent-queens-west-2",
+      "to": "node-spine-queens-west-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-ent-queens-west-2-node-spine-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-2-node-ent-queens-west-2",
+      "from": "node-spine-queens-west-2",
+      "to": "node-ent-queens-west-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-2-node-ent-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-queens-west-3-node-spine-queens-west-2",
+      "from": "node-ent-queens-west-3",
+      "to": "node-spine-queens-west-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-ent-queens-west-3-node-spine-queens-west-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-2-node-ent-queens-west-3",
+      "from": "node-spine-queens-west-2",
+      "to": "node-ent-queens-west-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-2-node-ent-queens-west-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-queens-west-4-node-spine-queens-west-3",
+      "from": "node-ent-queens-west-4",
+      "to": "node-spine-queens-west-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-ent-queens-west-4-node-spine-queens-west-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-queens-west-3-node-ent-queens-west-4",
+      "from": "node-spine-queens-west-3",
+      "to": "node-ent-queens-west-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-queens-west",
+          "nativeId": "edge-node-spine-queens-west-3-node-ent-queens-west-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

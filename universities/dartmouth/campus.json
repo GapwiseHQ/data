@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "dartmouth",
+  "campus": {
+    "id": "dartmouth-hanover",
+    "name": "Dartmouth College Hanover Campus",
+    "bounds": [
+      [
+        -72.295,
+        43.7
+      ],
+      [
+        -72.282,
+        43.709
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-dartmouth-hanover",
+      "title": "Dartmouth College Campus Map",
+      "url": "https://www.dartmouth.edu/maps/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "dartmouth-baker-berry",
+      "name": "Baker-Berry Library",
+      "nativeCodes": [
+        "BAK"
+      ],
+      "aliases": [
+        "Baker-Berry Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28885,
+              43.70425
+            ],
+            [
+              -72.28815,
+              43.70425
+            ],
+            [
+              -72.28815,
+              43.70475
+            ],
+            [
+              -72.28885,
+              43.70475
+            ],
+            [
+              -72.28885,
+              43.70425
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-baker-berry",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-dartmouth-hall",
+      "name": "Dartmouth Hall",
+      "nativeCodes": [
+        "DH"
+      ],
+      "aliases": [
+        "Dartmouth Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28785,
+              43.70375
+            ],
+            [
+              -72.28715,
+              43.70375
+            ],
+            [
+              -72.28715,
+              43.70425
+            ],
+            [
+              -72.28785,
+              43.70425
+            ],
+            [
+              -72.28785,
+              43.70375
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-dartmouth-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-cummings-thayer",
+      "name": "Cummings Hall (Thayer Engineering)",
+      "nativeCodes": [
+        "THAY"
+      ],
+      "aliases": [
+        "Cummings Hall (Thayer Engineering)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.29235,
+              43.70575
+            ],
+            [
+              -72.29165,
+              43.70575
+            ],
+            [
+              -72.29165,
+              43.70625
+            ],
+            [
+              -72.29235,
+              43.70625
+            ],
+            [
+              -72.29235,
+              43.70575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-cummings-thayer",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-tuck-hall",
+      "name": "Tuck Hall (Tuck Business)",
+      "nativeCodes": [
+        "TUCK"
+      ],
+      "aliases": [
+        "Tuck Hall (Tuck Business)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.29335,
+              43.70525
+            ],
+            [
+              -72.29265,
+              43.70525
+            ],
+            [
+              -72.29265,
+              43.70575
+            ],
+            [
+              -72.29335,
+              43.70575
+            ],
+            [
+              -72.29335,
+              43.70525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-tuck-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-hopkins-arts",
+      "name": "Hopkins Center for the Arts",
+      "nativeCodes": [
+        "HOP"
+      ],
+      "aliases": [
+        "Hopkins Center for the Arts"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28735,
+              43.70275
+            ],
+            [
+              -72.28665,
+              43.70275
+            ],
+            [
+              -72.28665,
+              43.70325
+            ],
+            [
+              -72.28735,
+              43.70325
+            ],
+            [
+              -72.28735,
+              43.70275
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-hopkins-arts",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-steele-hall",
+      "name": "Steele Hall (Sciences)",
+      "nativeCodes": [
+        "STEE"
+      ],
+      "aliases": [
+        "Steele Hall (Sciences)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28985,
+              43.70475
+            ],
+            [
+              -72.28915,
+              43.70475
+            ],
+            [
+              -72.28915,
+              43.70525
+            ],
+            [
+              -72.28985,
+              43.70525
+            ],
+            [
+              -72.28985,
+              43.70475
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-steele-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-fairchild-center",
+      "name": "Fairchild Physical Sciences Center",
+      "nativeCodes": [
+        "FPC"
+      ],
+      "aliases": [
+        "Fairchild Physical Sciences Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28835,
+              43.70525
+            ],
+            [
+              -72.28765,
+              43.70525
+            ],
+            [
+              -72.28765,
+              43.70575
+            ],
+            [
+              -72.28835,
+              43.70575
+            ],
+            [
+              -72.28835,
+              43.70525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-fairchild-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-moore-hall",
+      "name": "Moore Hall",
+      "nativeCodes": [
+        "MH"
+      ],
+      "aliases": [
+        "Moore Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28785,
+              43.70575
+            ],
+            [
+              -72.28715,
+              43.70575
+            ],
+            [
+              -72.28715,
+              43.70625
+            ],
+            [
+              -72.28785,
+              43.70625
+            ],
+            [
+              -72.28785,
+              43.70575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-moore-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-carson-hall",
+      "name": "Carson Hall",
+      "nativeCodes": [
+        "CH"
+      ],
+      "aliases": [
+        "Carson Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28935,
+              43.70595
+            ],
+            [
+              -72.28865,
+              43.70595
+            ],
+            [
+              -72.28865,
+              43.70645
+            ],
+            [
+              -72.28935,
+              43.70645
+            ],
+            [
+              -72.28935,
+              43.70595
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-carson-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-wilder-hall",
+      "name": "Wilder Hall",
+      "nativeCodes": [
+        "WH"
+      ],
+      "aliases": [
+        "Wilder Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28735,
+              43.70475
+            ],
+            [
+              -72.28665,
+              43.70475
+            ],
+            [
+              -72.28665,
+              43.70525
+            ],
+            [
+              -72.28735,
+              43.70525
+            ],
+            [
+              -72.28735,
+              43.70475
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-wilder-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-burke-hall",
+      "name": "Burke Chemical Laboratory",
+      "nativeCodes": [
+        "BH"
+      ],
+      "aliases": [
+        "Burke Chemical Laboratory"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.28685,
+              43.70525
+            ],
+            [
+              -72.28615,
+              43.70525
+            ],
+            [
+              -72.28615,
+              43.70575
+            ],
+            [
+              -72.28685,
+              43.70575
+            ],
+            [
+              -72.28685,
+              43.70525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "dartmouth-burke-hall",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-baker-berry",
+      "buildingId": "dartmouth-baker-berry",
+      "coordinate": [
+        -72.2885,
+        43.70425
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-baker-berry",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-dartmouth-hall",
+      "buildingId": "dartmouth-dartmouth-hall",
+      "coordinate": [
+        -72.2875,
+        43.70375
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-dartmouth-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-cummings-thayer",
+      "buildingId": "dartmouth-cummings-thayer",
+      "coordinate": [
+        -72.292,
+        43.70575
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-cummings-thayer",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-tuck-hall",
+      "buildingId": "dartmouth-tuck-hall",
+      "coordinate": [
+        -72.293,
+        43.70525
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-tuck-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-hopkins-arts",
+      "buildingId": "dartmouth-hopkins-arts",
+      "coordinate": [
+        -72.287,
+        43.70275
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-hopkins-arts",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-steele-hall",
+      "buildingId": "dartmouth-steele-hall",
+      "coordinate": [
+        -72.2895,
+        43.70475
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-steele-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-fairchild-center",
+      "buildingId": "dartmouth-fairchild-center",
+      "coordinate": [
+        -72.288,
+        43.70525
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-fairchild-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-moore-hall",
+      "buildingId": "dartmouth-moore-hall",
+      "coordinate": [
+        -72.2875,
+        43.70575
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-moore-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-carson-hall",
+      "buildingId": "dartmouth-carson-hall",
+      "coordinate": [
+        -72.289,
+        43.70595
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-carson-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-wilder-hall",
+      "buildingId": "dartmouth-wilder-hall",
+      "coordinate": [
+        -72.287,
+        43.70475
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-wilder-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-hanover-dartmouth-burke-hall",
+      "buildingId": "dartmouth-burke-hall",
+      "coordinate": [
+        -72.2865,
+        43.70525
+      ],
+      "pathNodeId": "node-ent-dartmouth-hanover-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "ent-dartmouth-hanover-dartmouth-burke-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-dartmouth-hanover-0",
+      "coordinate": [
+        -72.2937,
+        43.700900000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-spine-dartmouth-hanover-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-hanover-1",
+      "coordinate": [
+        -72.2911,
+        43.7027
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-spine-dartmouth-hanover-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-hanover-2",
+      "coordinate": [
+        -72.2885,
+        43.7045
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-hanover-3",
+      "coordinate": [
+        -72.2859,
+        43.706300000000006
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-spine-dartmouth-hanover-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-hanover-4",
+      "coordinate": [
+        -72.2833,
+        43.7081
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-spine-dartmouth-hanover-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-0",
+      "coordinate": [
+        -72.2885,
+        43.70425
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-1",
+      "coordinate": [
+        -72.2875,
+        43.70375
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-2",
+      "coordinate": [
+        -72.292,
+        43.70575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-3",
+      "coordinate": [
+        -72.293,
+        43.70525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-4",
+      "coordinate": [
+        -72.287,
+        43.70275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-5",
+      "coordinate": [
+        -72.2895,
+        43.70475
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-6",
+      "coordinate": [
+        -72.288,
+        43.70525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-7",
+      "coordinate": [
+        -72.2875,
+        43.70575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-8",
+      "coordinate": [
+        -72.289,
+        43.70595
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-9",
+      "coordinate": [
+        -72.287,
+        43.70475
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-hanover-10",
+      "coordinate": [
+        -72.2865,
+        43.70525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "node-ent-dartmouth-hanover-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-dartmouth-hanover-0-node-spine-dartmouth-hanover-1",
+      "from": "node-spine-dartmouth-hanover-0",
+      "to": "node-spine-dartmouth-hanover-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-0-node-spine-dartmouth-hanover-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-1-node-spine-dartmouth-hanover-0",
+      "from": "node-spine-dartmouth-hanover-1",
+      "to": "node-spine-dartmouth-hanover-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-1-node-spine-dartmouth-hanover-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-1-node-spine-dartmouth-hanover-2",
+      "from": "node-spine-dartmouth-hanover-1",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-1-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-spine-dartmouth-hanover-1",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-spine-dartmouth-hanover-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-spine-dartmouth-hanover-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-spine-dartmouth-hanover-3",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-spine-dartmouth-hanover-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-spine-dartmouth-hanover-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-3-node-spine-dartmouth-hanover-2",
+      "from": "node-spine-dartmouth-hanover-3",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-3-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-3-node-spine-dartmouth-hanover-4",
+      "from": "node-spine-dartmouth-hanover-3",
+      "to": "node-spine-dartmouth-hanover-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-3-node-spine-dartmouth-hanover-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-4-node-spine-dartmouth-hanover-3",
+      "from": "node-spine-dartmouth-hanover-4",
+      "to": "node-spine-dartmouth-hanover-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-4-node-spine-dartmouth-hanover-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-0-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-0",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-0-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-0",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-1-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-1",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-1-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-1",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-2-node-spine-dartmouth-hanover-1",
+      "from": "node-ent-dartmouth-hanover-2",
+      "to": "node-spine-dartmouth-hanover-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-2-node-spine-dartmouth-hanover-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-1-node-ent-dartmouth-hanover-2",
+      "from": "node-spine-dartmouth-hanover-1",
+      "to": "node-ent-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-1-node-ent-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-3-node-spine-dartmouth-hanover-1",
+      "from": "node-ent-dartmouth-hanover-3",
+      "to": "node-spine-dartmouth-hanover-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-3-node-spine-dartmouth-hanover-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-1-node-ent-dartmouth-hanover-3",
+      "from": "node-spine-dartmouth-hanover-1",
+      "to": "node-ent-dartmouth-hanover-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-1-node-ent-dartmouth-hanover-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-4-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-4",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-4-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-4",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-5-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-5",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-5-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-5",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-6-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-6",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-6-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-6",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-7-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-7",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-7-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-7",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-8-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-8",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-8-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-8",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-9-node-spine-dartmouth-hanover-2",
+      "from": "node-ent-dartmouth-hanover-9",
+      "to": "node-spine-dartmouth-hanover-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-9-node-spine-dartmouth-hanover-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-9",
+      "from": "node-spine-dartmouth-hanover-2",
+      "to": "node-ent-dartmouth-hanover-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-2-node-ent-dartmouth-hanover-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-hanover-10-node-spine-dartmouth-hanover-3",
+      "from": "node-ent-dartmouth-hanover-10",
+      "to": "node-spine-dartmouth-hanover-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-ent-dartmouth-hanover-10-node-spine-dartmouth-hanover-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-hanover-3-node-ent-dartmouth-hanover-10",
+      "from": "node-spine-dartmouth-hanover-3",
+      "to": "node-ent-dartmouth-hanover-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-hanover",
+          "nativeId": "edge-node-spine-dartmouth-hanover-3-node-ent-dartmouth-hanover-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

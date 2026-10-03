@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "yale",
+  "campus": {
+    "id": "yale-new-haven",
+    "name": "Yale University Central Campus",
+    "bounds": [
+      [
+        -72.933,
+        41.307
+      ],
+      [
+        -72.92,
+        41.316
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-yale-new-haven",
+      "title": "Yale University Interactive Campus Map",
+      "url": "https://map.yale.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "yale-sterling-library",
+      "name": "Sterling Memorial Library",
+      "nativeCodes": [
+        "SML"
+      ],
+      "aliases": [
+        "Sterling Memorial Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92685,
+              41.31125
+            ],
+            [
+              -72.92615,
+              41.31125
+            ],
+            [
+              -72.92615,
+              41.31175
+            ],
+            [
+              -72.92685,
+              41.31175
+            ],
+            [
+              -72.92685,
+              41.31125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-sterling-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-connecticut-hall",
+      "name": "Connecticut Hall (Old Campus)",
+      "nativeCodes": [
+        "CH"
+      ],
+      "aliases": [
+        "Connecticut Hall (Old Campus)"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92785,
+              41.30825
+            ],
+            [
+              -72.92715,
+              41.30825
+            ],
+            [
+              -72.92715,
+              41.30875
+            ],
+            [
+              -72.92785,
+              41.30875
+            ],
+            [
+              -72.92785,
+              41.30825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-connecticut-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-kline-tower",
+      "name": "Kline Tower (Science Hill)",
+      "nativeCodes": [
+        "KT"
+      ],
+      "aliases": [
+        "Kline Tower (Science Hill)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92435,
+              41.31525
+            ],
+            [
+              -72.92365,
+              41.31525
+            ],
+            [
+              -72.92365,
+              41.31575
+            ],
+            [
+              -72.92435,
+              41.31575
+            ],
+            [
+              -72.92435,
+              41.31525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-kline-tower",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-becton-center",
+      "name": "Becton Engineering Center",
+      "nativeCodes": [
+        "BEC"
+      ],
+      "aliases": [
+        "Becton Engineering Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92485,
+              41.31325
+            ],
+            [
+              -72.92415,
+              41.31325
+            ],
+            [
+              -72.92415,
+              41.31375
+            ],
+            [
+              -72.92485,
+              41.31375
+            ],
+            [
+              -72.92485,
+              41.31325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-becton-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-woolsey-hall",
+      "name": "Woolsey Hall",
+      "nativeCodes": [
+        "WH"
+      ],
+      "aliases": [
+        "Woolsey Hall"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92585,
+              41.31155
+            ],
+            [
+              -72.92515,
+              41.31155
+            ],
+            [
+              -72.92515,
+              41.31205
+            ],
+            [
+              -72.92585,
+              41.31205
+            ],
+            [
+              -72.92585,
+              41.31155
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-woolsey-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-watson-center",
+      "name": "Watson Center",
+      "nativeCodes": [
+        "WAT"
+      ],
+      "aliases": [
+        "Watson Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92385,
+              41.31575
+            ],
+            [
+              -72.92315,
+              41.31575
+            ],
+            [
+              -72.92315,
+              41.31625
+            ],
+            [
+              -72.92385,
+              41.31625
+            ],
+            [
+              -72.92385,
+              41.31575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-watson-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-dunham-lab",
+      "name": "Dunham Laboratory",
+      "nativeCodes": [
+        "DL"
+      ],
+      "aliases": [
+        "Dunham Laboratory"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92585,
+              41.31225
+            ],
+            [
+              -72.92515,
+              41.31225
+            ],
+            [
+              -72.92515,
+              41.31275
+            ],
+            [
+              -72.92585,
+              41.31275
+            ],
+            [
+              -72.92585,
+              41.31225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-dunham-lab",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-bass-library",
+      "name": "Bass Library",
+      "nativeCodes": [
+        "BASS"
+      ],
+      "aliases": [
+        "Bass Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92835,
+              41.30955
+            ],
+            [
+              -72.92765,
+              41.30955
+            ],
+            [
+              -72.92765,
+              41.31005
+            ],
+            [
+              -72.92835,
+              41.31005
+            ],
+            [
+              -72.92835,
+              41.30955
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-bass-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-phelps-hall",
+      "name": "Phelps Hall",
+      "nativeCodes": [
+        "PH"
+      ],
+      "aliases": [
+        "Phelps Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92935,
+              41.30855
+            ],
+            [
+              -72.92865,
+              41.30855
+            ],
+            [
+              -72.92865,
+              41.30905
+            ],
+            [
+              -72.92935,
+              41.30905
+            ],
+            [
+              -72.92935,
+              41.30855
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-phelps-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-lombard-hall",
+      "name": "Lombard Hall",
+      "nativeCodes": [
+        "LH"
+      ],
+      "aliases": [
+        "Lombard Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92485,
+              41.31375
+            ],
+            [
+              -72.92415,
+              41.31375
+            ],
+            [
+              -72.92415,
+              41.31425
+            ],
+            [
+              -72.92485,
+              41.31425
+            ],
+            [
+              -72.92485,
+              41.31375
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-lombard-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "yale-davies-auditorium",
+      "name": "Davies Auditorium",
+      "nativeCodes": [
+        "DA"
+      ],
+      "aliases": [
+        "Davies Auditorium"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.92535,
+              41.31175
+            ],
+            [
+              -72.92465,
+              41.31175
+            ],
+            [
+              -72.92465,
+              41.31225
+            ],
+            [
+              -72.92535,
+              41.31225
+            ],
+            [
+              -72.92535,
+              41.31175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "yale-davies-auditorium",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-yale-new-haven-yale-sterling-library",
+      "buildingId": "yale-sterling-library",
+      "coordinate": [
+        -72.9265,
+        41.31125
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-sterling-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-connecticut-hall",
+      "buildingId": "yale-connecticut-hall",
+      "coordinate": [
+        -72.9275,
+        41.30825
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-connecticut-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-kline-tower",
+      "buildingId": "yale-kline-tower",
+      "coordinate": [
+        -72.924,
+        41.31525
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-kline-tower",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-becton-center",
+      "buildingId": "yale-becton-center",
+      "coordinate": [
+        -72.9245,
+        41.31325
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-becton-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-woolsey-hall",
+      "buildingId": "yale-woolsey-hall",
+      "coordinate": [
+        -72.9255,
+        41.31155
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-woolsey-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-watson-center",
+      "buildingId": "yale-watson-center",
+      "coordinate": [
+        -72.9235,
+        41.31575
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-watson-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-dunham-lab",
+      "buildingId": "yale-dunham-lab",
+      "coordinate": [
+        -72.9255,
+        41.31225
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-dunham-lab",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-bass-library",
+      "buildingId": "yale-bass-library",
+      "coordinate": [
+        -72.928,
+        41.30955
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-bass-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-phelps-hall",
+      "buildingId": "yale-phelps-hall",
+      "coordinate": [
+        -72.929,
+        41.30855
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-phelps-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-lombard-hall",
+      "buildingId": "yale-lombard-hall",
+      "coordinate": [
+        -72.9245,
+        41.31375
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-lombard-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-yale-new-haven-yale-davies-auditorium",
+      "buildingId": "yale-davies-auditorium",
+      "coordinate": [
+        -72.925,
+        41.31175
+      ],
+      "pathNodeId": "node-ent-yale-new-haven-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "ent-yale-new-haven-yale-davies-auditorium",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-yale-new-haven-0",
+      "coordinate": [
+        -72.9317,
+        41.307900000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-spine-yale-new-haven-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-yale-new-haven-1",
+      "coordinate": [
+        -72.9291,
+        41.3097
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-spine-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-yale-new-haven-2",
+      "coordinate": [
+        -72.9265,
+        41.3115
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-spine-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-yale-new-haven-3",
+      "coordinate": [
+        -72.9239,
+        41.313300000000005
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-spine-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-yale-new-haven-4",
+      "coordinate": [
+        -72.9213,
+        41.3151
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-spine-yale-new-haven-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-0",
+      "coordinate": [
+        -72.9265,
+        41.31125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-1",
+      "coordinate": [
+        -72.9275,
+        41.30825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-2",
+      "coordinate": [
+        -72.924,
+        41.31525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-3",
+      "coordinate": [
+        -72.9245,
+        41.31325
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-4",
+      "coordinate": [
+        -72.9255,
+        41.31155
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-5",
+      "coordinate": [
+        -72.9235,
+        41.31575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-6",
+      "coordinate": [
+        -72.9255,
+        41.31225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-7",
+      "coordinate": [
+        -72.928,
+        41.30955
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-8",
+      "coordinate": [
+        -72.929,
+        41.30855
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-9",
+      "coordinate": [
+        -72.9245,
+        41.31375
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-yale-new-haven-10",
+      "coordinate": [
+        -72.925,
+        41.31175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "node-ent-yale-new-haven-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-yale-new-haven-0-node-spine-yale-new-haven-1",
+      "from": "node-spine-yale-new-haven-0",
+      "to": "node-spine-yale-new-haven-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-0-node-spine-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-1-node-spine-yale-new-haven-0",
+      "from": "node-spine-yale-new-haven-1",
+      "to": "node-spine-yale-new-haven-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-1-node-spine-yale-new-haven-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-1-node-spine-yale-new-haven-2",
+      "from": "node-spine-yale-new-haven-1",
+      "to": "node-spine-yale-new-haven-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-1-node-spine-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-2-node-spine-yale-new-haven-1",
+      "from": "node-spine-yale-new-haven-2",
+      "to": "node-spine-yale-new-haven-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-2-node-spine-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-2-node-spine-yale-new-haven-3",
+      "from": "node-spine-yale-new-haven-2",
+      "to": "node-spine-yale-new-haven-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-2-node-spine-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-3-node-spine-yale-new-haven-2",
+      "from": "node-spine-yale-new-haven-3",
+      "to": "node-spine-yale-new-haven-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-3-node-spine-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-3-node-spine-yale-new-haven-4",
+      "from": "node-spine-yale-new-haven-3",
+      "to": "node-spine-yale-new-haven-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-3-node-spine-yale-new-haven-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-4-node-spine-yale-new-haven-3",
+      "from": "node-spine-yale-new-haven-4",
+      "to": "node-spine-yale-new-haven-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-4-node-spine-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-0-node-spine-yale-new-haven-2",
+      "from": "node-ent-yale-new-haven-0",
+      "to": "node-spine-yale-new-haven-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-0-node-spine-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-0",
+      "from": "node-spine-yale-new-haven-2",
+      "to": "node-ent-yale-new-haven-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-1-node-spine-yale-new-haven-1",
+      "from": "node-ent-yale-new-haven-1",
+      "to": "node-spine-yale-new-haven-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-1-node-spine-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-1-node-ent-yale-new-haven-1",
+      "from": "node-spine-yale-new-haven-1",
+      "to": "node-ent-yale-new-haven-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-1-node-ent-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-2-node-spine-yale-new-haven-3",
+      "from": "node-ent-yale-new-haven-2",
+      "to": "node-spine-yale-new-haven-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-2-node-spine-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-3-node-ent-yale-new-haven-2",
+      "from": "node-spine-yale-new-haven-3",
+      "to": "node-ent-yale-new-haven-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-3-node-ent-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-3-node-spine-yale-new-haven-3",
+      "from": "node-ent-yale-new-haven-3",
+      "to": "node-spine-yale-new-haven-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-3-node-spine-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-3-node-ent-yale-new-haven-3",
+      "from": "node-spine-yale-new-haven-3",
+      "to": "node-ent-yale-new-haven-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-3-node-ent-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-4-node-spine-yale-new-haven-2",
+      "from": "node-ent-yale-new-haven-4",
+      "to": "node-spine-yale-new-haven-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-4-node-spine-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-4",
+      "from": "node-spine-yale-new-haven-2",
+      "to": "node-ent-yale-new-haven-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-5-node-spine-yale-new-haven-4",
+      "from": "node-ent-yale-new-haven-5",
+      "to": "node-spine-yale-new-haven-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-5-node-spine-yale-new-haven-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-4-node-ent-yale-new-haven-5",
+      "from": "node-spine-yale-new-haven-4",
+      "to": "node-ent-yale-new-haven-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-4-node-ent-yale-new-haven-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-6-node-spine-yale-new-haven-2",
+      "from": "node-ent-yale-new-haven-6",
+      "to": "node-spine-yale-new-haven-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-6-node-spine-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-6",
+      "from": "node-spine-yale-new-haven-2",
+      "to": "node-ent-yale-new-haven-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-7-node-spine-yale-new-haven-1",
+      "from": "node-ent-yale-new-haven-7",
+      "to": "node-spine-yale-new-haven-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-7-node-spine-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-1-node-ent-yale-new-haven-7",
+      "from": "node-spine-yale-new-haven-1",
+      "to": "node-ent-yale-new-haven-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-1-node-ent-yale-new-haven-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-8-node-spine-yale-new-haven-1",
+      "from": "node-ent-yale-new-haven-8",
+      "to": "node-spine-yale-new-haven-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-8-node-spine-yale-new-haven-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-1-node-ent-yale-new-haven-8",
+      "from": "node-spine-yale-new-haven-1",
+      "to": "node-ent-yale-new-haven-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-1-node-ent-yale-new-haven-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-9-node-spine-yale-new-haven-3",
+      "from": "node-ent-yale-new-haven-9",
+      "to": "node-spine-yale-new-haven-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-9-node-spine-yale-new-haven-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-3-node-ent-yale-new-haven-9",
+      "from": "node-spine-yale-new-haven-3",
+      "to": "node-ent-yale-new-haven-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-3-node-ent-yale-new-haven-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-yale-new-haven-10-node-spine-yale-new-haven-2",
+      "from": "node-ent-yale-new-haven-10",
+      "to": "node-spine-yale-new-haven-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-ent-yale-new-haven-10-node-spine-yale-new-haven-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-10",
+      "from": "node-spine-yale-new-haven-2",
+      "to": "node-ent-yale-new-haven-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-yale-new-haven",
+          "nativeId": "edge-node-spine-yale-new-haven-2-node-ent-yale-new-haven-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

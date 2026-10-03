@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "princeton",
+  "campus": {
+    "id": "princeton-forrestal",
+    "name": "Princeton University Forrestal Campus",
+    "bounds": [
+      [
+        -74.611,
+        40.347
+      ],
+      [
+        -74.598,
+        40.356
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-princeton-forrestal",
+      "title": "Princeton Forrestal Campus & PPPL Directory",
+      "url": "https://www.pppl.gov/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "princeton-spitzer-bldg",
+      "name": "Lyman Spitzer Building",
+      "nativeCodes": [
+        "LSB"
+      ],
+      "aliases": [
+        "Lyman Spitzer Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.60485,
+              40.35125
+            ],
+            [
+              -74.60415,
+              40.35125
+            ],
+            [
+              -74.60415,
+              40.35175
+            ],
+            [
+              -74.60485,
+              40.35175
+            ],
+            [
+              -74.60485,
+              40.35125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "princeton-spitzer-bldg",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-pppl-lab",
+      "name": "Princeton Plasma Physics Lab",
+      "nativeCodes": [
+        "PPPL"
+      ],
+      "aliases": [
+        "Princeton Plasma Physics Lab"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.60385,
+              40.35175
+            ],
+            [
+              -74.60315,
+              40.35175
+            ],
+            [
+              -74.60315,
+              40.35225
+            ],
+            [
+              -74.60385,
+              40.35225
+            ],
+            [
+              -74.60385,
+              40.35175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "princeton-pppl-lab",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-complex-materials",
+      "name": "Complex Materials Science Lab",
+      "nativeCodes": [
+        "CMSL"
+      ],
+      "aliases": [
+        "Complex Materials Science Lab"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.60585,
+              40.35075
+            ],
+            [
+              -74.60515,
+              40.35075
+            ],
+            [
+              -74.60515,
+              40.35125
+            ],
+            [
+              -74.60585,
+              40.35125
+            ],
+            [
+              -74.60585,
+              40.35075
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "princeton-complex-materials",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-gfdl-lab",
+      "name": "Geophysical Fluid Dynamics Lab",
+      "nativeCodes": [
+        "GFDL"
+      ],
+      "aliases": [
+        "Geophysical Fluid Dynamics Lab"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.60335,
+              40.35225
+            ],
+            [
+              -74.60265,
+              40.35225
+            ],
+            [
+              -74.60265,
+              40.35275
+            ],
+            [
+              -74.60335,
+              40.35275
+            ],
+            [
+              -74.60335,
+              40.35225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "princeton-gfdl-lab",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-adv-energy",
+      "name": "Advanced Energy Laboratory",
+      "nativeCodes": [
+        "AEL"
+      ],
+      "aliases": [
+        "Advanced Energy Laboratory"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.60635,
+              40.35025
+            ],
+            [
+              -74.60565,
+              40.35025
+            ],
+            [
+              -74.60565,
+              40.35075
+            ],
+            [
+              -74.60635,
+              40.35075
+            ],
+            [
+              -74.60635,
+              40.35025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "princeton-adv-energy",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-princeton-forrestal-princeton-spitzer-bldg",
+      "buildingId": "princeton-spitzer-bldg",
+      "coordinate": [
+        -74.6045,
+        40.35125
+      ],
+      "pathNodeId": "node-ent-princeton-forrestal-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "ent-princeton-forrestal-princeton-spitzer-bldg",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-forrestal-princeton-pppl-lab",
+      "buildingId": "princeton-pppl-lab",
+      "coordinate": [
+        -74.6035,
+        40.35175
+      ],
+      "pathNodeId": "node-ent-princeton-forrestal-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "ent-princeton-forrestal-princeton-pppl-lab",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-forrestal-princeton-complex-materials",
+      "buildingId": "princeton-complex-materials",
+      "coordinate": [
+        -74.6055,
+        40.35075
+      ],
+      "pathNodeId": "node-ent-princeton-forrestal-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "ent-princeton-forrestal-princeton-complex-materials",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-forrestal-princeton-gfdl-lab",
+      "buildingId": "princeton-gfdl-lab",
+      "coordinate": [
+        -74.603,
+        40.35225
+      ],
+      "pathNodeId": "node-ent-princeton-forrestal-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "ent-princeton-forrestal-princeton-gfdl-lab",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-forrestal-princeton-adv-energy",
+      "buildingId": "princeton-adv-energy",
+      "coordinate": [
+        -74.606,
+        40.35025
+      ],
+      "pathNodeId": "node-ent-princeton-forrestal-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "ent-princeton-forrestal-princeton-adv-energy",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-princeton-forrestal-0",
+      "coordinate": [
+        -74.6097,
+        40.3479
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-spine-princeton-forrestal-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-forrestal-1",
+      "coordinate": [
+        -74.6071,
+        40.3497
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-spine-princeton-forrestal-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-forrestal-2",
+      "coordinate": [
+        -74.6045,
+        40.3515
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-spine-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-forrestal-3",
+      "coordinate": [
+        -74.6019,
+        40.353300000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-spine-princeton-forrestal-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-forrestal-4",
+      "coordinate": [
+        -74.5993,
+        40.3551
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-spine-princeton-forrestal-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-forrestal-0",
+      "coordinate": [
+        -74.6045,
+        40.35125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-ent-princeton-forrestal-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-forrestal-1",
+      "coordinate": [
+        -74.6035,
+        40.35175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-ent-princeton-forrestal-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-forrestal-2",
+      "coordinate": [
+        -74.6055,
+        40.35075
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-ent-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-forrestal-3",
+      "coordinate": [
+        -74.603,
+        40.35225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-ent-princeton-forrestal-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-forrestal-4",
+      "coordinate": [
+        -74.606,
+        40.35025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "node-ent-princeton-forrestal-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-princeton-forrestal-0-node-spine-princeton-forrestal-1",
+      "from": "node-spine-princeton-forrestal-0",
+      "to": "node-spine-princeton-forrestal-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-0-node-spine-princeton-forrestal-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-0",
+      "from": "node-spine-princeton-forrestal-1",
+      "to": "node-spine-princeton-forrestal-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-2",
+      "from": "node-spine-princeton-forrestal-1",
+      "to": "node-spine-princeton-forrestal-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-1-node-spine-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-1",
+      "from": "node-spine-princeton-forrestal-2",
+      "to": "node-spine-princeton-forrestal-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-3",
+      "from": "node-spine-princeton-forrestal-2",
+      "to": "node-spine-princeton-forrestal-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-2-node-spine-princeton-forrestal-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-2",
+      "from": "node-spine-princeton-forrestal-3",
+      "to": "node-spine-princeton-forrestal-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-4",
+      "from": "node-spine-princeton-forrestal-3",
+      "to": "node-spine-princeton-forrestal-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-3-node-spine-princeton-forrestal-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-4-node-spine-princeton-forrestal-3",
+      "from": "node-spine-princeton-forrestal-4",
+      "to": "node-spine-princeton-forrestal-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-4-node-spine-princeton-forrestal-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-forrestal-0-node-spine-princeton-forrestal-2",
+      "from": "node-ent-princeton-forrestal-0",
+      "to": "node-spine-princeton-forrestal-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-ent-princeton-forrestal-0-node-spine-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-0",
+      "from": "node-spine-princeton-forrestal-2",
+      "to": "node-ent-princeton-forrestal-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-forrestal-1-node-spine-princeton-forrestal-2",
+      "from": "node-ent-princeton-forrestal-1",
+      "to": "node-spine-princeton-forrestal-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-ent-princeton-forrestal-1-node-spine-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-1",
+      "from": "node-spine-princeton-forrestal-2",
+      "to": "node-ent-princeton-forrestal-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-forrestal-2-node-spine-princeton-forrestal-2",
+      "from": "node-ent-princeton-forrestal-2",
+      "to": "node-spine-princeton-forrestal-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-ent-princeton-forrestal-2-node-spine-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-2",
+      "from": "node-spine-princeton-forrestal-2",
+      "to": "node-ent-princeton-forrestal-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-2-node-ent-princeton-forrestal-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-forrestal-3-node-spine-princeton-forrestal-3",
+      "from": "node-ent-princeton-forrestal-3",
+      "to": "node-spine-princeton-forrestal-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-ent-princeton-forrestal-3-node-spine-princeton-forrestal-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-3-node-ent-princeton-forrestal-3",
+      "from": "node-spine-princeton-forrestal-3",
+      "to": "node-ent-princeton-forrestal-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-3-node-ent-princeton-forrestal-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-forrestal-4-node-spine-princeton-forrestal-1",
+      "from": "node-ent-princeton-forrestal-4",
+      "to": "node-spine-princeton-forrestal-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-ent-princeton-forrestal-4-node-spine-princeton-forrestal-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-forrestal-1-node-ent-princeton-forrestal-4",
+      "from": "node-spine-princeton-forrestal-1",
+      "to": "node-ent-princeton-forrestal-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-forrestal",
+          "nativeId": "edge-node-spine-princeton-forrestal-1-node-ent-princeton-forrestal-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

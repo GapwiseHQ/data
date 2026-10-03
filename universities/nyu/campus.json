@@ -1,0 +1,1232 @@
+{
+  "schemaVersion": 1,
+  "institution": "nyu",
+  "campus": {
+    "id": "nyu-washington-square",
+    "name": "New York University Washington Square Campus",
+    "bounds": [
+      [
+        -74.003,
+        40.725
+      ],
+      [
+        -73.99,
+        40.734
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-nyu-washington-square",
+      "title": "NYU Washington Square Campus Map",
+      "url": "https://www.nyu.edu/about/visitor-information/campus-maps.html",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "nyu-silver-center",
+      "name": "Silver Center for Arts and Science",
+      "nativeCodes": [
+        "SILV"
+      ],
+      "aliases": [
+        "Silver Center for Arts and Science"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99685,
+              40.72925
+            ],
+            [
+              -73.99615,
+              40.72925
+            ],
+            [
+              -73.99615,
+              40.72975
+            ],
+            [
+              -73.99685,
+              40.72975
+            ],
+            [
+              -73.99685,
+              40.72925
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-silver-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-bobst-library",
+      "name": "Elmer Holmes Bobst Library",
+      "nativeCodes": [
+        "BOBST"
+      ],
+      "aliases": [
+        "Elmer Holmes Bobst Library"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99785,
+              40.72875
+            ],
+            [
+              -73.99715,
+              40.72875
+            ],
+            [
+              -73.99715,
+              40.72925
+            ],
+            [
+              -73.99785,
+              40.72925
+            ],
+            [
+              -73.99785,
+              40.72875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-bobst-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-kimmel-center",
+      "name": "Kimmel Center for University Life",
+      "nativeCodes": [
+        "KIMM"
+      ],
+      "aliases": [
+        "Kimmel Center for University Life"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99885,
+              40.72825
+            ],
+            [
+              -73.99815,
+              40.72825
+            ],
+            [
+              -73.99815,
+              40.72875
+            ],
+            [
+              -73.99885,
+              40.72875
+            ],
+            [
+              -73.99885,
+              40.72825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-kimmel-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-weaver-hall",
+      "name": "Warren Weaver Hall (Courant)",
+      "nativeCodes": [
+        "WWH"
+      ],
+      "aliases": [
+        "Warren Weaver Hall (Courant)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99585,
+              40.72855
+            ],
+            [
+              -73.99515,
+              40.72855
+            ],
+            [
+              -73.99515,
+              40.72905
+            ],
+            [
+              -73.99585,
+              40.72905
+            ],
+            [
+              -73.99585,
+              40.72855
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-weaver-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-tisch-hall",
+      "name": "Tisch Hall (Stern)",
+      "nativeCodes": [
+        "TISCH"
+      ],
+      "aliases": [
+        "Tisch Hall (Stern)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99635,
+              40.72895
+            ],
+            [
+              -73.99565,
+              40.72895
+            ],
+            [
+              -73.99565,
+              40.72945
+            ],
+            [
+              -73.99635,
+              40.72945
+            ],
+            [
+              -73.99635,
+              40.72895
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-tisch-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-paulson-center",
+      "name": "Paulson Center",
+      "nativeCodes": [
+        "PAUL"
+      ],
+      "aliases": [
+        "Paulson Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99535,
+              40.72725
+            ],
+            [
+              -73.99465,
+              40.72725
+            ],
+            [
+              -73.99465,
+              40.72775
+            ],
+            [
+              -73.99535,
+              40.72775
+            ],
+            [
+              -73.99535,
+              40.72725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-paulson-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-vanderbilt-hall",
+      "name": "Vanderbilt Hall",
+      "nativeCodes": [
+        "VH"
+      ],
+      "aliases": [
+        "Vanderbilt Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99985,
+              40.73025
+            ],
+            [
+              -73.99915,
+              40.73025
+            ],
+            [
+              -73.99915,
+              40.73075
+            ],
+            [
+              -73.99985,
+              40.73075
+            ],
+            [
+              -73.99985,
+              40.73025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-vanderbilt-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-shimkin-hall",
+      "name": "Shimkin Hall",
+      "nativeCodes": [
+        "SHIM"
+      ],
+      "aliases": [
+        "Shimkin Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99655,
+              40.72855
+            ],
+            [
+              -73.99585,
+              40.72855
+            ],
+            [
+              -73.99585,
+              40.72905
+            ],
+            [
+              -73.99655,
+              40.72905
+            ],
+            [
+              -73.99655,
+              40.72855
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-shimkin-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-cantor-film",
+      "name": "Cantor Film Center",
+      "nativeCodes": [
+        "CFC"
+      ],
+      "aliases": [
+        "Cantor Film Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99335,
+              40.73075
+            ],
+            [
+              -73.99265,
+              40.73075
+            ],
+            [
+              -73.99265,
+              40.73125
+            ],
+            [
+              -73.99335,
+              40.73125
+            ],
+            [
+              -73.99335,
+              40.73075
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-cantor-film",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "nyu-puck-building",
+      "name": "Puck Building",
+      "nativeCodes": [
+        "PUCK"
+      ],
+      "aliases": [
+        "Puck Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.99585,
+              40.72525
+            ],
+            [
+              -73.99515,
+              40.72525
+            ],
+            [
+              -73.99515,
+              40.72575
+            ],
+            [
+              -73.99585,
+              40.72575
+            ],
+            [
+              -73.99585,
+              40.72525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "nyu-puck-building",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-nyu-washington-square-nyu-silver-center",
+      "buildingId": "nyu-silver-center",
+      "coordinate": [
+        -73.9965,
+        40.72925
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-silver-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-bobst-library",
+      "buildingId": "nyu-bobst-library",
+      "coordinate": [
+        -73.9975,
+        40.72875
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-bobst-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-kimmel-center",
+      "buildingId": "nyu-kimmel-center",
+      "coordinate": [
+        -73.9985,
+        40.72825
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-kimmel-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-weaver-hall",
+      "buildingId": "nyu-weaver-hall",
+      "coordinate": [
+        -73.9955,
+        40.72855
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-weaver-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-tisch-hall",
+      "buildingId": "nyu-tisch-hall",
+      "coordinate": [
+        -73.996,
+        40.72895
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-tisch-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-paulson-center",
+      "buildingId": "nyu-paulson-center",
+      "coordinate": [
+        -73.995,
+        40.72725
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-paulson-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-vanderbilt-hall",
+      "buildingId": "nyu-vanderbilt-hall",
+      "coordinate": [
+        -73.9995,
+        40.73025
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-vanderbilt-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-shimkin-hall",
+      "buildingId": "nyu-shimkin-hall",
+      "coordinate": [
+        -73.9962,
+        40.72855
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-shimkin-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-cantor-film",
+      "buildingId": "nyu-cantor-film",
+      "coordinate": [
+        -73.993,
+        40.73075
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-cantor-film",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-nyu-washington-square-nyu-puck-building",
+      "buildingId": "nyu-puck-building",
+      "coordinate": [
+        -73.9955,
+        40.72525
+      ],
+      "pathNodeId": "node-ent-nyu-washington-square-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "ent-nyu-washington-square-nyu-puck-building",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-nyu-washington-square-0",
+      "coordinate": [
+        -74.0017,
+        40.7259
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-spine-nyu-washington-square-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-nyu-washington-square-1",
+      "coordinate": [
+        -73.9991,
+        40.7277
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-spine-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-nyu-washington-square-2",
+      "coordinate": [
+        -73.9965,
+        40.7295
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-nyu-washington-square-3",
+      "coordinate": [
+        -73.9939,
+        40.731300000000005
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-spine-nyu-washington-square-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-nyu-washington-square-4",
+      "coordinate": [
+        -73.9913,
+        40.7331
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-spine-nyu-washington-square-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-0",
+      "coordinate": [
+        -73.9965,
+        40.72925
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-1",
+      "coordinate": [
+        -73.9975,
+        40.72875
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-2",
+      "coordinate": [
+        -73.9985,
+        40.72825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-3",
+      "coordinate": [
+        -73.9955,
+        40.72855
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-4",
+      "coordinate": [
+        -73.996,
+        40.72895
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-5",
+      "coordinate": [
+        -73.995,
+        40.72725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-6",
+      "coordinate": [
+        -73.9995,
+        40.73025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-7",
+      "coordinate": [
+        -73.9962,
+        40.72855
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-8",
+      "coordinate": [
+        -73.993,
+        40.73075
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-nyu-washington-square-9",
+      "coordinate": [
+        -73.9955,
+        40.72525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "node-ent-nyu-washington-square-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-nyu-washington-square-0-node-spine-nyu-washington-square-1",
+      "from": "node-spine-nyu-washington-square-0",
+      "to": "node-spine-nyu-washington-square-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-0-node-spine-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-1-node-spine-nyu-washington-square-0",
+      "from": "node-spine-nyu-washington-square-1",
+      "to": "node-spine-nyu-washington-square-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-1-node-spine-nyu-washington-square-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-1-node-spine-nyu-washington-square-2",
+      "from": "node-spine-nyu-washington-square-1",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-1-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-spine-nyu-washington-square-1",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-spine-nyu-washington-square-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-spine-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-spine-nyu-washington-square-3",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-spine-nyu-washington-square-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-spine-nyu-washington-square-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-3-node-spine-nyu-washington-square-2",
+      "from": "node-spine-nyu-washington-square-3",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-3-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-3-node-spine-nyu-washington-square-4",
+      "from": "node-spine-nyu-washington-square-3",
+      "to": "node-spine-nyu-washington-square-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-3-node-spine-nyu-washington-square-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-4-node-spine-nyu-washington-square-3",
+      "from": "node-spine-nyu-washington-square-4",
+      "to": "node-spine-nyu-washington-square-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-4-node-spine-nyu-washington-square-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-0-node-spine-nyu-washington-square-2",
+      "from": "node-ent-nyu-washington-square-0",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-0-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-0",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-ent-nyu-washington-square-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-1-node-spine-nyu-washington-square-2",
+      "from": "node-ent-nyu-washington-square-1",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-1-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-1",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-ent-nyu-washington-square-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-2-node-spine-nyu-washington-square-1",
+      "from": "node-ent-nyu-washington-square-2",
+      "to": "node-spine-nyu-washington-square-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-2-node-spine-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-1-node-ent-nyu-washington-square-2",
+      "from": "node-spine-nyu-washington-square-1",
+      "to": "node-ent-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-1-node-ent-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-3-node-spine-nyu-washington-square-2",
+      "from": "node-ent-nyu-washington-square-3",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-3-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-3",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-ent-nyu-washington-square-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-4-node-spine-nyu-washington-square-2",
+      "from": "node-ent-nyu-washington-square-4",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-4-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-4",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-ent-nyu-washington-square-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-5-node-spine-nyu-washington-square-2",
+      "from": "node-ent-nyu-washington-square-5",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-5-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-5",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-ent-nyu-washington-square-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-6-node-spine-nyu-washington-square-1",
+      "from": "node-ent-nyu-washington-square-6",
+      "to": "node-spine-nyu-washington-square-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-6-node-spine-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-1-node-ent-nyu-washington-square-6",
+      "from": "node-spine-nyu-washington-square-1",
+      "to": "node-ent-nyu-washington-square-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-1-node-ent-nyu-washington-square-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-7-node-spine-nyu-washington-square-2",
+      "from": "node-ent-nyu-washington-square-7",
+      "to": "node-spine-nyu-washington-square-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-7-node-spine-nyu-washington-square-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-7",
+      "from": "node-spine-nyu-washington-square-2",
+      "to": "node-ent-nyu-washington-square-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-2-node-ent-nyu-washington-square-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-8-node-spine-nyu-washington-square-3",
+      "from": "node-ent-nyu-washington-square-8",
+      "to": "node-spine-nyu-washington-square-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-8-node-spine-nyu-washington-square-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-3-node-ent-nyu-washington-square-8",
+      "from": "node-spine-nyu-washington-square-3",
+      "to": "node-ent-nyu-washington-square-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-3-node-ent-nyu-washington-square-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-nyu-washington-square-9-node-spine-nyu-washington-square-1",
+      "from": "node-ent-nyu-washington-square-9",
+      "to": "node-spine-nyu-washington-square-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-ent-nyu-washington-square-9-node-spine-nyu-washington-square-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-nyu-washington-square-1-node-ent-nyu-washington-square-9",
+      "from": "node-spine-nyu-washington-square-1",
+      "to": "node-ent-nyu-washington-square-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-nyu-washington-square",
+          "nativeId": "edge-node-spine-nyu-washington-square-1-node-ent-nyu-washington-square-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

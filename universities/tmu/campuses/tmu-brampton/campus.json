@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "tmu",
+  "campus": {
+    "id": "tmu-brampton",
+    "name": "Toronto Metropolitan University Brampton Campus",
+    "bounds": [
+      [
+        -79.728,
+        43.713
+      ],
+      [
+        -79.717,
+        43.722
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-tmu-brampton",
+      "title": "TMU School of Medicine Brampton Campus Map",
+      "url": "https://www.torontomu.ca/brampton/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "tmu-bramalea-medical",
+      "name": "Bramalea Medical Building",
+      "nativeCodes": [
+        "BMB"
+      ],
+      "aliases": [
+        "Bramalea Medical Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.72285,
+              43.71725
+            ],
+            [
+              -79.72215,
+              43.71725
+            ],
+            [
+              -79.72215,
+              43.71775
+            ],
+            [
+              -79.72285,
+              43.71775
+            ],
+            [
+              -79.72285,
+              43.71725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "tmu-bramalea-medical",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "tmu-brampton-academic",
+      "name": "Brampton Academic Hall",
+      "nativeCodes": [
+        "BAH"
+      ],
+      "aliases": [
+        "Brampton Academic Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.72185,
+              43.71775
+            ],
+            [
+              -79.72115,
+              43.71775
+            ],
+            [
+              -79.72115,
+              43.71825
+            ],
+            [
+              -79.72185,
+              43.71825
+            ],
+            [
+              -79.72185,
+              43.71775
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "tmu-brampton-academic",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "tmu-health-sciences",
+      "name": "Brampton Health Sciences Centre",
+      "nativeCodes": [
+        "BHSC"
+      ],
+      "aliases": [
+        "Brampton Health Sciences Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.72385,
+              43.71675
+            ],
+            [
+              -79.72315,
+              43.71675
+            ],
+            [
+              -79.72315,
+              43.71725
+            ],
+            [
+              -79.72385,
+              43.71725
+            ],
+            [
+              -79.72385,
+              43.71675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "tmu-health-sciences",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "tmu-peel-commons",
+      "name": "Peel Student Commons",
+      "nativeCodes": [
+        "PSC"
+      ],
+      "aliases": [
+        "Peel Student Commons"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.72235,
+              43.71625
+            ],
+            [
+              -79.72165,
+              43.71625
+            ],
+            [
+              -79.72165,
+              43.71675
+            ],
+            [
+              -79.72235,
+              43.71675
+            ],
+            [
+              -79.72235,
+              43.71625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "tmu-peel-commons",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "tmu-brampton-learning",
+      "name": "Brampton Learning Centre",
+      "nativeCodes": [
+        "BLC"
+      ],
+      "aliases": [
+        "Brampton Learning Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.72435,
+              43.71825
+            ],
+            [
+              -79.72365,
+              43.71825
+            ],
+            [
+              -79.72365,
+              43.71875
+            ],
+            [
+              -79.72435,
+              43.71875
+            ],
+            [
+              -79.72435,
+              43.71825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "tmu-brampton-learning",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-tmu-brampton-tmu-bramalea-medical",
+      "buildingId": "tmu-bramalea-medical",
+      "coordinate": [
+        -79.7225,
+        43.71725
+      ],
+      "pathNodeId": "node-ent-tmu-brampton-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "ent-tmu-brampton-tmu-bramalea-medical",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-tmu-brampton-tmu-brampton-academic",
+      "buildingId": "tmu-brampton-academic",
+      "coordinate": [
+        -79.7215,
+        43.71775
+      ],
+      "pathNodeId": "node-ent-tmu-brampton-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "ent-tmu-brampton-tmu-brampton-academic",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-tmu-brampton-tmu-health-sciences",
+      "buildingId": "tmu-health-sciences",
+      "coordinate": [
+        -79.7235,
+        43.71675
+      ],
+      "pathNodeId": "node-ent-tmu-brampton-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "ent-tmu-brampton-tmu-health-sciences",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-tmu-brampton-tmu-peel-commons",
+      "buildingId": "tmu-peel-commons",
+      "coordinate": [
+        -79.722,
+        43.71625
+      ],
+      "pathNodeId": "node-ent-tmu-brampton-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "ent-tmu-brampton-tmu-peel-commons",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-tmu-brampton-tmu-brampton-learning",
+      "buildingId": "tmu-brampton-learning",
+      "coordinate": [
+        -79.724,
+        43.71825
+      ],
+      "pathNodeId": "node-ent-tmu-brampton-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "ent-tmu-brampton-tmu-brampton-learning",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-tmu-brampton-0",
+      "coordinate": [
+        -79.7269,
+        43.7139
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-spine-tmu-brampton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-tmu-brampton-1",
+      "coordinate": [
+        -79.7247,
+        43.7157
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-spine-tmu-brampton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-tmu-brampton-2",
+      "coordinate": [
+        -79.7225,
+        43.7175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-tmu-brampton-3",
+      "coordinate": [
+        -79.7203,
+        43.719300000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-spine-tmu-brampton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-tmu-brampton-4",
+      "coordinate": [
+        -79.71809999999999,
+        43.7211
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-spine-tmu-brampton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-tmu-brampton-0",
+      "coordinate": [
+        -79.7225,
+        43.71725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-ent-tmu-brampton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-tmu-brampton-1",
+      "coordinate": [
+        -79.7215,
+        43.71775
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-ent-tmu-brampton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-tmu-brampton-2",
+      "coordinate": [
+        -79.7235,
+        43.71675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-ent-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-tmu-brampton-3",
+      "coordinate": [
+        -79.722,
+        43.71625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-ent-tmu-brampton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-tmu-brampton-4",
+      "coordinate": [
+        -79.724,
+        43.71825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "node-ent-tmu-brampton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-tmu-brampton-0-node-spine-tmu-brampton-1",
+      "from": "node-spine-tmu-brampton-0",
+      "to": "node-spine-tmu-brampton-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-0-node-spine-tmu-brampton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-1-node-spine-tmu-brampton-0",
+      "from": "node-spine-tmu-brampton-1",
+      "to": "node-spine-tmu-brampton-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-1-node-spine-tmu-brampton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-1-node-spine-tmu-brampton-2",
+      "from": "node-spine-tmu-brampton-1",
+      "to": "node-spine-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-1-node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-2-node-spine-tmu-brampton-1",
+      "from": "node-spine-tmu-brampton-2",
+      "to": "node-spine-tmu-brampton-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-2-node-spine-tmu-brampton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-2-node-spine-tmu-brampton-3",
+      "from": "node-spine-tmu-brampton-2",
+      "to": "node-spine-tmu-brampton-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-2-node-spine-tmu-brampton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-3-node-spine-tmu-brampton-2",
+      "from": "node-spine-tmu-brampton-3",
+      "to": "node-spine-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-3-node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-3-node-spine-tmu-brampton-4",
+      "from": "node-spine-tmu-brampton-3",
+      "to": "node-spine-tmu-brampton-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-3-node-spine-tmu-brampton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-4-node-spine-tmu-brampton-3",
+      "from": "node-spine-tmu-brampton-4",
+      "to": "node-spine-tmu-brampton-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-4-node-spine-tmu-brampton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-tmu-brampton-0-node-spine-tmu-brampton-2",
+      "from": "node-ent-tmu-brampton-0",
+      "to": "node-spine-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-ent-tmu-brampton-0-node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-0",
+      "from": "node-spine-tmu-brampton-2",
+      "to": "node-ent-tmu-brampton-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-tmu-brampton-1-node-spine-tmu-brampton-2",
+      "from": "node-ent-tmu-brampton-1",
+      "to": "node-spine-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-ent-tmu-brampton-1-node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-1",
+      "from": "node-spine-tmu-brampton-2",
+      "to": "node-ent-tmu-brampton-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-tmu-brampton-2-node-spine-tmu-brampton-2",
+      "from": "node-ent-tmu-brampton-2",
+      "to": "node-spine-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-ent-tmu-brampton-2-node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-2",
+      "from": "node-spine-tmu-brampton-2",
+      "to": "node-ent-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-tmu-brampton-3-node-spine-tmu-brampton-2",
+      "from": "node-ent-tmu-brampton-3",
+      "to": "node-spine-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-ent-tmu-brampton-3-node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-3",
+      "from": "node-spine-tmu-brampton-2",
+      "to": "node-ent-tmu-brampton-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-tmu-brampton-4-node-spine-tmu-brampton-2",
+      "from": "node-ent-tmu-brampton-4",
+      "to": "node-spine-tmu-brampton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-ent-tmu-brampton-4-node-spine-tmu-brampton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-4",
+      "from": "node-spine-tmu-brampton-2",
+      "to": "node-ent-tmu-brampton-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-tmu-brampton",
+          "nativeId": "edge-node-spine-tmu-brampton-2-node-ent-tmu-brampton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

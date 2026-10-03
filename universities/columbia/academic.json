@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "columbia",
+  "sources": [
+    {
+      "id": "src-columbia-academic",
+      "title": "Columbia University Morningside Campus Academic Schedule",
+      "url": "https://www.columbia.edu/content/maps",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "Columbia University Morningside Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

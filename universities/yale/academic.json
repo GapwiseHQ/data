@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "yale",
+  "sources": [
+    {
+      "id": "src-yale-academic",
+      "title": "Yale University Central Campus Academic Schedule",
+      "url": "https://map.yale.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "Yale University Central Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

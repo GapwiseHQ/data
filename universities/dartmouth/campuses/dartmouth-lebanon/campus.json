@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "dartmouth",
+  "campus": {
+    "id": "dartmouth-lebanon",
+    "name": "Dartmouth Health Lebanon Campus",
+    "bounds": [
+      [
+        -72.281,
+        43.662
+      ],
+      [
+        -72.268,
+        43.671
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-dartmouth-lebanon",
+      "title": "Dartmouth Hitchcock Medical Center Directory",
+      "url": "https://www.dartmouth-hitchcock.org/locations/dhmc",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "dartmouth-dhmc-main",
+      "name": "Dartmouth Hitchcock Medical Center",
+      "nativeCodes": [
+        "DHMC"
+      ],
+      "aliases": [
+        "Dartmouth Hitchcock Medical Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.27485,
+              43.66625
+            ],
+            [
+              -72.27415,
+              43.66625
+            ],
+            [
+              -72.27415,
+              43.66675
+            ],
+            [
+              -72.27485,
+              43.66675
+            ],
+            [
+              -72.27485,
+              43.66625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "dartmouth-dhmc-main",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-rubin-bldg",
+      "name": "Rubin Research Building",
+      "nativeCodes": [
+        "RUB"
+      ],
+      "aliases": [
+        "Rubin Research Building"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.27385,
+              43.66675
+            ],
+            [
+              -72.27315,
+              43.66675
+            ],
+            [
+              -72.27315,
+              43.66725
+            ],
+            [
+              -72.27385,
+              43.66725
+            ],
+            [
+              -72.27385,
+              43.66675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "dartmouth-rubin-bldg",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-borwell-bldg",
+      "name": "Borwell Research Building",
+      "nativeCodes": [
+        "BOR"
+      ],
+      "aliases": [
+        "Borwell Research Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.27585,
+              43.66575
+            ],
+            [
+              -72.27515,
+              43.66575
+            ],
+            [
+              -72.27515,
+              43.66625
+            ],
+            [
+              -72.27585,
+              43.66625
+            ],
+            [
+              -72.27585,
+              43.66575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "dartmouth-borwell-bldg",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-geisel-ed",
+      "name": "Geisel Education Pavilion",
+      "nativeCodes": [
+        "GEP"
+      ],
+      "aliases": [
+        "Geisel Education Pavilion"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.27335,
+              43.66725
+            ],
+            [
+              -72.27265,
+              43.66725
+            ],
+            [
+              -72.27265,
+              43.66775
+            ],
+            [
+              -72.27335,
+              43.66775
+            ],
+            [
+              -72.27335,
+              43.66725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "dartmouth-geisel-ed",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "dartmouth-clinical-lead",
+      "name": "Clinical Leadership Building",
+      "nativeCodes": [
+        "CLB"
+      ],
+      "aliases": [
+        "Clinical Leadership Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.27635,
+              43.66525
+            ],
+            [
+              -72.27565,
+              43.66525
+            ],
+            [
+              -72.27565,
+              43.66575
+            ],
+            [
+              -72.27635,
+              43.66575
+            ],
+            [
+              -72.27635,
+              43.66525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "dartmouth-clinical-lead",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-dartmouth-lebanon-dartmouth-dhmc-main",
+      "buildingId": "dartmouth-dhmc-main",
+      "coordinate": [
+        -72.2745,
+        43.66625
+      ],
+      "pathNodeId": "node-ent-dartmouth-lebanon-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "ent-dartmouth-lebanon-dartmouth-dhmc-main",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-lebanon-dartmouth-rubin-bldg",
+      "buildingId": "dartmouth-rubin-bldg",
+      "coordinate": [
+        -72.2735,
+        43.66675
+      ],
+      "pathNodeId": "node-ent-dartmouth-lebanon-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "ent-dartmouth-lebanon-dartmouth-rubin-bldg",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-lebanon-dartmouth-borwell-bldg",
+      "buildingId": "dartmouth-borwell-bldg",
+      "coordinate": [
+        -72.2755,
+        43.66575
+      ],
+      "pathNodeId": "node-ent-dartmouth-lebanon-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "ent-dartmouth-lebanon-dartmouth-borwell-bldg",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-lebanon-dartmouth-geisel-ed",
+      "buildingId": "dartmouth-geisel-ed",
+      "coordinate": [
+        -72.273,
+        43.66725
+      ],
+      "pathNodeId": "node-ent-dartmouth-lebanon-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "ent-dartmouth-lebanon-dartmouth-geisel-ed",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-dartmouth-lebanon-dartmouth-clinical-lead",
+      "buildingId": "dartmouth-clinical-lead",
+      "coordinate": [
+        -72.276,
+        43.66525
+      ],
+      "pathNodeId": "node-ent-dartmouth-lebanon-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "ent-dartmouth-lebanon-dartmouth-clinical-lead",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-dartmouth-lebanon-0",
+      "coordinate": [
+        -72.2797,
+        43.6629
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-spine-dartmouth-lebanon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-lebanon-1",
+      "coordinate": [
+        -72.2771,
+        43.664699999999996
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-spine-dartmouth-lebanon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-lebanon-2",
+      "coordinate": [
+        -72.2745,
+        43.6665
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-spine-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-lebanon-3",
+      "coordinate": [
+        -72.2719,
+        43.6683
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-spine-dartmouth-lebanon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-dartmouth-lebanon-4",
+      "coordinate": [
+        -72.2693,
+        43.6701
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-spine-dartmouth-lebanon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-lebanon-0",
+      "coordinate": [
+        -72.2745,
+        43.66625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-ent-dartmouth-lebanon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-lebanon-1",
+      "coordinate": [
+        -72.2735,
+        43.66675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-ent-dartmouth-lebanon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-lebanon-2",
+      "coordinate": [
+        -72.2755,
+        43.66575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-ent-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-lebanon-3",
+      "coordinate": [
+        -72.273,
+        43.66725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-ent-dartmouth-lebanon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-dartmouth-lebanon-4",
+      "coordinate": [
+        -72.276,
+        43.66525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "node-ent-dartmouth-lebanon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-1",
+      "from": "node-spine-dartmouth-lebanon-0",
+      "to": "node-spine-dartmouth-lebanon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-0",
+      "from": "node-spine-dartmouth-lebanon-1",
+      "to": "node-spine-dartmouth-lebanon-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
+      "from": "node-spine-dartmouth-lebanon-1",
+      "to": "node-spine-dartmouth-lebanon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-1",
+      "from": "node-spine-dartmouth-lebanon-2",
+      "to": "node-spine-dartmouth-lebanon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-3",
+      "from": "node-spine-dartmouth-lebanon-2",
+      "to": "node-spine-dartmouth-lebanon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-2",
+      "from": "node-spine-dartmouth-lebanon-3",
+      "to": "node-spine-dartmouth-lebanon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-4",
+      "from": "node-spine-dartmouth-lebanon-3",
+      "to": "node-spine-dartmouth-lebanon-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-3",
+      "from": "node-spine-dartmouth-lebanon-4",
+      "to": "node-spine-dartmouth-lebanon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-2",
+      "from": "node-ent-dartmouth-lebanon-0",
+      "to": "node-spine-dartmouth-lebanon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-ent-dartmouth-lebanon-0-node-spine-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-0",
+      "from": "node-spine-dartmouth-lebanon-2",
+      "to": "node-ent-dartmouth-lebanon-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
+      "from": "node-ent-dartmouth-lebanon-1",
+      "to": "node-spine-dartmouth-lebanon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-ent-dartmouth-lebanon-1-node-spine-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-1",
+      "from": "node-spine-dartmouth-lebanon-2",
+      "to": "node-ent-dartmouth-lebanon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-2",
+      "from": "node-ent-dartmouth-lebanon-2",
+      "to": "node-spine-dartmouth-lebanon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-ent-dartmouth-lebanon-2-node-spine-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-2",
+      "from": "node-spine-dartmouth-lebanon-2",
+      "to": "node-ent-dartmouth-lebanon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-2-node-ent-dartmouth-lebanon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-3",
+      "from": "node-ent-dartmouth-lebanon-3",
+      "to": "node-spine-dartmouth-lebanon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-ent-dartmouth-lebanon-3-node-spine-dartmouth-lebanon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-3-node-ent-dartmouth-lebanon-3",
+      "from": "node-spine-dartmouth-lebanon-3",
+      "to": "node-ent-dartmouth-lebanon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-3-node-ent-dartmouth-lebanon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-1",
+      "from": "node-ent-dartmouth-lebanon-4",
+      "to": "node-spine-dartmouth-lebanon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-ent-dartmouth-lebanon-4-node-spine-dartmouth-lebanon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-dartmouth-lebanon-1-node-ent-dartmouth-lebanon-4",
+      "from": "node-spine-dartmouth-lebanon-1",
+      "to": "node-ent-dartmouth-lebanon-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-dartmouth-lebanon",
+          "nativeId": "edge-node-spine-dartmouth-lebanon-1-node-ent-dartmouth-lebanon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

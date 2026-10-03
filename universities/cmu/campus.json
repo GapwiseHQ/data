@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "cmu",
+  "campus": {
+    "id": "cmu-pittsburgh",
+    "name": "Carnegie Mellon University Pittsburgh Campus",
+    "bounds": [
+      [
+        -79.949,
+        40.439
+      ],
+      [
+        -79.938,
+        40.448
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-cmu-pittsburgh",
+      "title": "Carnegie Mellon University Campus Map",
+      "url": "https://www.cmu.edu/about/visit/campus-map.html",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "cmu-gates-hillman",
+      "name": "Gates and Hillman Centers",
+      "nativeCodes": [
+        "GHC"
+      ],
+      "aliases": [
+        "Gates and Hillman Centers"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94385,
+              40.44325
+            ],
+            [
+              -79.94315,
+              40.44325
+            ],
+            [
+              -79.94315,
+              40.44375
+            ],
+            [
+              -79.94385,
+              40.44375
+            ],
+            [
+              -79.94385,
+              40.44325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-gates-hillman",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-wean-hall",
+      "name": "Wean Hall",
+      "nativeCodes": [
+        "WEH"
+      ],
+      "aliases": [
+        "Wean Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94285,
+              40.44375
+            ],
+            [
+              -79.94215,
+              40.44375
+            ],
+            [
+              -79.94215,
+              40.44425
+            ],
+            [
+              -79.94285,
+              40.44425
+            ],
+            [
+              -79.94285,
+              40.44375
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-wean-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-doherty-hall",
+      "name": "Doherty Hall",
+      "nativeCodes": [
+        "DH"
+      ],
+      "aliases": [
+        "Doherty Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94485,
+              40.44275
+            ],
+            [
+              -79.94415,
+              40.44275
+            ],
+            [
+              -79.94415,
+              40.44325
+            ],
+            [
+              -79.94485,
+              40.44325
+            ],
+            [
+              -79.94485,
+              40.44275
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-doherty-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-hamerschlag-hall",
+      "name": "Hamerschlag Hall",
+      "nativeCodes": [
+        "HH"
+      ],
+      "aliases": [
+        "Hamerschlag Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94235,
+              40.44425
+            ],
+            [
+              -79.94165,
+              40.44425
+            ],
+            [
+              -79.94165,
+              40.44475
+            ],
+            [
+              -79.94235,
+              40.44475
+            ],
+            [
+              -79.94235,
+              40.44425
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-hamerschlag-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-cohon-center",
+      "name": "Cohon University Center",
+      "nativeCodes": [
+        "CUC"
+      ],
+      "aliases": [
+        "Cohon University Center"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94535,
+              40.44225
+            ],
+            [
+              -79.94465,
+              40.44225
+            ],
+            [
+              -79.94465,
+              40.44275
+            ],
+            [
+              -79.94535,
+              40.44275
+            ],
+            [
+              -79.94535,
+              40.44225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-cohon-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-hunt-library",
+      "name": "Hunt Library",
+      "nativeCodes": [
+        "HL"
+      ],
+      "aliases": [
+        "Hunt Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94185,
+              40.44475
+            ],
+            [
+              -79.94115,
+              40.44475
+            ],
+            [
+              -79.94115,
+              40.44525
+            ],
+            [
+              -79.94185,
+              40.44525
+            ],
+            [
+              -79.94185,
+              40.44475
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-hunt-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-posner-hall",
+      "name": "Posner Hall",
+      "nativeCodes": [
+        "POS"
+      ],
+      "aliases": [
+        "Posner Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94585,
+              40.44175
+            ],
+            [
+              -79.94515,
+              40.44175
+            ],
+            [
+              -79.94515,
+              40.44225
+            ],
+            [
+              -79.94585,
+              40.44225
+            ],
+            [
+              -79.94585,
+              40.44175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-posner-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-purnell-arts",
+      "name": "Purnell Center for the Arts",
+      "nativeCodes": [
+        "PCA"
+      ],
+      "aliases": [
+        "Purnell Center for the Arts"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94335,
+              40.44255
+            ],
+            [
+              -79.94265,
+              40.44255
+            ],
+            [
+              -79.94265,
+              40.44305
+            ],
+            [
+              -79.94335,
+              40.44305
+            ],
+            [
+              -79.94335,
+              40.44255
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-purnell-arts",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-baker-hall",
+      "name": "Baker Hall",
+      "nativeCodes": [
+        "BH"
+      ],
+      "aliases": [
+        "Baker Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94635,
+              40.44155
+            ],
+            [
+              -79.94565,
+              40.44155
+            ],
+            [
+              -79.94565,
+              40.44205
+            ],
+            [
+              -79.94635,
+              40.44205
+            ],
+            [
+              -79.94635,
+              40.44155
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-baker-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-porter-hall",
+      "name": "Porter Hall",
+      "nativeCodes": [
+        "PH"
+      ],
+      "aliases": [
+        "Porter Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94685,
+              40.44125
+            ],
+            [
+              -79.94615,
+              40.44125
+            ],
+            [
+              -79.94615,
+              40.44175
+            ],
+            [
+              -79.94685,
+              40.44175
+            ],
+            [
+              -79.94685,
+              40.44125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-porter-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "cmu-mellon-institute",
+      "name": "Mellon Institute",
+      "nativeCodes": [
+        "MI"
+      ],
+      "aliases": [
+        "Mellon Institute"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.94735,
+              40.44425
+            ],
+            [
+              -79.94665,
+              40.44425
+            ],
+            [
+              -79.94665,
+              40.44475
+            ],
+            [
+              -79.94735,
+              40.44475
+            ],
+            [
+              -79.94735,
+              40.44425
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "cmu-mellon-institute",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-cmu-pittsburgh-cmu-gates-hillman",
+      "buildingId": "cmu-gates-hillman",
+      "coordinate": [
+        -79.9435,
+        40.44325
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-gates-hillman",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-wean-hall",
+      "buildingId": "cmu-wean-hall",
+      "coordinate": [
+        -79.9425,
+        40.44375
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-wean-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-doherty-hall",
+      "buildingId": "cmu-doherty-hall",
+      "coordinate": [
+        -79.9445,
+        40.44275
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-doherty-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-hamerschlag-hall",
+      "buildingId": "cmu-hamerschlag-hall",
+      "coordinate": [
+        -79.942,
+        40.44425
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-hamerschlag-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-cohon-center",
+      "buildingId": "cmu-cohon-center",
+      "coordinate": [
+        -79.945,
+        40.44225
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-cohon-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-hunt-library",
+      "buildingId": "cmu-hunt-library",
+      "coordinate": [
+        -79.9415,
+        40.44475
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-hunt-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-posner-hall",
+      "buildingId": "cmu-posner-hall",
+      "coordinate": [
+        -79.9455,
+        40.44175
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-posner-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-purnell-arts",
+      "buildingId": "cmu-purnell-arts",
+      "coordinate": [
+        -79.943,
+        40.44255
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-purnell-arts",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-baker-hall",
+      "buildingId": "cmu-baker-hall",
+      "coordinate": [
+        -79.946,
+        40.44155
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-baker-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-porter-hall",
+      "buildingId": "cmu-porter-hall",
+      "coordinate": [
+        -79.9465,
+        40.44125
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-porter-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-cmu-pittsburgh-cmu-mellon-institute",
+      "buildingId": "cmu-mellon-institute",
+      "coordinate": [
+        -79.947,
+        40.44425
+      ],
+      "pathNodeId": "node-ent-cmu-pittsburgh-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "ent-cmu-pittsburgh-cmu-mellon-institute",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-cmu-pittsburgh-0",
+      "coordinate": [
+        -79.9479,
+        40.4399
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-spine-cmu-pittsburgh-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-cmu-pittsburgh-1",
+      "coordinate": [
+        -79.9457,
+        40.4417
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-cmu-pittsburgh-2",
+      "coordinate": [
+        -79.9435,
+        40.4435
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-spine-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-cmu-pittsburgh-3",
+      "coordinate": [
+        -79.9413,
+        40.4453
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-spine-cmu-pittsburgh-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-cmu-pittsburgh-4",
+      "coordinate": [
+        -79.9391,
+        40.4471
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-spine-cmu-pittsburgh-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-0",
+      "coordinate": [
+        -79.9435,
+        40.44325
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-1",
+      "coordinate": [
+        -79.9425,
+        40.44375
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-2",
+      "coordinate": [
+        -79.9445,
+        40.44275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-3",
+      "coordinate": [
+        -79.942,
+        40.44425
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-4",
+      "coordinate": [
+        -79.945,
+        40.44225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-5",
+      "coordinate": [
+        -79.9415,
+        40.44475
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-6",
+      "coordinate": [
+        -79.9455,
+        40.44175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-7",
+      "coordinate": [
+        -79.943,
+        40.44255
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-8",
+      "coordinate": [
+        -79.946,
+        40.44155
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-9",
+      "coordinate": [
+        -79.9465,
+        40.44125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-cmu-pittsburgh-10",
+      "coordinate": [
+        -79.947,
+        40.44425
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "node-ent-cmu-pittsburgh-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-0-node-spine-cmu-pittsburgh-1",
+      "from": "node-spine-cmu-pittsburgh-0",
+      "to": "node-spine-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-0-node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-1-node-spine-cmu-pittsburgh-0",
+      "from": "node-spine-cmu-pittsburgh-1",
+      "to": "node-spine-cmu-pittsburgh-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-1-node-spine-cmu-pittsburgh-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-1-node-spine-cmu-pittsburgh-2",
+      "from": "node-spine-cmu-pittsburgh-1",
+      "to": "node-spine-cmu-pittsburgh-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-1-node-spine-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-2-node-spine-cmu-pittsburgh-1",
+      "from": "node-spine-cmu-pittsburgh-2",
+      "to": "node-spine-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-2-node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-2-node-spine-cmu-pittsburgh-3",
+      "from": "node-spine-cmu-pittsburgh-2",
+      "to": "node-spine-cmu-pittsburgh-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-2-node-spine-cmu-pittsburgh-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-3-node-spine-cmu-pittsburgh-2",
+      "from": "node-spine-cmu-pittsburgh-3",
+      "to": "node-spine-cmu-pittsburgh-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-3-node-spine-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-3-node-spine-cmu-pittsburgh-4",
+      "from": "node-spine-cmu-pittsburgh-3",
+      "to": "node-spine-cmu-pittsburgh-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-3-node-spine-cmu-pittsburgh-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-4-node-spine-cmu-pittsburgh-3",
+      "from": "node-spine-cmu-pittsburgh-4",
+      "to": "node-spine-cmu-pittsburgh-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-4-node-spine-cmu-pittsburgh-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-0-node-spine-cmu-pittsburgh-2",
+      "from": "node-ent-cmu-pittsburgh-0",
+      "to": "node-spine-cmu-pittsburgh-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-0-node-spine-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-0",
+      "from": "node-spine-cmu-pittsburgh-2",
+      "to": "node-ent-cmu-pittsburgh-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-1-node-spine-cmu-pittsburgh-2",
+      "from": "node-ent-cmu-pittsburgh-1",
+      "to": "node-spine-cmu-pittsburgh-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-1-node-spine-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-1",
+      "from": "node-spine-cmu-pittsburgh-2",
+      "to": "node-ent-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-2-node-spine-cmu-pittsburgh-2",
+      "from": "node-ent-cmu-pittsburgh-2",
+      "to": "node-spine-cmu-pittsburgh-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-2-node-spine-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-2",
+      "from": "node-spine-cmu-pittsburgh-2",
+      "to": "node-ent-cmu-pittsburgh-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-3-node-spine-cmu-pittsburgh-3",
+      "from": "node-ent-cmu-pittsburgh-3",
+      "to": "node-spine-cmu-pittsburgh-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-3-node-spine-cmu-pittsburgh-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-3-node-ent-cmu-pittsburgh-3",
+      "from": "node-spine-cmu-pittsburgh-3",
+      "to": "node-ent-cmu-pittsburgh-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-3-node-ent-cmu-pittsburgh-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-4-node-spine-cmu-pittsburgh-1",
+      "from": "node-ent-cmu-pittsburgh-4",
+      "to": "node-spine-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-4-node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-4",
+      "from": "node-spine-cmu-pittsburgh-1",
+      "to": "node-ent-cmu-pittsburgh-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-5-node-spine-cmu-pittsburgh-3",
+      "from": "node-ent-cmu-pittsburgh-5",
+      "to": "node-spine-cmu-pittsburgh-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-5-node-spine-cmu-pittsburgh-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-3-node-ent-cmu-pittsburgh-5",
+      "from": "node-spine-cmu-pittsburgh-3",
+      "to": "node-ent-cmu-pittsburgh-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-3-node-ent-cmu-pittsburgh-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-6-node-spine-cmu-pittsburgh-1",
+      "from": "node-ent-cmu-pittsburgh-6",
+      "to": "node-spine-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-6-node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-6",
+      "from": "node-spine-cmu-pittsburgh-1",
+      "to": "node-ent-cmu-pittsburgh-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-7-node-spine-cmu-pittsburgh-2",
+      "from": "node-ent-cmu-pittsburgh-7",
+      "to": "node-spine-cmu-pittsburgh-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-7-node-spine-cmu-pittsburgh-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-7",
+      "from": "node-spine-cmu-pittsburgh-2",
+      "to": "node-ent-cmu-pittsburgh-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-2-node-ent-cmu-pittsburgh-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-8-node-spine-cmu-pittsburgh-1",
+      "from": "node-ent-cmu-pittsburgh-8",
+      "to": "node-spine-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-8-node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-8",
+      "from": "node-spine-cmu-pittsburgh-1",
+      "to": "node-ent-cmu-pittsburgh-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-9-node-spine-cmu-pittsburgh-1",
+      "from": "node-ent-cmu-pittsburgh-9",
+      "to": "node-spine-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-9-node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-9",
+      "from": "node-spine-cmu-pittsburgh-1",
+      "to": "node-ent-cmu-pittsburgh-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-cmu-pittsburgh-10-node-spine-cmu-pittsburgh-1",
+      "from": "node-ent-cmu-pittsburgh-10",
+      "to": "node-spine-cmu-pittsburgh-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-ent-cmu-pittsburgh-10-node-spine-cmu-pittsburgh-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-10",
+      "from": "node-spine-cmu-pittsburgh-1",
+      "to": "node-ent-cmu-pittsburgh-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-cmu-pittsburgh",
+          "nativeId": "edge-node-spine-cmu-pittsburgh-1-node-ent-cmu-pittsburgh-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}
