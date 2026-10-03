@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "upenn",
+  "campus": {
+    "id": "upenn-pennovation",
+    "name": "Pennovation Works Campus",
+    "bounds": [
+      [
+        -75.208,
+        39.936
+      ],
+      [
+        -75.195,
+        39.945
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-upenn-pennovation",
+      "title": "Pennovation Works Campus Map",
+      "url": "https://pennovation.upenn.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "upenn-pennovation-center",
+      "name": "Pennovation Center",
+      "nativeCodes": [
+        "PNC"
+      ],
+      "aliases": [
+        "Pennovation Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.20185,
+              39.94025
+            ],
+            [
+              -75.20115,
+              39.94025
+            ],
+            [
+              -75.20115,
+              39.94075
+            ],
+            [
+              -75.20185,
+              39.94075
+            ],
+            [
+              -75.20185,
+              39.94025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "upenn-pennovation-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-perch-robotics",
+      "name": "PERCH Robotics Laboratory",
+      "nativeCodes": [
+        "PERCH"
+      ],
+      "aliases": [
+        "PERCH Robotics Laboratory"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.20085,
+              39.94075
+            ],
+            [
+              -75.20015,
+              39.94075
+            ],
+            [
+              -75.20015,
+              39.94125
+            ],
+            [
+              -75.20085,
+              39.94125
+            ],
+            [
+              -75.20085,
+              39.94075
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "upenn-perch-robotics",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-invention-works",
+      "name": "Invention Works Pavilion",
+      "nativeCodes": [
+        "IWP"
+      ],
+      "aliases": [
+        "Invention Works Pavilion"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.20285,
+              39.93975
+            ],
+            [
+              -75.20215,
+              39.93975
+            ],
+            [
+              -75.20215,
+              39.94025
+            ],
+            [
+              -75.20285,
+              39.94025
+            ],
+            [
+              -75.20285,
+              39.93975
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "upenn-invention-works",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-biosciences-lab",
+      "name": "BioSciences Lab",
+      "nativeCodes": [
+        "BSL"
+      ],
+      "aliases": [
+        "BioSciences Lab"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.20035,
+              39.94125
+            ],
+            [
+              -75.19965,
+              39.94125
+            ],
+            [
+              -75.19965,
+              39.94175
+            ],
+            [
+              -75.20035,
+              39.94175
+            ],
+            [
+              -75.20035,
+              39.94125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "upenn-biosciences-lab",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-innovation-centre",
+      "name": "Engineering Innovation Centre",
+      "nativeCodes": [
+        "EIC"
+      ],
+      "aliases": [
+        "Engineering Innovation Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.20335,
+              39.93925
+            ],
+            [
+              -75.20265,
+              39.93925
+            ],
+            [
+              -75.20265,
+              39.93975
+            ],
+            [
+              -75.20335,
+              39.93975
+            ],
+            [
+              -75.20335,
+              39.93925
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "upenn-innovation-centre",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-upenn-pennovation-upenn-pennovation-center",
+      "buildingId": "upenn-pennovation-center",
+      "coordinate": [
+        -75.2015,
+        39.94025
+      ],
+      "pathNodeId": "node-ent-upenn-pennovation-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "ent-upenn-pennovation-upenn-pennovation-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-pennovation-upenn-perch-robotics",
+      "buildingId": "upenn-perch-robotics",
+      "coordinate": [
+        -75.2005,
+        39.94075
+      ],
+      "pathNodeId": "node-ent-upenn-pennovation-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "ent-upenn-pennovation-upenn-perch-robotics",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-pennovation-upenn-invention-works",
+      "buildingId": "upenn-invention-works",
+      "coordinate": [
+        -75.2025,
+        39.93975
+      ],
+      "pathNodeId": "node-ent-upenn-pennovation-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "ent-upenn-pennovation-upenn-invention-works",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-pennovation-upenn-biosciences-lab",
+      "buildingId": "upenn-biosciences-lab",
+      "coordinate": [
+        -75.2,
+        39.94125
+      ],
+      "pathNodeId": "node-ent-upenn-pennovation-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "ent-upenn-pennovation-upenn-biosciences-lab",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-pennovation-upenn-innovation-centre",
+      "buildingId": "upenn-innovation-centre",
+      "coordinate": [
+        -75.203,
+        39.93925
+      ],
+      "pathNodeId": "node-ent-upenn-pennovation-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "ent-upenn-pennovation-upenn-innovation-centre",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-upenn-pennovation-0",
+      "coordinate": [
+        -75.2067,
+        39.9369
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-spine-upenn-pennovation-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-pennovation-1",
+      "coordinate": [
+        -75.2041,
+        39.9387
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-spine-upenn-pennovation-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-pennovation-2",
+      "coordinate": [
+        -75.2015,
+        39.9405
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-spine-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-pennovation-3",
+      "coordinate": [
+        -75.1989,
+        39.9423
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-spine-upenn-pennovation-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-pennovation-4",
+      "coordinate": [
+        -75.1963,
+        39.9441
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-spine-upenn-pennovation-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-pennovation-0",
+      "coordinate": [
+        -75.2015,
+        39.94025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-ent-upenn-pennovation-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-pennovation-1",
+      "coordinate": [
+        -75.2005,
+        39.94075
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-ent-upenn-pennovation-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-pennovation-2",
+      "coordinate": [
+        -75.2025,
+        39.93975
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-ent-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-pennovation-3",
+      "coordinate": [
+        -75.2,
+        39.94125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-ent-upenn-pennovation-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-pennovation-4",
+      "coordinate": [
+        -75.203,
+        39.93925
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "node-ent-upenn-pennovation-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-upenn-pennovation-0-node-spine-upenn-pennovation-1",
+      "from": "node-spine-upenn-pennovation-0",
+      "to": "node-spine-upenn-pennovation-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-0-node-spine-upenn-pennovation-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-1-node-spine-upenn-pennovation-0",
+      "from": "node-spine-upenn-pennovation-1",
+      "to": "node-spine-upenn-pennovation-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-1-node-spine-upenn-pennovation-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-1-node-spine-upenn-pennovation-2",
+      "from": "node-spine-upenn-pennovation-1",
+      "to": "node-spine-upenn-pennovation-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-1-node-spine-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-2-node-spine-upenn-pennovation-1",
+      "from": "node-spine-upenn-pennovation-2",
+      "to": "node-spine-upenn-pennovation-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-2-node-spine-upenn-pennovation-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-2-node-spine-upenn-pennovation-3",
+      "from": "node-spine-upenn-pennovation-2",
+      "to": "node-spine-upenn-pennovation-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-2-node-spine-upenn-pennovation-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-3-node-spine-upenn-pennovation-2",
+      "from": "node-spine-upenn-pennovation-3",
+      "to": "node-spine-upenn-pennovation-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-3-node-spine-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-3-node-spine-upenn-pennovation-4",
+      "from": "node-spine-upenn-pennovation-3",
+      "to": "node-spine-upenn-pennovation-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-3-node-spine-upenn-pennovation-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-4-node-spine-upenn-pennovation-3",
+      "from": "node-spine-upenn-pennovation-4",
+      "to": "node-spine-upenn-pennovation-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-4-node-spine-upenn-pennovation-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-pennovation-0-node-spine-upenn-pennovation-2",
+      "from": "node-ent-upenn-pennovation-0",
+      "to": "node-spine-upenn-pennovation-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-ent-upenn-pennovation-0-node-spine-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-2-node-ent-upenn-pennovation-0",
+      "from": "node-spine-upenn-pennovation-2",
+      "to": "node-ent-upenn-pennovation-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-2-node-ent-upenn-pennovation-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-pennovation-1-node-spine-upenn-pennovation-2",
+      "from": "node-ent-upenn-pennovation-1",
+      "to": "node-spine-upenn-pennovation-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-ent-upenn-pennovation-1-node-spine-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-2-node-ent-upenn-pennovation-1",
+      "from": "node-spine-upenn-pennovation-2",
+      "to": "node-ent-upenn-pennovation-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-2-node-ent-upenn-pennovation-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-pennovation-2-node-spine-upenn-pennovation-2",
+      "from": "node-ent-upenn-pennovation-2",
+      "to": "node-spine-upenn-pennovation-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-ent-upenn-pennovation-2-node-spine-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-2-node-ent-upenn-pennovation-2",
+      "from": "node-spine-upenn-pennovation-2",
+      "to": "node-ent-upenn-pennovation-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-2-node-ent-upenn-pennovation-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-pennovation-3-node-spine-upenn-pennovation-3",
+      "from": "node-ent-upenn-pennovation-3",
+      "to": "node-spine-upenn-pennovation-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-ent-upenn-pennovation-3-node-spine-upenn-pennovation-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-3-node-ent-upenn-pennovation-3",
+      "from": "node-spine-upenn-pennovation-3",
+      "to": "node-ent-upenn-pennovation-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-3-node-ent-upenn-pennovation-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-pennovation-4-node-spine-upenn-pennovation-1",
+      "from": "node-ent-upenn-pennovation-4",
+      "to": "node-spine-upenn-pennovation-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-ent-upenn-pennovation-4-node-spine-upenn-pennovation-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-pennovation-1-node-ent-upenn-pennovation-4",
+      "from": "node-spine-upenn-pennovation-1",
+      "to": "node-ent-upenn-pennovation-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-pennovation",
+          "nativeId": "edge-node-spine-upenn-pennovation-1-node-ent-upenn-pennovation-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

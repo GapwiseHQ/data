@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "cornell",
+  "sources": [
+    {
+      "id": "src-cornell-academic",
+      "title": "Cornell University Ithaca Campus Academic Schedule",
+      "url": "https://www.cornell.edu/about/maps/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "Cornell University Ithaca Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

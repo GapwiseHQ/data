@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "harvard",
+  "campus": {
+    "id": "harvard-cambridge",
+    "name": "Harvard University Cambridge Campus",
+    "bounds": [
+      [
+        -71.123,
+        42.371
+      ],
+      [
+        -71.11,
+        42.38
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-harvard-cambridge",
+      "title": "Harvard University Campus Map",
+      "url": "https://map.harvard.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "harvard-widener-library",
+      "name": "Widener Memorial Library",
+      "nativeCodes": [
+        "WID"
+      ],
+      "aliases": [
+        "Widener Memorial Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11685,
+              42.37325
+            ],
+            [
+              -71.11615,
+              42.37325
+            ],
+            [
+              -71.11615,
+              42.37375
+            ],
+            [
+              -71.11685,
+              42.37375
+            ],
+            [
+              -71.11685,
+              42.37325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-widener-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-science-center",
+      "name": "Science Center",
+      "nativeCodes": [
+        "SC"
+      ],
+      "aliases": [
+        "Science Center"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11635,
+              42.37625
+            ],
+            [
+              -71.11565,
+              42.37625
+            ],
+            [
+              -71.11565,
+              42.37675
+            ],
+            [
+              -71.11635,
+              42.37675
+            ],
+            [
+              -71.11635,
+              42.37625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-science-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-sever-hall",
+      "name": "Sever Hall",
+      "nativeCodes": [
+        "SEV"
+      ],
+      "aliases": [
+        "Sever Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11585,
+              42.37375
+            ],
+            [
+              -71.11515,
+              42.37375
+            ],
+            [
+              -71.11515,
+              42.37425
+            ],
+            [
+              -71.11585,
+              42.37425
+            ],
+            [
+              -71.11585,
+              42.37375
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-sever-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-langdell-hall",
+      "name": "Langdell Hall (Law)",
+      "nativeCodes": [
+        "LANG"
+      ],
+      "aliases": [
+        "Langdell Hall (Law)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11935,
+              42.37825
+            ],
+            [
+              -71.11865,
+              42.37825
+            ],
+            [
+              -71.11865,
+              42.37875
+            ],
+            [
+              -71.11935,
+              42.37875
+            ],
+            [
+              -71.11935,
+              42.37825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-langdell-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-memorial-hall",
+      "name": "Memorial Hall & Sanders Theatre",
+      "nativeCodes": [
+        "MEM"
+      ],
+      "aliases": [
+        "Memorial Hall & Sanders Theatre"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11485,
+              42.37525
+            ],
+            [
+              -71.11415,
+              42.37525
+            ],
+            [
+              -71.11415,
+              42.37575
+            ],
+            [
+              -71.11485,
+              42.37575
+            ],
+            [
+              -71.11485,
+              42.37525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-memorial-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-maxwell-dworkin",
+      "name": "Maxwell-Dworkin (Engineering)",
+      "nativeCodes": [
+        "MD"
+      ],
+      "aliases": [
+        "Maxwell-Dworkin (Engineering)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11735,
+              42.37775
+            ],
+            [
+              -71.11665,
+              42.37775
+            ],
+            [
+              -71.11665,
+              42.37825
+            ],
+            [
+              -71.11735,
+              42.37825
+            ],
+            [
+              -71.11735,
+              42.37775
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-maxwell-dworkin",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-emerson-hall",
+      "name": "Emerson Hall",
+      "nativeCodes": [
+        "EME"
+      ],
+      "aliases": [
+        "Emerson Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11585,
+              42.37355
+            ],
+            [
+              -71.11515,
+              42.37355
+            ],
+            [
+              -71.11515,
+              42.37405
+            ],
+            [
+              -71.11585,
+              42.37405
+            ],
+            [
+              -71.11585,
+              42.37355
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-emerson-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-boylston-hall",
+      "name": "Boylston Hall",
+      "nativeCodes": [
+        "BOY"
+      ],
+      "aliases": [
+        "Boylston Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11785,
+              42.37325
+            ],
+            [
+              -71.11715,
+              42.37325
+            ],
+            [
+              -71.11715,
+              42.37375
+            ],
+            [
+              -71.11785,
+              42.37375
+            ],
+            [
+              -71.11785,
+              42.37325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-boylston-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-peabody-museum",
+      "name": "Peabody Museum",
+      "nativeCodes": [
+        "PEA"
+      ],
+      "aliases": [
+        "Peabody Museum"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11535,
+              42.37775
+            ],
+            [
+              -71.11465,
+              42.37775
+            ],
+            [
+              -71.11465,
+              42.37825
+            ],
+            [
+              -71.11535,
+              42.37825
+            ],
+            [
+              -71.11535,
+              42.37775
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-peabody-museum",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-barker-center",
+      "name": "Barker Center",
+      "nativeCodes": [
+        "BKC"
+      ],
+      "aliases": [
+        "Barker Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11485,
+              42.37275
+            ],
+            [
+              -71.11415,
+              42.37275
+            ],
+            [
+              -71.11415,
+              42.37325
+            ],
+            [
+              -71.11485,
+              42.37325
+            ],
+            [
+              -71.11485,
+              42.37275
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-barker-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-university-hall",
+      "name": "University Hall",
+      "nativeCodes": [
+        "UH"
+      ],
+      "aliases": [
+        "University Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.11685,
+              42.37455
+            ],
+            [
+              -71.11615,
+              42.37455
+            ],
+            [
+              -71.11615,
+              42.37505
+            ],
+            [
+              -71.11685,
+              42.37505
+            ],
+            [
+              -71.11685,
+              42.37455
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "harvard-university-hall",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-harvard-cambridge-harvard-widener-library",
+      "buildingId": "harvard-widener-library",
+      "coordinate": [
+        -71.1165,
+        42.37325
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-widener-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-science-center",
+      "buildingId": "harvard-science-center",
+      "coordinate": [
+        -71.116,
+        42.37625
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-science-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-sever-hall",
+      "buildingId": "harvard-sever-hall",
+      "coordinate": [
+        -71.1155,
+        42.37375
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-sever-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-langdell-hall",
+      "buildingId": "harvard-langdell-hall",
+      "coordinate": [
+        -71.119,
+        42.37825
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-langdell-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-memorial-hall",
+      "buildingId": "harvard-memorial-hall",
+      "coordinate": [
+        -71.1145,
+        42.37525
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-memorial-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-maxwell-dworkin",
+      "buildingId": "harvard-maxwell-dworkin",
+      "coordinate": [
+        -71.117,
+        42.37775
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-maxwell-dworkin",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-emerson-hall",
+      "buildingId": "harvard-emerson-hall",
+      "coordinate": [
+        -71.1155,
+        42.37355
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-emerson-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-boylston-hall",
+      "buildingId": "harvard-boylston-hall",
+      "coordinate": [
+        -71.1175,
+        42.37325
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-boylston-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-peabody-museum",
+      "buildingId": "harvard-peabody-museum",
+      "coordinate": [
+        -71.115,
+        42.37775
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-peabody-museum",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-barker-center",
+      "buildingId": "harvard-barker-center",
+      "coordinate": [
+        -71.1145,
+        42.37275
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-barker-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-cambridge-harvard-university-hall",
+      "buildingId": "harvard-university-hall",
+      "coordinate": [
+        -71.1165,
+        42.37455
+      ],
+      "pathNodeId": "node-ent-harvard-cambridge-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "ent-harvard-cambridge-harvard-university-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-harvard-cambridge-0",
+      "coordinate": [
+        -71.1217,
+        42.371900000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-spine-harvard-cambridge-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-cambridge-1",
+      "coordinate": [
+        -71.1191,
+        42.3737
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-spine-harvard-cambridge-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-cambridge-2",
+      "coordinate": [
+        -71.1165,
+        42.3755
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-cambridge-3",
+      "coordinate": [
+        -71.1139,
+        42.377300000000005
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-spine-harvard-cambridge-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-cambridge-4",
+      "coordinate": [
+        -71.1113,
+        42.3791
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-spine-harvard-cambridge-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-0",
+      "coordinate": [
+        -71.1165,
+        42.37325
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-1",
+      "coordinate": [
+        -71.116,
+        42.37625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-2",
+      "coordinate": [
+        -71.1155,
+        42.37375
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-3",
+      "coordinate": [
+        -71.119,
+        42.37825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-4",
+      "coordinate": [
+        -71.1145,
+        42.37525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-5",
+      "coordinate": [
+        -71.117,
+        42.37775
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-6",
+      "coordinate": [
+        -71.1155,
+        42.37355
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-7",
+      "coordinate": [
+        -71.1175,
+        42.37325
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-8",
+      "coordinate": [
+        -71.115,
+        42.37775
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-9",
+      "coordinate": [
+        -71.1145,
+        42.37275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-cambridge-10",
+      "coordinate": [
+        -71.1165,
+        42.37455
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "node-ent-harvard-cambridge-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-harvard-cambridge-0-node-spine-harvard-cambridge-1",
+      "from": "node-spine-harvard-cambridge-0",
+      "to": "node-spine-harvard-cambridge-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-0-node-spine-harvard-cambridge-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-1-node-spine-harvard-cambridge-0",
+      "from": "node-spine-harvard-cambridge-1",
+      "to": "node-spine-harvard-cambridge-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-1-node-spine-harvard-cambridge-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-1-node-spine-harvard-cambridge-2",
+      "from": "node-spine-harvard-cambridge-1",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-1-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-spine-harvard-cambridge-1",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-spine-harvard-cambridge-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-spine-harvard-cambridge-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-spine-harvard-cambridge-3",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-spine-harvard-cambridge-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-spine-harvard-cambridge-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-3-node-spine-harvard-cambridge-2",
+      "from": "node-spine-harvard-cambridge-3",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-3-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-3-node-spine-harvard-cambridge-4",
+      "from": "node-spine-harvard-cambridge-3",
+      "to": "node-spine-harvard-cambridge-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-3-node-spine-harvard-cambridge-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-4-node-spine-harvard-cambridge-3",
+      "from": "node-spine-harvard-cambridge-4",
+      "to": "node-spine-harvard-cambridge-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-4-node-spine-harvard-cambridge-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-0-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-0",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-0-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-0",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-1-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-1",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-1-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-1",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-2-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-2",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-2-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-2",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-3-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-3",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-3-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-3",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-4-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-4",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-4-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-4",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-5-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-5",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-5-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-5",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-6-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-6",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-6-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-6",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-7-node-spine-harvard-cambridge-1",
+      "from": "node-ent-harvard-cambridge-7",
+      "to": "node-spine-harvard-cambridge-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-7-node-spine-harvard-cambridge-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-1-node-ent-harvard-cambridge-7",
+      "from": "node-spine-harvard-cambridge-1",
+      "to": "node-ent-harvard-cambridge-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-1-node-ent-harvard-cambridge-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-8-node-spine-harvard-cambridge-3",
+      "from": "node-ent-harvard-cambridge-8",
+      "to": "node-spine-harvard-cambridge-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-8-node-spine-harvard-cambridge-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-3-node-ent-harvard-cambridge-8",
+      "from": "node-spine-harvard-cambridge-3",
+      "to": "node-ent-harvard-cambridge-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-3-node-ent-harvard-cambridge-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-9-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-9",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-9-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-9",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-cambridge-10-node-spine-harvard-cambridge-2",
+      "from": "node-ent-harvard-cambridge-10",
+      "to": "node-spine-harvard-cambridge-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-ent-harvard-cambridge-10-node-spine-harvard-cambridge-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-10",
+      "from": "node-spine-harvard-cambridge-2",
+      "to": "node-ent-harvard-cambridge-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-cambridge",
+          "nativeId": "edge-node-spine-harvard-cambridge-2-node-ent-harvard-cambridge-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

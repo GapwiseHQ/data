@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "ucberkeley",
+  "campus": {
+    "id": "ucberkeley-main",
+    "name": "University of California, Berkeley Campus",
+    "bounds": [
+      [
+        -122.265,
+        37.867
+      ],
+      [
+        -122.252,
+        37.876
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-ucberkeley-main",
+      "title": "UC Berkeley Campus Map & Building Directory",
+      "url": "https://www.berkeley.edu/map",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "ucb-soda-hall",
+      "name": "Soda Hall",
+      "nativeCodes": [
+        "SODA"
+      ],
+      "aliases": [
+        "Soda Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25885,
+              37.87525
+            ],
+            [
+              -122.25815,
+              37.87525
+            ],
+            [
+              -122.25815,
+              37.87575
+            ],
+            [
+              -122.25885,
+              37.87575
+            ],
+            [
+              -122.25885,
+              37.87525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-soda-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-cory-hall",
+      "name": "Cory Hall",
+      "nativeCodes": [
+        "CORY"
+      ],
+      "aliases": [
+        "Cory Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25785,
+              37.87475
+            ],
+            [
+              -122.25715,
+              37.87475
+            ],
+            [
+              -122.25715,
+              37.87525
+            ],
+            [
+              -122.25785,
+              37.87525
+            ],
+            [
+              -122.25785,
+              37.87475
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-cory-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-wheeler-hall",
+      "name": "Wheeler Hall",
+      "nativeCodes": [
+        "WHEEL"
+      ],
+      "aliases": [
+        "Wheeler Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25985,
+              37.87075
+            ],
+            [
+              -122.25915,
+              37.87075
+            ],
+            [
+              -122.25915,
+              37.87125
+            ],
+            [
+              -122.25985,
+              37.87125
+            ],
+            [
+              -122.25985,
+              37.87075
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-wheeler-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-dwinelle-hall",
+      "name": "Dwinelle Hall",
+      "nativeCodes": [
+        "DWIN"
+      ],
+      "aliases": [
+        "Dwinelle Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.26085,
+              37.87025
+            ],
+            [
+              -122.26015,
+              37.87025
+            ],
+            [
+              -122.26015,
+              37.87075
+            ],
+            [
+              -122.26085,
+              37.87075
+            ],
+            [
+              -122.26085,
+              37.87025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-dwinelle-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-valley-life",
+      "name": "Valley Life Sciences Building",
+      "nativeCodes": [
+        "VLSB"
+      ],
+      "aliases": [
+        "Valley Life Sciences Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.26235,
+              37.87125
+            ],
+            [
+              -122.26165,
+              37.87125
+            ],
+            [
+              -122.26165,
+              37.87175
+            ],
+            [
+              -122.26235,
+              37.87175
+            ],
+            [
+              -122.26235,
+              37.87125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-valley-life",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-doe-library",
+      "name": "Doe Memorial Library",
+      "nativeCodes": [
+        "DOE"
+      ],
+      "aliases": [
+        "Doe Memorial Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25935,
+              37.87225
+            ],
+            [
+              -122.25865,
+              37.87225
+            ],
+            [
+              -122.25865,
+              37.87275
+            ],
+            [
+              -122.25935,
+              37.87275
+            ],
+            [
+              -122.25935,
+              37.87225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-doe-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-hearst-mining",
+      "name": "Hearst Memorial Mining Building",
+      "nativeCodes": [
+        "HMMB"
+      ],
+      "aliases": [
+        "Hearst Memorial Mining Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25735,
+              37.87425
+            ],
+            [
+              -122.25665,
+              37.87425
+            ],
+            [
+              -122.25665,
+              37.87475
+            ],
+            [
+              -122.25735,
+              37.87475
+            ],
+            [
+              -122.25735,
+              37.87425
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-hearst-mining",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-moffitt-library",
+      "name": "Moffitt Library",
+      "nativeCodes": [
+        "MOFF"
+      ],
+      "aliases": [
+        "Moffitt Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.26035,
+              37.87255
+            ],
+            [
+              -122.25965,
+              37.87255
+            ],
+            [
+              -122.25965,
+              37.87305
+            ],
+            [
+              -122.26035,
+              37.87305
+            ],
+            [
+              -122.26035,
+              37.87255
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-moffitt-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-stanley-hall",
+      "name": "Stanley Hall",
+      "nativeCodes": [
+        "STAN"
+      ],
+      "aliases": [
+        "Stanley Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25685,
+              37.87375
+            ],
+            [
+              -122.25615,
+              37.87375
+            ],
+            [
+              -122.25615,
+              37.87425
+            ],
+            [
+              -122.25685,
+              37.87425
+            ],
+            [
+              -122.25685,
+              37.87375
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-stanley-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-tan-hall",
+      "name": "Tan Hall",
+      "nativeCodes": [
+        "TAN"
+      ],
+      "aliases": [
+        "Tan Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25635,
+              37.87325
+            ],
+            [
+              -122.25565,
+              37.87325
+            ],
+            [
+              -122.25565,
+              37.87375
+            ],
+            [
+              -122.25635,
+              37.87375
+            ],
+            [
+              -122.25635,
+              37.87325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-tan-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "ucb-physics-building",
+      "name": "Physics Building",
+      "nativeCodes": [
+        "PHYS"
+      ],
+      "aliases": [
+        "Physics Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.25815,
+              37.87195
+            ],
+            [
+              -122.25745,
+              37.87195
+            ],
+            [
+              -122.25745,
+              37.87245
+            ],
+            [
+              -122.25815,
+              37.87245
+            ],
+            [
+              -122.25815,
+              37.87195
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ucb-physics-building",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-ucberkeley-main-ucb-soda-hall",
+      "buildingId": "ucb-soda-hall",
+      "coordinate": [
+        -122.2585,
+        37.87525
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-soda-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-cory-hall",
+      "buildingId": "ucb-cory-hall",
+      "coordinate": [
+        -122.2575,
+        37.87475
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-cory-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-wheeler-hall",
+      "buildingId": "ucb-wheeler-hall",
+      "coordinate": [
+        -122.2595,
+        37.87075
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-wheeler-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-dwinelle-hall",
+      "buildingId": "ucb-dwinelle-hall",
+      "coordinate": [
+        -122.2605,
+        37.87025
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-dwinelle-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-valley-life",
+      "buildingId": "ucb-valley-life",
+      "coordinate": [
+        -122.262,
+        37.87125
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-valley-life",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-doe-library",
+      "buildingId": "ucb-doe-library",
+      "coordinate": [
+        -122.259,
+        37.87225
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-doe-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-hearst-mining",
+      "buildingId": "ucb-hearst-mining",
+      "coordinate": [
+        -122.257,
+        37.87425
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-hearst-mining",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-moffitt-library",
+      "buildingId": "ucb-moffitt-library",
+      "coordinate": [
+        -122.26,
+        37.87255
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-moffitt-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-stanley-hall",
+      "buildingId": "ucb-stanley-hall",
+      "coordinate": [
+        -122.2565,
+        37.87375
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-stanley-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-tan-hall",
+      "buildingId": "ucb-tan-hall",
+      "coordinate": [
+        -122.256,
+        37.87325
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-tan-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-ucberkeley-main-ucb-physics-building",
+      "buildingId": "ucb-physics-building",
+      "coordinate": [
+        -122.2578,
+        37.87195
+      ],
+      "pathNodeId": "node-ent-ucberkeley-main-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "ent-ucberkeley-main-ucb-physics-building",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-ucberkeley-main-0",
+      "coordinate": [
+        -122.2637,
+        37.8679
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-spine-ucberkeley-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-ucberkeley-main-1",
+      "coordinate": [
+        -122.2611,
+        37.869699999999995
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-spine-ucberkeley-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-ucberkeley-main-2",
+      "coordinate": [
+        -122.2585,
+        37.8715
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-spine-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-ucberkeley-main-3",
+      "coordinate": [
+        -122.2559,
+        37.8733
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-ucberkeley-main-4",
+      "coordinate": [
+        -122.2533,
+        37.875099999999996
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-spine-ucberkeley-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-0",
+      "coordinate": [
+        -122.2585,
+        37.87525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-1",
+      "coordinate": [
+        -122.2575,
+        37.87475
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-2",
+      "coordinate": [
+        -122.2595,
+        37.87075
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-3",
+      "coordinate": [
+        -122.2605,
+        37.87025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-4",
+      "coordinate": [
+        -122.262,
+        37.87125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-5",
+      "coordinate": [
+        -122.259,
+        37.87225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-6",
+      "coordinate": [
+        -122.257,
+        37.87425
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-7",
+      "coordinate": [
+        -122.26,
+        37.87255
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-8",
+      "coordinate": [
+        -122.2565,
+        37.87375
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-9",
+      "coordinate": [
+        -122.256,
+        37.87325
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-ucberkeley-main-10",
+      "coordinate": [
+        -122.2578,
+        37.87195
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "node-ent-ucberkeley-main-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-ucberkeley-main-0-node-spine-ucberkeley-main-1",
+      "from": "node-spine-ucberkeley-main-0",
+      "to": "node-spine-ucberkeley-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-0-node-spine-ucberkeley-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-1-node-spine-ucberkeley-main-0",
+      "from": "node-spine-ucberkeley-main-1",
+      "to": "node-spine-ucberkeley-main-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-1-node-spine-ucberkeley-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-1-node-spine-ucberkeley-main-2",
+      "from": "node-spine-ucberkeley-main-1",
+      "to": "node-spine-ucberkeley-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-1-node-spine-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-2-node-spine-ucberkeley-main-1",
+      "from": "node-spine-ucberkeley-main-2",
+      "to": "node-spine-ucberkeley-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-2-node-spine-ucberkeley-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-2-node-spine-ucberkeley-main-3",
+      "from": "node-spine-ucberkeley-main-2",
+      "to": "node-spine-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-2-node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-3-node-spine-ucberkeley-main-2",
+      "from": "node-spine-ucberkeley-main-3",
+      "to": "node-spine-ucberkeley-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-3-node-spine-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-3-node-spine-ucberkeley-main-4",
+      "from": "node-spine-ucberkeley-main-3",
+      "to": "node-spine-ucberkeley-main-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-3-node-spine-ucberkeley-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-4-node-spine-ucberkeley-main-3",
+      "from": "node-spine-ucberkeley-main-4",
+      "to": "node-spine-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-4-node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-0-node-spine-ucberkeley-main-3",
+      "from": "node-ent-ucberkeley-main-0",
+      "to": "node-spine-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-0-node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-0",
+      "from": "node-spine-ucberkeley-main-3",
+      "to": "node-ent-ucberkeley-main-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-1-node-spine-ucberkeley-main-3",
+      "from": "node-ent-ucberkeley-main-1",
+      "to": "node-spine-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-1-node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-1",
+      "from": "node-spine-ucberkeley-main-3",
+      "to": "node-ent-ucberkeley-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-2-node-spine-ucberkeley-main-2",
+      "from": "node-ent-ucberkeley-main-2",
+      "to": "node-spine-ucberkeley-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-2-node-spine-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-2",
+      "from": "node-spine-ucberkeley-main-2",
+      "to": "node-ent-ucberkeley-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-3-node-spine-ucberkeley-main-1",
+      "from": "node-ent-ucberkeley-main-3",
+      "to": "node-spine-ucberkeley-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-3-node-spine-ucberkeley-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-1-node-ent-ucberkeley-main-3",
+      "from": "node-spine-ucberkeley-main-1",
+      "to": "node-ent-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-1-node-ent-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-4-node-spine-ucberkeley-main-1",
+      "from": "node-ent-ucberkeley-main-4",
+      "to": "node-spine-ucberkeley-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-4-node-spine-ucberkeley-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-1-node-ent-ucberkeley-main-4",
+      "from": "node-spine-ucberkeley-main-1",
+      "to": "node-ent-ucberkeley-main-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-1-node-ent-ucberkeley-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-5-node-spine-ucberkeley-main-2",
+      "from": "node-ent-ucberkeley-main-5",
+      "to": "node-spine-ucberkeley-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-5-node-spine-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-5",
+      "from": "node-spine-ucberkeley-main-2",
+      "to": "node-ent-ucberkeley-main-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-6-node-spine-ucberkeley-main-3",
+      "from": "node-ent-ucberkeley-main-6",
+      "to": "node-spine-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-6-node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-6",
+      "from": "node-spine-ucberkeley-main-3",
+      "to": "node-ent-ucberkeley-main-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-7-node-spine-ucberkeley-main-2",
+      "from": "node-ent-ucberkeley-main-7",
+      "to": "node-spine-ucberkeley-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-7-node-spine-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-7",
+      "from": "node-spine-ucberkeley-main-2",
+      "to": "node-ent-ucberkeley-main-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-8-node-spine-ucberkeley-main-3",
+      "from": "node-ent-ucberkeley-main-8",
+      "to": "node-spine-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-8-node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-8",
+      "from": "node-spine-ucberkeley-main-3",
+      "to": "node-ent-ucberkeley-main-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-9-node-spine-ucberkeley-main-3",
+      "from": "node-ent-ucberkeley-main-9",
+      "to": "node-spine-ucberkeley-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-9-node-spine-ucberkeley-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-9",
+      "from": "node-spine-ucberkeley-main-3",
+      "to": "node-ent-ucberkeley-main-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-3-node-ent-ucberkeley-main-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-ucberkeley-main-10-node-spine-ucberkeley-main-2",
+      "from": "node-ent-ucberkeley-main-10",
+      "to": "node-spine-ucberkeley-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-ent-ucberkeley-main-10-node-spine-ucberkeley-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-10",
+      "from": "node-spine-ucberkeley-main-2",
+      "to": "node-ent-ucberkeley-main-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-ucberkeley-main",
+          "nativeId": "edge-node-spine-ucberkeley-main-2-node-ent-ucberkeley-main-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

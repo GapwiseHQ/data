@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "stanford",
+  "campus": {
+    "id": "stanford-redwood-city",
+    "name": "Stanford Redwood City Campus",
+    "bounds": [
+      [
+        -122.222,
+        37.484
+      ],
+      [
+        -122.209,
+        37.493
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-stanford-redwood-city",
+      "title": "Stanford Redwood City Campus Directory",
+      "url": "https://redwoodcity.stanford.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "stanford-cardinal-hall",
+      "name": "Cardinal Hall",
+      "nativeCodes": [
+        "CH"
+      ],
+      "aliases": [
+        "Cardinal Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.21585,
+              37.48825
+            ],
+            [
+              -122.21515,
+              37.48825
+            ],
+            [
+              -122.21515,
+              37.48875
+            ],
+            [
+              -122.21585,
+              37.48875
+            ],
+            [
+              -122.21585,
+              37.48825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "stanford-cardinal-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-university-hall",
+      "name": "University Hall",
+      "nativeCodes": [
+        "UH"
+      ],
+      "aliases": [
+        "University Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.21485,
+              37.48875
+            ],
+            [
+              -122.21415,
+              37.48875
+            ],
+            [
+              -122.21415,
+              37.48925
+            ],
+            [
+              -122.21485,
+              37.48925
+            ],
+            [
+              -122.21485,
+              37.48875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "stanford-university-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-discovery-hall",
+      "name": "Discovery Hall",
+      "nativeCodes": [
+        "DH"
+      ],
+      "aliases": [
+        "Discovery Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.21685,
+              37.48775
+            ],
+            [
+              -122.21615,
+              37.48775
+            ],
+            [
+              -122.21615,
+              37.48825
+            ],
+            [
+              -122.21685,
+              37.48825
+            ],
+            [
+              -122.21685,
+              37.48775
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "stanford-discovery-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-wellness-center",
+      "name": "Recreation and Wellness Center",
+      "nativeCodes": [
+        "RWC"
+      ],
+      "aliases": [
+        "Recreation and Wellness Center"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.21435,
+              37.48925
+            ],
+            [
+              -122.21365,
+              37.48925
+            ],
+            [
+              -122.21365,
+              37.48975
+            ],
+            [
+              -122.21435,
+              37.48975
+            ],
+            [
+              -122.21435,
+              37.48925
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "stanford-wellness-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-barron-hall",
+      "name": "Barron Hall",
+      "nativeCodes": [
+        "BH"
+      ],
+      "aliases": [
+        "Barron Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.21735,
+              37.48725
+            ],
+            [
+              -122.21665,
+              37.48725
+            ],
+            [
+              -122.21665,
+              37.48775
+            ],
+            [
+              -122.21735,
+              37.48775
+            ],
+            [
+              -122.21735,
+              37.48725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "stanford-barron-hall",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-stanford-redwood-city-stanford-cardinal-hall",
+      "buildingId": "stanford-cardinal-hall",
+      "coordinate": [
+        -122.2155,
+        37.48825
+      ],
+      "pathNodeId": "node-ent-stanford-redwood-city-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "ent-stanford-redwood-city-stanford-cardinal-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-redwood-city-stanford-university-hall",
+      "buildingId": "stanford-university-hall",
+      "coordinate": [
+        -122.2145,
+        37.48875
+      ],
+      "pathNodeId": "node-ent-stanford-redwood-city-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "ent-stanford-redwood-city-stanford-university-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-redwood-city-stanford-discovery-hall",
+      "buildingId": "stanford-discovery-hall",
+      "coordinate": [
+        -122.2165,
+        37.48775
+      ],
+      "pathNodeId": "node-ent-stanford-redwood-city-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "ent-stanford-redwood-city-stanford-discovery-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-redwood-city-stanford-wellness-center",
+      "buildingId": "stanford-wellness-center",
+      "coordinate": [
+        -122.214,
+        37.48925
+      ],
+      "pathNodeId": "node-ent-stanford-redwood-city-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "ent-stanford-redwood-city-stanford-wellness-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-redwood-city-stanford-barron-hall",
+      "buildingId": "stanford-barron-hall",
+      "coordinate": [
+        -122.217,
+        37.48725
+      ],
+      "pathNodeId": "node-ent-stanford-redwood-city-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "ent-stanford-redwood-city-stanford-barron-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-stanford-redwood-city-0",
+      "coordinate": [
+        -122.2207,
+        37.4849
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-spine-stanford-redwood-city-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-redwood-city-1",
+      "coordinate": [
+        -122.21809999999999,
+        37.4867
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-spine-stanford-redwood-city-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-redwood-city-2",
+      "coordinate": [
+        -122.21549999999999,
+        37.4885
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-spine-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-redwood-city-3",
+      "coordinate": [
+        -122.2129,
+        37.490300000000005
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-spine-stanford-redwood-city-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-redwood-city-4",
+      "coordinate": [
+        -122.2103,
+        37.4921
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-spine-stanford-redwood-city-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-redwood-city-0",
+      "coordinate": [
+        -122.2155,
+        37.48825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-ent-stanford-redwood-city-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-redwood-city-1",
+      "coordinate": [
+        -122.2145,
+        37.48875
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-ent-stanford-redwood-city-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-redwood-city-2",
+      "coordinate": [
+        -122.2165,
+        37.48775
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-ent-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-redwood-city-3",
+      "coordinate": [
+        -122.214,
+        37.48925
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-ent-stanford-redwood-city-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-redwood-city-4",
+      "coordinate": [
+        -122.217,
+        37.48725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "node-ent-stanford-redwood-city-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-stanford-redwood-city-0-node-spine-stanford-redwood-city-1",
+      "from": "node-spine-stanford-redwood-city-0",
+      "to": "node-spine-stanford-redwood-city-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-0-node-spine-stanford-redwood-city-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-1-node-spine-stanford-redwood-city-0",
+      "from": "node-spine-stanford-redwood-city-1",
+      "to": "node-spine-stanford-redwood-city-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-1-node-spine-stanford-redwood-city-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-1-node-spine-stanford-redwood-city-2",
+      "from": "node-spine-stanford-redwood-city-1",
+      "to": "node-spine-stanford-redwood-city-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-1-node-spine-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-2-node-spine-stanford-redwood-city-1",
+      "from": "node-spine-stanford-redwood-city-2",
+      "to": "node-spine-stanford-redwood-city-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-2-node-spine-stanford-redwood-city-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-2-node-spine-stanford-redwood-city-3",
+      "from": "node-spine-stanford-redwood-city-2",
+      "to": "node-spine-stanford-redwood-city-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-2-node-spine-stanford-redwood-city-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-3-node-spine-stanford-redwood-city-2",
+      "from": "node-spine-stanford-redwood-city-3",
+      "to": "node-spine-stanford-redwood-city-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-3-node-spine-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-3-node-spine-stanford-redwood-city-4",
+      "from": "node-spine-stanford-redwood-city-3",
+      "to": "node-spine-stanford-redwood-city-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-3-node-spine-stanford-redwood-city-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-4-node-spine-stanford-redwood-city-3",
+      "from": "node-spine-stanford-redwood-city-4",
+      "to": "node-spine-stanford-redwood-city-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-4-node-spine-stanford-redwood-city-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-redwood-city-0-node-spine-stanford-redwood-city-2",
+      "from": "node-ent-stanford-redwood-city-0",
+      "to": "node-spine-stanford-redwood-city-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-ent-stanford-redwood-city-0-node-spine-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-2-node-ent-stanford-redwood-city-0",
+      "from": "node-spine-stanford-redwood-city-2",
+      "to": "node-ent-stanford-redwood-city-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-2-node-ent-stanford-redwood-city-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-redwood-city-1-node-spine-stanford-redwood-city-2",
+      "from": "node-ent-stanford-redwood-city-1",
+      "to": "node-spine-stanford-redwood-city-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-ent-stanford-redwood-city-1-node-spine-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-2-node-ent-stanford-redwood-city-1",
+      "from": "node-spine-stanford-redwood-city-2",
+      "to": "node-ent-stanford-redwood-city-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-2-node-ent-stanford-redwood-city-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-redwood-city-2-node-spine-stanford-redwood-city-2",
+      "from": "node-ent-stanford-redwood-city-2",
+      "to": "node-spine-stanford-redwood-city-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-ent-stanford-redwood-city-2-node-spine-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-2-node-ent-stanford-redwood-city-2",
+      "from": "node-spine-stanford-redwood-city-2",
+      "to": "node-ent-stanford-redwood-city-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-2-node-ent-stanford-redwood-city-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-redwood-city-3-node-spine-stanford-redwood-city-3",
+      "from": "node-ent-stanford-redwood-city-3",
+      "to": "node-spine-stanford-redwood-city-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-ent-stanford-redwood-city-3-node-spine-stanford-redwood-city-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-3-node-ent-stanford-redwood-city-3",
+      "from": "node-spine-stanford-redwood-city-3",
+      "to": "node-ent-stanford-redwood-city-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-3-node-ent-stanford-redwood-city-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-redwood-city-4-node-spine-stanford-redwood-city-1",
+      "from": "node-ent-stanford-redwood-city-4",
+      "to": "node-spine-stanford-redwood-city-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-ent-stanford-redwood-city-4-node-spine-stanford-redwood-city-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-redwood-city-1-node-ent-stanford-redwood-city-4",
+      "from": "node-spine-stanford-redwood-city-1",
+      "to": "node-ent-stanford-redwood-city-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-redwood-city",
+          "nativeId": "edge-node-spine-stanford-redwood-city-1-node-ent-stanford-redwood-city-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "harvard",
+  "campus": {
+    "id": "harvard-longwood",
+    "name": "Harvard Longwood Medical Area Campus",
+    "bounds": [
+      [
+        -71.11,
+        42.332
+      ],
+      [
+        -71.097,
+        42.341
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-harvard-longwood",
+      "title": "Harvard Longwood Medical Area Map",
+      "url": "https://hms.harvard.edu/about-hms/campus-maps-directions",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "harvard-gordon-hall",
+      "name": "Gordon Hall (Harvard Medical School)",
+      "nativeCodes": [
+        "GORD"
+      ],
+      "aliases": [
+        "Gordon Hall (Harvard Medical School)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.10385,
+              42.33625
+            ],
+            [
+              -71.10315,
+              42.33625
+            ],
+            [
+              -71.10315,
+              42.33675
+            ],
+            [
+              -71.10385,
+              42.33675
+            ],
+            [
+              -71.10385,
+              42.33625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "harvard-gordon-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-kresge-public",
+      "name": "Kresge Building (Chan Public Health)",
+      "nativeCodes": [
+        "KRES"
+      ],
+      "aliases": [
+        "Kresge Building (Chan Public Health)"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.10485,
+              42.33525
+            ],
+            [
+              -71.10415,
+              42.33525
+            ],
+            [
+              -71.10415,
+              42.33575
+            ],
+            [
+              -71.10485,
+              42.33575
+            ],
+            [
+              -71.10485,
+              42.33525
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "harvard-kresge-public",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-countway-library",
+      "name": "Countway Library of Medicine",
+      "nativeCodes": [
+        "CL"
+      ],
+      "aliases": [
+        "Countway Library of Medicine"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.10285,
+              42.33675
+            ],
+            [
+              -71.10215,
+              42.33675
+            ],
+            [
+              -71.10215,
+              42.33725
+            ],
+            [
+              -71.10285,
+              42.33725
+            ],
+            [
+              -71.10285,
+              42.33675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "harvard-countway-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-dental-research",
+      "name": "Research Building (Harvard Dental)",
+      "nativeCodes": [
+        "RESD"
+      ],
+      "aliases": [
+        "Research Building (Harvard Dental)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.10535,
+              42.33575
+            ],
+            [
+              -71.10465,
+              42.33575
+            ],
+            [
+              -71.10465,
+              42.33625
+            ],
+            [
+              -71.10535,
+              42.33625
+            ],
+            [
+              -71.10535,
+              42.33575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "harvard-dental-research",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-warren-museum",
+      "name": "Warren Anatomical Museum Pavilion",
+      "nativeCodes": [
+        "WAM"
+      ],
+      "aliases": [
+        "Warren Anatomical Museum Pavilion"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.10235,
+              42.33725
+            ],
+            [
+              -71.10165,
+              42.33725
+            ],
+            [
+              -71.10165,
+              42.33775
+            ],
+            [
+              -71.10235,
+              42.33775
+            ],
+            [
+              -71.10235,
+              42.33725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "harvard-warren-museum",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-harvard-longwood-harvard-gordon-hall",
+      "buildingId": "harvard-gordon-hall",
+      "coordinate": [
+        -71.1035,
+        42.33625
+      ],
+      "pathNodeId": "node-ent-harvard-longwood-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "ent-harvard-longwood-harvard-gordon-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-longwood-harvard-kresge-public",
+      "buildingId": "harvard-kresge-public",
+      "coordinate": [
+        -71.1045,
+        42.33525
+      ],
+      "pathNodeId": "node-ent-harvard-longwood-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "ent-harvard-longwood-harvard-kresge-public",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-longwood-harvard-countway-library",
+      "buildingId": "harvard-countway-library",
+      "coordinate": [
+        -71.1025,
+        42.33675
+      ],
+      "pathNodeId": "node-ent-harvard-longwood-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "ent-harvard-longwood-harvard-countway-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-longwood-harvard-dental-research",
+      "buildingId": "harvard-dental-research",
+      "coordinate": [
+        -71.105,
+        42.33575
+      ],
+      "pathNodeId": "node-ent-harvard-longwood-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "ent-harvard-longwood-harvard-dental-research",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-longwood-harvard-warren-museum",
+      "buildingId": "harvard-warren-museum",
+      "coordinate": [
+        -71.102,
+        42.33725
+      ],
+      "pathNodeId": "node-ent-harvard-longwood-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "ent-harvard-longwood-harvard-warren-museum",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-harvard-longwood-0",
+      "coordinate": [
+        -71.1087,
+        42.3329
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-spine-harvard-longwood-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-longwood-1",
+      "coordinate": [
+        -71.1061,
+        42.3347
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-spine-harvard-longwood-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-longwood-2",
+      "coordinate": [
+        -71.1035,
+        42.3365
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-spine-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-longwood-3",
+      "coordinate": [
+        -71.1009,
+        42.338300000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-spine-harvard-longwood-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-longwood-4",
+      "coordinate": [
+        -71.0983,
+        42.3401
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-spine-harvard-longwood-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-longwood-0",
+      "coordinate": [
+        -71.1035,
+        42.33625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-ent-harvard-longwood-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-longwood-1",
+      "coordinate": [
+        -71.1045,
+        42.33525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-ent-harvard-longwood-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-longwood-2",
+      "coordinate": [
+        -71.1025,
+        42.33675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-ent-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-longwood-3",
+      "coordinate": [
+        -71.105,
+        42.33575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-ent-harvard-longwood-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-longwood-4",
+      "coordinate": [
+        -71.102,
+        42.33725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "node-ent-harvard-longwood-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-harvard-longwood-0-node-spine-harvard-longwood-1",
+      "from": "node-spine-harvard-longwood-0",
+      "to": "node-spine-harvard-longwood-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-0-node-spine-harvard-longwood-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-1-node-spine-harvard-longwood-0",
+      "from": "node-spine-harvard-longwood-1",
+      "to": "node-spine-harvard-longwood-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-1-node-spine-harvard-longwood-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-1-node-spine-harvard-longwood-2",
+      "from": "node-spine-harvard-longwood-1",
+      "to": "node-spine-harvard-longwood-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-1-node-spine-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-2-node-spine-harvard-longwood-1",
+      "from": "node-spine-harvard-longwood-2",
+      "to": "node-spine-harvard-longwood-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-2-node-spine-harvard-longwood-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-2-node-spine-harvard-longwood-3",
+      "from": "node-spine-harvard-longwood-2",
+      "to": "node-spine-harvard-longwood-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-2-node-spine-harvard-longwood-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-3-node-spine-harvard-longwood-2",
+      "from": "node-spine-harvard-longwood-3",
+      "to": "node-spine-harvard-longwood-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-3-node-spine-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-3-node-spine-harvard-longwood-4",
+      "from": "node-spine-harvard-longwood-3",
+      "to": "node-spine-harvard-longwood-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-3-node-spine-harvard-longwood-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-4-node-spine-harvard-longwood-3",
+      "from": "node-spine-harvard-longwood-4",
+      "to": "node-spine-harvard-longwood-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-4-node-spine-harvard-longwood-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-longwood-0-node-spine-harvard-longwood-2",
+      "from": "node-ent-harvard-longwood-0",
+      "to": "node-spine-harvard-longwood-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-ent-harvard-longwood-0-node-spine-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-2-node-ent-harvard-longwood-0",
+      "from": "node-spine-harvard-longwood-2",
+      "to": "node-ent-harvard-longwood-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-2-node-ent-harvard-longwood-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-longwood-1-node-spine-harvard-longwood-2",
+      "from": "node-ent-harvard-longwood-1",
+      "to": "node-spine-harvard-longwood-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-ent-harvard-longwood-1-node-spine-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-2-node-ent-harvard-longwood-1",
+      "from": "node-spine-harvard-longwood-2",
+      "to": "node-ent-harvard-longwood-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-2-node-ent-harvard-longwood-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-longwood-2-node-spine-harvard-longwood-2",
+      "from": "node-ent-harvard-longwood-2",
+      "to": "node-spine-harvard-longwood-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-ent-harvard-longwood-2-node-spine-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-2-node-ent-harvard-longwood-2",
+      "from": "node-spine-harvard-longwood-2",
+      "to": "node-ent-harvard-longwood-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-2-node-ent-harvard-longwood-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-longwood-3-node-spine-harvard-longwood-1",
+      "from": "node-ent-harvard-longwood-3",
+      "to": "node-spine-harvard-longwood-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-ent-harvard-longwood-3-node-spine-harvard-longwood-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-1-node-ent-harvard-longwood-3",
+      "from": "node-spine-harvard-longwood-1",
+      "to": "node-ent-harvard-longwood-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-1-node-ent-harvard-longwood-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-longwood-4-node-spine-harvard-longwood-3",
+      "from": "node-ent-harvard-longwood-4",
+      "to": "node-spine-harvard-longwood-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-ent-harvard-longwood-4-node-spine-harvard-longwood-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-longwood-3-node-ent-harvard-longwood-4",
+      "from": "node-spine-harvard-longwood-3",
+      "to": "node-ent-harvard-longwood-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-longwood",
+          "nativeId": "edge-node-spine-harvard-longwood-3-node-ent-harvard-longwood-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

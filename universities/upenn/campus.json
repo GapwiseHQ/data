@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "upenn",
+  "campus": {
+    "id": "upenn-philadelphia",
+    "name": "University of Pennsylvania Philadelphia Campus",
+    "bounds": [
+      [
+        -75.2,
+        37.948
+      ],
+      [
+        -75.187,
+        39.957
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-upenn-philadelphia",
+      "title": "University of Pennsylvania Facilities Map",
+      "url": "https://facilities.upenn.edu/maps",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "upenn-college-hall",
+      "name": "College Hall",
+      "nativeCodes": [
+        "COLH"
+      ],
+      "aliases": [
+        "College Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19385,
+              39.95225
+            ],
+            [
+              -75.19315,
+              39.95225
+            ],
+            [
+              -75.19315,
+              39.95275
+            ],
+            [
+              -75.19385,
+              39.95275
+            ],
+            [
+              -75.19385,
+              39.95225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-college-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-van-pelt",
+      "name": "Van Pelt-Dietrich Library",
+      "nativeCodes": [
+        "VPL"
+      ],
+      "aliases": [
+        "Van Pelt-Dietrich Library"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19285,
+              39.95275
+            ],
+            [
+              -75.19215,
+              39.95275
+            ],
+            [
+              -75.19215,
+              39.95325
+            ],
+            [
+              -75.19285,
+              39.95325
+            ],
+            [
+              -75.19285,
+              39.95275
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-van-pelt",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-levine-hall",
+      "name": "Levine Hall (SEAS)",
+      "nativeCodes": [
+        "LEV"
+      ],
+      "aliases": [
+        "Levine Hall (SEAS)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19185,
+              39.95175
+            ],
+            [
+              -75.19115,
+              39.95175
+            ],
+            [
+              -75.19115,
+              39.95225
+            ],
+            [
+              -75.19185,
+              39.95225
+            ],
+            [
+              -75.19185,
+              39.95175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-levine-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-towne-building",
+      "name": "Towne Building (Engineering)",
+      "nativeCodes": [
+        "TOWNE"
+      ],
+      "aliases": [
+        "Towne Building (Engineering)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19135,
+              39.95125
+            ],
+            [
+              -75.19065,
+              39.95125
+            ],
+            [
+              -75.19065,
+              39.95175
+            ],
+            [
+              -75.19135,
+              39.95175
+            ],
+            [
+              -75.19135,
+              39.95125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-towne-building",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-houston-hall",
+      "name": "Houston Hall",
+      "nativeCodes": [
+        "HOUST"
+      ],
+      "aliases": [
+        "Houston Hall"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19335,
+              39.95075
+            ],
+            [
+              -75.19265,
+              39.95075
+            ],
+            [
+              -75.19265,
+              39.95125
+            ],
+            [
+              -75.19335,
+              39.95125
+            ],
+            [
+              -75.19335,
+              39.95075
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-houston-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-fisher-arts",
+      "name": "Fisher Fine Arts Library",
+      "nativeCodes": [
+        "FFA"
+      ],
+      "aliases": [
+        "Fisher Fine Arts Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19235,
+              39.95025
+            ],
+            [
+              -75.19165,
+              39.95025
+            ],
+            [
+              -75.19165,
+              39.95075
+            ],
+            [
+              -75.19235,
+              39.95075
+            ],
+            [
+              -75.19235,
+              39.95025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-fisher-arts",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-williams-hall",
+      "name": "Williams Hall",
+      "nativeCodes": [
+        "WH"
+      ],
+      "aliases": [
+        "Williams Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19685,
+              39.95125
+            ],
+            [
+              -75.19615,
+              39.95125
+            ],
+            [
+              -75.19615,
+              39.95175
+            ],
+            [
+              -75.19685,
+              39.95175
+            ],
+            [
+              -75.19685,
+              39.95125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-williams-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-moore-building",
+      "name": "Moore School Building",
+      "nativeCodes": [
+        "MB"
+      ],
+      "aliases": [
+        "Moore School Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19085,
+              39.95225
+            ],
+            [
+              -75.19015,
+              39.95225
+            ],
+            [
+              -75.19015,
+              39.95275
+            ],
+            [
+              -75.19085,
+              39.95275
+            ],
+            [
+              -75.19085,
+              39.95225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-moore-building",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-skirkanich-hall",
+      "name": "Skirkanich Hall",
+      "nativeCodes": [
+        "SKIR"
+      ],
+      "aliases": [
+        "Skirkanich Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19135,
+              39.95175
+            ],
+            [
+              -75.19065,
+              39.95175
+            ],
+            [
+              -75.19065,
+              39.95225
+            ],
+            [
+              -75.19135,
+              39.95225
+            ],
+            [
+              -75.19135,
+              39.95175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-skirkanich-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-huntsman-hall",
+      "name": "Jon M. Huntsman Hall",
+      "nativeCodes": [
+        "JMHH"
+      ],
+      "aliases": [
+        "Jon M. Huntsman Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19885,
+              39.95275
+            ],
+            [
+              -75.19815,
+              39.95275
+            ],
+            [
+              -75.19815,
+              39.95325
+            ],
+            [
+              -75.19885,
+              39.95325
+            ],
+            [
+              -75.19885,
+              39.95275
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-huntsman-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-hayden-hall",
+      "name": "Hayden Hall",
+      "nativeCodes": [
+        "HAY"
+      ],
+      "aliases": [
+        "Hayden Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.19035,
+              39.95155
+            ],
+            [
+              -75.18965,
+              39.95155
+            ],
+            [
+              -75.18965,
+              39.95205
+            ],
+            [
+              -75.19035,
+              39.95205
+            ],
+            [
+              -75.19035,
+              39.95155
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "upenn-hayden-hall",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-upenn-philadelphia-upenn-college-hall",
+      "buildingId": "upenn-college-hall",
+      "coordinate": [
+        -75.1935,
+        39.95225
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-college-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-van-pelt",
+      "buildingId": "upenn-van-pelt",
+      "coordinate": [
+        -75.1925,
+        39.95275
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-van-pelt",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-levine-hall",
+      "buildingId": "upenn-levine-hall",
+      "coordinate": [
+        -75.1915,
+        39.95175
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-levine-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-towne-building",
+      "buildingId": "upenn-towne-building",
+      "coordinate": [
+        -75.191,
+        39.95125
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-towne-building",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-houston-hall",
+      "buildingId": "upenn-houston-hall",
+      "coordinate": [
+        -75.193,
+        39.95075
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-houston-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-fisher-arts",
+      "buildingId": "upenn-fisher-arts",
+      "coordinate": [
+        -75.192,
+        39.95025
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-fisher-arts",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-williams-hall",
+      "buildingId": "upenn-williams-hall",
+      "coordinate": [
+        -75.1965,
+        39.95125
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-williams-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-moore-building",
+      "buildingId": "upenn-moore-building",
+      "coordinate": [
+        -75.1905,
+        39.95225
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-moore-building",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-skirkanich-hall",
+      "buildingId": "upenn-skirkanich-hall",
+      "coordinate": [
+        -75.191,
+        39.95175
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-skirkanich-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-huntsman-hall",
+      "buildingId": "upenn-huntsman-hall",
+      "coordinate": [
+        -75.1985,
+        39.95275
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-huntsman-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-philadelphia-upenn-hayden-hall",
+      "buildingId": "upenn-hayden-hall",
+      "coordinate": [
+        -75.19,
+        39.95155
+      ],
+      "pathNodeId": "node-ent-upenn-philadelphia-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "ent-upenn-philadelphia-upenn-hayden-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-upenn-philadelphia-0",
+      "coordinate": [
+        -75.1987,
+        38.1489
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-spine-upenn-philadelphia-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-philadelphia-1",
+      "coordinate": [
+        -75.1961,
+        38.5507
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-spine-upenn-philadelphia-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-philadelphia-2",
+      "coordinate": [
+        -75.1935,
+        38.9525
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-spine-upenn-philadelphia-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-philadelphia-3",
+      "coordinate": [
+        -75.1909,
+        39.3543
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-spine-upenn-philadelphia-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-philadelphia-4",
+      "coordinate": [
+        -75.1883,
+        39.7561
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-0",
+      "coordinate": [
+        -75.1935,
+        39.95225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-1",
+      "coordinate": [
+        -75.1925,
+        39.95275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-2",
+      "coordinate": [
+        -75.1915,
+        39.95175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-3",
+      "coordinate": [
+        -75.191,
+        39.95125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-4",
+      "coordinate": [
+        -75.193,
+        39.95075
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-5",
+      "coordinate": [
+        -75.192,
+        39.95025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-6",
+      "coordinate": [
+        -75.1965,
+        39.95125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-7",
+      "coordinate": [
+        -75.1905,
+        39.95225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-8",
+      "coordinate": [
+        -75.191,
+        39.95175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-9",
+      "coordinate": [
+        -75.1985,
+        39.95275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-philadelphia-10",
+      "coordinate": [
+        -75.19,
+        39.95155
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "node-ent-upenn-philadelphia-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-upenn-philadelphia-0-node-spine-upenn-philadelphia-1",
+      "from": "node-spine-upenn-philadelphia-0",
+      "to": "node-spine-upenn-philadelphia-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-0-node-spine-upenn-philadelphia-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-1-node-spine-upenn-philadelphia-0",
+      "from": "node-spine-upenn-philadelphia-1",
+      "to": "node-spine-upenn-philadelphia-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-1-node-spine-upenn-philadelphia-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-1-node-spine-upenn-philadelphia-2",
+      "from": "node-spine-upenn-philadelphia-1",
+      "to": "node-spine-upenn-philadelphia-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-1-node-spine-upenn-philadelphia-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-2-node-spine-upenn-philadelphia-1",
+      "from": "node-spine-upenn-philadelphia-2",
+      "to": "node-spine-upenn-philadelphia-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-2-node-spine-upenn-philadelphia-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-2-node-spine-upenn-philadelphia-3",
+      "from": "node-spine-upenn-philadelphia-2",
+      "to": "node-spine-upenn-philadelphia-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-2-node-spine-upenn-philadelphia-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-3-node-spine-upenn-philadelphia-2",
+      "from": "node-spine-upenn-philadelphia-3",
+      "to": "node-spine-upenn-philadelphia-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-3-node-spine-upenn-philadelphia-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-3-node-spine-upenn-philadelphia-4",
+      "from": "node-spine-upenn-philadelphia-3",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-3-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-spine-upenn-philadelphia-3",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-spine-upenn-philadelphia-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-spine-upenn-philadelphia-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-0-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-0",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-0-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-0",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-1-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-1",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-1-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-1",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-2-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-2",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-2-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-2",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-3-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-3",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-3-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-3",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-4-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-4",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-4-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-4",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-5-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-5",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-5-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-5",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-6-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-6",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-6-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-6",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-7-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-7",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-7-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-7",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-8-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-8",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-8-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-8",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-9-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-9",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-9-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-9",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-philadelphia-10-node-spine-upenn-philadelphia-4",
+      "from": "node-ent-upenn-philadelphia-10",
+      "to": "node-spine-upenn-philadelphia-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-ent-upenn-philadelphia-10-node-spine-upenn-philadelphia-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-10",
+      "from": "node-spine-upenn-philadelphia-4",
+      "to": "node-ent-upenn-philadelphia-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-philadelphia",
+          "nativeId": "edge-node-spine-upenn-philadelphia-4-node-ent-upenn-philadelphia-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

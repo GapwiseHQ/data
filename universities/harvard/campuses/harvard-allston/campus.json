@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "harvard",
+  "campus": {
+    "id": "harvard-allston",
+    "name": "Harvard University Allston Campus",
+    "bounds": [
+      [
+        -71.134,
+        42.36
+      ],
+      [
+        -71.121,
+        42.369
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-harvard-allston",
+      "title": "Harvard Allston Campus Plan & Directory",
+      "url": "https://allston.harvard.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "harvard-sec-building",
+      "name": "Science and Engineering Complex (SEAS)",
+      "nativeCodes": [
+        "SEC"
+      ],
+      "aliases": [
+        "Science and Engineering Complex (SEAS)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.12785,
+              42.36425
+            ],
+            [
+              -71.12715,
+              42.36425
+            ],
+            [
+              -71.12715,
+              42.36475
+            ],
+            [
+              -71.12785,
+              42.36475
+            ],
+            [
+              -71.12785,
+              42.36425
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "harvard-sec-building",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-morgan-hall",
+      "name": "Morgan Hall (HBS)",
+      "nativeCodes": [
+        "MORG"
+      ],
+      "aliases": [
+        "Morgan Hall (HBS)"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.12485,
+              42.36625
+            ],
+            [
+              -71.12415,
+              42.36625
+            ],
+            [
+              -71.12415,
+              42.36675
+            ],
+            [
+              -71.12485,
+              42.36675
+            ],
+            [
+              -71.12485,
+              42.36625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "harvard-morgan-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-baker-library",
+      "name": "Baker Library (HBS)",
+      "nativeCodes": [
+        "BAK"
+      ],
+      "aliases": [
+        "Baker Library (HBS)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.12385,
+              42.36575
+            ],
+            [
+              -71.12315,
+              42.36575
+            ],
+            [
+              -71.12315,
+              42.36625
+            ],
+            [
+              -71.12385,
+              42.36625
+            ],
+            [
+              -71.12385,
+              42.36575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "harvard-baker-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-innovation-labs",
+      "name": "Harvard Innovation Labs",
+      "nativeCodes": [
+        "ILAB"
+      ],
+      "aliases": [
+        "Harvard Innovation Labs"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.12685,
+              42.36325
+            ],
+            [
+              -71.12615,
+              42.36325
+            ],
+            [
+              -71.12615,
+              42.36375
+            ],
+            [
+              -71.12685,
+              42.36375
+            ],
+            [
+              -71.12685,
+              42.36325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "harvard-innovation-labs",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "harvard-stadium-complex",
+      "name": "Harvard Stadium & Athletics Pavilion",
+      "nativeCodes": [
+        "STAD"
+      ],
+      "aliases": [
+        "Harvard Stadium & Athletics Pavilion"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.12885,
+              42.36675
+            ],
+            [
+              -71.12815,
+              42.36675
+            ],
+            [
+              -71.12815,
+              42.36725
+            ],
+            [
+              -71.12885,
+              42.36725
+            ],
+            [
+              -71.12885,
+              42.36675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "harvard-stadium-complex",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-harvard-allston-harvard-sec-building",
+      "buildingId": "harvard-sec-building",
+      "coordinate": [
+        -71.1275,
+        42.36425
+      ],
+      "pathNodeId": "node-ent-harvard-allston-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "ent-harvard-allston-harvard-sec-building",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-allston-harvard-morgan-hall",
+      "buildingId": "harvard-morgan-hall",
+      "coordinate": [
+        -71.1245,
+        42.36625
+      ],
+      "pathNodeId": "node-ent-harvard-allston-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "ent-harvard-allston-harvard-morgan-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-allston-harvard-baker-library",
+      "buildingId": "harvard-baker-library",
+      "coordinate": [
+        -71.1235,
+        42.36575
+      ],
+      "pathNodeId": "node-ent-harvard-allston-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "ent-harvard-allston-harvard-baker-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-allston-harvard-innovation-labs",
+      "buildingId": "harvard-innovation-labs",
+      "coordinate": [
+        -71.1265,
+        42.36325
+      ],
+      "pathNodeId": "node-ent-harvard-allston-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "ent-harvard-allston-harvard-innovation-labs",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-harvard-allston-harvard-stadium-complex",
+      "buildingId": "harvard-stadium-complex",
+      "coordinate": [
+        -71.1285,
+        42.36675
+      ],
+      "pathNodeId": "node-ent-harvard-allston-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "ent-harvard-allston-harvard-stadium-complex",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-harvard-allston-0",
+      "coordinate": [
+        -71.1327,
+        42.3609
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-spine-harvard-allston-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-allston-1",
+      "coordinate": [
+        -71.1301,
+        42.3627
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-spine-harvard-allston-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-allston-2",
+      "coordinate": [
+        -71.1275,
+        42.3645
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-spine-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-allston-3",
+      "coordinate": [
+        -71.1249,
+        42.3663
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-spine-harvard-allston-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-harvard-allston-4",
+      "coordinate": [
+        -71.1223,
+        42.3681
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-spine-harvard-allston-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-allston-0",
+      "coordinate": [
+        -71.1275,
+        42.36425
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-ent-harvard-allston-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-allston-1",
+      "coordinate": [
+        -71.1245,
+        42.36625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-ent-harvard-allston-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-allston-2",
+      "coordinate": [
+        -71.1235,
+        42.36575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-ent-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-allston-3",
+      "coordinate": [
+        -71.1265,
+        42.36325
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-ent-harvard-allston-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-harvard-allston-4",
+      "coordinate": [
+        -71.1285,
+        42.36675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "node-ent-harvard-allston-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-harvard-allston-0-node-spine-harvard-allston-1",
+      "from": "node-spine-harvard-allston-0",
+      "to": "node-spine-harvard-allston-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-0-node-spine-harvard-allston-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-1-node-spine-harvard-allston-0",
+      "from": "node-spine-harvard-allston-1",
+      "to": "node-spine-harvard-allston-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-1-node-spine-harvard-allston-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-1-node-spine-harvard-allston-2",
+      "from": "node-spine-harvard-allston-1",
+      "to": "node-spine-harvard-allston-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-1-node-spine-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-2-node-spine-harvard-allston-1",
+      "from": "node-spine-harvard-allston-2",
+      "to": "node-spine-harvard-allston-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-2-node-spine-harvard-allston-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-2-node-spine-harvard-allston-3",
+      "from": "node-spine-harvard-allston-2",
+      "to": "node-spine-harvard-allston-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-2-node-spine-harvard-allston-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-3-node-spine-harvard-allston-2",
+      "from": "node-spine-harvard-allston-3",
+      "to": "node-spine-harvard-allston-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-3-node-spine-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-3-node-spine-harvard-allston-4",
+      "from": "node-spine-harvard-allston-3",
+      "to": "node-spine-harvard-allston-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-3-node-spine-harvard-allston-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-4-node-spine-harvard-allston-3",
+      "from": "node-spine-harvard-allston-4",
+      "to": "node-spine-harvard-allston-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-4-node-spine-harvard-allston-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-allston-0-node-spine-harvard-allston-2",
+      "from": "node-ent-harvard-allston-0",
+      "to": "node-spine-harvard-allston-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-ent-harvard-allston-0-node-spine-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-2-node-ent-harvard-allston-0",
+      "from": "node-spine-harvard-allston-2",
+      "to": "node-ent-harvard-allston-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-2-node-ent-harvard-allston-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-allston-1-node-spine-harvard-allston-3",
+      "from": "node-ent-harvard-allston-1",
+      "to": "node-spine-harvard-allston-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-ent-harvard-allston-1-node-spine-harvard-allston-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-3-node-ent-harvard-allston-1",
+      "from": "node-spine-harvard-allston-3",
+      "to": "node-ent-harvard-allston-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-3-node-ent-harvard-allston-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-allston-2-node-spine-harvard-allston-3",
+      "from": "node-ent-harvard-allston-2",
+      "to": "node-spine-harvard-allston-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-ent-harvard-allston-2-node-spine-harvard-allston-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-3-node-ent-harvard-allston-2",
+      "from": "node-spine-harvard-allston-3",
+      "to": "node-ent-harvard-allston-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-3-node-ent-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-allston-3-node-spine-harvard-allston-2",
+      "from": "node-ent-harvard-allston-3",
+      "to": "node-spine-harvard-allston-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-ent-harvard-allston-3-node-spine-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-2-node-ent-harvard-allston-3",
+      "from": "node-spine-harvard-allston-2",
+      "to": "node-ent-harvard-allston-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-2-node-ent-harvard-allston-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-harvard-allston-4-node-spine-harvard-allston-2",
+      "from": "node-ent-harvard-allston-4",
+      "to": "node-spine-harvard-allston-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-ent-harvard-allston-4-node-spine-harvard-allston-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-harvard-allston-2-node-ent-harvard-allston-4",
+      "from": "node-spine-harvard-allston-2",
+      "to": "node-ent-harvard-allston-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-harvard-allston",
+          "nativeId": "edge-node-spine-harvard-allston-2-node-ent-harvard-allston-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

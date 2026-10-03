@@ -98,6 +98,22 @@ if (process.argv[1] && new URL(`file://${process.argv[1]}`).href === import.meta
       if (academic.institution !== id) errors.push(`${id}: academic institution ID differs from path`);
       errors.push(...validateAcademic(academic).map((error) => `${id}: ${error}`));
     }
+    const subcampusesDir = new URL(`../universities/${id}/campuses/`, import.meta.url);
+    if (existsSync(subcampusesDir)) {
+      const subcampuses = readdirSync(subcampusesDir, { withFileTypes: true })
+        .filter((entry) => entry.isDirectory())
+        .map((entry) => entry.name);
+      for (const subId of subcampuses) {
+        const subCampusPath = `universities/${id}/campuses/${subId}/campus.json`;
+        if (!existsSync(new URL(`../${subCampusPath}`, import.meta.url))) {
+          errors.push(`${id}/${subId}: subcampus snapshot missing`);
+          continue;
+        }
+        const subCampus = read(subCampusPath);
+        if (subCampus.institution !== id) errors.push(`${id}/${subId}: campus institution ID differs from parent path`);
+        errors.push(...validateCampus(subCampus).map((error) => `${id}/${subId}: ${error}`));
+      }
+    }
   }
   if (errors.length) { console.error(errors.join('\n')); process.exitCode = 1; }
   else console.log(`University snapshots valid: ${ids.join(', ')}`);

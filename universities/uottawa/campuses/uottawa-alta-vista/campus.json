@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "uottawa",
+  "campus": {
+    "id": "uottawa-alta-vista",
+    "name": "University of Ottawa Alta Vista Campus",
+    "bounds": [
+      [
+        -75.658,
+        45.398
+      ],
+      [
+        -75.645,
+        45.407
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-uottawa-alta-vista",
+      "title": "University of Ottawa Roger Guindon Health Sciences Map",
+      "url": "https://www.uottawa.ca/about-us/campus-maps",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "uottawa-roger-guindon",
+      "name": "Roger Guindon Hall",
+      "nativeCodes": [
+        "RGN"
+      ],
+      "aliases": [
+        "Roger Guindon Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.65185,
+              45.40225
+            ],
+            [
+              -75.65115,
+              45.40225
+            ],
+            [
+              -75.65115,
+              45.40275
+            ],
+            [
+              -75.65185,
+              45.40275
+            ],
+            [
+              -75.65185,
+              45.40225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "uottawa-roger-guindon",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "uottawa-peter-morand",
+      "name": "Peter Morand Building",
+      "nativeCodes": [
+        "PMB"
+      ],
+      "aliases": [
+        "Peter Morand Building"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.65085,
+              45.40275
+            ],
+            [
+              -75.65015,
+              45.40275
+            ],
+            [
+              -75.65015,
+              45.40325
+            ],
+            [
+              -75.65085,
+              45.40325
+            ],
+            [
+              -75.65085,
+              45.40275
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "uottawa-peter-morand",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "uottawa-health-sciences",
+      "name": "Alta Vista Health Sciences Centre",
+      "nativeCodes": [
+        "HSC"
+      ],
+      "aliases": [
+        "Alta Vista Health Sciences Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.65285,
+              45.40175
+            ],
+            [
+              -75.65215,
+              45.40175
+            ],
+            [
+              -75.65215,
+              45.40225
+            ],
+            [
+              -75.65285,
+              45.40225
+            ],
+            [
+              -75.65285,
+              45.40175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "uottawa-health-sciences",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "uottawa-hospital-pavilion",
+      "name": "Ottawa Hospital Academic Pavilion",
+      "nativeCodes": [
+        "OHAP"
+      ],
+      "aliases": [
+        "Ottawa Hospital Academic Pavilion"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.65035,
+              45.40325
+            ],
+            [
+              -75.64965,
+              45.40325
+            ],
+            [
+              -75.64965,
+              45.40375
+            ],
+            [
+              -75.65035,
+              45.40375
+            ],
+            [
+              -75.65035,
+              45.40325
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "uottawa-hospital-pavilion",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "uottawa-molecular-med",
+      "name": "Centre for Molecular Medicine",
+      "nativeCodes": [
+        "CMM"
+      ],
+      "aliases": [
+        "Centre for Molecular Medicine"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.65335,
+              45.40125
+            ],
+            [
+              -75.65265,
+              45.40125
+            ],
+            [
+              -75.65265,
+              45.40175
+            ],
+            [
+              -75.65335,
+              45.40175
+            ],
+            [
+              -75.65335,
+              45.40125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "uottawa-molecular-med",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-uottawa-alta-vista-uottawa-roger-guindon",
+      "buildingId": "uottawa-roger-guindon",
+      "coordinate": [
+        -75.6515,
+        45.40225
+      ],
+      "pathNodeId": "node-ent-uottawa-alta-vista-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "ent-uottawa-alta-vista-uottawa-roger-guindon",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-uottawa-alta-vista-uottawa-peter-morand",
+      "buildingId": "uottawa-peter-morand",
+      "coordinate": [
+        -75.6505,
+        45.40275
+      ],
+      "pathNodeId": "node-ent-uottawa-alta-vista-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "ent-uottawa-alta-vista-uottawa-peter-morand",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-uottawa-alta-vista-uottawa-health-sciences",
+      "buildingId": "uottawa-health-sciences",
+      "coordinate": [
+        -75.6525,
+        45.40175
+      ],
+      "pathNodeId": "node-ent-uottawa-alta-vista-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "ent-uottawa-alta-vista-uottawa-health-sciences",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-uottawa-alta-vista-uottawa-hospital-pavilion",
+      "buildingId": "uottawa-hospital-pavilion",
+      "coordinate": [
+        -75.65,
+        45.40325
+      ],
+      "pathNodeId": "node-ent-uottawa-alta-vista-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "ent-uottawa-alta-vista-uottawa-hospital-pavilion",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-uottawa-alta-vista-uottawa-molecular-med",
+      "buildingId": "uottawa-molecular-med",
+      "coordinate": [
+        -75.653,
+        45.40125
+      ],
+      "pathNodeId": "node-ent-uottawa-alta-vista-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "ent-uottawa-alta-vista-uottawa-molecular-med",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-uottawa-alta-vista-0",
+      "coordinate": [
+        -75.6567,
+        45.398900000000005
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-spine-uottawa-alta-vista-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-uottawa-alta-vista-1",
+      "coordinate": [
+        -75.6541,
+        45.4007
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-spine-uottawa-alta-vista-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-uottawa-alta-vista-2",
+      "coordinate": [
+        -75.6515,
+        45.4025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-spine-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-uottawa-alta-vista-3",
+      "coordinate": [
+        -75.6489,
+        45.4043
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-spine-uottawa-alta-vista-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-uottawa-alta-vista-4",
+      "coordinate": [
+        -75.6463,
+        45.406099999999995
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-spine-uottawa-alta-vista-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-uottawa-alta-vista-0",
+      "coordinate": [
+        -75.6515,
+        45.40225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-ent-uottawa-alta-vista-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-uottawa-alta-vista-1",
+      "coordinate": [
+        -75.6505,
+        45.40275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-ent-uottawa-alta-vista-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-uottawa-alta-vista-2",
+      "coordinate": [
+        -75.6525,
+        45.40175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-ent-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-uottawa-alta-vista-3",
+      "coordinate": [
+        -75.65,
+        45.40325
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-ent-uottawa-alta-vista-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-uottawa-alta-vista-4",
+      "coordinate": [
+        -75.653,
+        45.40125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "node-ent-uottawa-alta-vista-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-0-node-spine-uottawa-alta-vista-1",
+      "from": "node-spine-uottawa-alta-vista-0",
+      "to": "node-spine-uottawa-alta-vista-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-0-node-spine-uottawa-alta-vista-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-1-node-spine-uottawa-alta-vista-0",
+      "from": "node-spine-uottawa-alta-vista-1",
+      "to": "node-spine-uottawa-alta-vista-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-1-node-spine-uottawa-alta-vista-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-1-node-spine-uottawa-alta-vista-2",
+      "from": "node-spine-uottawa-alta-vista-1",
+      "to": "node-spine-uottawa-alta-vista-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-1-node-spine-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-2-node-spine-uottawa-alta-vista-1",
+      "from": "node-spine-uottawa-alta-vista-2",
+      "to": "node-spine-uottawa-alta-vista-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-2-node-spine-uottawa-alta-vista-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-2-node-spine-uottawa-alta-vista-3",
+      "from": "node-spine-uottawa-alta-vista-2",
+      "to": "node-spine-uottawa-alta-vista-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-2-node-spine-uottawa-alta-vista-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-3-node-spine-uottawa-alta-vista-2",
+      "from": "node-spine-uottawa-alta-vista-3",
+      "to": "node-spine-uottawa-alta-vista-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-3-node-spine-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-3-node-spine-uottawa-alta-vista-4",
+      "from": "node-spine-uottawa-alta-vista-3",
+      "to": "node-spine-uottawa-alta-vista-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-3-node-spine-uottawa-alta-vista-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-4-node-spine-uottawa-alta-vista-3",
+      "from": "node-spine-uottawa-alta-vista-4",
+      "to": "node-spine-uottawa-alta-vista-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-4-node-spine-uottawa-alta-vista-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-uottawa-alta-vista-0-node-spine-uottawa-alta-vista-2",
+      "from": "node-ent-uottawa-alta-vista-0",
+      "to": "node-spine-uottawa-alta-vista-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-ent-uottawa-alta-vista-0-node-spine-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-2-node-ent-uottawa-alta-vista-0",
+      "from": "node-spine-uottawa-alta-vista-2",
+      "to": "node-ent-uottawa-alta-vista-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-2-node-ent-uottawa-alta-vista-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-uottawa-alta-vista-1-node-spine-uottawa-alta-vista-2",
+      "from": "node-ent-uottawa-alta-vista-1",
+      "to": "node-spine-uottawa-alta-vista-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-ent-uottawa-alta-vista-1-node-spine-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-2-node-ent-uottawa-alta-vista-1",
+      "from": "node-spine-uottawa-alta-vista-2",
+      "to": "node-ent-uottawa-alta-vista-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-2-node-ent-uottawa-alta-vista-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-uottawa-alta-vista-2-node-spine-uottawa-alta-vista-2",
+      "from": "node-ent-uottawa-alta-vista-2",
+      "to": "node-spine-uottawa-alta-vista-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-ent-uottawa-alta-vista-2-node-spine-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-2-node-ent-uottawa-alta-vista-2",
+      "from": "node-spine-uottawa-alta-vista-2",
+      "to": "node-ent-uottawa-alta-vista-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-2-node-ent-uottawa-alta-vista-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-uottawa-alta-vista-3-node-spine-uottawa-alta-vista-3",
+      "from": "node-ent-uottawa-alta-vista-3",
+      "to": "node-spine-uottawa-alta-vista-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-ent-uottawa-alta-vista-3-node-spine-uottawa-alta-vista-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-3-node-ent-uottawa-alta-vista-3",
+      "from": "node-spine-uottawa-alta-vista-3",
+      "to": "node-ent-uottawa-alta-vista-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-3-node-ent-uottawa-alta-vista-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-uottawa-alta-vista-4-node-spine-uottawa-alta-vista-1",
+      "from": "node-ent-uottawa-alta-vista-4",
+      "to": "node-spine-uottawa-alta-vista-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-ent-uottawa-alta-vista-4-node-spine-uottawa-alta-vista-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-uottawa-alta-vista-1-node-ent-uottawa-alta-vista-4",
+      "from": "node-spine-uottawa-alta-vista-1",
+      "to": "node-ent-uottawa-alta-vista-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-uottawa-alta-vista",
+          "nativeId": "edge-node-spine-uottawa-alta-vista-1-node-ent-uottawa-alta-vista-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "institution": "york",
+  "campus": {
+    "id": "glendon",
+    "name": "York University Glendon Campus",
+    "bounds": [
+      [
+        -79.385,
+        43.723
+      ],
+      [
+        -79.372,
+        43.732
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-glendon",
+      "title": "York University Glendon Campus Map",
+      "url": "https://www.glendon.yorku.ca/about/campus-maps/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "york-york-hall",
+      "name": "York Hall",
+      "nativeCodes": [
+        "YH"
+      ],
+      "aliases": [
+        "York Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.37885,
+              43.72725
+            ],
+            [
+              -79.37815,
+              43.72725
+            ],
+            [
+              -79.37815,
+              43.72775
+            ],
+            [
+              -79.37885,
+              43.72775
+            ],
+            [
+              -79.37885,
+              43.72725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "york-york-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-frost-library",
+      "name": "Leslie Frost Library",
+      "nativeCodes": [
+        "FL"
+      ],
+      "aliases": [
+        "Leslie Frost Library"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.37785,
+              43.72775
+            ],
+            [
+              -79.37715,
+              43.72775
+            ],
+            [
+              -79.37715,
+              43.72825
+            ],
+            [
+              -79.37785,
+              43.72825
+            ],
+            [
+              -79.37785,
+              43.72775
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "york-frost-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-proctor-fieldhouse",
+      "name": "Proctor Field House",
+      "nativeCodes": [
+        "PFH"
+      ],
+      "aliases": [
+        "Proctor Field House"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.37985,
+              43.72625
+            ],
+            [
+              -79.37915,
+              43.72625
+            ],
+            [
+              -79.37915,
+              43.72675
+            ],
+            [
+              -79.37985,
+              43.72675
+            ],
+            [
+              -79.37985,
+              43.72625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "york-proctor-fieldhouse",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-hilliard-residence",
+      "name": "Hilliard Residence",
+      "nativeCodes": [
+        "HR"
+      ],
+      "aliases": [
+        "Hilliard Residence"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.37685,
+              43.72825
+            ],
+            [
+              -79.37615,
+              43.72825
+            ],
+            [
+              -79.37615,
+              43.72875
+            ],
+            [
+              -79.37685,
+              43.72875
+            ],
+            [
+              -79.37685,
+              43.72825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "york-hilliard-residence",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-wood-residence",
+      "name": "Wood Residence",
+      "nativeCodes": [
+        "WR"
+      ],
+      "aliases": [
+        "Wood Residence"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.38035,
+              43.72675
+            ],
+            [
+              -79.37965,
+              43.72675
+            ],
+            [
+              -79.37965,
+              43.72725
+            ],
+            [
+              -79.38035,
+              43.72725
+            ],
+            [
+              -79.38035,
+              43.72675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "york-wood-residence",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "york-glendon-manor",
+      "name": "Glendon Manor",
+      "nativeCodes": [
+        "GH"
+      ],
+      "aliases": [
+        "Glendon Manor"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.37735,
+              43.72655
+            ],
+            [
+              -79.37665,
+              43.72655
+            ],
+            [
+              -79.37665,
+              43.72705
+            ],
+            [
+              -79.37735,
+              43.72705
+            ],
+            [
+              -79.37735,
+              43.72655
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "york-glendon-manor",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-glendon-york-york-hall",
+      "buildingId": "york-york-hall",
+      "coordinate": [
+        -79.3785,
+        43.72725
+      ],
+      "pathNodeId": "node-ent-glendon-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "ent-glendon-york-york-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-glendon-york-frost-library",
+      "buildingId": "york-frost-library",
+      "coordinate": [
+        -79.3775,
+        43.72775
+      ],
+      "pathNodeId": "node-ent-glendon-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "ent-glendon-york-frost-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-glendon-york-proctor-fieldhouse",
+      "buildingId": "york-proctor-fieldhouse",
+      "coordinate": [
+        -79.3795,
+        43.72625
+      ],
+      "pathNodeId": "node-ent-glendon-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "ent-glendon-york-proctor-fieldhouse",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-glendon-york-hilliard-residence",
+      "buildingId": "york-hilliard-residence",
+      "coordinate": [
+        -79.3765,
+        43.72825
+      ],
+      "pathNodeId": "node-ent-glendon-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "ent-glendon-york-hilliard-residence",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-glendon-york-wood-residence",
+      "buildingId": "york-wood-residence",
+      "coordinate": [
+        -79.38,
+        43.72675
+      ],
+      "pathNodeId": "node-ent-glendon-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "ent-glendon-york-wood-residence",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-glendon-york-glendon-manor",
+      "buildingId": "york-glendon-manor",
+      "coordinate": [
+        -79.377,
+        43.72655
+      ],
+      "pathNodeId": "node-ent-glendon-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "ent-glendon-york-glendon-manor",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-glendon-0",
+      "coordinate": [
+        -79.3837,
+        43.7239
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-spine-glendon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-glendon-1",
+      "coordinate": [
+        -79.3811,
+        43.725699999999996
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-spine-glendon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-glendon-2",
+      "coordinate": [
+        -79.3785,
+        43.7275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-spine-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-glendon-3",
+      "coordinate": [
+        -79.3759,
+        43.7293
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-spine-glendon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-glendon-4",
+      "coordinate": [
+        -79.3733,
+        43.7311
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-spine-glendon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-glendon-0",
+      "coordinate": [
+        -79.3785,
+        43.72725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-ent-glendon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-glendon-1",
+      "coordinate": [
+        -79.3775,
+        43.72775
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-ent-glendon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-glendon-2",
+      "coordinate": [
+        -79.3795,
+        43.72625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-ent-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-glendon-3",
+      "coordinate": [
+        -79.3765,
+        43.72825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-ent-glendon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-glendon-4",
+      "coordinate": [
+        -79.38,
+        43.72675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-ent-glendon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-glendon-5",
+      "coordinate": [
+        -79.377,
+        43.72655
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "node-ent-glendon-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-glendon-0-node-spine-glendon-1",
+      "from": "node-spine-glendon-0",
+      "to": "node-spine-glendon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-0-node-spine-glendon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-1-node-spine-glendon-0",
+      "from": "node-spine-glendon-1",
+      "to": "node-spine-glendon-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-1-node-spine-glendon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-1-node-spine-glendon-2",
+      "from": "node-spine-glendon-1",
+      "to": "node-spine-glendon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-1-node-spine-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-2-node-spine-glendon-1",
+      "from": "node-spine-glendon-2",
+      "to": "node-spine-glendon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-2-node-spine-glendon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-2-node-spine-glendon-3",
+      "from": "node-spine-glendon-2",
+      "to": "node-spine-glendon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-2-node-spine-glendon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-3-node-spine-glendon-2",
+      "from": "node-spine-glendon-3",
+      "to": "node-spine-glendon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-3-node-spine-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-3-node-spine-glendon-4",
+      "from": "node-spine-glendon-3",
+      "to": "node-spine-glendon-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-3-node-spine-glendon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-4-node-spine-glendon-3",
+      "from": "node-spine-glendon-4",
+      "to": "node-spine-glendon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-4-node-spine-glendon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-glendon-0-node-spine-glendon-2",
+      "from": "node-ent-glendon-0",
+      "to": "node-spine-glendon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-ent-glendon-0-node-spine-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-2-node-ent-glendon-0",
+      "from": "node-spine-glendon-2",
+      "to": "node-ent-glendon-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-2-node-ent-glendon-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-glendon-1-node-spine-glendon-2",
+      "from": "node-ent-glendon-1",
+      "to": "node-spine-glendon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-ent-glendon-1-node-spine-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-2-node-ent-glendon-1",
+      "from": "node-spine-glendon-2",
+      "to": "node-ent-glendon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-2-node-ent-glendon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-glendon-2-node-spine-glendon-2",
+      "from": "node-ent-glendon-2",
+      "to": "node-spine-glendon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-ent-glendon-2-node-spine-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-2-node-ent-glendon-2",
+      "from": "node-spine-glendon-2",
+      "to": "node-ent-glendon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-2-node-ent-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-glendon-3-node-spine-glendon-3",
+      "from": "node-ent-glendon-3",
+      "to": "node-spine-glendon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-ent-glendon-3-node-spine-glendon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-3-node-ent-glendon-3",
+      "from": "node-spine-glendon-3",
+      "to": "node-ent-glendon-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-3-node-ent-glendon-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-glendon-4-node-spine-glendon-1",
+      "from": "node-ent-glendon-4",
+      "to": "node-spine-glendon-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-ent-glendon-4-node-spine-glendon-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-1-node-ent-glendon-4",
+      "from": "node-spine-glendon-1",
+      "to": "node-ent-glendon-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-1-node-ent-glendon-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-glendon-5-node-spine-glendon-2",
+      "from": "node-ent-glendon-5",
+      "to": "node-spine-glendon-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-ent-glendon-5-node-spine-glendon-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-glendon-2-node-ent-glendon-5",
+      "from": "node-spine-glendon-2",
+      "to": "node-ent-glendon-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-glendon",
+          "nativeId": "edge-node-spine-glendon-2-node-ent-glendon-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

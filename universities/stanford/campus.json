@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "stanford",
+  "campus": {
+    "id": "stanford-main",
+    "name": "Stanford University Main Campus",
+    "bounds": [
+      [
+        -122.176,
+        37.423
+      ],
+      [
+        -122.163,
+        37.432
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-stanford-main",
+      "title": "Stanford University Searchable Campus Map",
+      "url": "https://campus-map.stanford.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "stanford-memorial-church",
+      "name": "Memorial Church & Main Quad",
+      "nativeCodes": [
+        "MEMCHU"
+      ],
+      "aliases": [
+        "Memorial Church & Main Quad"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.16985,
+              37.42725
+            ],
+            [
+              -122.16915,
+              37.42725
+            ],
+            [
+              -122.16915,
+              37.42775
+            ],
+            [
+              -122.16985,
+              37.42775
+            ],
+            [
+              -122.16985,
+              37.42725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-memorial-church",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-huang-center",
+      "name": "Huang Engineering Center",
+      "nativeCodes": [
+        "HUANG"
+      ],
+      "aliases": [
+        "Huang Engineering Center"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17435,
+              37.42755
+            ],
+            [
+              -122.17365,
+              37.42755
+            ],
+            [
+              -122.17365,
+              37.42805
+            ],
+            [
+              -122.17435,
+              37.42805
+            ],
+            [
+              -122.17435,
+              37.42755
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-huang-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-gates-cs",
+      "name": "Gates Computer Science Building",
+      "nativeCodes": [
+        "GATES"
+      ],
+      "aliases": [
+        "Gates Computer Science Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17335,
+              37.42975
+            ],
+            [
+              -122.17265,
+              37.42975
+            ],
+            [
+              -122.17265,
+              37.43025
+            ],
+            [
+              -122.17335,
+              37.43025
+            ],
+            [
+              -122.17335,
+              37.42975
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-gates-cs",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-green-library",
+      "name": "Green Library",
+      "nativeCodes": [
+        "GREEN"
+      ],
+      "aliases": [
+        "Green Library"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.16835,
+              37.42625
+            ],
+            [
+              -122.16765,
+              37.42625
+            ],
+            [
+              -122.16765,
+              37.42675
+            ],
+            [
+              -122.16835,
+              37.42675
+            ],
+            [
+              -122.16835,
+              37.42625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-green-library",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-tresidder-union",
+      "name": "Tresidder Memorial Union",
+      "nativeCodes": [
+        "TRES"
+      ],
+      "aliases": [
+        "Tresidder Memorial Union"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17135,
+              37.42425
+            ],
+            [
+              -122.17065,
+              37.42425
+            ],
+            [
+              -122.17065,
+              37.42475
+            ],
+            [
+              -122.17135,
+              37.42475
+            ],
+            [
+              -122.17135,
+              37.42425
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-tresidder-union",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-packard-ee",
+      "name": "Packard Electrical Engineering",
+      "nativeCodes": [
+        "PACK"
+      ],
+      "aliases": [
+        "Packard Electrical Engineering"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17485,
+              37.42875
+            ],
+            [
+              -122.17415,
+              37.42875
+            ],
+            [
+              -122.17415,
+              37.42925
+            ],
+            [
+              -122.17485,
+              37.42925
+            ],
+            [
+              -122.17485,
+              37.42875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-packard-ee",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-memorial-aud",
+      "name": "Memorial Auditorium",
+      "nativeCodes": [
+        "MEMAUD"
+      ],
+      "aliases": [
+        "Memorial Auditorium"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.16635,
+              37.42925
+            ],
+            [
+              -122.16565,
+              37.42925
+            ],
+            [
+              -122.16565,
+              37.42975
+            ],
+            [
+              -122.16635,
+              37.42975
+            ],
+            [
+              -122.16635,
+              37.42925
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-memorial-aud",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-green-earth",
+      "name": "Green Earth Sciences Building",
+      "nativeCodes": [
+        "GESB"
+      ],
+      "aliases": [
+        "Green Earth Sciences Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17385,
+              37.42625
+            ],
+            [
+              -122.17315,
+              37.42625
+            ],
+            [
+              -122.17315,
+              37.42675
+            ],
+            [
+              -122.17385,
+              37.42675
+            ],
+            [
+              -122.17385,
+              37.42625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-green-earth",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-alway-building",
+      "name": "Alway Building",
+      "nativeCodes": [
+        "ALWAY"
+      ],
+      "aliases": [
+        "Alway Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17535,
+              37.43125
+            ],
+            [
+              -122.17465,
+              37.43125
+            ],
+            [
+              -122.17465,
+              37.43175
+            ],
+            [
+              -122.17535,
+              37.43175
+            ],
+            [
+              -122.17535,
+              37.43125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-alway-building",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-clark-center",
+      "name": "Clark Center",
+      "nativeCodes": [
+        "CLARK"
+      ],
+      "aliases": [
+        "Clark Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17685,
+              37.43025
+            ],
+            [
+              -122.17615,
+              37.43025
+            ],
+            [
+              -122.17615,
+              37.43075
+            ],
+            [
+              -122.17685,
+              37.43075
+            ],
+            [
+              -122.17685,
+              37.43025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-clark-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "stanford-arrillaga-center",
+      "name": "Arrillaga Outdoor Center",
+      "nativeCodes": [
+        "AOERC"
+      ],
+      "aliases": [
+        "Arrillaga Outdoor Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.17735,
+              37.42675
+            ],
+            [
+              -122.17665,
+              37.42675
+            ],
+            [
+              -122.17665,
+              37.42725
+            ],
+            [
+              -122.17735,
+              37.42725
+            ],
+            [
+              -122.17735,
+              37.42675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "stanford-arrillaga-center",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-stanford-main-stanford-memorial-church",
+      "buildingId": "stanford-memorial-church",
+      "coordinate": [
+        -122.1695,
+        37.42725
+      ],
+      "pathNodeId": "node-ent-stanford-main-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-memorial-church",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-huang-center",
+      "buildingId": "stanford-huang-center",
+      "coordinate": [
+        -122.174,
+        37.42755
+      ],
+      "pathNodeId": "node-ent-stanford-main-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-huang-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-gates-cs",
+      "buildingId": "stanford-gates-cs",
+      "coordinate": [
+        -122.173,
+        37.42975
+      ],
+      "pathNodeId": "node-ent-stanford-main-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-gates-cs",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-green-library",
+      "buildingId": "stanford-green-library",
+      "coordinate": [
+        -122.168,
+        37.42625
+      ],
+      "pathNodeId": "node-ent-stanford-main-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-green-library",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-tresidder-union",
+      "buildingId": "stanford-tresidder-union",
+      "coordinate": [
+        -122.171,
+        37.42425
+      ],
+      "pathNodeId": "node-ent-stanford-main-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-tresidder-union",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-packard-ee",
+      "buildingId": "stanford-packard-ee",
+      "coordinate": [
+        -122.1745,
+        37.42875
+      ],
+      "pathNodeId": "node-ent-stanford-main-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-packard-ee",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-memorial-aud",
+      "buildingId": "stanford-memorial-aud",
+      "coordinate": [
+        -122.166,
+        37.42925
+      ],
+      "pathNodeId": "node-ent-stanford-main-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-memorial-aud",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-green-earth",
+      "buildingId": "stanford-green-earth",
+      "coordinate": [
+        -122.1735,
+        37.42625
+      ],
+      "pathNodeId": "node-ent-stanford-main-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-green-earth",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-alway-building",
+      "buildingId": "stanford-alway-building",
+      "coordinate": [
+        -122.175,
+        37.43125
+      ],
+      "pathNodeId": "node-ent-stanford-main-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-alway-building",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-clark-center",
+      "buildingId": "stanford-clark-center",
+      "coordinate": [
+        -122.1765,
+        37.43025
+      ],
+      "pathNodeId": "node-ent-stanford-main-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-clark-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-stanford-main-stanford-arrillaga-center",
+      "buildingId": "stanford-arrillaga-center",
+      "coordinate": [
+        -122.177,
+        37.42675
+      ],
+      "pathNodeId": "node-ent-stanford-main-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "ent-stanford-main-stanford-arrillaga-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-stanford-main-0",
+      "coordinate": [
+        -122.1747,
+        37.4239
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-spine-stanford-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-main-1",
+      "coordinate": [
+        -122.1721,
+        37.4257
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-main-2",
+      "coordinate": [
+        -122.1695,
+        37.4275
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-spine-stanford-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-main-3",
+      "coordinate": [
+        -122.1669,
+        37.429300000000005
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-spine-stanford-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-stanford-main-4",
+      "coordinate": [
+        -122.1643,
+        37.4311
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-spine-stanford-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-0",
+      "coordinate": [
+        -122.1695,
+        37.42725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-1",
+      "coordinate": [
+        -122.174,
+        37.42755
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-2",
+      "coordinate": [
+        -122.173,
+        37.42975
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-3",
+      "coordinate": [
+        -122.168,
+        37.42625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-4",
+      "coordinate": [
+        -122.171,
+        37.42425
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-5",
+      "coordinate": [
+        -122.1745,
+        37.42875
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-6",
+      "coordinate": [
+        -122.166,
+        37.42925
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-7",
+      "coordinate": [
+        -122.1735,
+        37.42625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-8",
+      "coordinate": [
+        -122.175,
+        37.43125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-9",
+      "coordinate": [
+        -122.1765,
+        37.43025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-stanford-main-10",
+      "coordinate": [
+        -122.177,
+        37.42675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "node-ent-stanford-main-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-stanford-main-0-node-spine-stanford-main-1",
+      "from": "node-spine-stanford-main-0",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-0-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-spine-stanford-main-0",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-spine-stanford-main-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-spine-stanford-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-spine-stanford-main-2",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-spine-stanford-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-spine-stanford-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-2-node-spine-stanford-main-1",
+      "from": "node-spine-stanford-main-2",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-2-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-2-node-spine-stanford-main-3",
+      "from": "node-spine-stanford-main-2",
+      "to": "node-spine-stanford-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-2-node-spine-stanford-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-3-node-spine-stanford-main-2",
+      "from": "node-spine-stanford-main-3",
+      "to": "node-spine-stanford-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-3-node-spine-stanford-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-3-node-spine-stanford-main-4",
+      "from": "node-spine-stanford-main-3",
+      "to": "node-spine-stanford-main-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-3-node-spine-stanford-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-4-node-spine-stanford-main-3",
+      "from": "node-spine-stanford-main-4",
+      "to": "node-spine-stanford-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-4-node-spine-stanford-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-0-node-spine-stanford-main-2",
+      "from": "node-ent-stanford-main-0",
+      "to": "node-spine-stanford-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-0-node-spine-stanford-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-2-node-ent-stanford-main-0",
+      "from": "node-spine-stanford-main-2",
+      "to": "node-ent-stanford-main-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-2-node-ent-stanford-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-1-node-spine-stanford-main-1",
+      "from": "node-ent-stanford-main-1",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-1-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-ent-stanford-main-1",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-ent-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-ent-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-2-node-spine-stanford-main-1",
+      "from": "node-ent-stanford-main-2",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-2-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-ent-stanford-main-2",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-ent-stanford-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-ent-stanford-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-3-node-spine-stanford-main-2",
+      "from": "node-ent-stanford-main-3",
+      "to": "node-spine-stanford-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-3-node-spine-stanford-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-2-node-ent-stanford-main-3",
+      "from": "node-spine-stanford-main-2",
+      "to": "node-ent-stanford-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-2-node-ent-stanford-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-4-node-spine-stanford-main-1",
+      "from": "node-ent-stanford-main-4",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-4-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-ent-stanford-main-4",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-ent-stanford-main-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-ent-stanford-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-5-node-spine-stanford-main-1",
+      "from": "node-ent-stanford-main-5",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-5-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-ent-stanford-main-5",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-ent-stanford-main-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-ent-stanford-main-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-6-node-spine-stanford-main-3",
+      "from": "node-ent-stanford-main-6",
+      "to": "node-spine-stanford-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-6-node-spine-stanford-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-3-node-ent-stanford-main-6",
+      "from": "node-spine-stanford-main-3",
+      "to": "node-ent-stanford-main-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-3-node-ent-stanford-main-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-7-node-spine-stanford-main-1",
+      "from": "node-ent-stanford-main-7",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-7-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-ent-stanford-main-7",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-ent-stanford-main-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-ent-stanford-main-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-8-node-spine-stanford-main-1",
+      "from": "node-ent-stanford-main-8",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-8-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-ent-stanford-main-8",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-ent-stanford-main-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-ent-stanford-main-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-9-node-spine-stanford-main-1",
+      "from": "node-ent-stanford-main-9",
+      "to": "node-spine-stanford-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-9-node-spine-stanford-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-1-node-ent-stanford-main-9",
+      "from": "node-spine-stanford-main-1",
+      "to": "node-ent-stanford-main-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-1-node-ent-stanford-main-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-stanford-main-10-node-spine-stanford-main-0",
+      "from": "node-ent-stanford-main-10",
+      "to": "node-spine-stanford-main-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-ent-stanford-main-10-node-spine-stanford-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-stanford-main-0-node-ent-stanford-main-10",
+      "from": "node-spine-stanford-main-0",
+      "to": "node-ent-stanford-main-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-stanford-main",
+          "nativeId": "edge-node-spine-stanford-main-0-node-ent-stanford-main-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

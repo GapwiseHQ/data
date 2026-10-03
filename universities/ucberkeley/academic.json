@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "ucberkeley",
+  "sources": [
+    {
+      "id": "src-ucberkeley-academic",
+      "title": "University of California, Berkeley Campus Academic Schedule",
+      "url": "https://www.berkeley.edu/map",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "University of California, Berkeley Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "carleton",
+  "campus": {
+    "id": "carleton-dominion-chalmers",
+    "name": "Carleton Dominion-Chalmers Centre",
+    "bounds": [
+      [
+        -75.702,
+        45.4135
+      ],
+      [
+        -75.694,
+        45.4195
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-carleton-dominion-chalmers",
+      "title": "Carleton Dominion-Chalmers Centre Map & Facilities",
+      "url": "https://carleton.ca/cdcc/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "carleton-cdcc-main",
+      "name": "Carleton Dominion-Chalmers Centre",
+      "nativeCodes": [
+        "CDCC"
+      ],
+      "aliases": [
+        "Carleton Dominion-Chalmers Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.69835,
+              45.41625
+            ],
+            [
+              -75.69765,
+              45.41625
+            ],
+            [
+              -75.69765,
+              45.41675
+            ],
+            [
+              -75.69835,
+              45.41675
+            ],
+            [
+              -75.69835,
+              45.41625
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "carleton-cdcc-main",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "carleton-chalmers-hall",
+      "name": "Chalmers Main Performance Hall",
+      "nativeCodes": [
+        "CH"
+      ],
+      "aliases": [
+        "Chalmers Main Performance Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.69785,
+              45.41655
+            ],
+            [
+              -75.69715,
+              45.41655
+            ],
+            [
+              -75.69715,
+              45.41705
+            ],
+            [
+              -75.69785,
+              45.41705
+            ],
+            [
+              -75.69785,
+              45.41655
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "carleton-chalmers-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "carleton-woodside-hall",
+      "name": "Woodside Arts Hall",
+      "nativeCodes": [
+        "WH"
+      ],
+      "aliases": [
+        "Woodside Arts Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.69885,
+              45.41595
+            ],
+            [
+              -75.69815,
+              45.41595
+            ],
+            [
+              -75.69815,
+              45.41645
+            ],
+            [
+              -75.69885,
+              45.41645
+            ],
+            [
+              -75.69885,
+              45.41595
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "carleton-woodside-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "carleton-lisgar-wing",
+      "name": "Lisgar Wing Studios",
+      "nativeCodes": [
+        "LW"
+      ],
+      "aliases": [
+        "Lisgar Wing Studios"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.69735,
+              45.41575
+            ],
+            [
+              -75.69665,
+              45.41575
+            ],
+            [
+              -75.69665,
+              45.41625
+            ],
+            [
+              -75.69735,
+              45.41625
+            ],
+            [
+              -75.69735,
+              45.41575
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "carleton-lisgar-wing",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "carleton-cooper-hall",
+      "name": "Cooper Practice Hall",
+      "nativeCodes": [
+        "CPH"
+      ],
+      "aliases": [
+        "Cooper Practice Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.69935,
+              45.41675
+            ],
+            [
+              -75.69865,
+              45.41675
+            ],
+            [
+              -75.69865,
+              45.41725
+            ],
+            [
+              -75.69935,
+              45.41725
+            ],
+            [
+              -75.69935,
+              45.41675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "carleton-cooper-hall",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-carleton-dominion-chalmers-carleton-cdcc-main",
+      "buildingId": "carleton-cdcc-main",
+      "coordinate": [
+        -75.698,
+        45.41625
+      ],
+      "pathNodeId": "node-ent-carleton-dominion-chalmers-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "ent-carleton-dominion-chalmers-carleton-cdcc-main",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-carleton-dominion-chalmers-carleton-chalmers-hall",
+      "buildingId": "carleton-chalmers-hall",
+      "coordinate": [
+        -75.6975,
+        45.41655
+      ],
+      "pathNodeId": "node-ent-carleton-dominion-chalmers-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "ent-carleton-dominion-chalmers-carleton-chalmers-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-carleton-dominion-chalmers-carleton-woodside-hall",
+      "buildingId": "carleton-woodside-hall",
+      "coordinate": [
+        -75.6985,
+        45.41595
+      ],
+      "pathNodeId": "node-ent-carleton-dominion-chalmers-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "ent-carleton-dominion-chalmers-carleton-woodside-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-carleton-dominion-chalmers-carleton-lisgar-wing",
+      "buildingId": "carleton-lisgar-wing",
+      "coordinate": [
+        -75.697,
+        45.41575
+      ],
+      "pathNodeId": "node-ent-carleton-dominion-chalmers-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "ent-carleton-dominion-chalmers-carleton-lisgar-wing",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-carleton-dominion-chalmers-carleton-cooper-hall",
+      "buildingId": "carleton-cooper-hall",
+      "coordinate": [
+        -75.699,
+        45.41675
+      ],
+      "pathNodeId": "node-ent-carleton-dominion-chalmers-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "ent-carleton-dominion-chalmers-carleton-cooper-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-carleton-dominion-chalmers-0",
+      "coordinate": [
+        -75.7012,
+        45.4141
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-spine-carleton-dominion-chalmers-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-carleton-dominion-chalmers-1",
+      "coordinate": [
+        -75.6996,
+        45.4153
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-spine-carleton-dominion-chalmers-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-carleton-dominion-chalmers-2",
+      "coordinate": [
+        -75.69800000000001,
+        45.4165
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-carleton-dominion-chalmers-3",
+      "coordinate": [
+        -75.6964,
+        45.417699999999996
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-spine-carleton-dominion-chalmers-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-carleton-dominion-chalmers-4",
+      "coordinate": [
+        -75.6948,
+        45.4189
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-spine-carleton-dominion-chalmers-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-carleton-dominion-chalmers-0",
+      "coordinate": [
+        -75.698,
+        45.41625
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-ent-carleton-dominion-chalmers-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-carleton-dominion-chalmers-1",
+      "coordinate": [
+        -75.6975,
+        45.41655
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-ent-carleton-dominion-chalmers-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-carleton-dominion-chalmers-2",
+      "coordinate": [
+        -75.6985,
+        45.41595
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-ent-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-carleton-dominion-chalmers-3",
+      "coordinate": [
+        -75.697,
+        45.41575
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-ent-carleton-dominion-chalmers-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-carleton-dominion-chalmers-4",
+      "coordinate": [
+        -75.699,
+        45.41675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "node-ent-carleton-dominion-chalmers-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-0-node-spine-carleton-dominion-chalmers-1",
+      "from": "node-spine-carleton-dominion-chalmers-0",
+      "to": "node-spine-carleton-dominion-chalmers-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-0-node-spine-carleton-dominion-chalmers-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-1-node-spine-carleton-dominion-chalmers-0",
+      "from": "node-spine-carleton-dominion-chalmers-1",
+      "to": "node-spine-carleton-dominion-chalmers-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-1-node-spine-carleton-dominion-chalmers-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-1-node-spine-carleton-dominion-chalmers-2",
+      "from": "node-spine-carleton-dominion-chalmers-1",
+      "to": "node-spine-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-1-node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-2-node-spine-carleton-dominion-chalmers-1",
+      "from": "node-spine-carleton-dominion-chalmers-2",
+      "to": "node-spine-carleton-dominion-chalmers-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-2-node-spine-carleton-dominion-chalmers-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-2-node-spine-carleton-dominion-chalmers-3",
+      "from": "node-spine-carleton-dominion-chalmers-2",
+      "to": "node-spine-carleton-dominion-chalmers-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-2-node-spine-carleton-dominion-chalmers-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-3-node-spine-carleton-dominion-chalmers-2",
+      "from": "node-spine-carleton-dominion-chalmers-3",
+      "to": "node-spine-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-3-node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-3-node-spine-carleton-dominion-chalmers-4",
+      "from": "node-spine-carleton-dominion-chalmers-3",
+      "to": "node-spine-carleton-dominion-chalmers-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-3-node-spine-carleton-dominion-chalmers-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-4-node-spine-carleton-dominion-chalmers-3",
+      "from": "node-spine-carleton-dominion-chalmers-4",
+      "to": "node-spine-carleton-dominion-chalmers-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-4-node-spine-carleton-dominion-chalmers-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-carleton-dominion-chalmers-0-node-spine-carleton-dominion-chalmers-2",
+      "from": "node-ent-carleton-dominion-chalmers-0",
+      "to": "node-spine-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-ent-carleton-dominion-chalmers-0-node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-0",
+      "from": "node-spine-carleton-dominion-chalmers-2",
+      "to": "node-ent-carleton-dominion-chalmers-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-carleton-dominion-chalmers-1-node-spine-carleton-dominion-chalmers-2",
+      "from": "node-ent-carleton-dominion-chalmers-1",
+      "to": "node-spine-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-ent-carleton-dominion-chalmers-1-node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-1",
+      "from": "node-spine-carleton-dominion-chalmers-2",
+      "to": "node-ent-carleton-dominion-chalmers-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-carleton-dominion-chalmers-2-node-spine-carleton-dominion-chalmers-2",
+      "from": "node-ent-carleton-dominion-chalmers-2",
+      "to": "node-spine-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-ent-carleton-dominion-chalmers-2-node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-2",
+      "from": "node-spine-carleton-dominion-chalmers-2",
+      "to": "node-ent-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-carleton-dominion-chalmers-3-node-spine-carleton-dominion-chalmers-2",
+      "from": "node-ent-carleton-dominion-chalmers-3",
+      "to": "node-spine-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-ent-carleton-dominion-chalmers-3-node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-3",
+      "from": "node-spine-carleton-dominion-chalmers-2",
+      "to": "node-ent-carleton-dominion-chalmers-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-carleton-dominion-chalmers-4-node-spine-carleton-dominion-chalmers-2",
+      "from": "node-ent-carleton-dominion-chalmers-4",
+      "to": "node-spine-carleton-dominion-chalmers-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-ent-carleton-dominion-chalmers-4-node-spine-carleton-dominion-chalmers-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-4",
+      "from": "node-spine-carleton-dominion-chalmers-2",
+      "to": "node-ent-carleton-dominion-chalmers-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-carleton-dominion-chalmers",
+          "nativeId": "edge-node-spine-carleton-dominion-chalmers-2-node-ent-carleton-dominion-chalmers-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

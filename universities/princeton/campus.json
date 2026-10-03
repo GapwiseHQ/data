@@ -1,0 +1,1334 @@
+{
+  "schemaVersion": 1,
+  "institution": "princeton",
+  "campus": {
+    "id": "princeton-main",
+    "name": "Princeton University Main Campus",
+    "bounds": [
+      [
+        -74.663,
+        40.344
+      ],
+      [
+        -74.65,
+        40.353
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-princeton-main",
+      "title": "Princeton University Interactive Campus Map",
+      "url": "https://m.princeton.edu/map",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "princeton-nassau-hall",
+      "name": "Nassau Hall",
+      "nativeCodes": [
+        "NAS"
+      ],
+      "aliases": [
+        "Nassau Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65685,
+              40.34825
+            ],
+            [
+              -74.65615,
+              40.34825
+            ],
+            [
+              -74.65615,
+              40.34875
+            ],
+            [
+              -74.65685,
+              40.34875
+            ],
+            [
+              -74.65685,
+              40.34825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-nassau-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-firestone-lib",
+      "name": "Firestone Library",
+      "nativeCodes": [
+        "FIR"
+      ],
+      "aliases": [
+        "Firestone Library"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65585,
+              40.34875
+            ],
+            [
+              -74.65515,
+              40.34875
+            ],
+            [
+              -74.65515,
+              40.34925
+            ],
+            [
+              -74.65585,
+              40.34925
+            ],
+            [
+              -74.65585,
+              40.34875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-firestone-lib",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-frist-campus",
+      "name": "Frist Campus Center",
+      "nativeCodes": [
+        "FRIST"
+      ],
+      "aliases": [
+        "Frist Campus Center"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65435,
+              40.34675
+            ],
+            [
+              -74.65365,
+              40.34675
+            ],
+            [
+              -74.65365,
+              40.34725
+            ],
+            [
+              -74.65435,
+              40.34725
+            ],
+            [
+              -74.65435,
+              40.34675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-frist-campus",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-friend-center",
+      "name": "Friend Center for Engineering",
+      "nativeCodes": [
+        "FRND"
+      ],
+      "aliases": [
+        "Friend Center for Engineering"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65235,
+              40.34775
+            ],
+            [
+              -74.65165,
+              40.34775
+            ],
+            [
+              -74.65165,
+              40.34825
+            ],
+            [
+              -74.65235,
+              40.34825
+            ],
+            [
+              -74.65235,
+              40.34775
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-friend-center",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-cs-building",
+      "name": "Computer Science Building",
+      "nativeCodes": [
+        "CS"
+      ],
+      "aliases": [
+        "Computer Science Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65185,
+              40.34825
+            ],
+            [
+              -74.65115,
+              40.34825
+            ],
+            [
+              -74.65115,
+              40.34875
+            ],
+            [
+              -74.65185,
+              40.34875
+            ],
+            [
+              -74.65185,
+              40.34825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-cs-building",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-robertson-hall",
+      "name": "Robertson Hall (SPIA)",
+      "nativeCodes": [
+        "ROB"
+      ],
+      "aliases": [
+        "Robertson Hall (SPIA)"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65385,
+              40.34725
+            ],
+            [
+              -74.65315,
+              40.34725
+            ],
+            [
+              -74.65315,
+              40.34775
+            ],
+            [
+              -74.65385,
+              40.34775
+            ],
+            [
+              -74.65385,
+              40.34725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-robertson-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-fine-hall",
+      "name": "Fine Hall",
+      "nativeCodes": [
+        "FH"
+      ],
+      "aliases": [
+        "Fine Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65385,
+              40.34725
+            ],
+            [
+              -74.65315,
+              40.34725
+            ],
+            [
+              -74.65315,
+              40.34775
+            ],
+            [
+              -74.65385,
+              40.34775
+            ],
+            [
+              -74.65385,
+              40.34725
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-fine-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-jadwin-hall",
+      "name": "Jadwin Hall",
+      "nativeCodes": [
+        "JH"
+      ],
+      "aliases": [
+        "Jadwin Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65285,
+              40.34675
+            ],
+            [
+              -74.65215,
+              40.34675
+            ],
+            [
+              -74.65215,
+              40.34725
+            ],
+            [
+              -74.65285,
+              40.34725
+            ],
+            [
+              -74.65285,
+              40.34675
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-jadwin-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-mccosh-hall",
+      "name": "McCosh Hall",
+      "nativeCodes": [
+        "MH"
+      ],
+      "aliases": [
+        "McCosh Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65685,
+              40.34755
+            ],
+            [
+              -74.65615,
+              40.34755
+            ],
+            [
+              -74.65615,
+              40.34805
+            ],
+            [
+              -74.65685,
+              40.34805
+            ],
+            [
+              -74.65685,
+              40.34755
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-mccosh-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-bowen-hall",
+      "name": "Bowen Hall",
+      "nativeCodes": [
+        "BH"
+      ],
+      "aliases": [
+        "Bowen Hall"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65185,
+              40.34875
+            ],
+            [
+              -74.65115,
+              40.34875
+            ],
+            [
+              -74.65115,
+              40.34925
+            ],
+            [
+              -74.65185,
+              40.34925
+            ],
+            [
+              -74.65185,
+              40.34875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-bowen-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "princeton-engineering-quad",
+      "name": "Engineering Quadrangle",
+      "nativeCodes": [
+        "EQ"
+      ],
+      "aliases": [
+        "Engineering Quadrangle"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.65235,
+              40.34975
+            ],
+            [
+              -74.65165,
+              40.34975
+            ],
+            [
+              -74.65165,
+              40.35025
+            ],
+            [
+              -74.65235,
+              40.35025
+            ],
+            [
+              -74.65235,
+              40.34975
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "princeton-engineering-quad",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-princeton-main-princeton-nassau-hall",
+      "buildingId": "princeton-nassau-hall",
+      "coordinate": [
+        -74.6565,
+        40.34825
+      ],
+      "pathNodeId": "node-ent-princeton-main-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-nassau-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-firestone-lib",
+      "buildingId": "princeton-firestone-lib",
+      "coordinate": [
+        -74.6555,
+        40.34875
+      ],
+      "pathNodeId": "node-ent-princeton-main-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-firestone-lib",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-frist-campus",
+      "buildingId": "princeton-frist-campus",
+      "coordinate": [
+        -74.654,
+        40.34675
+      ],
+      "pathNodeId": "node-ent-princeton-main-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-frist-campus",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-friend-center",
+      "buildingId": "princeton-friend-center",
+      "coordinate": [
+        -74.652,
+        40.34775
+      ],
+      "pathNodeId": "node-ent-princeton-main-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-friend-center",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-cs-building",
+      "buildingId": "princeton-cs-building",
+      "coordinate": [
+        -74.6515,
+        40.34825
+      ],
+      "pathNodeId": "node-ent-princeton-main-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-cs-building",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-robertson-hall",
+      "buildingId": "princeton-robertson-hall",
+      "coordinate": [
+        -74.6535,
+        40.34725
+      ],
+      "pathNodeId": "node-ent-princeton-main-5",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-robertson-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-fine-hall",
+      "buildingId": "princeton-fine-hall",
+      "coordinate": [
+        -74.6535,
+        40.34725
+      ],
+      "pathNodeId": "node-ent-princeton-main-6",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-fine-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-jadwin-hall",
+      "buildingId": "princeton-jadwin-hall",
+      "coordinate": [
+        -74.6525,
+        40.34675
+      ],
+      "pathNodeId": "node-ent-princeton-main-7",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-jadwin-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-mccosh-hall",
+      "buildingId": "princeton-mccosh-hall",
+      "coordinate": [
+        -74.6565,
+        40.34755
+      ],
+      "pathNodeId": "node-ent-princeton-main-8",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-mccosh-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-bowen-hall",
+      "buildingId": "princeton-bowen-hall",
+      "coordinate": [
+        -74.6515,
+        40.34875
+      ],
+      "pathNodeId": "node-ent-princeton-main-9",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-bowen-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-princeton-main-princeton-engineering-quad",
+      "buildingId": "princeton-engineering-quad",
+      "coordinate": [
+        -74.652,
+        40.34975
+      ],
+      "pathNodeId": "node-ent-princeton-main-10",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "ent-princeton-main-princeton-engineering-quad",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-princeton-main-0",
+      "coordinate": [
+        -74.6617,
+        40.3449
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-spine-princeton-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-main-1",
+      "coordinate": [
+        -74.6591,
+        40.3467
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-spine-princeton-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-main-2",
+      "coordinate": [
+        -74.6565,
+        40.3485
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-spine-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-main-3",
+      "coordinate": [
+        -74.65390000000001,
+        40.350300000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-princeton-main-4",
+      "coordinate": [
+        -74.6513,
+        40.3521
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-spine-princeton-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-0",
+      "coordinate": [
+        -74.6565,
+        40.34825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-1",
+      "coordinate": [
+        -74.6555,
+        40.34875
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-2",
+      "coordinate": [
+        -74.654,
+        40.34675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-3",
+      "coordinate": [
+        -74.652,
+        40.34775
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-4",
+      "coordinate": [
+        -74.6515,
+        40.34825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-5",
+      "coordinate": [
+        -74.6535,
+        40.34725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-6",
+      "coordinate": [
+        -74.6535,
+        40.34725
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-7",
+      "coordinate": [
+        -74.6525,
+        40.34675
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-8",
+      "coordinate": [
+        -74.6565,
+        40.34755
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-9",
+      "coordinate": [
+        -74.6515,
+        40.34875
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-princeton-main-10",
+      "coordinate": [
+        -74.652,
+        40.34975
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "node-ent-princeton-main-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-princeton-main-0-node-spine-princeton-main-1",
+      "from": "node-spine-princeton-main-0",
+      "to": "node-spine-princeton-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-0-node-spine-princeton-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-1-node-spine-princeton-main-0",
+      "from": "node-spine-princeton-main-1",
+      "to": "node-spine-princeton-main-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-1-node-spine-princeton-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-1-node-spine-princeton-main-2",
+      "from": "node-spine-princeton-main-1",
+      "to": "node-spine-princeton-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-1-node-spine-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-2-node-spine-princeton-main-1",
+      "from": "node-spine-princeton-main-2",
+      "to": "node-spine-princeton-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-2-node-spine-princeton-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-2-node-spine-princeton-main-3",
+      "from": "node-spine-princeton-main-2",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-2-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-spine-princeton-main-2",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-spine-princeton-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-spine-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-spine-princeton-main-4",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-spine-princeton-main-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-spine-princeton-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-4-node-spine-princeton-main-3",
+      "from": "node-spine-princeton-main-4",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-4-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-0-node-spine-princeton-main-2",
+      "from": "node-ent-princeton-main-0",
+      "to": "node-spine-princeton-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-0-node-spine-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-2-node-ent-princeton-main-0",
+      "from": "node-spine-princeton-main-2",
+      "to": "node-ent-princeton-main-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-2-node-ent-princeton-main-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-1-node-spine-princeton-main-2",
+      "from": "node-ent-princeton-main-1",
+      "to": "node-spine-princeton-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-1-node-spine-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-2-node-ent-princeton-main-1",
+      "from": "node-spine-princeton-main-2",
+      "to": "node-ent-princeton-main-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-2-node-ent-princeton-main-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-2-node-spine-princeton-main-2",
+      "from": "node-ent-princeton-main-2",
+      "to": "node-spine-princeton-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-2-node-spine-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-2-node-ent-princeton-main-2",
+      "from": "node-spine-princeton-main-2",
+      "to": "node-ent-princeton-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-2-node-ent-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-3-node-spine-princeton-main-3",
+      "from": "node-ent-princeton-main-3",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-3-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-ent-princeton-main-3",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-ent-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-ent-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-4-node-spine-princeton-main-3",
+      "from": "node-ent-princeton-main-4",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-4-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-ent-princeton-main-4",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-ent-princeton-main-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-ent-princeton-main-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-5-node-spine-princeton-main-3",
+      "from": "node-ent-princeton-main-5",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-5-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-ent-princeton-main-5",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-ent-princeton-main-5",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-ent-princeton-main-5",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-6-node-spine-princeton-main-3",
+      "from": "node-ent-princeton-main-6",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-6-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-ent-princeton-main-6",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-ent-princeton-main-6",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-ent-princeton-main-6",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-7-node-spine-princeton-main-3",
+      "from": "node-ent-princeton-main-7",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-7-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-ent-princeton-main-7",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-ent-princeton-main-7",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-ent-princeton-main-7",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-8-node-spine-princeton-main-2",
+      "from": "node-ent-princeton-main-8",
+      "to": "node-spine-princeton-main-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-8-node-spine-princeton-main-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-2-node-ent-princeton-main-8",
+      "from": "node-spine-princeton-main-2",
+      "to": "node-ent-princeton-main-8",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-2-node-ent-princeton-main-8",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-9-node-spine-princeton-main-3",
+      "from": "node-ent-princeton-main-9",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-9-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-ent-princeton-main-9",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-ent-princeton-main-9",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-ent-princeton-main-9",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-princeton-main-10-node-spine-princeton-main-3",
+      "from": "node-ent-princeton-main-10",
+      "to": "node-spine-princeton-main-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-ent-princeton-main-10-node-spine-princeton-main-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-princeton-main-3-node-ent-princeton-main-10",
+      "from": "node-spine-princeton-main-3",
+      "to": "node-ent-princeton-main-10",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-princeton-main",
+          "nativeId": "edge-node-spine-princeton-main-3-node-ent-princeton-main-10",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

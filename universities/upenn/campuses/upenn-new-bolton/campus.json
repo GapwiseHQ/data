@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "upenn",
+  "campus": {
+    "id": "upenn-new-bolton",
+    "name": "University of Pennsylvania New Bolton Center",
+    "bounds": [
+      [
+        -75.789,
+        39.847
+      ],
+      [
+        -75.776,
+        39.856
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-upenn-new-bolton",
+      "title": "Penn Vet New Bolton Center Directory",
+      "url": "https://www.vet.upenn.edu/about/locations/new-bolton-center",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "upenn-ryan-hospital",
+      "name": "Ryan Veterinary Hospital",
+      "nativeCodes": [
+        "RVH"
+      ],
+      "aliases": [
+        "Ryan Veterinary Hospital"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.78285,
+              39.85125
+            ],
+            [
+              -75.78215,
+              39.85125
+            ],
+            [
+              -75.78215,
+              39.85175
+            ],
+            [
+              -75.78285,
+              39.85175
+            ],
+            [
+              -75.78285,
+              39.85125
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "upenn-ryan-hospital",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-alumni-hall",
+      "name": "Alumni Hall",
+      "nativeCodes": [
+        "ALH"
+      ],
+      "aliases": [
+        "Alumni Hall"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.78185,
+              39.85175
+            ],
+            [
+              -75.78115,
+              39.85175
+            ],
+            [
+              -75.78115,
+              39.85225
+            ],
+            [
+              -75.78185,
+              39.85225
+            ],
+            [
+              -75.78185,
+              39.85175
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "upenn-alumni-hall",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-woerner-research",
+      "name": "Woerner Research Center",
+      "nativeCodes": [
+        "WRC"
+      ],
+      "aliases": [
+        "Woerner Research Center"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.78385,
+              39.85075
+            ],
+            [
+              -75.78315,
+              39.85075
+            ],
+            [
+              -75.78315,
+              39.85125
+            ],
+            [
+              -75.78385,
+              39.85125
+            ],
+            [
+              -75.78385,
+              39.85075
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "upenn-woerner-research",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-large-animal",
+      "name": "Large Animal Science Centre",
+      "nativeCodes": [
+        "LSC"
+      ],
+      "aliases": [
+        "Large Animal Science Centre"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.78135,
+              39.85225
+            ],
+            [
+              -75.78065,
+              39.85225
+            ],
+            [
+              -75.78065,
+              39.85275
+            ],
+            [
+              -75.78135,
+              39.85275
+            ],
+            [
+              -75.78135,
+              39.85225
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "upenn-large-animal",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "upenn-equine-pavilion",
+      "name": "Equine Clinical Pavilion",
+      "nativeCodes": [
+        "EQC"
+      ],
+      "aliases": [
+        "Equine Clinical Pavilion"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.78435,
+              39.85025
+            ],
+            [
+              -75.78365,
+              39.85025
+            ],
+            [
+              -75.78365,
+              39.85075
+            ],
+            [
+              -75.78435,
+              39.85075
+            ],
+            [
+              -75.78435,
+              39.85025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "upenn-equine-pavilion",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-upenn-new-bolton-upenn-ryan-hospital",
+      "buildingId": "upenn-ryan-hospital",
+      "coordinate": [
+        -75.7825,
+        39.85125
+      ],
+      "pathNodeId": "node-ent-upenn-new-bolton-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "ent-upenn-new-bolton-upenn-ryan-hospital",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-new-bolton-upenn-alumni-hall",
+      "buildingId": "upenn-alumni-hall",
+      "coordinate": [
+        -75.7815,
+        39.85175
+      ],
+      "pathNodeId": "node-ent-upenn-new-bolton-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "ent-upenn-new-bolton-upenn-alumni-hall",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-new-bolton-upenn-woerner-research",
+      "buildingId": "upenn-woerner-research",
+      "coordinate": [
+        -75.7835,
+        39.85075
+      ],
+      "pathNodeId": "node-ent-upenn-new-bolton-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "ent-upenn-new-bolton-upenn-woerner-research",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-new-bolton-upenn-large-animal",
+      "buildingId": "upenn-large-animal",
+      "coordinate": [
+        -75.781,
+        39.85225
+      ],
+      "pathNodeId": "node-ent-upenn-new-bolton-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "ent-upenn-new-bolton-upenn-large-animal",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-upenn-new-bolton-upenn-equine-pavilion",
+      "buildingId": "upenn-equine-pavilion",
+      "coordinate": [
+        -75.784,
+        39.85025
+      ],
+      "pathNodeId": "node-ent-upenn-new-bolton-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "ent-upenn-new-bolton-upenn-equine-pavilion",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-upenn-new-bolton-0",
+      "coordinate": [
+        -75.7877,
+        39.8479
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-spine-upenn-new-bolton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-new-bolton-1",
+      "coordinate": [
+        -75.7851,
+        39.8497
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-spine-upenn-new-bolton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-new-bolton-2",
+      "coordinate": [
+        -75.7825,
+        39.8515
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-spine-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-new-bolton-3",
+      "coordinate": [
+        -75.7799,
+        39.853300000000004
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-spine-upenn-new-bolton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-upenn-new-bolton-4",
+      "coordinate": [
+        -75.7773,
+        39.8551
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-spine-upenn-new-bolton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-new-bolton-0",
+      "coordinate": [
+        -75.7825,
+        39.85125
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-ent-upenn-new-bolton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-new-bolton-1",
+      "coordinate": [
+        -75.7815,
+        39.85175
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-ent-upenn-new-bolton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-new-bolton-2",
+      "coordinate": [
+        -75.7835,
+        39.85075
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-ent-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-new-bolton-3",
+      "coordinate": [
+        -75.781,
+        39.85225
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-ent-upenn-new-bolton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-upenn-new-bolton-4",
+      "coordinate": [
+        -75.784,
+        39.85025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "node-ent-upenn-new-bolton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-upenn-new-bolton-0-node-spine-upenn-new-bolton-1",
+      "from": "node-spine-upenn-new-bolton-0",
+      "to": "node-spine-upenn-new-bolton-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-0-node-spine-upenn-new-bolton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-1-node-spine-upenn-new-bolton-0",
+      "from": "node-spine-upenn-new-bolton-1",
+      "to": "node-spine-upenn-new-bolton-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-1-node-spine-upenn-new-bolton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-1-node-spine-upenn-new-bolton-2",
+      "from": "node-spine-upenn-new-bolton-1",
+      "to": "node-spine-upenn-new-bolton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-1-node-spine-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-2-node-spine-upenn-new-bolton-1",
+      "from": "node-spine-upenn-new-bolton-2",
+      "to": "node-spine-upenn-new-bolton-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-2-node-spine-upenn-new-bolton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-2-node-spine-upenn-new-bolton-3",
+      "from": "node-spine-upenn-new-bolton-2",
+      "to": "node-spine-upenn-new-bolton-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-2-node-spine-upenn-new-bolton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-3-node-spine-upenn-new-bolton-2",
+      "from": "node-spine-upenn-new-bolton-3",
+      "to": "node-spine-upenn-new-bolton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-3-node-spine-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-3-node-spine-upenn-new-bolton-4",
+      "from": "node-spine-upenn-new-bolton-3",
+      "to": "node-spine-upenn-new-bolton-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-3-node-spine-upenn-new-bolton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-4-node-spine-upenn-new-bolton-3",
+      "from": "node-spine-upenn-new-bolton-4",
+      "to": "node-spine-upenn-new-bolton-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-4-node-spine-upenn-new-bolton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-new-bolton-0-node-spine-upenn-new-bolton-2",
+      "from": "node-ent-upenn-new-bolton-0",
+      "to": "node-spine-upenn-new-bolton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-ent-upenn-new-bolton-0-node-spine-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-2-node-ent-upenn-new-bolton-0",
+      "from": "node-spine-upenn-new-bolton-2",
+      "to": "node-ent-upenn-new-bolton-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-2-node-ent-upenn-new-bolton-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-new-bolton-1-node-spine-upenn-new-bolton-2",
+      "from": "node-ent-upenn-new-bolton-1",
+      "to": "node-spine-upenn-new-bolton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-ent-upenn-new-bolton-1-node-spine-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-2-node-ent-upenn-new-bolton-1",
+      "from": "node-spine-upenn-new-bolton-2",
+      "to": "node-ent-upenn-new-bolton-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-2-node-ent-upenn-new-bolton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-new-bolton-2-node-spine-upenn-new-bolton-2",
+      "from": "node-ent-upenn-new-bolton-2",
+      "to": "node-spine-upenn-new-bolton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-ent-upenn-new-bolton-2-node-spine-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-2-node-ent-upenn-new-bolton-2",
+      "from": "node-spine-upenn-new-bolton-2",
+      "to": "node-ent-upenn-new-bolton-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-2-node-ent-upenn-new-bolton-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-new-bolton-3-node-spine-upenn-new-bolton-3",
+      "from": "node-ent-upenn-new-bolton-3",
+      "to": "node-spine-upenn-new-bolton-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-ent-upenn-new-bolton-3-node-spine-upenn-new-bolton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-3-node-ent-upenn-new-bolton-3",
+      "from": "node-spine-upenn-new-bolton-3",
+      "to": "node-ent-upenn-new-bolton-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-3-node-ent-upenn-new-bolton-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-upenn-new-bolton-4-node-spine-upenn-new-bolton-1",
+      "from": "node-ent-upenn-new-bolton-4",
+      "to": "node-spine-upenn-new-bolton-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-ent-upenn-new-bolton-4-node-spine-upenn-new-bolton-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-upenn-new-bolton-1-node-ent-upenn-new-bolton-4",
+      "from": "node-spine-upenn-new-bolton-1",
+      "to": "node-ent-upenn-new-bolton-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-upenn-new-bolton",
+          "nativeId": "edge-node-spine-upenn-new-bolton-1-node-ent-upenn-new-bolton-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

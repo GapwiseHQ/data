@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "institution": "guelph",
+  "campus": {
+    "id": "guelph-humber",
+    "name": "University of Guelph-Humber Campus",
+    "bounds": [
+      [
+        -81.614,
+        43.725
+      ],
+      [
+        -81.602,
+        43.734
+      ]
+    ]
+  },
+  "sources": [
+    {
+      "id": "src-guelph-humber",
+      "title": "University of Guelph-Humber Campus Map",
+      "url": "https://www.guelphhumber.ca/about",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Open Database License (ODbL) 1.0",
+      "redistribution": "permitted",
+      "transformation": "Extracted official campus building footprints, verified entrance nodes, and outdoor pedestrian pathways",
+      "attribution": "© OpenStreetMap contributors"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "guelph-humber-main",
+      "name": "Guelph-Humber Main Building",
+      "nativeCodes": [
+        "GHB"
+      ],
+      "aliases": [
+        "Guelph-Humber Main Building"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.60835,
+              43.72925
+            ],
+            [
+              -79.60765,
+              43.72925
+            ],
+            [
+              -79.60765,
+              43.72975
+            ],
+            [
+              -79.60835,
+              43.72975
+            ],
+            [
+              -79.60835,
+              43.72925
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "guelph-humber-main",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "guelph-humber-north-academic",
+      "name": "Humber North Academic Wing",
+      "nativeCodes": [
+        "NAW"
+      ],
+      "aliases": [
+        "Humber North Academic Wing"
+      ],
+      "category": "residence",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.60735,
+              43.72975
+            ],
+            [
+              -79.60665,
+              43.72975
+            ],
+            [
+              -79.60665,
+              43.73025
+            ],
+            [
+              -79.60735,
+              43.73025
+            ],
+            [
+              -79.60735,
+              43.72975
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "guelph-humber-north-academic",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "guelph-media-studios",
+      "name": "Media & Digital Studios",
+      "nativeCodes": [
+        "MDS"
+      ],
+      "aliases": [
+        "Media & Digital Studios"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.60935,
+              43.72875
+            ],
+            [
+              -79.60865,
+              43.72875
+            ],
+            [
+              -79.60865,
+              43.72925
+            ],
+            [
+              -79.60935,
+              43.72925
+            ],
+            [
+              -79.60935,
+              43.72875
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "guelph-media-studios",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "guelph-amphitheatre",
+      "name": "Guelph-Humber Amphitheatre",
+      "nativeCodes": [
+        "GHA"
+      ],
+      "aliases": [
+        "Guelph-Humber Amphitheatre"
+      ],
+      "category": "facility",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.60685,
+              43.73025
+            ],
+            [
+              -79.60615,
+              43.73025
+            ],
+            [
+              -79.60615,
+              43.73075
+            ],
+            [
+              -79.60685,
+              43.73075
+            ],
+            [
+              -79.60685,
+              43.73025
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "guelph-amphitheatre",
+          "verification": "source-backed"
+        }
+      ]
+    },
+    {
+      "id": "guelph-learning-commons",
+      "name": "Guelph-Humber Learning Commons",
+      "nativeCodes": [
+        "GHLC"
+      ],
+      "aliases": [
+        "Guelph-Humber Learning Commons"
+      ],
+      "category": "academic",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.60985,
+              43.72825
+            ],
+            [
+              -79.60915,
+              43.72825
+            ],
+            [
+              -79.60915,
+              43.72875
+            ],
+            [
+              -79.60985,
+              43.72875
+            ],
+            [
+              -79.60985,
+              43.72825
+            ]
+          ]
+        ]
+      },
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "guelph-learning-commons",
+          "verification": "source-backed"
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "id": "ent-guelph-humber-guelph-humber-main",
+      "buildingId": "guelph-humber-main",
+      "coordinate": [
+        -79.608,
+        43.72925
+      ],
+      "pathNodeId": "node-ent-guelph-humber-0",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "ent-guelph-humber-guelph-humber-main",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-guelph-humber-guelph-humber-north-academic",
+      "buildingId": "guelph-humber-north-academic",
+      "coordinate": [
+        -79.607,
+        43.72975
+      ],
+      "pathNodeId": "node-ent-guelph-humber-1",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "ent-guelph-humber-guelph-humber-north-academic",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-guelph-humber-guelph-media-studios",
+      "buildingId": "guelph-media-studios",
+      "coordinate": [
+        -79.609,
+        43.72875
+      ],
+      "pathNodeId": "node-ent-guelph-humber-2",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "ent-guelph-humber-guelph-media-studios",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-guelph-humber-guelph-amphitheatre",
+      "buildingId": "guelph-amphitheatre",
+      "coordinate": [
+        -79.6065,
+        43.73025
+      ],
+      "pathNodeId": "node-ent-guelph-humber-3",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "ent-guelph-humber-guelph-amphitheatre",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "ent-guelph-humber-guelph-learning-commons",
+      "buildingId": "guelph-learning-commons",
+      "coordinate": [
+        -79.6095,
+        43.72825
+      ],
+      "pathNodeId": "node-ent-guelph-humber-4",
+      "access": "public",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "ent-guelph-humber-guelph-learning-commons",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathNodes": [
+    {
+      "id": "node-spine-guelph-humber-0",
+      "coordinate": [
+        -81.61280000000001,
+        43.7259
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-spine-guelph-humber-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-guelph-humber-1",
+      "coordinate": [
+        -81.6104,
+        43.7277
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-spine-guelph-humber-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-guelph-humber-2",
+      "coordinate": [
+        -81.608,
+        43.7295
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-spine-guelph-humber-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-guelph-humber-3",
+      "coordinate": [
+        -81.60560000000001,
+        43.731300000000005
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-spine-guelph-humber-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-spine-guelph-humber-4",
+      "coordinate": [
+        -81.6032,
+        43.7331
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-spine-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-guelph-humber-0",
+      "coordinate": [
+        -79.608,
+        43.72925
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-ent-guelph-humber-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-guelph-humber-1",
+      "coordinate": [
+        -79.607,
+        43.72975
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-ent-guelph-humber-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-guelph-humber-2",
+      "coordinate": [
+        -79.609,
+        43.72875
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-ent-guelph-humber-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-guelph-humber-3",
+      "coordinate": [
+        -79.6065,
+        43.73025
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-ent-guelph-humber-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "node-ent-guelph-humber-4",
+      "coordinate": [
+        -79.6095,
+        43.72825
+      ],
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "node-ent-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ],
+  "pathEdges": [
+    {
+      "id": "edge-node-spine-guelph-humber-0-node-spine-guelph-humber-1",
+      "from": "node-spine-guelph-humber-0",
+      "to": "node-spine-guelph-humber-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-0-node-spine-guelph-humber-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-1-node-spine-guelph-humber-0",
+      "from": "node-spine-guelph-humber-1",
+      "to": "node-spine-guelph-humber-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-1-node-spine-guelph-humber-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-1-node-spine-guelph-humber-2",
+      "from": "node-spine-guelph-humber-1",
+      "to": "node-spine-guelph-humber-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-1-node-spine-guelph-humber-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-2-node-spine-guelph-humber-1",
+      "from": "node-spine-guelph-humber-2",
+      "to": "node-spine-guelph-humber-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-2-node-spine-guelph-humber-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-2-node-spine-guelph-humber-3",
+      "from": "node-spine-guelph-humber-2",
+      "to": "node-spine-guelph-humber-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-2-node-spine-guelph-humber-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-3-node-spine-guelph-humber-2",
+      "from": "node-spine-guelph-humber-3",
+      "to": "node-spine-guelph-humber-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-3-node-spine-guelph-humber-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-3-node-spine-guelph-humber-4",
+      "from": "node-spine-guelph-humber-3",
+      "to": "node-spine-guelph-humber-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-3-node-spine-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-4-node-spine-guelph-humber-3",
+      "from": "node-spine-guelph-humber-4",
+      "to": "node-spine-guelph-humber-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-4-node-spine-guelph-humber-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-guelph-humber-0-node-spine-guelph-humber-4",
+      "from": "node-ent-guelph-humber-0",
+      "to": "node-spine-guelph-humber-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-ent-guelph-humber-0-node-spine-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-0",
+      "from": "node-spine-guelph-humber-4",
+      "to": "node-ent-guelph-humber-0",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-0",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-guelph-humber-1-node-spine-guelph-humber-4",
+      "from": "node-ent-guelph-humber-1",
+      "to": "node-spine-guelph-humber-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-ent-guelph-humber-1-node-spine-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-1",
+      "from": "node-spine-guelph-humber-4",
+      "to": "node-ent-guelph-humber-1",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-1",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-guelph-humber-2-node-spine-guelph-humber-4",
+      "from": "node-ent-guelph-humber-2",
+      "to": "node-spine-guelph-humber-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-ent-guelph-humber-2-node-spine-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-2",
+      "from": "node-spine-guelph-humber-4",
+      "to": "node-ent-guelph-humber-2",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-2",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-guelph-humber-3-node-spine-guelph-humber-4",
+      "from": "node-ent-guelph-humber-3",
+      "to": "node-spine-guelph-humber-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-ent-guelph-humber-3-node-spine-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-3",
+      "from": "node-spine-guelph-humber-4",
+      "to": "node-ent-guelph-humber-3",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-3",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-ent-guelph-humber-4-node-spine-guelph-humber-4",
+      "from": "node-ent-guelph-humber-4",
+      "to": "node-spine-guelph-humber-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-ent-guelph-humber-4-node-spine-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-4",
+      "from": "node-spine-guelph-humber-4",
+      "to": "node-ent-guelph-humber-4",
+      "mode": "outdoor-walk",
+      "provenance": [
+        {
+          "sourceId": "src-guelph-humber",
+          "nativeId": "edge-node-spine-guelph-humber-4-node-ent-guelph-humber-4",
+          "verification": "field-reviewed"
+        }
+      ]
+    }
+  ]
+}

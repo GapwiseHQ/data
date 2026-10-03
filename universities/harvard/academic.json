@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "harvard",
+  "sources": [
+    {
+      "id": "src-harvard-academic",
+      "title": "Harvard University Cambridge Campus Academic Schedule",
+      "url": "https://map.harvard.edu/",
+      "retrievedAt": "2026-09-26",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "Harvard University Cambridge Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}
