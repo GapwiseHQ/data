@@ -809,7 +809,50 @@ export const UNIVERSITIES = [
         shortName: "Harvard Longwood Medical Area"
       }
     ]
-  }
+  },
+  {
+    id: "sorbonne",
+    name: "Sorbonne Université",
+    shortName: "Sorbonne",
+    defaultCampus: "sorbonne-pierre-et-marie-curie",
+    campuses: [
+      {
+        id: "sorbonne-pierre-et-marie-curie",
+        name: "Sorbonne Université Campus Pierre et Marie Curie",
+        shortName: "Pierre et Marie Curie",
+      },
+      {
+        id: "sorbonne-sorbonne",
+        name: "Sorbonne Université Campus Sorbonne",
+        shortName: "Sorbonne historique",
+      },
+      {
+        id: "sorbonne-pitie-salpetriere",
+        name: "Sorbonne Université Campus Pitié-Salpêtrière",
+        shortName: "Pitié-Salpêtrière",
+      },
+      {
+        id: "sorbonne-saint-antoine",
+        name: "Sorbonne Université Campus Saint-Antoine",
+        shortName: "Saint-Antoine",
+      },
+      {
+        id: "sorbonne-cordeliers",
+        name: "Sorbonne Université Campus des Cordeliers",
+        shortName: "Cordeliers",
+      },
+      {
+        id: "sorbonne-clignancourt",
+        name: "Sorbonne Université Campus Clignancourt",
+        shortName: "Clignancourt",
+      },
+      {
+        id: "sorbonne-malesherbes",
+        name: "Sorbonne Université Campus Malesherbes",
+        shortName: "Malesherbes",
+      },
+    ],
+  },
 ];
 
 const UNIVERSITY_DATASETS = new Map();

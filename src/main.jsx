@@ -68,8 +68,8 @@ function App() {
       <main id="top">
         <section className="hero shell">
           <div className="eyebrow"><Sparkles size={13}/> GAPWISE DATA</div>
-          <h1 className="hero-claim">North America’s largest free and open <span>multi-university</span> campus navigation dataset</h1>
-          <p className="lead">Auditable building geometry, source-classified entrances, pedestrian route evidence, provenance, schemas, and visual contribution tools spanning {universityCount} Canadian and U.S. universities across {campusCount} campus models, including U of T, UBC, Waterloo, McGill, Harvard, Yale, and Columbia.</p>
+          <h1 className="hero-claim">One of the world’s largest free and open <span>multi-university</span> campus navigation datasets</h1>
+          <p className="lead">Auditable building geometry, source-classified entrances, pedestrian route evidence, provenance, schemas, and visual contribution tools spanning {universityCount} universities across {campusCount} campus models, including U of T, UBC, Waterloo, McGill, Harvard, Yale, Columbia, and Sorbonne Université.</p>
           <div className="hero-actions">
             <a className="primary" href="/contribute"><MapPinned size={15}/> Contribute campus data <ChevronRight size={16}/></a>
             <a className="secondary" href="#datasets"><Database size={15}/> Explore the data</a>

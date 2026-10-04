@@ -123,11 +123,20 @@ const EXPECTED_CAMPUSES = {
     "harvard-cambridge",
     "harvard-allston",
     "harvard-longwood"
+  ],
+  "sorbonne": [
+    "sorbonne-pierre-et-marie-curie",
+    "sorbonne-sorbonne",
+    "sorbonne-pitie-salpetriere",
+    "sorbonne-saint-antoine",
+    "sorbonne-cordeliers",
+    "sorbonne-clignancourt",
+    "sorbonne-malesherbes"
   ]
 };
 
 const BRANDING_STRING =
-  "North America’s largest free and open multi-university campus navigation dataset";
+  "One of the world’s largest free and open multi-university campus navigation datasets";
 
 test("branding is exactly consistent across README, index.html, and main.jsx", () => {
   const readme = readFileSync(new URL("../README.md", import.meta.url), "utf8");
@@ -144,13 +153,13 @@ test("branding is exactly consistent across README, index.html, and main.jsx", (
   );
   assert.ok(
     mainJsx.includes(
-      "North America’s largest free and open <span>multi-university</span> campus navigation dataset",
+      "One of the world’s largest free and open <span>multi-university</span> campus navigation datasets",
     ),
-    "main.jsx must contain hero claim with North America’s branding",
+    "main.jsx must contain hero claim with world’s branding",
   );
 });
 
-test("all 67 supported campuses across 27 universities have canonical datasets and building/map data", () => {
+test("all 74 supported campuses across 28 universities have canonical datasets and building/map data", () => {
   const unis = Object.entries(EXPECTED_CAMPUSES).map(([id, campuses]) => ({ id, campuses }));
   // When the sibling gapwise checkout is present, the two repos must agree exactly.
   const gapwiseManifest = new URL("../../gapwise/universities.json", import.meta.url);
@@ -158,7 +167,7 @@ test("all 67 supported campuses across 27 universities have canonical datasets a
     const live = JSON.parse(readFileSync(gapwiseManifest, "utf8")).universities;
     assert.deepEqual(Object.fromEntries(live.map((u) => [u.id, u.campuses])), EXPECTED_CAMPUSES);
   }
-  assert.equal(unis.length, 27, "Must support exactly 27 universities");
+  assert.equal(unis.length, 28, "Must support exactly 28 universities");
 
   let totalCampuses = 0;
   for (const uni of unis) {
@@ -191,7 +200,8 @@ test("all 67 supported campuses across 27 universities have canonical datasets a
           "waterloo-main", "mcgill-downtown", "cmu-pittsburgh", "ucberkeley-main",
           "nyu-washington-square", "mit-cambridge", "stanford-main", "upenn-philadelphia",
           "cornell-ithaca", "dartmouth-hanover", "brown-providence", "columbia-morningside",
-          "princeton-main", "yale-new-haven", "harvard-cambridge"
+          "princeton-main", "yale-new-haven", "harvard-cambridge",
+          "sorbonne-pierre-et-marie-curie"
         ]);
         if (routableCampuses.has(campusId)) {
           assert.ok(campus.pathNodes?.length > 0, `${uni.id}/${campusId} must have pathNodes`);
@@ -204,9 +214,9 @@ test("all 67 supported campuses across 27 universities have canonical datasets a
       }
     }
   }
-  assert.equal(totalCampuses, 67, "Must verify exactly 67 campuses across all 27 universities");
+  assert.equal(totalCampuses, 74, "Must verify exactly 74 campuses across all 28 universities");
 
-  // Verify campus-contribution-data source has all 27 universities in UNIVERSITIES
+  // Verify campus-contribution-data source has all 28 universities in UNIVERSITIES
   const studioDataCode = readFileSync(new URL("../src/campus-contribution-data.js", import.meta.url), "utf8");
   for (const uni of unis) {
     assert.ok(

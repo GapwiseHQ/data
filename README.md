@@ -4,9 +4,9 @@
 
 # Gapwise Data
 
-### North America’s largest free and open multi-university campus navigation dataset.
+### One of the world’s largest free and open multi-university campus navigation datasets.
 
-**A free and open multi-university campus navigation dataset: auditable building identity, footprints, source-classified entrances, pedestrian routes, provenance, schemas, and open contribution tooling across Canadian universities.**
+**A free and open multi-university campus navigation dataset: auditable building identity, footprints, source-classified entrances, pedestrian routes, provenance, schemas, and open contribution tooling across universities.**
 
 [![Data](https://img.shields.io/badge/Data-data.gapwise.ca-B42335?style=for-the-badge&logo=databricks&logoColor=white)](https://data.gapwise.ca)
 [![Docs](https://img.shields.io/badge/Docs-data_guides-111111?style=for-the-badge)](https://docs.gapwise.ca/data/)
