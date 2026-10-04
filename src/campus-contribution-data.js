@@ -23,6 +23,12 @@ import brockCampus from "../universities/brock/campus.json";
 import ubcCampus from "../universities/ubc/campus.json";
 import waterlooCampus from "../universities/waterloo/campus.json";
 import mcgillCampus from "../universities/mcgill/campus.json";
+import {
+  canonicalBuildingCodeForFeature,
+  universityBuildingFootprint,
+} from "./canonical-building-identity.js";
+
+export { canonicalBuildingCodeForFeature } from "./canonical-building-identity.js";
 
 const universityCampusModules = import.meta.glob(
   "../universities/**/campus.json",
@@ -161,32 +167,12 @@ const TRI_CAMPUS_FOOTPRINTS = {
 function universityFootprints(dataset) {
   return (dataset?.buildings || [])
     .filter((b) => b.geometry)
-    .map((b) => ({
-      type: "Feature",
-      id: b.id,
-      properties: {
-        buildingId: b.id,
-        code: b.nativeCodes?.[0] || b.id,
-        name: b.name,
-      },
-      geometry: b.geometry,
-    }));
+    .map(universityBuildingFootprint);
 }
 
 function universityBuildings(dataset, campusId) {
   return (dataset?.buildings || []).map((building) => {
-    const feature = building.geometry
-      ? {
-          type: "Feature",
-          id: building.id,
-          properties: {
-            buildingId: building.id,
-            code: building.nativeCodes?.[0] || building.id,
-            name: building.name,
-          },
-          geometry: building.geometry,
-        }
-      : null;
+    const feature = universityBuildingFootprint(building);
     const features = feature ? [feature] : [];
     const code = building.nativeCodes?.[0] || building.id.toUpperCase();
     const entrances = (dataset.entrances || []).filter(
