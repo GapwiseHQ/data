@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "institution": "sorbonne",
+  "sources": [
+    {
+      "id": "sorbonne-official-calendar",
+      "title": "Sorbonne Université Calendrier Universitaire",
+      "url": "https://www.sorbonne-universite.fr",
+      "retrievedAt": "2026-10-04",
+      "licenseOrTerms": "Published factual academic schedule",
+      "redistribution": "permitted",
+      "transformation": "Factual academic terms",
+      "attribution": "Sorbonne Université"
+    }
+  ],
+  "terms": [
+    {
+      "id": "2026-fall",
+      "nativeName": "Premier Semestre (Automne 2026)",
+      "startDate": "2026-09-01",
+      "endDate": "2027-01-20",
+      "sourceId": "sorbonne-official-calendar"
+    }
+  ],
+  "courses": []
+}
