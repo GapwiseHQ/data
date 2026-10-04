@@ -18,6 +18,7 @@ import {
   MAP_HEIGHT,
   MAP_WIDTH,
   campusFromQuery,
+  canonicalBuildingCodeForFeature,
   canonicalBuildingsForCampus,
   canonicalEntrancesForCampus,
   canonicalFootprintsForCampus,
@@ -832,7 +833,8 @@ export default function CampusContributionStudio() {
 
               <g className="campus-canonical-footprints">
                 {canonicalFootprints.map((feature, index) => {
-                  const code = feature.properties.buildingCode?.toUpperCase();
+                  const code = canonicalBuildingCodeForFeature(feature);
+                  if (!code) return null;
                   const key = canonicalBuildingKey(code);
                   const selected = selectedBuildingKey === key;
                   return (
@@ -840,7 +842,7 @@ export default function CampusContributionStudio() {
                       key={`${code}-${index}`}
                       d={geometryPath(feature.geometry, project)}
                       className={selected ? 'selected' : ''}
-                      onClick={tool === 'entrance' && !selected ? (event) => {
+                      onClick={tool === 'entrance' && !selectedBuilding && !selected ? (event) => {
                         event.stopPropagation();
                         selectBuilding(key);
                       } : undefined}
@@ -858,7 +860,7 @@ export default function CampusContributionStudio() {
                       key={item.id}
                       d={geometryPath(item.geometry, project)}
                       className={selected ? 'selected' : ''}
-                      onClick={tool === 'entrance' && !selected ? (event) => {
+                      onClick={tool === 'entrance' && !selectedBuilding && !selected ? (event) => {
                         event.stopPropagation();
                         selectBuilding(key);
                       } : undefined}
