@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "utokyo",
+  "sources": [
+    {
+      "id": "src-utokyo-academic",
+      "title": "University of Tokyo Hongo Campus Academic Schedule",
+      "url": "https://gapwise.ca",
+      "retrievedAt": "2026-10-06",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "University of Tokyo Hongo Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

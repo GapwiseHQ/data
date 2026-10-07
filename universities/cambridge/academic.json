@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "cambridge",
+  "sources": [
+    {
+      "id": "src-cambridge-academic",
+      "title": "University of Cambridge Collegiate Campus Academic Schedule",
+      "url": "https://gapwise.ca",
+      "retrievedAt": "2026-10-06",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "University of Cambridge Collegiate Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}
