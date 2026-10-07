@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "imperial",
+  "sources": [
+    {
+      "id": "src-imperial-academic",
+      "title": "Imperial College London South Kensington Campus Academic Schedule",
+      "url": "https://gapwise.ca",
+      "retrievedAt": "2026-10-06",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "Imperial College London South Kensington Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

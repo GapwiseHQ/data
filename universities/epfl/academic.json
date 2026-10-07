@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "epfl",
+  "sources": [
+    {
+      "id": "src-epfl-academic",
+      "title": "EPFL Lausanne Campus Academic Schedule",
+      "url": "https://gapwise.ca",
+      "retrievedAt": "2026-10-06",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "EPFL Lausanne Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

@@ -132,6 +132,42 @@ const EXPECTED_CAMPUSES = {
     "sorbonne-cordeliers",
     "sorbonne-clignancourt",
     "sorbonne-malesherbes"
+  ],
+  "oxford": [
+    "oxford"
+  ],
+  "cambridge": [
+    "cambridge"
+  ],
+  "imperial": [
+    "imperial-south-kensington",
+    "imperial-white-city"
+  ],
+  "ethz": [
+    "ethz-zentrum",
+    "ethz-hoenggerberg"
+  ],
+  "caltech": [
+    "caltech"
+  ],
+  "jhu": [
+    "jhu-homewood",
+    "jhu-east-baltimore"
+  ],
+  "epfl": [
+    "epfl"
+  ],
+  "ucl": [
+    "ucl-bloomsbury",
+    "ucl-east"
+  ],
+  "utokyo": [
+    "utokyo-hongo",
+    "utokyo-komaba",
+    "utokyo-kashiwa"
+  ],
+  "tsinghua": [
+    "tsinghua"
   ]
 };
 
@@ -159,7 +195,7 @@ test("branding is exactly consistent across README, index.html, and main.jsx", (
   );
 });
 
-test("all 74 supported campuses across 28 universities have canonical datasets and building/map data", () => {
+test("all 90 supported campuses across 38 universities have canonical datasets and building/map data", () => {
   const unis = Object.entries(EXPECTED_CAMPUSES).map(([id, campuses]) => ({ id, campuses }));
   // When the sibling gapwise checkout is present, the two repos must agree exactly.
   const gapwiseManifest = new URL("../../gapwise/universities.json", import.meta.url);
@@ -167,7 +203,7 @@ test("all 74 supported campuses across 28 universities have canonical datasets a
     const live = JSON.parse(readFileSync(gapwiseManifest, "utf8")).universities;
     assert.deepEqual(Object.fromEntries(live.map((u) => [u.id, u.campuses])), EXPECTED_CAMPUSES);
   }
-  assert.equal(unis.length, 28, "Must support exactly 28 universities");
+  assert.equal(unis.length, 38, "Must support exactly 38 universities");
 
   let totalCampuses = 0;
   for (const uni of unis) {
@@ -201,7 +237,11 @@ test("all 74 supported campuses across 28 universities have canonical datasets a
           "nyu-washington-square", "mit-cambridge", "stanford-main", "upenn-philadelphia",
           "cornell-ithaca", "dartmouth-hanover", "brown-providence", "columbia-morningside",
           "princeton-main", "yale-new-haven", "harvard-cambridge",
-          "sorbonne-pierre-et-marie-curie"
+          "sorbonne-pierre-et-marie-curie",
+          "oxford", "cambridge", "imperial-south-kensington", "imperial-white-city",
+          "ethz-zentrum", "ethz-hoenggerberg", "caltech", "jhu-homewood", "jhu-east-baltimore",
+          "epfl", "ucl-bloomsbury", "ucl-east", "utokyo-hongo", "utokyo-komaba",
+          "utokyo-kashiwa", "tsinghua"
         ]);
         if (routableCampuses.has(campusId)) {
           assert.ok(campus.pathNodes?.length > 0, `${uni.id}/${campusId} must have pathNodes`);
@@ -214,9 +254,9 @@ test("all 74 supported campuses across 28 universities have canonical datasets a
       }
     }
   }
-  assert.equal(totalCampuses, 74, "Must verify exactly 74 campuses across all 28 universities");
+  assert.equal(totalCampuses, 90, "Must verify exactly 90 campuses across all 38 universities");
 
-  // Verify campus-contribution-data source has all 28 universities in UNIVERSITIES
+  // Verify campus-contribution-data source has all 38 universities in UNIVERSITIES
   const studioDataCode = readFileSync(new URL("../src/campus-contribution-data.js", import.meta.url), "utf8");
   for (const uni of unis) {
     assert.ok(

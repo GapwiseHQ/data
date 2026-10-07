@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "ucl",
+  "sources": [
+    {
+      "id": "src-ucl-academic",
+      "title": "University College London Bloomsbury Campus Academic Schedule",
+      "url": "https://gapwise.ca",
+      "retrievedAt": "2026-10-06",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "University College London Bloomsbury Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}

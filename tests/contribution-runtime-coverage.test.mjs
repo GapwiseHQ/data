@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { createServer } from "vite";
 
-test("the contribution runtime renders nonblank map and building data for all 74 campuses", async (t) => {
+test("the contribution runtime renders nonblank map and building data for all 90 campuses", async (t) => {
   const vite = await createServer({
     appType: "custom",
     logLevel: "silent",
@@ -11,9 +11,9 @@ test("the contribution runtime renders nonblank map and building data for all 74
   t.after(() => vite.close());
 
   const runtime = await vite.ssrLoadModule("/src/campus-contribution-data.js");
-  assert.equal(runtime.UNIVERSITIES.length, 28);
-  assert.equal(runtime.CAMPUS_IDS.length, 74);
-  assert.equal(new Set(runtime.CAMPUS_IDS).size, 74);
+  assert.equal(runtime.UNIVERSITIES.length, 38);
+  assert.equal(runtime.CAMPUS_IDS.length, 90);
+  assert.equal(new Set(runtime.CAMPUS_IDS).size, 90);
 
   for (const campusId of runtime.CAMPUS_IDS) {
     const campus = runtime.CAMPUSES[campusId];

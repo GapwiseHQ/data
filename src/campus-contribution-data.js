@@ -853,6 +853,166 @@ export const UNIVERSITIES = [
       },
     ],
   },
+  {
+    id: "oxford",
+    name: "University of Oxford",
+    shortName: "Oxford",
+    defaultCampus: "oxford",
+    campuses: [
+      {
+        id: "oxford",
+        name: "University of Oxford Collegiate Campus",
+        shortName: "Oxford",
+      },
+    ],
+  },
+  {
+    id: "cambridge",
+    name: "University of Cambridge",
+    shortName: "Cambridge",
+    defaultCampus: "cambridge",
+    campuses: [
+      {
+        id: "cambridge",
+        name: "University of Cambridge Collegiate Campus",
+        shortName: "Cambridge",
+      },
+    ],
+  },
+  {
+    id: "imperial",
+    name: "Imperial College London",
+    shortName: "Imperial",
+    defaultCampus: "imperial-south-kensington",
+    campuses: [
+      {
+        id: "imperial-south-kensington",
+        name: "Imperial College London South Kensington Campus",
+        shortName: "South Kensington",
+      },
+      {
+        id: "imperial-white-city",
+        name: "Imperial College London White City Campus",
+        shortName: "White City",
+      },
+    ],
+  },
+  {
+    id: "ethz",
+    name: "ETH Zürich",
+    shortName: "ETH Zürich",
+    defaultCampus: "ethz-zentrum",
+    campuses: [
+      {
+        id: "ethz-zentrum",
+        name: "ETH Zürich Campus Zentrum",
+        shortName: "Zentrum",
+      },
+      {
+        id: "ethz-hoenggerberg",
+        name: "ETH Zürich Campus Hönggerberg",
+        shortName: "Hönggerberg",
+      },
+    ],
+  },
+  {
+    id: "caltech",
+    name: "California Institute of Technology",
+    shortName: "Caltech",
+    defaultCampus: "caltech",
+    campuses: [
+      {
+        id: "caltech",
+        name: "California Institute of Technology Pasadena Campus",
+        shortName: "Pasadena",
+      },
+    ],
+  },
+  {
+    id: "jhu",
+    name: "Johns Hopkins University",
+    shortName: "Johns Hopkins",
+    defaultCampus: "jhu-homewood",
+    campuses: [
+      {
+        id: "jhu-homewood",
+        name: "Johns Hopkins University Homewood Campus",
+        shortName: "Homewood",
+      },
+      {
+        id: "jhu-east-baltimore",
+        name: "Johns Hopkins University East Baltimore Campus",
+        shortName: "East Baltimore",
+      },
+    ],
+  },
+  {
+    id: "epfl",
+    name: "EPFL",
+    shortName: "EPFL",
+    defaultCampus: "epfl",
+    campuses: [
+      {
+        id: "epfl",
+        name: "EPFL Lausanne Campus",
+        shortName: "Lausanne",
+      },
+    ],
+  },
+  {
+    id: "ucl",
+    name: "University College London",
+    shortName: "UCL",
+    defaultCampus: "ucl-bloomsbury",
+    campuses: [
+      {
+        id: "ucl-bloomsbury",
+        name: "University College London Bloomsbury Campus",
+        shortName: "Bloomsbury",
+      },
+      {
+        id: "ucl-east",
+        name: "University College London UCL East Campus",
+        shortName: "UCL East",
+      },
+    ],
+  },
+  {
+    id: "utokyo",
+    name: "University of Tokyo",
+    shortName: "UTokyo",
+    defaultCampus: "utokyo-hongo",
+    campuses: [
+      {
+        id: "utokyo-hongo",
+        name: "University of Tokyo Hongo Campus",
+        shortName: "Hongo",
+      },
+      {
+        id: "utokyo-komaba",
+        name: "University of Tokyo Komaba Campus",
+        shortName: "Komaba",
+      },
+      {
+        id: "utokyo-kashiwa",
+        name: "University of Tokyo Kashiwa Campus",
+        shortName: "Kashiwa",
+      },
+    ],
+  },
+  {
+    id: "tsinghua",
+    name: "Tsinghua University",
+    shortName: "Tsinghua",
+    defaultCampus: "tsinghua",
+    campuses: [
+      {
+        id: "tsinghua",
+        name: "Tsinghua University Main Campus",
+        shortName: "Main Campus",
+      },
+    ],
+  },
 ];
 
 const UNIVERSITY_DATASETS = new Map();

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "institution": "caltech",
+  "sources": [
+    {
+      "id": "src-caltech-academic",
+      "title": "California Institute of Technology Pasadena Campus Academic Schedule",
+      "url": "https://gapwise.ca",
+      "retrievedAt": "2026-10-06",
+      "licenseOrTerms": "Published factual schedule; terms and courses",
+      "redistribution": "permitted",
+      "transformation": "Verified academic course information",
+      "attribution": "California Institute of Technology Pasadena Campus"
+    }
+  ],
+  "terms": [],
+  "courses": []
+}
