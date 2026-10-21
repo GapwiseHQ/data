@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BookOpen, Braces, Check, ChevronRight, Clipboard, Database, ExternalLink, FileJson, Layers3, Map, MapPinned, Menu, Search, ShieldCheck, Sparkles, X } from 'lucide-react';
-import { UNIVERSITIES, CAMPUS_IDS } from './campus-contribution-data.js';
+import { UNIVERSITIES, CAMPUS_IDS } from './campus-catalog.js';
 import './styles.css';
 import './accent-theme.css';
 
