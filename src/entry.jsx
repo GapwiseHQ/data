@@ -2,13 +2,19 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 import './accent-theme.css';
-import './campus-contribution-selection.css';
 import './header-logo.css';
-import './campus-contribution-enhancements.css';
-import './campus-map-zoom.js';
 
 const pathname = window.location.pathname.replace(/\/+$/, '') || '/';
 const rootElement = document.getElementById('root');
+
+// Map observers and studio styles are only needed on contribution/review routes.
+if (pathname.startsWith('/contribute') || pathname.startsWith('/review/') || pathname.startsWith('/studio/')) {
+  await Promise.all([
+    import('./campus-contribution-selection.css'),
+    import('./campus-contribution-enhancements.css'),
+    import('./campus-map-zoom.js'),
+  ]);
+}
 
 function renderEntranceStudio(maintainerMode = false) {
   import('./EntranceContribution.jsx').then(({ default: EntranceContribution }) => {

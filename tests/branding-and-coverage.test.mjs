@@ -257,7 +257,7 @@ test("all 90 supported campuses across 38 universities have canonical datasets a
   assert.equal(totalCampuses, 90, "Must verify exactly 90 campuses across all 38 universities");
 
   // Verify campus-contribution-data source has all 38 universities in UNIVERSITIES
-  const studioDataCode = readFileSync(new URL("../src/campus-contribution-data.js", import.meta.url), "utf8");
+  const studioDataCode = readFileSync(new URL("../src/campus-catalog.js", import.meta.url), "utf8");
   for (const uni of unis) {
     assert.ok(
       studioDataCode.includes(`id: "${uni.id}"`),
